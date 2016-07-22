@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<CatapultProject Version="1" MasterStylesheet="/Content/Resources/Stylesheets/IFTDSS_help.css" MasterPageLayout="/Content/Resources/PageLayouts/Default.flpgl" xml:lang="en-us" SourceControlBound="false" MasterToc="/Project/TOCs/IFTDSSDocumentation.fltoc">
+<CatapultProject Version="1" MasterStylesheet="/Content/Resources/Stylesheets/IFTDSS_help.css" MasterPageLayout="/Content/Resources/PageLayouts/Default.flpgl" xml:lang="en-us" SourceControlBound="true" MasterToc="/Project/TOCs/IFTDSSDocumentation.fltoc" SourceControlDatabase="C:\Users\tacah\Projects\flareProjects\IFTDSS_STI\.git" SourceControlProviderType="Git" ProjectGuid="4af606fc-e308-403a-a9f2-1d3dbd3991d1" SourceControlDatabaseRoot="C:\Users\tacah\Projects\flareProjects\IFTDSS_STI">
     <Synchronize>
         <Mapping ProjectPath="Content/04-Prescribed-Burns/Tutorial_C_PrescribedBurnPlan.pdf" ExternalPath="file:///J:/910907 IFT-DSS Task 7 Documentation and Training/Online_help/Misc Resources/Case_Studies/Rx_Burn_Plan/Burn_Plan_Tutorial.pdf" />
         <Mapping ProjectPath="Content/04-Prescribed-Burns/Element 11 Organization Chart.docx" ExternalPath="file:///J:/910907 IFT-DSS Task 7 Documentation and Training/Online_help/Misc Resources/docx_templates/Element 11 Organization Chart.docx" />
