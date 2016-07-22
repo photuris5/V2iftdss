@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MsWordImport
+  PreserveSourceStyles="true"
+  KeepSourceLinks="true"
+  ConvertInlineFormatting="true"
+  AddContinuedLinks="false"
+  AddContinuedFromLinks="false"
+  ContinuedLinkFormat="(continued in {title})"
+  ContinuedFromLinkFormat="(continued from {title})"
+  UseMaxCharLimit="false"
+  UseMinCharLimit="true"
+  MaxCharLimit="10000"
+  MinCharLimit="50"
+  FilenameLength="24"
+  GeneratePageLayouts="false"
+  UseFirstHeadingAsTopicTitle="true"
+  LastCollectTime="2015-07-10T15:28:23.6272399-07:00"
+  ProjectName="IFTDSS Help"
+  ProjectFolder="C:\Users\NIFTT\Documents\My Projects\REALPROJECT\IFTDSS Help\"
+  AutoSync="false"
+  AutoFitTables="false"
+  UseHeaderRows="false"
+  Stylesheet="../../Content/Resources/Stylesheets/IFTDSS_help.css"
+  LastImport="2015-07-10T15:28:56.9161439-07:00">
+  <Files>
+    <Url
+      Source="file:///G:/IFTDSS/CONTENT/IFTDSS_TUTORIALS/FOFEM/FOFEM_w_out_comments.docx"
+      AbsoluteSource="file:///G:/IFTDSS/CONTENT/IFTDSS_TUTORIALS/FOFEM/FOFEM_w_out_comments.docx" />
+  </Files>
+  <ExcludedFiles />
+  <CollectedSourceFiles />
+  <SkippedSourceFiles />
+  <GeneratedFiles>
+    <Url
+      Source="../../Content/Resources/Images/FOFEM_w_out_comments/Using IFT FOFEM An example.png"
+      TimeStamp="7/10/2015 3:28:52 PM" />
+    <Url
+      Source="../../Content/Resources/Images/FOFEM_w_out_comments/Using IFT FOFEM An example_1.png"
+      TimeStamp="7/10/2015 3:28:52 PM" />
+    <Url
+      Source="../../Content/Resources/Images/FOFEM_w_out_comments/Using IFT FOFEM An example_2.png"
+      TimeStamp="7/10/2015 3:28:52 PM" />
+    <Url
+      Source="../../Content/Resources/Images/FOFEM_w_out_comments/Using IFT FOFEM An example_3.png"
+      TimeStamp="7/10/2015 3:28:52 PM" />
+    <Url
+      Source="../../Content/Resources/Images/FOFEM_w_out_comments/Using IFT FOFEM An example_4.png"
+      TimeStamp="7/10/2015 3:28:52 PM" />
+    <Url
+      Source="../../Content/Resources/Images/FOFEM_w_out_comments/Using IFT FOFEM An example_5.png"
+      TimeStamp="7/10/2015 3:28:52 PM" />
+    <Url
+      Source="../../Content/Resources/Images/FOFEM_w_out_comments/Using IFT FOFEM An example_6.png"
+      TimeStamp="7/10/2015 3:28:52 PM" />
+    <Url
+      Source="../../Content/Resources/Images/FOFEM_w_out_comments/Using IFT FOFEM An example_7.png"
+      TimeStamp="7/10/2015 3:28:52 PM" />
+    <Url
+      Source="../../Content/Resources/Images/FOFEM_w_out_comments/Using IFT FOFEM An example_8.png"
+      TimeStamp="7/10/2015 3:28:52 PM" />
+    <Url
+      Source="../../Content/Resources/Images/FOFEM_w_out_comments/Using IFT FOFEM An example_9.png"
+      TimeStamp="7/10/2015 3:28:52 PM" />
+    <Url
+      Source="../../Content/Resources/Images/FOFEM_w_out_comments/Using IFT FOFEM An example_10.png"
+      TimeStamp="7/10/2015 3:28:52 PM" />
+    <Url
+      Source="../../Content/Resources/Images/FOFEM_w_out_comments/Using IFT FOFEM An example_11.png"
+      TimeStamp="7/10/2015 3:28:52 PM" />
+    <Url
+      Source="../../Content/Resources/Images/FOFEM_w_out_comments/Using IFT FOFEM An example_12.png"
+      TimeStamp="7/10/2015 3:28:52 PM" />
+    <Url
+      Source="../../Content/Resources/Images/FOFEM_w_out_comments/Using IFT FOFEM An example_13.png"
+      TimeStamp="7/10/2015 3:28:52 PM" />
+    <Url
+      Source="../../Content/Resources/Images/FOFEM_w_out_comments/Using IFT FOFEM An example_14.png"
+      TimeStamp="7/10/2015 3:28:52 PM" />
+    <Url
+      Source="../../Content/Resources/Images/FOFEM_w_out_comments/Using IFT FOFEM An example_15.png"
+      TimeStamp="7/10/2015 3:28:52 PM" />
+    <Url
+      Source="../../Content/Resources/Images/FOFEM_w_out_comments/Using IFT FOFEM An example_16.png"
+      TimeStamp="7/10/2015 3:28:52 PM" />
+    <Url
+      Source="../../Content/Resources/Images/FOFEM_w_out_comments/Using IFT FOFEM An example_17.png"
+      TimeStamp="7/10/2015 3:28:52 PM" />
+    <Url
+      Source="../../Content/Resources/Images/FOFEM_w_out_comments/Using IFT FOFEM An example_18.png"
+      TimeStamp="7/10/2015 3:28:52 PM" />
+    <Url
+      Source="../../Content/Resources/Images/FOFEM_w_out_comments/Using IFT FOFEM An example_19.png"
+      TimeStamp="7/10/2015 3:28:53 PM" />
+    <Url
+      Source="../../Content/Resources/Images/FOFEM_w_out_comments/Using IFT FOFEM An example_20.png"
+      TimeStamp="7/10/2015 3:28:53 PM" />
+    <Url
+      Source="../../Content/Resources/Images/FOFEM_w_out_comments/Using IFT FOFEM An example_21.png"
+      TimeStamp="7/10/2015 3:28:53 PM" />
+    <Url
+      Source="../../Content/Resources/Images/FOFEM_w_out_comments/Using IFT FOFEM An example_22.png"
+      TimeStamp="7/10/2015 3:28:53 PM" />
+    <Url
+      Source="../../Content/Resources/Images/FOFEM_w_out_comments/Using IFT FOFEM An example_23.png"
+      TimeStamp="7/10/2015 3:28:53 PM" />
+    <Url
+      Source="../../Content/Resources/Images/FOFEM_w_out_comments/Using IFT FOFEM An example_24.png"
+      TimeStamp="7/10/2015 3:28:53 PM" />
+    <Url
+      Source="../../Content/Resources/Images/FOFEM_w_out_comments/Using IFT FOFEM An example_25.png"
+      TimeStamp="7/10/2015 3:28:53 PM" />
+    <Url
+      Source="../../Content/FOFEM_w_out_comments/Using IFT FOFEM An example.htm"
+      TimeStamp="7/10/2015 3:28:53 PM" />
+    <Url
+      Source="../TOCs/FOFEM_w_out_comments.fltoc"
+      TimeStamp="7/10/2015 3:28:53 PM" />
+    <Url
+      Source="../../Content/Resources/Stylesheets/IFTDSS_help_8.css"
+      TimeStamp="7/10/2015 3:28:53 PM" />
+  </GeneratedFiles>
+  <ParagraphStyles>
+    <Map
+      From="Heading 1"
+      To="h1.Heading 1" />
+    <Map
+      From="Title"
+      To="h1.(MS Word Style)" />
+  </ParagraphStyles>
+  <CharacterStyles>
+    <Map
+      From="Hyperlink"
+      To="a.(MS Word Style)" />
+    <Map
+      From="Strong"
+      To="strong.(MS Word Style)" />
+  </CharacterStyles>
+  <NewTopicStyles />
+  <UsedParagraphStyles>
+    <StyleName
+      Name="Heading 1" />
+    <StyleName
+      Name="List Paragraph" />
+    <StyleName
+      Name="Title" />
+  </UsedParagraphStyles>
+  <UsedCharacterStyles>
+    <StyleName
+      Name="Strong" />
+  </UsedCharacterStyles>
+</MsWordImport>

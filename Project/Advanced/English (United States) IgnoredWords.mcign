@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<IgnoredWordsDictionary>
+    <Word>IFT-RANDIG</Word>
+    <Word>MTT</Word>
+    <Word>IFT-Consume</Word>
+    <Word>IFT-FlamMap</Word>
+    <Word>IFT-Ignite</Word>
+    <Word>IFT-Crown</Word>
+    <Word>FCCS</Word>
+    <Word>IFT-Surface</Word>
+    <Word>IFT-Safety</Word>
+    <Word>IFT-Spot</Word>
+    <Word>IFT-Contain</Word>
+    <Word>IFT-Size</Word>
+    <Word>IFT-FOFEM</Word>
+    <Word>IFT-scorch</Word>
+</IgnoredWordsDictionary>

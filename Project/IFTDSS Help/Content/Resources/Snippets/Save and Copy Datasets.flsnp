@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="4" MadCap:lastHeight="2873" MadCap:lastWidth="706.6667">
+    <body>
+        <h1 class="Heading1">Saving Data Sets for Future Use</h1>
+        <p>From the Run Summary page, you can choose to save or copy datasets for future use.</p>
+        <p>At this step, you can save your input and output data sets for future use in other runs.&#160; Saving your data sets is useful; for example, if you edited the spatial landscape data, you can reuse the data you edited.</p>
+        <ul>
+            <li>You can also Copy This Run.&#160; This feature is useful if you want to rerun the same run with different inputs.</li>
+            <li>Select Save As on your dataset of interest.&#160; </li>
+        </ul>
+        <p class="ListParagraph">Enter a unique name for the data set copy and choose OK.&#160; </p>
+        <p>
+            <img src="../Images/Tutorial_D_WCFL_2015/2_0_Tutorial_D_cap_42.png" class="screencap" style="width: 570px;height: 656px;" />
+        </p>
+        <p>After entering a unique data set name, you are taken to the Data tab.&#160; All of your data sets are saved here.&#160; You can use your saved data set in any spatial run.</p>
+        <p>For example, if you edited the spatial landscape data during your run, the edits are saved in this data set.&#160; </p>
+        <p>If you create a new spatial run, such as calculating fire behavior across a landscape (IFT-FlamMap), you can choose to use the saved input data on the Configure step of the run.</p>
+        <p>
+            <img src="../Images/Tutorial_D_WCFL_2015/2_0_Tutorial_D_cap_43.png" class="screencap" style="width: 660px;height: 273px;" />
+        </p>
+        <h1 class="Heading1">Copying Runs for Future Use</h1>
+        <p>From the <strong class="Strong">Data</strong> tab, navigate to the <strong class="Strong">Projects</strong> tab. </p>
+        <p>
+            <img src="../Images/Tutorial_D_WCFL_2015/2_0_Tutorial_D_cap_44.png" class="screencap" style="width: 652px;height: 270px;" />
+        </p>
+        <p>On the <strong class="Strong">Active Projects</strong> page, select your desired project to view all the runs within that project.  <img src="../Images/Tutorial_D_WCFL_2015/2_0_Tutorial_D_cap_45.png" class="screencap" style="width: 629px;height: 261px;" /></p>
+        <p>On the <strong class="Strong">Project Summary </strong>page, you can copy runs.</p>
+        <p>Copying runs is useful if you want to re-use components such as a values-at-risk map.&#160; You can rerun the module using different inputs.&#160; This way, you can perform risk assessments across a variety of environmental conditions.</p>
+        <p>Under <strong class="Strong">Actions</strong>, select <strong class="Strong">Copy</strong> for your desired run.</p>
+        <p>Enter a name for the copied run and choose <strong class="Strong">OK</strong>.</p>
+        <p>After choosing <strong class="Strong">OK</strong>, you are taken to the pathway of the copied run.</p>
+        <p>
+            <img src="../Images/Tutorial_D_WCFL_2015/2_0_Tutorial_D_cap_46.png" class="screencap" style="width: 590px;height: 384px;" />
+        </p>
+    </body>
+</html>

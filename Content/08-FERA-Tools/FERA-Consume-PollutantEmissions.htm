@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us" MadCap:lastBlockDepth="4" MadCap:lastHeight="1486" MadCap:lastWidth="922" MadCap:fileTags="FileNeeds.03 Indexing">
+    <head><title>Pollutant emissions</title>
+        <link href="../Resources/Stylesheets/IFTDSS_help1.css" rel="stylesheet" />
+    </head>
+    <body>
+        <h1>Pollutant Emissions</h1>
+        <p>Consume calculated total emissions for the following pollutant species:</p>
+        <ul class="ul_1" style="list-style-type: square;">
+            <li class="li_1">PM (particulate matter)</li>
+            <li class="li_1">PM<sub>10</sub> (particulate matter &lt; 10µm in diameter)</li>
+            <li class="li_1">PM<sub>2.5</sub> (&lt; 2.5 µm)</li>
+            <li class="li_1">CO (carbon monoxide)</li>
+            <li class="li_1">CO<sub>2</sub> (carbon dioxide)</li>
+            <li class="li_1">CH<sub>4</sub> (methane)</li>
+            <li class="li_1">NMHC (non-methane hydrocarbons)</li>
+        </ul>
+        <p>The rate of smoke production from fire varies by combustion phase.&#160;Less smoke is produced per ton of fuel consumed during the efficient flaming stage than during the less efficient smoldering phase (Peterson and Sandberg, <a href="../10-Reference/Bibliography.htm#PetersonandSandberg1988">1988</a>).&#160;Consequently, fuel consumption must be estimated by flaming and smoldering combustion phases for the best estimates of total emissions.&#160;&#160;A 65% error is associated with emission calculations using total fuel consumption only rather than breaking the consumption into combustion phases (Peterson, <a href="../10-Reference/Bibliography.htm#Peterson1987">1987</a>).</p>
+        <p>Consume calculates emissions based on a set of emission factors based on the type of fuel and the combustion phase of the burn. <a href="FERA-Consume-EmissionFactorsbyGroup.htm">This table</a> lists emission factors by fuel type (activity or natural), vegetation (Douglas fir, mixed conifer, ponderosa pine, hardwood, juniper, sage brush), and combustion stage (flaming, smoldering, and residual smoldering) (Hardy et al., <a href="../10-Reference/Bibliography.htm#Hardyetal2001">2001</a>; Ottmar and Baker, <a href="../10-Reference/Bibliography.htm#OttmarandBaker2007">2007</a>).&#160;The emission factors reported in Consume are calculated using the flaming and smoldering emission factors from that table and weighted according to the amount of fuel consumed in each phase.</p>
+        <h2>Summary of Emissions Algorithm</h2>
+        <h3>Step 1:&#160; Using input cover type to select an emissions factor group </h3>
+        <p>Consume selects an emission factor group based on the input cover type.&#160;Many FCCS fuelbeds have more than one input cover type.&#160;FCCS outputs the first listed cover type to Consume for use in EFG assignments.</p>
+        <h3>Step 2: Calculating emissions by combustion phase</h3>
+        <p>Consume calculates pollutant emissions by combustion phase using the <a href="FERA-Consume-EmissionFactorsbyGroup.htm">emission factors&#160; by emisison factor group</a>.&#160;In rare cases where an appropriate cover type is not available or is not listed for an FCCS fuelbed, Consume will use a default emissions factor (EFG #0).</p>
+        <p>The equation for emissions by phase (tons/acre) is</p>
+        <p>
+            <img src="../Resources/Images/Table/03000001.png" style="width: 255px;height: 35px;" />
+        </p>
+        <p>Where</p>
+        <ul style="list-style-type: square;">
+            <li>i = subscript reference to pollutant species, including particulate matter (PM), 2.5-micron particulate matter (PM2.5), 10-micron particulate matter (PM 10), carbon monoxide (CO), carbon dioxide (CO2), methane (CH4), and non-methane hydrocarbon (NMHC)</li>
+            <li>Consumption<sub>Phase</sub> = Total predicted consumption by combustion phase (flaming, smoldering, and residual smoldering </li>
+            <li>EF = emission factor for each pollutant by combustion phase (<a href="FERA-Consume-EmissionFactorsbyGroup.htm">table</a>, lb/ton) </li>
+            <li>2000 = conversion factor from lb to ton</li>
+        </ul>
+        <p>&#160;</p>
+    </body>
+</html>

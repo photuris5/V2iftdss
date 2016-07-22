@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:madcap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us" MadCap:fileTags="FileStatusTags.07 Complete" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="7" MadCap:lastHeight="1531" MadCap:lastWidth="645" MadCap:conditions="Default.LaterRelease">
+    <head>
+        <link href="../Resources/TableStyles/AlternatingRows.css" rel="stylesheet" MadCap:stylesheetType="table" /><title>Surface Fire Spread and Intensity Outputs – Fuel</title>
+    </head>
+    <body>
+        <h1>
+            <MadCap:keyword term="surface fire behavior (IFT-surface):fuel;surface fires:fuels;fuels:surface fires" />Surface Fire Behavior Outputs – Fuel</h1>
+        <p>You can select one or more of these options.</p>
+        <table style="caption-side: top;mc-table-style: url('../Resources/TableStyles/AlternatingRows.css');" class="TableStyle-AlternatingRows" cellspacing="0">
+            <col style="width: 15%;" class="Column-Column1" />
+            <col style="width: 124px;" class="Column-Column1" />
+            <col style="width: 65%;" class="Column-Column1" />
+            <thead>
+                <tr class="Head-Header1">
+                    <th class="HeadE-Column1-Header1">Name
+                </th>
+                    <th class="HeadE-Column1-Header1">Units
+                </th>
+                    <th class="HeadD-Column1-Header1">Brief Description
+                </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="Body-Body1">
+                    <td class="BodyE-Column1-Body1">
+                        <MadCap:keyword term="Dead fuel load portion (parameter)" />Dead fuel load portion
+                </td>
+                    <td class="BodyE-Column1-Body1">Percentage     
+                </td>
+                    <td class="BodyD-Column1-Body1">The percentage of the total fuel load that is dead fuel. The percentage is calculated after the load transfer is completed for dynamic fuel models. This variable is most meaningful in an examination of dynamic fuel models.
+                </td>
+                </tr>
+                <tr class="Body-Body2">
+                    <td class="BodyE-Column1-Body2">
+                        <MadCap:keyword term="Dead herbaceous fuel load (parameter)" />Dead herbaceous fuel load
+                </td>
+                    <td class="BodyE-Column1-Body2">Tons per acre, tonne per hectare (Mg/ha)
+                    
+                </td>
+                    <td class="BodyD-Column1-Body2">The weight of dead herbaceous fuel per unit area. This weight is a meaningful variable only for dynamic standard and custom fuel models. The initial value is zero. A portion of the live herbaceous fuel load is transferred into the dead herbaceous fuel load category. The portion of the load transferred is either specified by the user or calculated from live herbaceous fuel moisture content. The moisture content for this fuel category is the value assigned to the 1-hour fuel. The SA/V ratio is specified for the live herbaceous fuel.
+                </td>
+                </tr>
+                <tr class="Body-Body1">
+                    <td class="BodyE-Column1-Body1">
+                        <MadCap:keyword term="Fuel load transfer portion (parameter)" />Fuel load transfer portion
+                </td>
+                    <td class="BodyE-Column1-Body1">Percentage</td>
+                    <td class="BodyD-Column1-Body1">The percentage of live herbaceous load  transferred to the dead class. This variable is meaningful only for dynamic standard or custom fuel models. The load transfer portion can either be calculated from live fuel moisture as described by Scott and Burgan (<a href="Bibliography.htm#ScottandBurgen2005">2005</a>), or it can be entered directly.
+                </td>
+                </tr>
+                <tr class="Body-Body2">
+                    <td class="BodyE-Column1-Body2">
+                        <MadCap:keyword term="Live fuel load portion (parameter)" />Live fuel load portion
+                </td>
+                    <td class="BodyE-Column1-Body2">Percentage     
+                </td>
+                    <td class="BodyD-Column1-Body2">The percentage of the total fuel load that is live fuel. The percentage is calculated after the load transfer is completed for dynamic fuel models. This variable is most meaningful in an examination of dynamic fuel models.
+                </td>
+                </tr>
+                <tr class="Body-Body1">
+                    <td class="BodyE-Column1-Body1">
+                        <MadCap:keyword term="Live herbaceous fuel load (parameter)" />Live herbaceous fuel load
+                </td>
+                    <td class="BodyE-Column1-Body1">Tons per acre, tonne per hectare (Mg/ha)
+                    
+                </td>
+                    <td class="BodyD-Column1-Body1">The weight of live herbaceous fuel that remains after some of the load is transferred to the dead herbaceous fuel class. This is a meaningful variable only for dynamic standard and custom fuel models.
+                </td>
+                </tr>
+                <tr class="Body-Body2">
+                    <td class="BodyE-Column1-Body2">
+                        <MadCap:keyword term="Total dead fuel load (parameter)" />Total dead fuel load
+                </td>
+                    <td class="BodyE-Column1-Body2">Tons per acre, tonne per hectare (Mg/ha)
+                    
+                </td>
+                    <td class="BodyD-Column1-Body2">The sum of the load of all dead fuel classes. For standard and custom fuel models, this sum includes 1-hour, 10-hour, 100-hour, and dead herbaceous fuel loads. The sum is calculated after the load transfer is completed for dynamic fuel models. This variable is most meaningful in an examination of dynamic fuel models.
+                </td>
+                </tr>
+                <tr class="Body-Body1">
+                    <td class="BodyB-Column1-Body1">
+                        <MadCap:keyword term="Total live fuel load (parameter)" />Total live fuel load
+                </td>
+                    <td class="BodyB-Column1-Body1">Tons per acre, tonne per hectare (Mg/ha)
+                    
+                </td>
+                    <td class="BodyA-Column1-Body1">The sum of the load of all live fuel classes. For standard and custom fuel models, this sum includes live woody and live herbaceous fuel loads. The sum is calculated after the load transfer is completed for dynamic fuel models. This variable is most meaningful in an examination of dynamic fuel models.
+                </td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>

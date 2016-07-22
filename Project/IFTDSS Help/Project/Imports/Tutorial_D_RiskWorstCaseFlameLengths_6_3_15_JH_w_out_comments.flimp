@@ -1,0 +1,427 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MsWordImport
+  PreserveSourceStyles="true"
+  KeepSourceLinks="true"
+  ConvertInlineFormatting="true"
+  AddContinuedLinks="false"
+  AddContinuedFromLinks="false"
+  ContinuedLinkFormat="(continued in {title})"
+  ContinuedFromLinkFormat="(continued from {title})"
+  UseMaxCharLimit="false"
+  UseMinCharLimit="true"
+  MaxCharLimit="10000"
+  MinCharLimit="50"
+  FilenameLength="24"
+  GeneratePageLayouts="false"
+  UseFirstHeadingAsTopicTitle="true"
+  LastCollectTime="2015-06-18T15:38:52.6511641-07:00"
+  ProjectName="IFTDSS Help"
+  ProjectFolder="C:\Users\NIFTT\Documents\My Projects\REALPROJECT\IFTDSS Help\"
+  AutoSync="false"
+  AutoFitTables="false"
+  UseHeaderRows="false"
+  Stylesheet="../../Content/Resources/Stylesheets/IFTDSS_help.css"
+  LastImport="2015-06-18T15:40:28.2176302-07:00">
+  <Files>
+    <Url
+      Source="file:///E:/IFTDSS/CONTENT/IFTDSS_TUTORIALS/D_Risk_Wrst_Cs_Flm_Lngth/Tutorial_D_RiskWorstCaseFlameLengths_6_3_15_JH_w_out_comments.docx"
+      AbsoluteSource="file:///E:/IFTDSS/CONTENT/IFTDSS_TUTORIALS/D_Risk_Wrst_Cs_Flm_Lngth/Tutorial_D_RiskWorstCaseFlameLengths_6_3_15_JH_w_out_comments.docx" />
+  </Files>
+  <ExcludedFiles />
+  <CollectedSourceFiles />
+  <SkippedSourceFiles />
+  <GeneratedFiles>
+    <Url
+      Source="../../Content/Tutorial_D_RiskWorstCaseFlameLengths_6_3_15_JH_w_out_comments/Tutorial D Creating a Risk.htm"
+      TimeStamp="6/18/2015 3:40:19 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Tutorial_D_RiskWorstCaseFlameLengths_6_3_15_JH_w_out_comments/Overview.jpg"
+      TimeStamp="6/18/2015 3:40:15 PM" />
+    <Url
+      Source="../../Content/Tutorial_D_RiskWorstCaseFlameLengths_6_3_15_JH_w_out_comments/Overview.htm"
+      TimeStamp="6/18/2015 3:40:20 PM" />
+    <Url
+      Source="../../Content/Tutorial_D_RiskWorstCaseFlameLengths_6_3_15_JH_w_out_comments/Introduction Background.htm"
+      TimeStamp="6/18/2015 3:40:20 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Tutorial_D_RiskWorstCaseFlameLengths_6_3_15_JH_w_out_comments/Setting up the project.png"
+      TimeStamp="6/18/2015 3:40:15 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Tutorial_D_RiskWorstCaseFlameLengths_6_3_15_JH_w_out_comments/Setting up the project_1.png"
+      TimeStamp="6/18/2015 3:40:15 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Tutorial_D_RiskWorstCaseFlameLengths_6_3_15_JH_w_out_comments/Setting up the project_2.png"
+      TimeStamp="6/18/2015 3:40:15 PM" />
+    <Url
+      Source="../../Content/Tutorial_D_RiskWorstCaseFlameLengths_6_3_15_JH_w_out_comments/Setting up the project.htm"
+      TimeStamp="6/18/2015 3:40:20 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Tutorial_D_RiskWorstCaseFlameLengths_6_3_15_JH_w_out_comments/Acquiring LANDFIRE Data.png"
+      TimeStamp="6/18/2015 3:40:15 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Tutorial_D_RiskWorstCaseFlameLengths_6_3_15_JH_w_out_comments/Acquiring LANDFIRE Data_1.png"
+      TimeStamp="6/18/2015 3:40:15 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Tutorial_D_RiskWorstCaseFlameLengths_6_3_15_JH_w_out_comments/Acquiring LANDFIRE Data_2.png"
+      TimeStamp="6/18/2015 3:40:15 PM" />
+    <Url
+      Source="../../Content/Tutorial_D_RiskWorstCaseFlameLengths_6_3_15_JH_w_out_comments/Acquiring LANDFIRE Data.htm"
+      TimeStamp="6/18/2015 3:40:20 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Tutorial_D_RiskWorstCaseFlameLengths_6_3_15_JH_w_out_comments/Worst Case Flame Lengths Risk.png"
+      TimeStamp="6/18/2015 3:40:15 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Tutorial_D_RiskWorstCaseFlameLengths_6_3_15_JH_w_out_comments/Worst Case Flame Lengths Risk_1.png"
+      TimeStamp="6/18/2015 3:40:15 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Tutorial_D_RiskWorstCaseFlameLengths_6_3_15_JH_w_out_comments/Worst Case Flame Lengths Risk_2.png"
+      TimeStamp="6/18/2015 3:40:15 PM" />
+    <Url
+      Source="../../Content/Tutorial_D_RiskWorstCaseFlameLengths_6_3_15_JH_w_out_comments/Worst Case Flame Lengths Risk.htm"
+      TimeStamp="6/18/2015 3:40:20 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Tutorial_D_RiskWorstCaseFlameLengths_6_3_15_JH_w_out_comments/Worst Case Flame Lengths Risk_1.jpg"
+      TimeStamp="6/18/2015 3:40:15 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Tutorial_D_RiskWorstCaseFlameLengths_6_3_15_JH_w_out_comments/Worst Case Flame Lengths Risk_1_1.png"
+      TimeStamp="6/18/2015 3:40:15 PM" />
+    <Url
+      Source="../../Content/Tutorial_D_RiskWorstCaseFlameLengths_6_3_15_JH_w_out_comments/Worst Case Flame Lengths Risk_1.htm"
+      TimeStamp="6/18/2015 3:40:20 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Tutorial_D_RiskWorstCaseFlameLengths_6_3_15_JH_w_out_comments/Worst Case Flame Lengths Risk_2_1.png"
+      TimeStamp="6/18/2015 3:40:15 PM" />
+    <Url
+      Source="../../Content/Tutorial_D_RiskWorstCaseFlameLengths_6_3_15_JH_w_out_comments/Worst Case Flame Lengths Risk_2.htm"
+      TimeStamp="6/18/2015 3:40:20 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Tutorial_D_RiskWorstCaseFlameLengths_6_3_15_JH_w_out_comments/Worst Case Flame Lengths Risk_3.png"
+      TimeStamp="6/18/2015 3:40:16 PM" />
+    <Url
+      Source="../../Content/Tutorial_D_RiskWorstCaseFlameLengths_6_3_15_JH_w_out_comments/Worst Case Flame Lengths Risk_3.htm"
+      TimeStamp="6/18/2015 3:40:20 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Tutorial_D_RiskWorstCaseFlameLengths_6_3_15_JH_w_out_comments/Response Functions Definitions.png"
+      TimeStamp="6/18/2015 3:40:16 PM" />
+    <Url
+      Source="../../Content/Tutorial_D_RiskWorstCaseFlameLengths_6_3_15_JH_w_out_comments/Response Functions Definitions.htm"
+      TimeStamp="6/18/2015 3:40:20 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Tutorial_D_RiskWorstCaseFlameLengths_6_3_15_JH_w_out_comments/Introduction to the Map Toolbar.png"
+      TimeStamp="6/18/2015 3:40:16 PM" />
+    <Url
+      Source="../../Content/Tutorial_D_RiskWorstCaseFlameLengths_6_3_15_JH_w_out_comments/Introduction to the Map Toolbar.htm"
+      TimeStamp="6/18/2015 3:40:20 PM" />
+    <Url
+      Source="../../Content/Tutorial_D_RiskWorstCaseFlameLengths_6_3_15_JH_w_out_comments/Defining Values at Risk Methods.htm"
+      TimeStamp="6/18/2015 3:40:20 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Tutorial_D_RiskWorstCaseFlameLengths_6_3_15_JH_w_out_comments/Defining Values at Risk Using.png"
+      TimeStamp="6/18/2015 3:40:16 PM" />
+    <Url
+      Source="../../Content/Tutorial_D_RiskWorstCaseFlameLengths_6_3_15_JH_w_out_comments/Defining Values at Risk Using.htm"
+      TimeStamp="6/18/2015 3:40:20 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Tutorial_D_RiskWorstCaseFlameLengths_6_3_15_JH_w_out_comments/Defining Values at Risk Using_1.png"
+      TimeStamp="6/18/2015 3:40:16 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Tutorial_D_RiskWorstCaseFlameLengths_6_3_15_JH_w_out_comments/Defining Values at Risk Using_1_1.png"
+      TimeStamp="6/18/2015 3:40:16 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Tutorial_D_RiskWorstCaseFlameLengths_6_3_15_JH_w_out_comments/Defining Values at Risk Using_1.jpg"
+      TimeStamp="6/18/2015 3:40:16 PM" />
+    <Url
+      Source="../../Content/Tutorial_D_RiskWorstCaseFlameLengths_6_3_15_JH_w_out_comments/Defining Values at Risk Using_1.htm"
+      TimeStamp="6/18/2015 3:40:20 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Tutorial_D_RiskWorstCaseFlameLengths_6_3_15_JH_w_out_comments/Defining Values at Risk Using_2.png"
+      TimeStamp="6/18/2015 3:40:16 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Tutorial_D_RiskWorstCaseFlameLengths_6_3_15_JH_w_out_comments/Defining Values at Risk Using_2_1.png"
+      TimeStamp="6/18/2015 3:40:16 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Tutorial_D_RiskWorstCaseFlameLengths_6_3_15_JH_w_out_comments/Defining Values at Risk Using_2_2.png"
+      TimeStamp="6/18/2015 3:40:16 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Tutorial_D_RiskWorstCaseFlameLengths_6_3_15_JH_w_out_comments/Defining Values at Risk Using_2_3.png"
+      TimeStamp="6/18/2015 3:40:16 PM" />
+    <Url
+      Source="../../Content/Tutorial_D_RiskWorstCaseFlameLengths_6_3_15_JH_w_out_comments/Defining Values at Risk Using_2.htm"
+      TimeStamp="6/18/2015 3:40:20 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Tutorial_D_RiskWorstCaseFlameLengths_6_3_15_JH_w_out_comments/Defining Larger Values at.png"
+      TimeStamp="6/18/2015 3:40:16 PM" />
+    <Url
+      Source="../../Content/Tutorial_D_RiskWorstCaseFlameLengths_6_3_15_JH_w_out_comments/Defining Larger Values at.htm"
+      TimeStamp="6/18/2015 3:40:20 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Tutorial_D_RiskWorstCaseFlameLengths_6_3_15_JH_w_out_comments/Defining Smaller Values at.png"
+      TimeStamp="6/18/2015 3:40:16 PM" />
+    <Url
+      Source="../../Content/Tutorial_D_RiskWorstCaseFlameLengths_6_3_15_JH_w_out_comments/Defining Smaller Values at.htm"
+      TimeStamp="6/18/2015 3:40:20 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Tutorial_D_RiskWorstCaseFlameLengths_6_3_15_JH_w_out_comments/Editing Values at Risk.png"
+      TimeStamp="6/18/2015 3:40:16 PM" />
+    <Url
+      Source="../../Content/Tutorial_D_RiskWorstCaseFlameLengths_6_3_15_JH_w_out_comments/Editing Values at Risk.htm"
+      TimeStamp="6/18/2015 3:40:20 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Tutorial_D_RiskWorstCaseFlameLengths_6_3_15_JH_w_out_comments/Defining Values at Risk Assigning.png"
+      TimeStamp="6/18/2015 3:40:16 PM" />
+    <Url
+      Source="../../Content/Tutorial_D_RiskWorstCaseFlameLengths_6_3_15_JH_w_out_comments/Defining Values at Risk Assigning.htm"
+      TimeStamp="6/18/2015 3:40:20 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Tutorial_D_RiskWorstCaseFlameLengths_6_3_15_JH_w_out_comments/Reviewing and Saving Your.png"
+      TimeStamp="6/18/2015 3:40:17 PM" />
+    <Url
+      Source="../../Content/Tutorial_D_RiskWorstCaseFlameLengths_6_3_15_JH_w_out_comments/Reviewing and Saving Your.htm"
+      TimeStamp="6/18/2015 3:40:20 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Tutorial_D_RiskWorstCaseFlameLengths_6_3_15_JH_w_out_comments/Inputting Environmental and.png"
+      TimeStamp="6/18/2015 3:40:17 PM" />
+    <Url
+      Source="../../Content/Tutorial_D_RiskWorstCaseFlameLengths_6_3_15_JH_w_out_comments/Inputting Environmental and.htm"
+      TimeStamp="6/18/2015 3:40:21 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Tutorial_D_RiskWorstCaseFlameLengths_6_3_15_JH_w_out_comments/IFT FlamMap Inputs Crown Fire.png"
+      TimeStamp="6/18/2015 3:40:17 PM" />
+    <Url
+      Source="../../Content/Tutorial_D_RiskWorstCaseFlameLengths_6_3_15_JH_w_out_comments/IFT FlamMap Inputs Crown Fire.htm"
+      TimeStamp="6/18/2015 3:40:21 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Tutorial_D_RiskWorstCaseFlameLengths_6_3_15_JH_w_out_comments/IFT RANDIG Inputs Simulation.png"
+      TimeStamp="6/18/2015 3:40:17 PM" />
+    <Url
+      Source="../../Content/Tutorial_D_RiskWorstCaseFlameLengths_6_3_15_JH_w_out_comments/IFT RANDIG Inputs Simulation.htm"
+      TimeStamp="6/18/2015 3:40:21 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Tutorial_D_RiskWorstCaseFlameLengths_6_3_15_JH_w_out_comments/Setting Flame Length Classes.png"
+      TimeStamp="6/18/2015 3:40:17 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Tutorial_D_RiskWorstCaseFlameLengths_6_3_15_JH_w_out_comments/Setting Flame Length Classes_1.png"
+      TimeStamp="6/18/2015 3:40:17 PM" />
+    <Url
+      Source="../../Content/Tutorial_D_RiskWorstCaseFlameLengths_6_3_15_JH_w_out_comments/Setting Flame Length Classes.htm"
+      TimeStamp="6/18/2015 3:40:21 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Tutorial_D_RiskWorstCaseFlameLengths_6_3_15_JH_w_out_comments/Reviewing Spatial Landscape.png"
+      TimeStamp="6/18/2015 3:40:17 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Tutorial_D_RiskWorstCaseFlameLengths_6_3_15_JH_w_out_comments/Reviewing Spatial Landscape_1.png"
+      TimeStamp="6/18/2015 3:40:17 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Tutorial_D_RiskWorstCaseFlameLengths_6_3_15_JH_w_out_comments/Reviewing Spatial Landscape_2.png"
+      TimeStamp="6/18/2015 3:40:17 PM" />
+    <Url
+      Source="../../Content/Tutorial_D_RiskWorstCaseFlameLengths_6_3_15_JH_w_out_comments/Reviewing Spatial Landscape.htm"
+      TimeStamp="6/18/2015 3:40:21 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Tutorial_D_RiskWorstCaseFlameLengths_6_3_15_JH_w_out_comments/Editing Spatial Landscape.png"
+      TimeStamp="6/18/2015 3:40:17 PM" />
+    <Url
+      Source="../../Content/Tutorial_D_RiskWorstCaseFlameLengths_6_3_15_JH_w_out_comments/Editing Spatial Landscape.htm"
+      TimeStamp="6/18/2015 3:40:21 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Tutorial_D_RiskWorstCaseFlameLengths_6_3_15_JH_w_out_comments/Editing Spatial Landscape_1.png"
+      TimeStamp="6/18/2015 3:40:17 PM" />
+    <Url
+      Source="../../Content/Tutorial_D_RiskWorstCaseFlameLengths_6_3_15_JH_w_out_comments/Editing Spatial Landscape_1.htm"
+      TimeStamp="6/18/2015 3:40:21 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Tutorial_D_RiskWorstCaseFlameLengths_6_3_15_JH_w_out_comments/Analyzing Fire Behavior Output.png"
+      TimeStamp="6/18/2015 3:40:17 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Tutorial_D_RiskWorstCaseFlameLengths_6_3_15_JH_w_out_comments/Analyzing Fire Behavior Output_1.png"
+      TimeStamp="6/18/2015 3:40:17 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Tutorial_D_RiskWorstCaseFlameLengths_6_3_15_JH_w_out_comments/Analyzing Fire Behavior Output_2.png"
+      TimeStamp="6/18/2015 3:40:17 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Tutorial_D_RiskWorstCaseFlameLengths_6_3_15_JH_w_out_comments/Analyzing Fire Behavior Output_3.png"
+      TimeStamp="6/18/2015 3:40:17 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Tutorial_D_RiskWorstCaseFlameLengths_6_3_15_JH_w_out_comments/Analyzing Fire Behavior Output_4.png"
+      TimeStamp="6/18/2015 3:40:18 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Tutorial_D_RiskWorstCaseFlameLengths_6_3_15_JH_w_out_comments/Analyzing Fire Behavior Output_5.png"
+      TimeStamp="6/18/2015 3:40:18 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Tutorial_D_RiskWorstCaseFlameLengths_6_3_15_JH_w_out_comments/Analyzing Fire Behavior Output_6.png"
+      TimeStamp="6/18/2015 3:40:18 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Tutorial_D_RiskWorstCaseFlameLengths_6_3_15_JH_w_out_comments/Analyzing Fire Behavior Output_7.png"
+      TimeStamp="6/18/2015 3:40:18 PM" />
+    <Url
+      Source="../../Content/Tutorial_D_RiskWorstCaseFlameLengths_6_3_15_JH_w_out_comments/Analyzing Fire Behavior Output.htm"
+      TimeStamp="6/18/2015 3:40:21 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Tutorial_D_RiskWorstCaseFlameLengths_6_3_15_JH_w_out_comments/About Relative Net Value Change.png"
+      TimeStamp="6/18/2015 3:40:18 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Tutorial_D_RiskWorstCaseFlameLengths_6_3_15_JH_w_out_comments/About Relative Net Value Change_1.png"
+      TimeStamp="6/18/2015 3:40:18 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Tutorial_D_RiskWorstCaseFlameLengths_6_3_15_JH_w_out_comments/About Relative Net Value Change_2.png"
+      TimeStamp="6/18/2015 3:40:18 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Tutorial_D_RiskWorstCaseFlameLengths_6_3_15_JH_w_out_comments/About Relative Net Value Change_3.png"
+      TimeStamp="6/18/2015 3:40:18 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Tutorial_D_RiskWorstCaseFlameLengths_6_3_15_JH_w_out_comments/About Relative Net Value Change_4.png"
+      TimeStamp="6/18/2015 3:40:18 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Tutorial_D_RiskWorstCaseFlameLengths_6_3_15_JH_w_out_comments/About Relative Net Value Change_5.png"
+      TimeStamp="6/18/2015 3:40:18 PM" />
+    <Url
+      Source="../../Content/Tutorial_D_RiskWorstCaseFlameLengths_6_3_15_JH_w_out_comments/About Relative Net Value Change.htm"
+      TimeStamp="6/18/2015 3:40:21 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Tutorial_D_RiskWorstCaseFlameLengths_6_3_15_JH_w_out_comments/Classifying Relative Net Value.png"
+      TimeStamp="6/18/2015 3:40:18 PM" />
+    <Url
+      Source="../../Content/Tutorial_D_RiskWorstCaseFlameLengths_6_3_15_JH_w_out_comments/Classifying Relative Net Value.htm"
+      TimeStamp="6/18/2015 3:40:21 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Tutorial_D_RiskWorstCaseFlameLengths_6_3_15_JH_w_out_comments/Reviewing Relative Net Value.png"
+      TimeStamp="6/18/2015 3:40:18 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Tutorial_D_RiskWorstCaseFlameLengths_6_3_15_JH_w_out_comments/Reviewing Relative Net Value_1.png"
+      TimeStamp="6/18/2015 3:40:18 PM" />
+    <Url
+      Source="../../Content/Tutorial_D_RiskWorstCaseFlameLengths_6_3_15_JH_w_out_comments/Reviewing Relative Net Value.htm"
+      TimeStamp="6/18/2015 3:40:21 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Tutorial_D_RiskWorstCaseFlameLengths_6_3_15_JH_w_out_comments/Classifying Relative Net Value_1.png"
+      TimeStamp="6/18/2015 3:40:18 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Tutorial_D_RiskWorstCaseFlameLengths_6_3_15_JH_w_out_comments/Classifying Relative Net Value_1_1.png"
+      TimeStamp="6/18/2015 3:40:18 PM" />
+    <Url
+      Source="../../Content/Tutorial_D_RiskWorstCaseFlameLengths_6_3_15_JH_w_out_comments/Classifying Relative Net Value_1.htm"
+      TimeStamp="6/18/2015 3:40:21 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Tutorial_D_RiskWorstCaseFlameLengths_6_3_15_JH_w_out_comments/Exporting Map Summary Data.png"
+      TimeStamp="6/18/2015 3:40:18 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Tutorial_D_RiskWorstCaseFlameLengths_6_3_15_JH_w_out_comments/Exporting Map Summary Data_1.png"
+      TimeStamp="6/18/2015 3:40:18 PM" />
+    <Url
+      Source="../../Content/Tutorial_D_RiskWorstCaseFlameLengths_6_3_15_JH_w_out_comments/Exporting Map Summary Data.htm"
+      TimeStamp="6/18/2015 3:40:21 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Tutorial_D_RiskWorstCaseFlameLengths_6_3_15_JH_w_out_comments/Evaluating Results in Google.png"
+      TimeStamp="6/18/2015 3:40:18 PM" />
+    <Url
+      Source="../../Content/Tutorial_D_RiskWorstCaseFlameLengths_6_3_15_JH_w_out_comments/Evaluating Results in Google.htm"
+      TimeStamp="6/18/2015 3:40:21 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Tutorial_D_RiskWorstCaseFlameLengths_6_3_15_JH_w_out_comments/Adding Map Details in Google.png"
+      TimeStamp="6/18/2015 3:40:18 PM" />
+    <Url
+      Source="../../Content/Tutorial_D_RiskWorstCaseFlameLengths_6_3_15_JH_w_out_comments/Adding Map Details in Google.htm"
+      TimeStamp="6/18/2015 3:40:21 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Tutorial_D_RiskWorstCaseFlameLengths_6_3_15_JH_w_out_comments/Identifying Potential Fire.png"
+      TimeStamp="6/18/2015 3:40:18 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Tutorial_D_RiskWorstCaseFlameLengths_6_3_15_JH_w_out_comments/Identifying Potential Fire_1.png"
+      TimeStamp="6/18/2015 3:40:18 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Tutorial_D_RiskWorstCaseFlameLengths_6_3_15_JH_w_out_comments/Identifying Potential Fire_2.png"
+      TimeStamp="6/18/2015 3:40:19 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Tutorial_D_RiskWorstCaseFlameLengths_6_3_15_JH_w_out_comments/Identifying Potential Fire_3.png"
+      TimeStamp="6/18/2015 3:40:19 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Tutorial_D_RiskWorstCaseFlameLengths_6_3_15_JH_w_out_comments/Identifying Potential Fire_4.png"
+      TimeStamp="6/18/2015 3:40:19 PM" />
+    <Url
+      Source="../../Content/Tutorial_D_RiskWorstCaseFlameLengths_6_3_15_JH_w_out_comments/Identifying Potential Fire.htm"
+      TimeStamp="6/18/2015 3:40:21 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Tutorial_D_RiskWorstCaseFlameLengths_6_3_15_JH_w_out_comments/Next Steps Assessing Further.png"
+      TimeStamp="6/18/2015 3:40:19 PM" />
+    <Url
+      Source="../../Content/Tutorial_D_RiskWorstCaseFlameLengths_6_3_15_JH_w_out_comments/Next Steps Assessing Further.htm"
+      TimeStamp="6/18/2015 3:40:21 PM" />
+    <Url
+      Source="../../Content/Tutorial_D_RiskWorstCaseFlameLengths_6_3_15_JH_w_out_comments/Analysis Considerations Things.htm"
+      TimeStamp="6/18/2015 3:40:21 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Tutorial_D_RiskWorstCaseFlameLengths_6_3_15_JH_w_out_comments/Saving Data Sets for Future.png"
+      TimeStamp="6/18/2015 3:40:19 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Tutorial_D_RiskWorstCaseFlameLengths_6_3_15_JH_w_out_comments/Saving Data Sets for Future_1.png"
+      TimeStamp="6/18/2015 3:40:19 PM" />
+    <Url
+      Source="../../Content/Tutorial_D_RiskWorstCaseFlameLengths_6_3_15_JH_w_out_comments/Saving Data Sets for Future.htm"
+      TimeStamp="6/18/2015 3:40:21 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Tutorial_D_RiskWorstCaseFlameLengths_6_3_15_JH_w_out_comments/Copying Runs for Future Use.png"
+      TimeStamp="6/18/2015 3:40:19 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Tutorial_D_RiskWorstCaseFlameLengths_6_3_15_JH_w_out_comments/Copying Runs for Future Use_1.png"
+      TimeStamp="6/18/2015 3:40:19 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Tutorial_D_RiskWorstCaseFlameLengths_6_3_15_JH_w_out_comments/Copying Runs for Future Use_2.png"
+      TimeStamp="6/18/2015 3:40:19 PM" />
+    <Url
+      Source="../../Content/Tutorial_D_RiskWorstCaseFlameLengths_6_3_15_JH_w_out_comments/Copying Runs for Future Use.htm"
+      TimeStamp="6/18/2015 3:40:21 PM" />
+    <Url
+      Source="../../Content/Tutorial_D_RiskWorstCaseFlameLengths_6_3_15_JH_w_out_comments/Review.htm"
+      TimeStamp="6/18/2015 3:40:21 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Tutorial_D_RiskWorstCaseFlameLengths_6_3_15_JH_w_out_comments/Additional Help.png"
+      TimeStamp="6/18/2015 3:40:19 PM" />
+    <Url
+      Source="../../Content/Tutorial_D_RiskWorstCaseFlameLengths_6_3_15_JH_w_out_comments/Additional Help.htm"
+      TimeStamp="6/18/2015 3:40:22 PM" />
+    <Url
+      Source="../TOCs/Tutorial_D_RiskWorstCaseFlameLengths_6_3_15_JH_w_out_comments.fltoc"
+      TimeStamp="6/18/2015 3:40:19 PM" />
+    <Url
+      Source="../../Content/Resources/Stylesheets/IFTDSS_help_3.css"
+      TimeStamp="6/18/2015 3:40:19 PM" />
+  </GeneratedFiles>
+  <ParagraphStyles>
+    <Map
+      From="Heading 1"
+      To="h1.Heading 1" />
+    <Map
+      From="Heading 2"
+      To="h2.Heading 2" />
+    <Map
+      From="Title"
+      To="h1.(MS Word Style)" />
+  </ParagraphStyles>
+  <CharacterStyles>
+    <Map
+      From="Hyperlink"
+      To="a.(MS Word Style)" />
+  </CharacterStyles>
+  <NewTopicStyles>
+    <StyleName
+      Name="Heading 1" />
+    <StyleName
+      Name="Heading 2" />
+  </NewTopicStyles>
+  <UsedParagraphStyles>
+    <StyleName
+      Name="Heading 1" />
+    <StyleName
+      Name="Heading 2" />
+    <StyleName
+      Name="List Paragraph" />
+    <StyleName
+      Name="Title" />
+  </UsedParagraphStyles>
+  <UsedCharacterStyles>
+    <StyleName
+      Name="Hyperlink" />
+    <StyleName
+      Name="Strong" />
+  </UsedCharacterStyles>
+</MsWordImport>

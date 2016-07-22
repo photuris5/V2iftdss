@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:fileTags="FileNeeds.03 Indexing" MadCap:lastBlockDepth="5" MadCap:lastHeight="1425" MadCap:lastWidth="1075">
+    <head>
+        <link href="../Resources/TableStyles/AlternatingRows.css" rel="stylesheet" MadCap:stylesheetType="table" />
+    </head>
+    <body>
+        <h1>Activity Fuel Consumption Equations</h1>
+        <p>In the early 1980s, the Fire and Environmental Resource Application Group (FERA) of the Pacific Northwest Research Station began to develop fuel-consumption models and emission factors for prescribed burning situations in the Pacific Northwest. Consume 1.0 incorporated the set of consumption algorithms formulated from data collected at operational burns. These fuel consumption algorithms were developed to predict fuel consumption and are referred to as the Activity Fuel Consumption Equations.  The equations are based on operational broadcast burns in logging slash and are semi-empirical to represent a range of burning conditions and fuel characteristics.</p>
+        <p>Consume uses several different models to calculate consumption of fuels of different sizes.</p>
+        <ul style="list-style-type: square;">
+            <li>Small (1-hour and 10-hour) fuels are assumed to consume completely in any burn. Consume assumes that all 1-hour and 10-hour fuels in a unit are consumed during a burn, regardless of weather, location, or other conditions.  This was determined from data collected in the field.  Managers generally do not meet objectives if they burn a unit when only a small portion of the 1-hour and 10-hour fuels are consumed.</li>
+            <li>Medium (100-hour) fuel consumption is calculated based on several factors, including 10-hour fuel moisture content, wind speed, and slope. The equations for 100-hour fuel consumption were derived from fuel consumption theory, with several of the coefficients determined from a burn study (Ottmar et al., 1990) and from fire spread research (Rothermel, <a href="../10-Reference/Bibliography.htm#Rothermel1972">1972</a>).</li>
+            <li>Large (1000-hour to 10000+-hour) fuel consumption is based primarily on the 1000-hour fuel moisture content.  Direct measurement of the 1000-hour fuel moisture content is the best predictor of fuel consumption.  Other factors include the consumption of 100-hour fuels and duration of ignition time.</li>
+            <li>Duff consumption is calculated based on woody fuel consumption, diameter reduction, preburn duff depth, and duff moisture content.  Because actual duff moisture content is difficult to measure, Consume classifies duff as wet, moist, or dry based on days since significant rainfall.  The duff consumption algorithm is divided into separate regimes for wet, moist, and dry duff.</li>
+        </ul>
+        <p>The rate of smoke production from a prescribed fire will not stay constant during the burn, but instead will change with the phase of the fire.  Less smoke is produced per ton of fuel consumed during the efficient flaming stage than during the less efficient smoldering phase.  Consequently, to make the best estimations of total emissions produced, fuel consumption is broken down by combustion stage.  Consume uses 100-hour fuel consumption and large woody fuel flaming diameter reduction to estimate consumption during the flaming phase of the woody fuels and duff.  The smoldering consumption is estimated by subtracting the flaming consumption from the total consumption</p>
+        <table class="TableStyle-AlternatingRows" style="mc-table-style: url('../Resources/TableStyles/AlternatingRows.css');" cellspacing="0">
+            <col style="width: 40%;" class="Column-Column1" />
+            <col style="width: 60%;" class="Column-Column1" />
+            <thead>
+                <tr class="Head-Header1">
+                    <th class="HeadE-Column1-Header1">Stratum</th>
+                    <th class="HeadD-Column1-Header1">Equations Used</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="Body-Body1">
+                    <td class="BodyE-Column1-Body1">Canopy</td>
+                    <td class="BodyD-Column1-Body1">Default equation (applicable to activity and natural fuels)</td>
+                </tr>
+                <tr class="Body-Body2">
+                    <td class="BodyE-Column1-Body2">Shrub</td>
+                    <td class="BodyD-Column1-Body2">Default equation (applicable to activity and natural fuels)</td>
+                </tr>
+                <tr class="Body-Body1">
+                    <td class="BodyE-Column1-Body1">Herbaceous vegetation</td>
+                    <td class="BodyD-Column1-Body1">Default equation (applicable to activity and natural fuels)</td>
+                </tr>
+                <tr class="Body-Body2">
+                    <td class="BodyE-Column1-Body2">Woody fuels</td>
+                    <td class="BodyD-Column1-Body2">Sum of sound, rotten, stumps, and woody fuel accumulations</td>
+                </tr>
+                <tr class="Body-Body1">
+                    <td class="BodyE-Column1-Body1" style="padding: 0px;">&#160;&#160;&#160;&#160;Sound wood</td>
+                    <td class="BodyD-Column1-Body1">Sum of sound wood subcategories</td>
+                </tr>
+                <tr class="Body-Body2">
+                    <td class="BodyE-Column1-Body2">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;1 hr</td>
+                    <td class="BodyD-Column1-Body2">100% flaming consumption</td>
+                </tr>
+                <tr class="Body-Body1">
+                    <td class="BodyE-Column1-Body1">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;10 hr</td>
+                    <td class="BodyD-Column1-Body1">100% flaming consumption</td>
+                </tr>
+                <tr class="Body-Body2">
+                    <td class="BodyE-Column1-Body2">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;100 hr</td>
+                    <td class="BodyD-Column1-Body2">100-hr activity equation</td>
+                </tr>
+                <tr class="Body-Body1">
+                    <td class="BodyE-Column1-Body1">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;1000 hr</td>
+                    <td class="BodyD-Column1-Body1">1000-hr activity equation</td>
+                </tr>
+                <tr class="Body-Body2">
+                    <td class="BodyE-Column1-Body2">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;10,000 hr</td>
+                    <td class="BodyD-Column1-Body2">10,000-hr activity equation</td>
+                </tr>
+                <tr class="Body-Body1">
+                    <td class="BodyE-Column1-Body1">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&gt; 10,000 hr</td>
+                    <td class="BodyD-Column1-Body1">&gt;10,000-hr activity equation</td>
+                </tr>
+                <tr class="Body-Body2">
+                    <td class="BodyE-Column1-Body2">&#160;&#160;&#160;&#160;Rotten wood</td>
+                    <td class="BodyD-Column1-Body2">Sum of rotten wood subcategories</td>
+                </tr>
+                <tr class="Body-Body1">
+                    <td class="BodyE-Column1-Body1">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;1000 hr</td>
+                    <td class="BodyD-Column1-Body1">1000-hr activity equation</td>
+                </tr>
+                <tr class="Body-Body2">
+                    <td class="BodyE-Column1-Body2">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;10,000 hr</td>
+                    <td class="BodyD-Column1-Body2">10,000-hr activity equation</td>
+                </tr>
+                <tr class="Body-Body1">
+                    <td class="BodyE-Column1-Body1">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&gt; 10,000 hr</td>
+                    <td class="BodyD-Column1-Body1">&gt;10,000-hr activity equation</td>
+                </tr>
+                <tr class="Body-Body2">
+                    <td class="BodyE-Column1-Body2">&#160;&#160;&#160;&#160;Stumps</td>
+                    <td class="BodyD-Column1-Body2">Default equations (applicable to activity and natural fuels).</td>
+                </tr>
+                <tr class="Body-Body1">
+                    <td class="BodyE-Column1-Body1">&#160;&#160;&#160;&#160;Piles</td>
+                    <td class="BodyD-Column1-Body1">See pile group equations</td>
+                </tr>
+                <tr class="Body-Body2">
+                    <td class="BodyE-Column1-Body2">Litter-lichen-moss</td>
+                    <td class="BodyD-Column1-Body2">Default equation (applicable to activity and natural fuels)</td>
+                </tr>
+                <tr class="Body-Body1">
+                    <td class="BodyE-Column1-Body1">Ground fuels</td>
+                    <td class="BodyD-Column1-Body1">Sum of duff, basal accumulation, and squirrel midden categories</td>
+                </tr>
+                <tr class="Body-Body2">
+                    <td class="BodyE-Column1-Body2">&#160;&#160;&#160;&#160;Duff</td>
+                    <td class="BodyD-Column1-Body2">Duff equations from Consume 2.1</td>
+                </tr>
+                <tr class="Body-Body1">
+                    <td class="BodyE-Column1-Body1">&#160;&#160;&#160;&#160;Basal accumulations</td>
+                    <td class="BodyD-Column1-Body1">Default equation (applicable to activity and natural fuels)</td>
+                </tr>
+                <tr class="Body-Body2">
+                    <td class="BodyB-Column1-Body2">&#160;&#160;&#160;&#160;Squirrel middens</td>
+                    <td class="BodyA-Column1-Body2">Default equation (applicable to activity and natural fuels)</td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>

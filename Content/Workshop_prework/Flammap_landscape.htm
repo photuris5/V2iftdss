@@ -1,0 +1,159 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="7" MadCap:lastHeight="9242" MadCap:lastWidth="911">
+    <head>
+    </head>
+    <body>
+        <h1>Running IFT-Flammap for a Landscape</h1>
+        <p>In this tutorial we'll run fire behavior spatially across the landscape using IFT-Flammap. We will use the LANDFIRE data set unedited, assuming a pre-treatment landscape, and we'll run the model under typical fall environmental conditions. We'll demonstrate IFT-Flammap outputs, and the ability to classify those outputs by percentiles.</p>
+        <p>As we run IFT-FlamMap we'll need to :</p>
+        <ul>
+            <li>Specify a LANDFIRE&#160;LCP&#160;dataset</li>
+            <li>Select a crown fire calculation method</li>
+            <li>Specify fuel moistures for 1,10, 100 hour fuels as well as live herbaceous and woody fuels</li>
+            <li>Specify wind direction and 20 foot windspeed</li>
+        </ul>
+        <p>Outputs will include: </p>
+        <ul>
+            <li>Flame length</li>
+            <li>Rate of spread</li>
+            <li>Fireline intensity</li>
+            <li>Heat per unit area</li>
+            <li>Crown fire activity</li>
+            <li>Mid-flame wind speed</li>
+            <li>Horizontal movement rate</li>
+            <li>Direction of maximum spread</li>
+        </ul>
+        <h2>Initiating the Run</h2>
+        <p>From the IFTDSS&#160;Dashboard, go to the project summary page for the project we created in Tutorial 1, via the <b>Projects tab</b>, or the <b>Manage My Projects</b> link.</p>
+        <p>
+            <img src="../Resources/Images/GettingStarted2015/2_0_SystemOverview_cap_2.png" style="width: 366px;height: 325px;" />
+        </p>
+        <p>From the Project Summary page, scroll down and select <b>Create New Run</b>. From the list of tasks, select <b>Prescribed Burn Planning</b>&gt;<b>Fire Behavior</b>&gt; and <b>Calculate fire behavior across a landscape (IFT-FlamMap)</b>.</p>
+        <p>
+            <img src="../Resources/Images/workshop_prework/2_0_iftflammap_landscape_select.png" style="width: 683px;height: 522px;" />
+        </p>
+        <h2>Set up</h2>
+        <p>On the <b>Set up</b> page, you will name the run, and have the opportunity to change the extent. By default, runs will use the same extent as the project area of interest. However; if you remember from the introductory videos, you may make runs that are smaller than the project area of interest (but not larger). For this tutorial, we will leave the extent at its default setting.</p>
+        <p>Give the run a descriptive name, such as 'Squaw Crk. Rx Fire Landscape' and click <b>Next</b>.</p>
+        <p>
+            <img src="../Resources/Images/workshop_prework/2_0_iftflammap_landscape_run_name.png" style="width: 650px;height: 450px;" />
+        </p>
+        <h2>Configuration </h2>
+        <p>On the configure page, ensure the Squaw Creek dataset is selected and click <b>Next</b>. This data set is the one we acquired when we downloaded the LANDFIRE data for our project. It is stored in the <b>Saved Data Sets</b> section of IFTDSS.</p>
+        <div>
+            <form>
+                <fieldset class="note">
+                    <legend>&#160;&#160;&#160;Note&#160;&#160;&#160;</legend>
+                    <p class="noteBody">Remember the Saved Data section of IFTDSS (available from the Data tab along the top of IFTDSS) gave us the option to upload shapefiles to IFTDSS. If we had polygons in the Saved Data section that we wanted to upload to this run, that could be done using the <b>Import Polygons</b> option on this page.</p>
+                </fieldset>
+            </form>
+        </div>
+        <p>
+            <img src="../Resources/Images/workshop_prework/2_0_iftflammap_landscape_configure.png" style="width: 718px;height: 409px;" />
+        </p>
+        <h2>Inputs</h2>
+        <p>The IFT-FlamMap landscape run will require inputs on properties, fuel moisture, and weather.</p>
+        <table style="width: 501px;">
+            <col style="width: 283px;" />
+            <col />
+            <tbody>
+                <tr>
+                    <td style="background-color: #556b2f;border-left-style: solid;border-left-width: 1px;border-left-color: #000000;border-right-style: solid;border-right-width: 1px;border-right-color: #000000;border-top-style: solid;border-top-width: 1px;border-top-color: #000000;border-bottom-style: solid;border-bottom-width: 1px;border-bottom-color: #000000;text-align: center;" colspan="2"><span style="color: #ffffff; font-weight: bold;">Properties</span><b style="color: #ffffff;">(crown fire behavior calculation method)</b>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">&#160; Finney</td>
+                </tr>
+                <tr>
+                    <td colspan="2">&#160; Scott and Reinhardt</td>
+                </tr>
+                <tr>
+                    <td style="background-color: #556b2f;border-left-style: solid;border-left-width: 1px;border-left-color: #000000;border-right-style: solid;border-right-width: 1px;border-right-color: #000000;border-top-style: solid;border-top-width: 1px;border-top-color: #000000;border-bottom-style: solid;border-bottom-width: 1px;border-bottom-color: #000000;text-align: center;" colspan="2"><span style="color: #ffffff; font-weight: bold;">Fuel moisture percent</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">&#160; 1 hour </td>
+                </tr>
+                <tr>
+                    <td colspan="2">&#160; 10 hour </td>
+                </tr>
+                <tr>
+                    <td colspan="2">&#160; 100 hour </td>
+                </tr>
+                <tr>
+                    <td colspan="2">&#160; Live herbaceous </td>
+                </tr>
+                <tr>
+                    <td colspan="2">&#160; Live woody</td>
+                </tr>
+                <tr>
+                    <td style="background-color: #556b2f;border-left-style: solid;border-left-width: 1px;border-left-color: #000000;border-right-style: solid;border-right-width: 1px;border-right-color: #000000;border-top-style: solid;border-top-width: 1px;border-top-color: #000000;border-bottom-style: solid;border-bottom-width: 1px;border-bottom-color: #000000;text-align: center;" colspan="2"><span style="color: #ffffff; font-weight: bold;">Weather</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">&#160; Wind direction (degrees)</td>
+                </tr>
+                <tr>
+                    <td colspan="2">&#160; 20 foot windspeed</td>
+                </tr>
+            </tbody>
+        </table>
+        <p>For this example use Finney as the crown fire calculation method. Specify fuel moisture and weather inputs that are representative of a fall prescribed burn scenario. In this case:</p>
+        <ul>
+            <li>1 hour fuel moisture: 8%</li>
+            <li>10 hour fuel moisture: 10%</li>
+            <li>100 hour fuel moisture: 16%</li>
+            <li>Live herbaceous fuel moisture: 45%</li>
+            <li>Live woody fuel moisture: 100%</li>
+            <li>Wind direction at 200 degrees</li>
+            <li>20-foot windspeed of 8 mph</li>
+        </ul>
+        <p>When completed, the inputs page should look similar to image below. Scroll to the bottom and click <b>Next</b>.</p>
+        <p>
+            <img src="../Resources/Images/workshop_prework/2_0_iftflammap_landscape_inputs.png" />
+        </p>
+        <h2>Reviewing Landscape Data</h2>
+        <p>After supplying inputs to the run you may review the landscape data, and make any changes you deem necessary. For this example we will leave the data as-is. However, if we wanted, we could use the mapping toolbar to edit points, or make advanced edits across the landscape at this stage in the run. </p>
+        <p>Remember from the mapping videos that the <b>point edit tool</b> <img src="../Resources/Images/workshop_prework/point_edit_icon.png" style="width: 27px;height: 27px;" />and <b>landscape statistics tool</b> <img src="../Resources/Images/workshop_prework/landscape_statistics_icon.png" style="width: 29px;height: 27px;" />can be used to further review your landscape data.</p>
+        <div>
+            <form>
+                <fieldset class="note">
+                    <legend>&#160;&#160;&#160;Note&#160;&#160;&#160;</legend>
+                    <p class="noteBody">Edits made to the landscape data within a run will only be saved within that run dataset.  They will not be applied to the original Project Area of Interest dataset. However, when edits are made to data in IFTDSS&#160;Data Studio, and saved, they will be permanent. </p>
+                </fieldset>
+            </form>
+        </div>
+        <p>
+            <img src="../Resources/Images/workshop_prework/2_0_iftflammap_landscape_reviewlandscape.png" style="width: 750px;height: 571px;" />
+        </p>
+        <p>To run IFT-FlamMap, scroll to the bottom and click <b>Next</b>.</p>
+        <h2>IFT-FlamMap outputs</h2>
+        <p>Once the modeling is complete, the outputs page will display fire behavior outputs across the landscape. Take a couple minutes to review the landscape, and change the layers that are visible. We can toggle between the different fire behavior output layers from the <b>Layers</b> menu to the left of the map. The map legend is displayed on the right. </p>
+        <p>Take a few moments to assess different fire behavior outputs across the landscape.  Are the fire behavior outputs what you would expect to see given these vegetation types under the environmental parameters? For this tutorial, we will use these outputs. In your own future runs, you may find the outputs do not match what would be expected, and returning to the <b>Review Landscape Data</b> step, making adjustments, and re-running, may be warranted.</p>
+        <p>In the next steps, these outputs will be classified by percentile and displayed. To do this, scroll down and click <b>Next</b>.</p>
+        <p>
+            <img src="../Resources/Images/workshop_prework/2_0_iftflammap_landscape_outputs.png" style="width: 760px;height: 507px;" />
+        </p>
+        <h2>Classifying IFT-FlamMap Outputs</h2>
+        <p>This step allows you to classify fire behavior outputs into more meaningful bins for further analysis and display. Specify the minimum value for each class of each parameter. You can do this by electing to accept default minimum values or by modifying minimum values. IFTDSS automatically bins outputs into three pre-identified classes (Medium, High, Very High). The minimum value for the Low class of each parameter is always zero and thus is not editable.  For this tutorial we'll use the default values.</p>
+        <p>
+            <img src="../Resources/Images/workshop_prework/2_0_iftflammap_landscape_classify_1.png" style="width: 614px;height: 479px;" />
+        </p>
+        <p>In addition to classifying fire behavior outputs, you may also group outputs into relative percentages for each parameter. By assigning relative percentages you can narrow your search to areas with the greatest potential fire hazard. IFTDSS default values for all categories is 20%. For this tutorial we have left these as their default values. For your own future projects, note that modifying the High and Highest categories to low percentages (5-15%) will help focus attention on the highest fire hazard areas. The sum of all five categories for each fire behavior parameter must equal 100%.</p>
+        <p>
+            <img src="../Resources/Images/workshop_prework/2_0_iftflammap_landscape_classify_2.png" style="width: 576px;height: 454px;" />
+        </p>
+        <p>To view the classification on the landscape, scroll down and click <b>Next</b>. You will be taken to the <b>Classified Outputs</b> page which displays the landscape area, the outputs from the initial model run, and now the classified outputs (outlined in red in the image below) based on the percentages we have specified.</p>
+        <p>
+            <img src="../Resources/Images/workshop_prework/2_0_iftflammap_landscape_classify_3.png" style="width: 622px;height: 483px;" />
+        </p>
+        <p>When you have completed the run you may scroll down and click <b>Finish</b>.</p>
+        <h2>Run&#160;Summary</h2>
+        <p>Upon clicking <b>Finish</b> you will be taken to the <b>Run Summary</b> page. Descriptive information on the run, and area of interest, are displayed at the top of the summary. At the bottom of the page is the <b>Data Sets</b> section.</p>
+        <p>
+            <img src="../Resources/Images/workshop_prework/2_0_iftflammap_landscape_run_summary.png" style="width: 741px;height: 577px;" />
+        </p>
+        <p>From the <b>Data Sets</b> section you may choose <b>Save As</b> to save each data set in the IFTDSS S<b>aved Data Sets</b> section.&#160;You may also elect to <b>Download</b> the data as a raster, shapefile, or LCP file, for use outside of IFTDSS.</p>
+        <p>When finished, you may scroll down and select <b>Back to Project</b>.</p>
+    </body>
+</html>

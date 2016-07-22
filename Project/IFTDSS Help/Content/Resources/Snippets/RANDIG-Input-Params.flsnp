@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="1365" MadCap:lastWidth="803" MadCap:fileTags="FileNeeds.04 Ready for review">
+    <head>
+        <link href="../TableStyles/AlternatingRows.css" rel="stylesheet" MadCap:stylesheetType="table" />
+    </head>
+    <body>
+        <table style="mc-table-style: url('../TableStyles/AlternatingRows.css');caption-side: top;" class="TableStyle-AlternatingRows" cellspacing="0">
+            <col style="width: 15%;" class="Column-Column1" />
+            <col style="width: 20%;" class="Column-Column1" />
+            <col style="width: 65%;" class="Column-Column1" />
+            <thead>
+                <tr class="Head-Header1">
+                    <th class="HeadE-Column1-Header1">Name</th>
+                    <th class="HeadE-Column1-Header1">Units</th>
+                    <th class="HeadD-Column1-Header1">Brief Description</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="Body-Body1">
+                    <td class="BodyE-Column1-Body1" colspan="3">
+                        <p class="centeredUC">Fuel Moisture</p>
+                    </td>
+                </tr>
+                <tr class="Body-Body2">
+                    <td class="BodyE-Column1-Body2">
+                        <MadCap:keyword term="1-hr Fuel Moisture (parameter):burn probability from random ignition" />1-hr Fuel Moisture 
+					</td>
+                    <td class="BodyE-Column1-Body2">Percentage 
+					</td>
+                    <td class="BodyD-Column1-Body2">Moisture content of 1-hour fuel (dead woody fuel 0 to ¼ inch or 0 to 6.4 mm in diameter) is the mass of water within the fuel particle expressed as a percentage of the fuel particle’s oven-dry mass.
+					</td>
+                </tr>
+                <tr class="Body-Body1">
+                    <td class="BodyE-Column1-Body1">
+                        <MadCap:keyword term="10-hr Fuel Moisture (parameter):burn probability from random ignition" />10-hr Fuel Moisture 
+					</td>
+                    <td class="BodyE-Column1-Body1">Percentage
+					</td>
+                    <td class="BodyD-Column1-Body1">Moisture content of 10-hour fuel (dead woody fuel ¼ to 1 inch or 0.6 to 2.5 cm in diameter) is the mass of water within the fuel particle expressed as a percentage of the fuel particle’s oven-dry mass.
+					</td>
+                </tr>
+                <tr class="Body-Body2">
+                    <td class="BodyE-Column1-Body2">
+                        <MadCap:keyword term="100-hr Fuel Moisture (parameter):burn probability from random ignition" />100-hr Fuel Moisture</td>
+                    <td class="BodyE-Column1-Body2">Percentage</td>
+                    <td class="BodyD-Column1-Body2">Moisture content of 100-hour fuel (dead woody fuel 1 to 3 inches or 2.5 to 7.6 cm in diameter) is the mass of water within the fuel particle expressed as a percentage of the fuel particle’s oven-dry mass.
+					</td>
+                </tr>
+                <tr class="Body-Body1">
+                    <td class="BodyE-Column1-Body1">
+                        <MadCap:keyword term="Live Herbaceous Fuel Moisture (parameter):burn probability from random ignition" />Live Herbaceous Fuel Moisture</td>
+                    <td class="BodyE-Column1-Body1">Percentage</td>
+                    <td class="BodyD-Column1-Body1">Moisture content of live herbaceous fuel is the mass of water within the fuel particle expressed as a percentage of the fuel particle’s oven-dry mass.
+					</td>
+                </tr>
+                <tr class="Body-Body2">
+                    <td class="BodyE-Column1-Body2">
+                        <MadCap:keyword term="Live Woody Fuel Moisture (parameter):burn probability from ignition" />Live Woody Fuel Moisture 
+					</td>
+                    <td class="BodyE-Column1-Body2">Percentage</td>
+                    <td class="BodyD-Column1-Body2">Moisture content of live woody fuel is the mass of water within the fuel particle expressed as a percentage of the fuel particle’s oven-dry mass.
+					</td>
+                </tr>
+                <tr class="Body-Body1">
+                    <td class="BodyE-Column1-Body1" colspan="3">
+                        <p class="centeredUC">Weather</p>
+                    </td>
+                </tr>
+                <tr class="Body-Body2">
+                    <td class="BodyE-Column1-Body2">
+                        <MadCap:keyword term="20-ft Wind Speed (parameter)" />20-ft Wind Speed</td>
+                    <td class="BodyE-Column1-Body2">Miles per hour, kilometers per hour</td>
+                    <td class="BodyD-Column1-Body2">The wind velocity measured 20 ft (6 m) above ground.</td>
+                </tr>
+                <tr class="Body-Body1">
+                    <td class="BodyE-Column1-Body1">
+                        <MadCap:keyword term="Wind Direction (parameter):burn probability from random ignition" />Wind Direction
+					</td>
+                    <td class="BodyE-Column1-Body1">Degrees
+					</td>
+                    <td class="BodyD-Column1-Body1">
+                        <MadCap:keyword term="wind and wind speeds:direction and speed" />Wind direction is the direction from which the wind is blowing, specified in degrees increasing clockwise from north (which is zero degrees).
+					</td>
+                </tr>
+                <tr class="Body-Body2">
+                    <td class="BodyE-Column1-Body2" colspan="3">
+                        <p class="centeredUC">Simulation Inputs</p>
+                    </td>
+                </tr>
+                <tr class="Body-Body1">
+                    <td class="BodyE-Column1-Body1">
+                        <MadCap:keyword term="Duration of Simulation (parameter)" />Duration of Simulation</td>
+                    <td class="BodyE-Column1-Body1">Minutes</td>
+                    <td class="BodyD-Column1-Body1">The duration of the fire growth calculations for the set of constant fuel moisture and wind conditions.</td>
+                </tr>
+                <tr class="Body-Body2">
+                    <td class="BodyE-Column1-Body2">
+                        <MadCap:keyword term="Number of Fire Ignitions to Simulate (parameter)" />Number of Fire Ignitions to Simulate</td>
+                    <td class="BodyE-Column1-Body2">Number</td>
+                    <td class="BodyD-Column1-Body2">The number of randomly located ignition points to simulate.</td>
+                </tr>
+                <tr class="Body-Body1">
+                    <td class="BodyE-Column1-Body1" colspan="3">
+                        <p class="centeredUC">Flame Length Classes</p>
+                    </td>
+                </tr>
+                <tr class="Body-Body2">
+                    <td class="BodyE-Column1-Body2">
+                        <MadCap:keyword term="Low Flame Lengths (parameter)" />Low Flame Lengths</td>
+                    <td class="BodyE-Column1-Body2">Feet</td>
+                    <td class="BodyD-Column1-Body2">This parameter is not directly editable.  The minimum flame length for the low flame length class will always be zero. The upper limit is determined by the value you enter for medium flame length. For example, if you enter 4 for medium flame length, the range for low flame length becomes 0 to 4 feet.</td>
+                </tr>
+                <tr class="Body-Body1">
+                    <td class="BodyE-Column1-Body1">
+                        <MadCap:keyword term="Medium Flame Lengths (parameter)" />Medium Flame Lengths</td>
+                    <td class="BodyE-Column1-Body1">Feet</td>
+                    <td class="BodyD-Column1-Body1">Specify the minimum flame length for the medium flame length class.</td>
+                </tr>
+                <tr class="Body-Body2">
+                    <td class="BodyE-Column1-Body2">
+                        <MadCap:keyword term="High Flame Lengths (parameter)" />High Flame Lengths</td>
+                    <td class="BodyE-Column1-Body2">Feet</td>
+                    <td class="BodyD-Column1-Body2">Specify the minimum flame length for the high flame length class.</td>
+                </tr>
+                <tr class="Body-Body1">
+                    <td class="BodyB-Column1-Body1">
+                        <MadCap:keyword term="Very High Flame Lengths (parameter)" />Very High Flame Lengths</td>
+                    <td class="BodyB-Column1-Body1">Feet</td>
+                    <td class="BodyA-Column1-Body1">Specify the minimum flame length for the very high flame length class.</td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>

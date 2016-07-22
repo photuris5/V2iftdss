@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc
+  Version="1">
+  <TocEntry
+    Title="New Book 1">
+    <TocEntry
+      Title="Tutorial H – Creating a Values-at-Risk Map for use in the IFTDSS Risk Assessment Workflows"
+      Link="/Content/06-Risk-Assessment/Vals_at_risk/Tutorial_H_0_Creating_VAR_Intro.htm" />
+    <TocEntry
+      Title="Background: Values-at-Risk"
+      Link="/Content/06-Risk-Assessment/Vals_at_risk/Tutorial_H_1_Background.htm" />
+    <TocEntry
+      Title="Response Functions (Definitions)"
+      Link="/Content/06-Risk-Assessment/Vals_at_risk/Tutorial_H_2_response_functions.htm" />
+    <TocEntry
+      Title="Defining Values-at-Risk: Methods"
+      Link="/Content/06-Risk-Assessment/Vals_at_risk/Tutorial_H_3_VAR_methods.htm" />
+    <TocEntry
+      Title="Defining values-at-Risk: Using the free-form drawing method to create polygons"
+      Link="/Content/06-Risk-Assessment/Vals_at_risk/Tutorial_H_4_VAR_freeformpoly.htm" />
+    <TocEntry
+      Title="Defining values-at-Risk: using the point and click method To create values-at-Risk polygons"
+      Link="/Content/06-Risk-Assessment/Vals_at_risk/Tutorial_H_5_VAR_point_click.htm" />
+    <TocEntry
+      Title="Defining larger values-at-Risk"
+      Link="/Content/06-Risk-Assessment/Vals_at_risk/Tutorial_H_6_VAR_larger.htm" />
+    <TocEntry
+      Title="Creating smaller values-at-Risk"
+      Link="/Content/06-Risk-Assessment/Vals_at_risk/Tutorial_H_7_VAR_smaller.htm" />
+    <TocEntry
+      Title="Editing values-at-Risk"
+      Link="/Content/06-Risk-Assessment/Vals_at_risk/Tutorial_H_8_VAR_editing.htm" />
+    <TocEntry
+      Title="Defining values-at-Risk: Assigning a background"
+      Link="/Content/06-Risk-Assessment/Vals_at_risk/Tutorial_H_9_VAR_background.htm" />
+    <TocEntry
+      Title="Reviewing and saving your values-at-Risk map"
+      Link="/Content/06-Risk-Assessment/Vals_at_risk/Tutorial_H_10_VAR_reviewandsave.htm" />
+    <TocEntry
+      Title="Review and wrap-Up"
+      Link="/Content/06-Risk-Assessment/Vals_at_risk/Tutorial_H_11_VAR_wrapup.htm" />
+  </TocEntry>
+</CatapultToc>

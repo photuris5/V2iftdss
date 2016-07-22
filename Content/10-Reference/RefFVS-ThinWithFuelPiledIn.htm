@@ -1,0 +1,184 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us" MadCap:lastBlockDepth="5" MadCap:lastHeight="1146" MadCap:lastWidth="1075" MadCap:conditions="Default.LaterRelease">
+    <head>
+        <link href="../Resources/TableStyles/AlternatingRows.css" rel="stylesheet" MadCap:stylesheetType="table" /><title></title>
+        <link href="../Resources/Stylesheets/IFTDSS_help1.css" rel="stylesheet" />
+    </head>
+    <body>
+        <h1>IFT-FVS – Thin With Fuel Piled and Burned – Input Parameters</h1>
+        <h2>
+                    Thin From Below
+</h2>
+        <table style="mc-table-style: url('../Resources/TableStyles/AlternatingRows.css');" class="TableStyle-AlternatingRows" cellspacing="0">
+            <col class="Column-Column1" />
+            <col class="Column-Column1" />
+            <col class="Column-Column1" />
+            <thead>
+                <tr class="Head-Header1">
+                    <th class="HeadE-Column1-Header1">
+                    Parameter
+                </th>
+                    <th class="HeadE-Column1-Header1">
+                    Unit
+                </th>
+                    <th class="HeadD-Column1-Header1">
+                    Description
+                </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="Body-Body1">
+                    <td class="BodyE-Column1-Body1">
+                    Treatment Year
+                </td>
+                    <td class="BodyE-Column1-Body1">
+                    Year
+                </td>
+                    <td class="BodyD-Column1-Body1">Schedules a thinning from below to a basal area per acre target, or a trees-per-acre target. Only trees with DBHs and heights within the user-defined ranges are considered for removal. Range: within the specified reporting period duration.</td>
+                </tr>
+                <tr class="Body-Body2">
+                    <td class="BodyE-Column1-Body2">
+                    Stand density is in terms of: 
+                </td>
+                    <td class="BodyE-Column1-Body2">
+                    Drop-down list
+                </td>
+                    <td class="BodyD-Column1-Body2">
+                    The stand's density will be represented by basal area or trees per area. In the next step, you will enter the residual stand density based on the chosen density parameter. Options: Trees per area (trees/acre), or Basal area (ft<sup>2</sup>/acre).
+                </td>
+                </tr>
+                <tr class="Body-Body1">
+                    <td class="BodyE-Column1-Body1">
+                    Residual Stand Density (within the specified tree size range)
+                </td>
+                    <td class="BodyE-Column1-Body1">
+                    Feet<sup>2</sup> per acres, Trees per acre
+                </td>
+                    <td class="BodyD-Column1-Body1">
+                    The residual stand density (either basal area or trees per area) within the specified tree size range that is considered for removal. Range: 1 to 500 ft<sup>2</sup>/acre OR 1 to 1,000 trees/acre.
+                </td>
+                </tr>
+                <tr class="Body-Body2">
+                    <td class="BodyE-Column1-Body2">
+                    Smallest DBH to be considered for removal
+                </td>
+                    <td class="BodyE-Column1-Body2">
+                    Inches
+                </td>
+                    <td class="BodyD-Column1-Body2">
+                    The smallest DBH (greater than or equal to) to be considered for removal. Range: 1 to 200.
+                </td>
+                </tr>
+                <tr class="Body-Body1">
+                    <td class="BodyE-Column1-Body1">
+                    Largest DBH to be considered for removal
+                </td>
+                    <td class="BodyE-Column1-Body1">
+                    Inches
+                </td>
+                    <td class="BodyD-Column1-Body1">
+                    The largest DBH (less than) to be considered for removal. Range: 1 to 200.
+                </td>
+                </tr>
+                <tr class="Body-Body2">
+                    <td class="BodyE-Column1-Body2">
+                    Proportion of small trees left
+                </td>
+                    <td class="BodyE-Column1-Body2">
+                    NA
+                </td>
+                    <td class="BodyD-Column1-Body2">
+                    The tree record with the smallest diameter within the specified range is considered for removal first, and the proportion of that tree record specified in here is removed. Range: 0.01 to 1.0.
+                </td>
+                </tr>
+                <tr class="Body-Body1">
+                    <td class="BodyB-Column1-Body1">
+                    Slash left 
+                </td>
+                    <td class="BodyB-Column1-Body1">
+                    Drop-down list
+                </td>
+                    <td class="BodyA-Column1-Body1">
+                    The type of slash left at the site after the treatment. Options: No slash left; Whole trees left; Only branchwood left.
+                </td>
+                </tr>
+            </tbody>
+        </table>
+        <h2>Pile Burn Surface Fuel</h2>
+        <table style="mc-table-style: url('../Resources/TableStyles/AlternatingRows.css');" class="TableStyle-AlternatingRows" cellspacing="0">
+            <col class="Column-Column1" />
+            <col class="Column-Column1" />
+            <col class="Column-Column1" />
+            <thead>
+                <tr class="Head-Header1">
+                    <th class="HeadE-Column1-Header1">
+                    Parameter
+                </th>
+                    <th class="HeadE-Column1-Header1">
+                    Unit
+                </th>
+                    <th class="HeadD-Column1-Header1">
+                    Description
+                </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="Body-Body1">
+                    <td class="BodyE-Column1-Body1">
+                    Number of years after thinning when piles are burned
+                </td>
+                    <td class="BodyE-Column1-Body1">
+                    Year
+                </td>
+                    <td class="BodyD-Column1-Body1">
+                    Schedules a pile burn of surface fuel. Range: within the specified reporting period duration.
+                </td>
+                </tr>
+                <tr class="Body-Body2">
+                    <td class="BodyE-Column1-Body2">
+                    Percent of stand area treated
+                </td>
+                    <td class="BodyE-Column1-Body2">
+                    Percent
+                </td>
+                    <td class="BodyD-Column1-Body2">
+                    The percent of the stand's area affected by the pile burn treatment. 70% is suggested for pile burns and 100% is suggested for a jackpot burn. Range: 0 to 100.
+                </td>
+                </tr>
+                <tr class="Body-Body1">
+                    <td class="BodyE-Column1-Body1">
+                    Percent of fuels within stand area piled
+                </td>
+                    <td class="BodyE-Column1-Body1">
+                    Percent
+                </td>
+                    <td class="BodyD-Column1-Body1">
+                    The percent of the fuel from the affected area that is concentrated in the treated area. 80% is suggested for a pile burn and 60% is suggested for a jackpot burn. Range: 0 to 100.
+                </td>
+                </tr>
+                <tr class="Body-Body2">
+                    <td class="BodyE-Column1-Body2">
+                    Percent of stand area covered by piles
+                </td>
+                    <td class="BodyE-Column1-Body2">
+                    Percent
+                </td>
+                    <td class="BodyD-Column1-Body2">
+                    The percent of the affected area into which the fuel is concentrated (the area which will be treated). 10% is suggested for a pile burn and 30% is suggested for a jackpot burn. Range: 0 to 100.
+                </td>
+                </tr>
+                <tr class="Body-Body1">
+                    <td class="BodyB-Column1-Body1">
+                    Tree mortality
+                </td>
+                    <td class="BodyB-Column1-Body1">
+                    Percent
+                </td>
+                    <td class="BodyA-Column1-Body1">
+                    The percent mortality of trees in the stand caused by the pile burn treatment. Range: 0 to 100.
+                </td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>

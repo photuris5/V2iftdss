@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="7" MadCap:lastHeight="5124" MadCap:lastWidth="841">
+    <head>
+    </head>
+    <body>
+        <h2>Modeling Surface Fire Behavior (Element 7)</h2>
+        <h3>Setting up the run</h3>
+        <div>
+            <form>
+                <fieldset class="note">
+                    <legend>&#160;&#160;&#160;Tip&#160;&#160;&#160;</legend>
+                    <p class="noteBody">Run the surface fire behavior module before running other modules, as some inputs for the other modules are outputs from the surface fire behavior module.</p>
+                </fieldset>
+            </form>
+        </div>
+        <p>First, give your run a descriptive name and click <b>Next</b>.</p>
+        <p>
+            <img src="../../Resources/Images/Tutorial_C_PrescribedBurnPlan/tutorial_c_iftsurface_naming.png" style="width: 475px;height: 144px;" />
+        </p>
+        <p>Specify the number of simulations to calculate. For this example, specify 4 simulations in order to generate fire behavior for low, high, optimal, and maximum prescription conditions. When finished, click <b>Next</b>. </p>
+        <p>
+            <img src="../../Resources/Images/Tutorial_C_PrescribedBurnPlan/tutorial_c_ift_scorch_simulations.png" style="width: 485px;height: 179px;" />
+        </p>
+        <div>
+            <form>
+                <fieldset class="note">
+                    <legend>&#160;&#160;&#160;Tip&#160;&#160;&#160;</legend>
+                    <p class="noteBody">In IFTDSS, the Prescribed Burn Plan template and associated fire behavior modules allow the user to create and populate up to 3 different prescriptions per one burn plan.</p>
+                </fieldset>
+            </form>
+        </div>
+        <div>
+            <form>
+                <fieldset class="note">
+                    <legend>&#160;&#160;&#160;Note&#160;&#160;&#160;</legend>
+                    <p class="noteBody">IFTDSS supports a maximum of 25 simulations.</p>
+                </fieldset>
+            </form>
+        </div>
+        <p>Knowing the number of simulations to specify makes it easy to conduct comparisons of different conditions. For example, if you want to evaluate the effects of four different fuel moistures under one windspeed to determine the minimum allowable 1 hour fuel moisture for your prescription, you would specify 4 runs, one for each fuel moisture under that windspeed. Likewise If you wanted to evaluate the effects of four different fuel moistures,  under one of four windspeeds, you would specify 16 simulations, </p>
+        <p>
+            <img src="../../Resources/Images/Tutorial_C_PrescribedBurnPlan/tutorial_c_simulation_detail.png" />
+        </p>
+        <div>
+            <form>
+                <fieldset class="note">
+                    <legend>&#160;&#160;&#160;Note&#160;&#160;&#160;</legend>
+                    <p class="noteBody">It is likely you will have to evaluate multiple conditions for your prescription plans. When running IFT-surface, you can either conduct one run with several simulations, as described above, or multiple runs, each representing a prescription level (conditions for low behavior, optimum, maximum, etc.). When populating a burn plan for a project, you may import outputs from any completed IFT-Surface runs contained within that project.</p>
+                </fieldset>
+            </form>
+        </div>
+        <h3>Populating Environmental Parameters for the Run</h3>
+        <p>On the <b>Inputs</b> page you will populate the environmental inputs with data from your Environmental Prescription (Element 7).</p>
+        <p>In this scenario you are populating each simulation as follows:</p>
+        <ul>
+            <li>Simulation 1: Represent the low end of the prescription</li>
+            <li>Simulation 2: Represent the highest acceptable fire behavior allowed</li>
+            <li>Simulation 3: Represent optimal fire behavior required to meet objectives</li>
+            <li>Simulation 4: Represent maximum fire behavior, or fire behavior expected if fire leaves the burn unit.</li>
+        </ul>
+        <p>For this exercise you are given pre-determined parameters to populate, view the <a href="../2016RedBullEnv_paramters.pdf">Element 7 Environmental parameters handout</a> for a list of these.</p>
+        <p>
+            <p>
+                <img src="../../Resources/Images/Tutorial_C_PrescribedBurnPlan/tutorial_c_modSurfaceFire_2016_1.png" style="width: 687px;height: 574px;" />
+            </p>
+        </p>
+        <p>Once you have populated your inputs, click <b>Next</b> to run IFT-Surface.</p>
+        <h3>IFT-Surface Outputs</h3>
+        <p>The first box on this page is the Mark Simulations box, which will be explained shortly. The second box is the <b>Outputs</b> box. Here, you can evaluate your outputs in tabular and graphical form by toggling the <b>Views</b> selections to the left of the screen.  It is in the tabular display that you can select which, if any, of the 4 Simulations you created get included in the burn plan.</p>
+        <p>
+            <img src="../../Resources/Images/Tutorial_C_PrescribedBurnPlan/tutorial_c_modSurfaceFire_2016_2.png" />
+        </p>
+        <p>The tabular display is organized by Simulation (along the top), and parameter (vertically on the far left). Notice each parameter is listed for heading, backing, and flanking fires. </p>
+        <p>Take some time to evaluate outputs by reviewing both the tabular and graphical displays to determine at what point fire behavior will be in excess or too minimal to meet objectives and maintain control.</p>
+        <p>We will not do it in this example, but you have the option of exporting outputs to a CSV file if desired, by selecting the Export Table option at the bottom of the page above the Save button.</p>
+        <p>
+            <img src="../../Resources/Images/Tutorial_C_PrescribedBurnPlan/tutorial_c_export_to_csv.png" style="width: 221px;height: 83px;" />
+        </p>
+        <h3>Preparing Outputs for import</h3>
+        <p>Once you have determined which if any of the outputs you would like to use in your plan, scroll back up to the <b>Mark Simulations</b> box. This box is used to label outputs so they can by easily located and imported into Element 7 of the burn plan.</p>
+        <p>If you do not want to use any outputs, you may leave the <b>Mark Simulations</b> box blank, and not import any of the data. For this example, we will use the data, and continue working in the Mark Simulations box so these outputs can be imported into the burn plan.</p>
+        <div>
+            <form>
+                <fieldset class="note">
+                    <legend>&#160;&#160;&#160;Tip:&#160;&#160;&#160;</legend>
+                    <p class="noteBody">Remember, Simulation 1 represents the Low end of the prescription, Simulation 2 represents the High end of the prescription, Simulation 3 represents the Optimal prescription, and Simulation 4 represents the Maximum expected fire behavior.</p>
+                </fieldset>
+            </form>
+        </div>
+        <p>Use the drop down <b>Prescription</b> boxes to select which prescription (1, 2, or 3) and which type of fire behavior prescription level (low, high, optimal, and maximum) you would like to import into your plan. For this scenario, we will be only populating one prescription.  This plan does not require more than one prescription as the burn unit is comprised of one primary fuel model.</p>
+        <div>
+            <form>
+                <fieldset class="note">
+                    <legend>&#160;&#160;&#160;Note&#160;&#160;&#160;</legend>
+                    <p class="noteBody">IFTDSS allows the user to populate up to three fire behavior prescriptions.  Multiple prescriptions may be desired if the prescribed burn unit is comprised of multiple fuel models.</p>
+                </fieldset>
+            </form>
+        </div>
+        <p>  Use the drop down <b>Fire Behavior</b> boxes to specify the fire behavior for each simulation. Earlier, we determined that Simulation 1, 2, 3, and 4 outputs will represent the Low, High, Optimal, and Maximum prescription levels, respectively.  Therefore, populate the drop down boxes as shown below and click <b>Save</b>, then <b>Finish</b>.</p>
+        <p>
+            <img src="../../Resources/Images/Tutorial_C_PrescribedBurnPlan/tutorial_c_modSurfaceFire_2016_3.png" />
+        </p>
+        <p><b>Note the flame length outputs for the heading, backing, and flanking fires. We will use these to populate the next run. </b>
+        </p>
+        <p>After clicking <b>Finish</b> you will be taken to the <b>Run Summary</b> page, which contains downloadable files from the run.</p>
+        <p>Next, return to the Project Summary page by scrolling down and clicking the <b>Back to Project Button</b>.</p>
+        <p>
+            <img src="../../Resources/Images/Tutorial_C_PrescribedBurnPlan/tutorial_c_backtoproject.png" />
+        </p>
+        <p MadCap:conditions="Default.ScreenOnly"><a href="Tutorial_C_21_RxBurnWorkflow.htm">&lt;&lt; Back:&#160;Prescribed Burn Planning Workflow</a> | <a href="Tutorial_C_23_newRunScorch.htm">Next: Creating a New Run to Predict Scorch Height &gt;&gt;</a></p>
+    </body>
+</html>

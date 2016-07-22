@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="4" MadCap:lastHeight="620" MadCap:lastWidth="1167" MadCap:fileTags="FileNeeds.04 Ready for review">
+    <head>
+    </head>
+    <body>
+        <p>In this tutorial, you will</p>
+        <ol>
+            <li>Go step-by-step through a risk assessment in IFTDSS. There are multiple ways that fire risk can be addressed. This tutorial uses one possible set of criteria for assessing fire risk across a landscape. In the process, this tutorial introduces some of IFTDSS’s functionality.</li>
+            <li>Spatially identify areas surrounding the Olompali State Historic Park (located near Novato, California) where fire is likely to occur, and view potential losses/benefits from a burn based on set environmental conditions.</li>
+            <li>Learn some caveats to this approach.</li>
+        </ol>
+        <p>
+            <img src="../Images/Tutorials-Shared/example-area.png" class="screencap" title="The sample area for this tutorial: Olompali State Historic Park, Novato, California" alt="The sample area for this tutorial: Olompali State Historic Park, Novato, California" />
+        </p>
+    </body>
+</html>

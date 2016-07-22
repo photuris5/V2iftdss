@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="7" MadCap:lastHeight="1374" MadCap:lastWidth="616" MadCap:fileTags="FileNeeds.04 Ready for review">
+    <head>
+    </head>
+    <body>
+        <p>You are now at the <strong>Define Values at Risk</strong> step.  Before choosing <strong>Next</strong> on this IFTDSS page, you will use the <strong>Draw Polygon</strong> tool to define your values at risk across your entire area of interest. As part of that process, you will also assign response functions to each value at risk.</p>
+        <p>
+            <img src="../Images/RA-VAR-Tutorial/VAR-Define-VAR-step.png" style="padding-bottom: 20px; height: auto; width: 400px;" class="screencap" alt="Trees silhouetted against a flaming backdrop.">
+            </img>
+        </p>
+        <p>Although this part of the tutorial focuses on creating a values-at-risk map for a specific purpose, it also provides an overview of using the map tools to create and edit areas of your map for other purposes.</p>
+        <div>
+            <form>
+                <fieldset class="note">
+                    <legend>&#160;&#160;&#160;Note&#160;&#160;&#160;</legend>
+                    <p class="noteBody">For more information about values at risk, see <MadCap:xref href="../../06-Risk-Assessment/STI_risk_pre2014/RiskAssessValuesatRisk.htm"><strong>Values at Risk</strong></MadCap:xref>. For information on response functions, which are assigned to values at risk, see <MadCap:xref href="../../06-Risk-Assessment/STI_risk_pre2014/RiskAssessResponseFunctionsDefinition.htm"><strong>Response Functions and Values at Risk</strong></MadCap:xref>.</p>
+                </fieldset>
+            </form>
+        </div>
+        <p>On the topic pages that follow, this tutorial</p>
+        <ul style="list-style-type: square;">
+            <li>Describes the map toolbar</li>
+            <li>Describes how to define values at risk by<br /><br /><ul style="list-style-type: circle;"><li>Drawing polygons (using two different methods)</li><li>Assigning response functions</li><li>Editing polygons</li></ul></li>
+            <li>Describes how to review your values-at-risk maps before moving on to the next step in your risk assessment.</li>
+        </ul>
+        <div>
+            <form>
+                <fieldset class="note">
+                    <legend>&#160;&#160;&#160;Note&#160;&#160;&#160;</legend>
+                    <p class="noteBody">You will be doing all these tasks on the IFTDSS page shown in the illustration on this page.  Once you are done with defining your values at risk, you’ll choose <strong>Next</strong>—but don’t do that yet.</p>
+                </fieldset>
+            </form>
+        </div>
+    </body>
+</html>

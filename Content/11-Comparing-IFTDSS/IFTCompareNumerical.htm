@@ -1,0 +1,197 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="805" MadCap:lastWidth="631" MadCap:fileTags="FileStatusTags.03 Edited,FileStatusTags.02 HRH reviewed,FileStatusTags.05 Flare properties applied,FileNeeds.05 Complete" class="miniTOCpage">
+    <head>
+        <link href="../Resources/TableStyles/AlternatingRows.css" rel="stylesheet" MadCap:stylesheetType="table" />
+    </head>
+    <body>
+        <h1>
+            <MadCap:keyword term="numerical comparison of surface fire behavior models;surface fire behavior:model comparisons" />Numerical Comparison of Surface Fire Behavior Modules</h1>
+        <p>As scientific models are implemented in IFTDSS modules, each module is tested to ensure that it is</p>
+        <ul style="list-style-type: square;">
+            <li>functioning properly within the software framework (software testing).</li>
+            <li>producing the correct numeric outputs (scientific testing).  The scientific test procedures include comparing the outputs as implemented in IFTDSS to the outputs from their native desktop application(s).</li>
+        </ul>
+        <p>The following two fire behavior modules in IFTDSS were compared with the fire behavior modules implemented in the desktop applications of BehavePlus 5.0.0 and NEXUS 2.0 for select fuel types, fuel moisture scenarios, topography, and winds:</p>
+        <ul style="list-style-type: square;">
+            <li><b>Surface fire behavior for individual stands (IFT-FlamMap):</b> using the FlamMap 3.0 dynamic link libraries (.dlls).</li>
+            <li><b>Surface fire behavior for individual stands (IFT-surface):</b> using the fire behavior software developer kit (FBSDK) algorithms and software code and a set of BehavePlus code libraries.</li>
+        </ul>
+        <h2>Summary of Findings</h2>
+        <p>The fire behavior module outputs from IFTDSS compared well with the fire behavior module outputs from BehavePlus 5.0.5 and NEXUS 2.0.  Small differences in output values were observed; however, they can be attributed to rounding and truncating among the different modules.  However, these differences are not large enough to alter the interpretation of the module results.</p>
+        <h2>Example Results</h2>
+        <p>Below is a summary table showing a subset of the results of the comparison of the fire behavior module outputs from IFTDSS, BehavePlus, and NEXUS.  The scenario shown in this sample included the Anderson 13 fire behavior fuel models (FM 1, FM 2, and FM 3 for grass fuels), flat terrain, and a low fuel moisture scenario from Scott and Burgen (<a href="../10-Reference/Bibliography.htm#ScottandReinhardt2005">2005</a>).  A complete list of module comparisons is provided for surface fire behavior <a href="IFTCompareApp1.htm">on flat terrain</a> and <a href="IFTCompareApp2.htm">on a slope</a>.</p>
+        <table align="center" class="TableStyle-AlternatingRows" style="caption-side: top;mc-table-style: url('../Resources/TableStyles/AlternatingRows.css');" cellspacing="0">
+            <col style="width: 15%;" class="Column-Column1" />
+            <col style="width: 15%;" class="Column-Column1" />
+            <col style="width: 15%;" class="Column-Column1" />
+            <col style="width: 15%;" class="Column-Column1" />
+            <col style="width: 15%;" class="Column-Column1" />
+            <col style="width: 15%;" class="Column-Column1" />
+            <thead>
+                <tr class="Head-Header1">
+                    <th class="HeadE-Column1-Header1">Fire Behavior Fuel Model</th>
+                    <th class="HeadE-Column1-Header1">Fire Behavior Module Implementation</th>
+                    <th class="HeadE-Column1-Header1">Flame Length (ft)</th>
+                    <th class="HeadE-Column1-Header1">Rate of Spread (chains per hour)</th>
+                    <th class="HeadE-Column1-Header1">Fireline Intensity (Btu/ft/s)
+                    </th>
+                    <th class="HeadD-Column1-Header1">Heat Per unit Area (Btu/ft<sup>2</sup>)
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr style="height: 15pt;" class="Body-Body1">
+                    <td colspan="6" class="BodyE-Column1-Body1" style="text-align: center;">Anderson 13 Fire Behavior Fuel Models – Grass Fuel Types 
+                    </td>
+                </tr>
+                <tr style="height: 15pt;" class="Body-Body2">
+                    <td rowspan="4" class="BodyE-Column1-Body2">FM 1
+                    </td>
+                    <td class="BodyE-Column1-Body2">BehavePlus
+                    </td>
+                    <td class="BodyE-Column1-Body2">5.0
+                    </td>
+                    <td class="BodyE-Column1-Body2">110.7
+                    </td>
+                    <td class="BodyE-Column1-Body2">184.1
+                    </td>
+                    <td class="BodyD-Column1-Body2">90.9
+                    </td>
+                </tr>
+                <tr style="height: 15pt;" class="Body-Body1">
+                    <td class="BodyE-Column1-Body1">IFT-surface <![CDATA[                    ]]></td>
+                    <td class="BodyE-Column1-Body1">4.9
+                    </td>
+                    <td class="BodyE-Column1-Body1">109.4
+                    </td>
+                    <td class="BodyE-Column1-Body1">181.8
+                    </td>
+                    <td class="BodyD-Column1-Body1">90.6
+                    </td>
+                </tr>
+                <tr style="height: 15pt;" class="Body-Body2">
+                    <td class="BodyE-Column1-Body2">IFT-FlamMap
+                    </td>
+                    <td class="BodyE-Column1-Body2">5.0
+                    </td>
+                    <td class="BodyE-Column1-Body2">111.0
+                    </td>
+                    <td class="BodyE-Column1-Body2">184.4
+                    </td>
+                    <td class="BodyD-Column1-Body2">90.5
+                    </td>
+                </tr>
+                <tr style="height: 15pt;" class="Body-Body1">
+                    <td class="BodyE-Column1-Body1">NEXUS
+                    </td>
+                    <td class="BodyE-Column1-Body1">4.9
+                    </td>
+                    <td class="BodyE-Column1-Body1">109.4
+                    </td>
+                    <td class="BodyE-Column1-Body1">182.1
+                    </td>
+                    <td class="BodyD-Column1-Body1">90.9
+                    </td>
+                </tr>
+                <tr style="height: 15pt;" class="Body-Body2">
+                    <td rowspan="4" class="BodyE-Column1-Body2">FM 2
+                    </td>
+                    <td class="BodyE-Column1-Body2">BehavePlus
+                    </td>
+                    <td class="BodyE-Column1-Body2">7.2
+                    </td>
+                    <td class="BodyE-Column1-Body2">46.9
+                    </td>
+                    <td class="BodyE-Column1-Body2">419.6
+                    </td>
+                    <td class="BodyD-Column1-Body2">487.7
+                    </td>
+                </tr>
+                <tr style="height: 15pt;" class="Body-Body1">
+                    <td class="BodyE-Column1-Body1">IFT-surface <![CDATA[                    ]]></td>
+                    <td class="BodyE-Column1-Body1">7.2
+                    </td>
+                    <td class="BodyE-Column1-Body1">46.5
+                    </td>
+                    <td class="BodyE-Column1-Body1">415.4
+                    </td>
+                    <td class="BodyD-Column1-Body1">487.6
+                    </td>
+                </tr>
+                <tr style="height: 15pt;" class="Body-Body2">
+                    <td class="BodyE-Column1-Body2">IFT-FlamMap
+                    </td>
+                    <td class="BodyE-Column1-Body2">6.8
+                    </td>
+                    <td class="BodyE-Column1-Body2">42.3
+                    </td>
+                    <td class="BodyE-Column1-Body2">370.7
+                    </td>
+                    <td class="BodyD-Column1-Body2">477.6
+                    </td>
+                </tr>
+                <tr style="height: 15pt;" class="Body-Body1">
+                    <td class="BodyE-Column1-Body1">NEXUS
+                    </td>
+                    <td class="BodyE-Column1-Body1">7.2
+                    </td>
+                    <td class="BodyE-Column1-Body1">46.5
+                    </td>
+                    <td class="BodyE-Column1-Body1">415.3
+                    </td>
+                    <td class="BodyD-Column1-Body1">486.7
+                    </td>
+                </tr>
+                <tr style="height: 15pt;" class="Body-Body2">
+                    <td rowspan="4" class="BodyE-Column1-Body2">FM 3
+                    </td>
+                    <td class="BodyE-Column1-Body2">BehavePlus
+                    </td>
+                    <td class="BodyE-Column1-Body2">15.8
+                    </td>
+                    <td class="BodyE-Column1-Body2">167.3
+                    </td>
+                    <td class="BodyE-Column1-Body2">2278.6
+                    </td>
+                    <td class="BodyD-Column1-Body2">741.5
+                    </td>
+                </tr>
+                <tr style="height: 15pt;" class="Body-Body1">
+                    <td class="BodyE-Column1-Body1">IFT-surface <![CDATA[                    ]]></td>
+                    <td class="BodyE-Column1-Body1">15.8
+                    </td>
+                    <td class="BodyE-Column1-Body1">167.5
+                    </td>
+                    <td class="BodyE-Column1-Body1">2280.0
+                    </td>
+                    <td class="BodyD-Column1-Body1">742.4
+                    </td>
+                </tr>
+                <tr style="height: 15pt;" class="Body-Body2">
+                    <td class="BodyE-Column1-Body2">IFT-FlamMap
+                    </td>
+                    <td class="BodyE-Column1-Body2">15.8
+                    </td>
+                    <td class="BodyE-Column1-Body2">167.6
+                    </td>
+                    <td class="BodyE-Column1-Body2">2286.9
+                    </td>
+                    <td class="BodyD-Column1-Body2">743.3
+                    </td>
+                </tr>
+                <tr style="height: 15pt;" class="Body-Body1">
+                    <td class="BodyB-Column1-Body1">NEXUS
+                    </td>
+                    <td class="BodyB-Column1-Body1">15.8
+                    </td>
+                    <td class="BodyB-Column1-Body1">164.6
+                    </td>
+                    <td class="BodyB-Column1-Body1">2275.6
+                    </td>
+                    <td class="BodyA-Column1-Body1">739.5
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>

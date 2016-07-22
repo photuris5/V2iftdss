@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="7" MadCap:lastHeight="855" MadCap:lastWidth="1014" MadCap:fileTags="FileNeeds.04 Ready for review">
+    <head>
+    </head>
+    <body>
+        <p>After you have created a polygon representing a value at risk, you can edit that polygon using the <strong>Modify Polygon</strong> tool.</p>
+        <p><strong><em>To edit a polygon,</em></strong>
+        </p>
+        <ol>
+            <li>Select the <strong>Modify Polygon</strong> tool.</li>
+            <li>Select the feature (value at risk) you would like to edit using the <strong>Edit Feature</strong> drop-down list. In the <strong>Edit Feature</strong> panel, you can edit the polygon’s name, color, or response function.</li>
+        </ol>
+        <div>
+            <form>
+                <fieldset class="note">
+                    <legend>&#160;&#160;&#160;Note&#160;&#160;&#160;</legend>
+                    <p class="noteBody">When you are using the polygon modify tool, pressing the <strong>Delete</strong> key will delete the vertex underneath the pointer.</p>
+                    <p class="noteBody">You can also delete a polygon using the <strong>Delete</strong> button at the bottom of the panel. If you delete a polygon, the assigned background will replace the deleted polygon.</p>
+                </fieldset>
+            </form>
+        </div>
+        <p>
+            <img src="../Images/RA-VAR-Tutorial/VAR-editing.png" class="screencap" title="Editing polygons" alt="Editing polygons." />
+        </p>
+    </body>
+</html>

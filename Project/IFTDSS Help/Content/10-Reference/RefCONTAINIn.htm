@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us" MadCap:lastBlockDepth="5" MadCap:lastHeight="1236" MadCap:lastWidth="783" MadCap:fileTags="FileStatusTags.07 Complete,FileNeeds.05 Complete" class="miniTOCpage">
+    <head>
+        <link href="../Resources/TableStyles/AlternatingRows.css" rel="stylesheet" MadCap:stylesheetType="table" /><title>Containment Resources Input Parameters</title>
+    </head>
+    <body>
+        <h1>
+            <MadCap:keyword term="containment resources (IFT-contain):input parameters" />Containment Resources Input Parameters</h1>
+        <table style="caption-side: top;mc-table-style: url('../Resources/TableStyles/AlternatingRows.css');" class="TableStyle-AlternatingRows" cellspacing="0">
+            <col style="width: 15%;" class="Column-Column1" />
+            <col style="width: 20%;" class="Column-Column1" />
+            <col style="width: 65%;" class="Column-Column1" />
+            <thead>
+                <tr class="Head-Header1">
+                    <th class="HeadE-Column1-Header1">Name
+                </th>
+                    <th class="HeadE-Column1-Header1">Units
+                </th>
+                    <th class="HeadD-Column1-Header1">Brief Description
+                </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="Body-Body1">
+                    <td class="BodyE-Column1-Body1">
+                        <MadCap:keyword term="Duration (parameter)" />Duration
+                </td>
+                    <td class="BodyE-Column1-Body1">Hour
+                </td>
+                    <td class="BodyD-Column1-Body1">The amount of time during which the containment resource is able to sustain its resource line production rate.  The resource begins line construction at its designated resource arrival time, performs line construction at its specified resource line production rate, and stops line construction after its resource duration has expired.
+                </td>
+                </tr>
+                <tr class="Body-Body2">
+                    <td class="BodyE-Column1-Body2">
+                        <MadCap:keyword term="Fire Size At Report (parameter)" />Fire Size At Report
+                </td>
+                    <td class="BodyE-Column1-Body2">Acres, hectares
+                </td>
+                    <td class="BodyD-Column1-Body2">The area of a fire that started from a point source.&#160; Based on the elliptical fire shape model, fire size at report is calculated based on maximum rate of spread, effective wind speed, and elapsed time.&#160; This variable applies to surface fire.
+                </td>
+                </tr>
+                <tr class="Body-Body1">
+                    <td class="BodyE-Column1-Body1">
+                        <MadCap:keyword term="Length-to-Width Ratio (parameter)" />Length-to-Width Ratio
+                </td>
+                    <td class="BodyE-Column1-Body1">A ratio
+                </td>
+                    <td class="BodyD-Column1-Body1">The ratio of the length to the width of a surface fire which is a function of the effective wind speed.  For example, fires that burn under a high wind speed will be long and narrow with a large length-to-width ratio. 
+                </td>
+                </tr>
+                <tr class="Body-Body2">
+                    <td class="BodyE-Column1-Body2">
+                        <MadCap:keyword term="Line Construction Offset (parameter)" />Line Construction Offset
+                </td>
+                    <td class="BodyE-Column1-Body2">Chain
+                </td>
+                    <td class="BodyD-Column1-Body2">The distance from the fire at which the suppression line is constructed.  A line construction offset distance of zero indicates a direct attack, while any other value indicates a parallel attack.
+                </td>
+                </tr>
+                <tr class="Body-Body1">
+                    <td class="BodyE-Column1-Body1">
+                        <MadCap:keyword term="Resource Arrival Time (parameter)" />Resource Arrival Time
+                </td>
+                    <td class="BodyE-Column1-Body1">Hour
+                </td>
+                    <td class="BodyD-Column1-Body1">The elapsed time from when the fire was reported until the containment resource arrives at the fire and begins line construction. All firefighting activities that occur before line construction begins should be accounted for in the resource arrival time (for example, travel time to fire, scouting and size up, and safety zone construction).
+                </td>
+                </tr>
+                <tr class="Body-Body2">
+                    <td class="BodyE-Column1-Body2">
+                        <MadCap:keyword term="Resource Line Production Rate (parameter)" /><a name="ResourceLineProdRateParam"></a>Resource Line Production Rate
+                </td>
+                    <td class="BodyE-Column1-Body2">Chains per hour
+                </td>
+                    <td class="BodyD-Column1-Body2">The average, sustained rate at which the resource can build and hold fireline.  In this fire module, the total line production rate is entered for a resource. The rate at which the resource can build line is assumed to be split evenly between the right and left flanks of the fire.<br /><br />For example, a crew (or single piece of equipment) that constructs fireline at 20 chains per hour is assumed to be constructing 10 chains per hour on the left flank and another 10 chains per hour on the right flank.<br /><br />For more information on production rates, see <MadCap:xref href="RefCONTAINProdRates1.htm"><b>Sustained Line Production Rates</b></MadCap:xref>, <MadCap:xref href="RefCONTAINProdRates2.htm"><b>Line Production Rates for Initial Action by Hand Crews</b></MadCap:xref>, <MadCap:xref href="RefCONTAINProdRates3.htm"><b>Line Production Rates for Initial Action by Engine Crews</b></MadCap:xref>, <MadCap:xref href="RefCONTAINProdRates4.htm"><b>Fireline Explosives Crews Production Comparison</b></MadCap:xref>, <MadCap:xref href="RefCONTAINProdRates5.htm"><b>Dozer Fireline Construction Rates</b></MadCap:xref>, and <MadCap:xref href="RefCONTAINProdRates6.htm"><b>Tractor-Plow Fireline Production Rates</b></MadCap:xref>.</td>
+                </tr>
+                <tr class="Body-Body1">
+                    <td class="BodyE-Column1-Body1">
+                        <MadCap:keyword term="Suppression Tactic (parameter)" />Suppression Tactic
+                </td>
+                    <td class="BodyE-Column1-Body1">(A choice)
+                </td>
+                    <td class="BodyD-Column1-Body1">There are two possible suppression tactics: (1) Head attack, where fireline is constructed at the head of the fire and proceeds at an equal rate down both flanks; or (2) Rear attack, where fireline is constructed at the rear of the fire and proceeds at an equal rate up both flanks.
+                </td>
+                </tr>
+                <tr class="Body-Body2">
+                    <td class="BodyB-Column1-Body2">
+                        <MadCap:keyword term="Surface Rate of Spread (parameter)" />Surface Rate of Spread
+                </td>
+                    <td class="BodyB-Column1-Body2">Chains per hour, meters per minute 
+                </td>
+                    <td class="BodyA-Column1-Body2">Surface rate of spread is the "speed" the fire travels through the surface fuels. Surface fuels include the litter, grass, brush, and other dead and live vegetation within about 6 feet of the ground.
+                </td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>

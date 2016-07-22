@@ -1,0 +1,161 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MsWordImport
+  PreserveSourceStyles="true"
+  KeepSourceLinks="true"
+  ConvertInlineFormatting="true"
+  AddContinuedLinks="false"
+  AddContinuedFromLinks="false"
+  ContinuedLinkFormat="(continued in {title})"
+  ContinuedFromLinkFormat="(continued from {title})"
+  UseMaxCharLimit="false"
+  UseMinCharLimit="true"
+  MaxCharLimit="10000"
+  MinCharLimit="50"
+  FilenameLength="24"
+  GeneratePageLayouts="false"
+  UseFirstHeadingAsTopicTitle="true"
+  LastCollectTime="2015-07-06T16:41:40.8632926-07:00"
+  ProjectName="IFTDSS Help"
+  ProjectFolder="C:\Users\NIFTT\Documents\My Projects\REALPROJECT\IFTDSS Help\"
+  AutoSync="false"
+  AutoFitTables="false"
+  UseHeaderRows="false"
+  Stylesheet="../../Content/Resources/Stylesheets/IFTDSS_help.css"
+  LastImport="2015-07-06T16:42:31.8202071-07:00">
+  <Files>
+    <Url
+      Source="file:///E:/IFTDSS/CONTENT/IFTDSS_TUTORIALS/CONSUME/CONSUME.docx"
+      AbsoluteSource="file:///E:/IFTDSS/CONTENT/IFTDSS_TUTORIALS/CONSUME/CONSUME.docx" />
+  </Files>
+  <ExcludedFiles />
+  <CollectedSourceFiles />
+  <SkippedSourceFiles />
+  <GeneratedFiles>
+    <Url
+      Source="../../Content/Resources/Images/CONSUME/Using IFT Consume for Smoke.png"
+      TimeStamp="7/6/2015 4:42:25 PM" />
+    <Url
+      Source="../../Content/Resources/Images/CONSUME/Using IFT Consume for Smoke_1.png"
+      TimeStamp="7/6/2015 4:42:25 PM" />
+    <Url
+      Source="../../Content/Resources/Images/CONSUME/Using IFT Consume for Smoke_2.png"
+      TimeStamp="7/6/2015 4:42:25 PM" />
+    <Url
+      Source="../../Content/Resources/Images/CONSUME/Using IFT Consume for Smoke_3.png"
+      TimeStamp="7/6/2015 4:42:25 PM" />
+    <Url
+      Source="../../Content/Resources/Images/CONSUME/Using IFT Consume for Smoke_4.png"
+      TimeStamp="7/6/2015 4:42:25 PM" />
+    <Url
+      Source="../../Content/Resources/Images/CONSUME/Using IFT Consume for Smoke_5.png"
+      TimeStamp="7/6/2015 4:42:25 PM" />
+    <Url
+      Source="../../Content/Resources/Images/CONSUME/Using IFT Consume for Smoke_6.png"
+      TimeStamp="7/6/2015 4:42:25 PM" />
+    <Url
+      Source="../../Content/Resources/Images/CONSUME/Using IFT Consume for Smoke_7.png"
+      TimeStamp="7/6/2015 4:42:25 PM" />
+    <Url
+      Source="../../Content/Resources/Images/CONSUME/Using IFT Consume for Smoke_8.png"
+      TimeStamp="7/6/2015 4:42:25 PM" />
+    <Url
+      Source="../../Content/Resources/Images/CONSUME/Using IFT Consume for Smoke_9.png"
+      TimeStamp="7/6/2015 4:42:25 PM" />
+    <Url
+      Source="../../Content/Resources/Images/CONSUME/Using IFT Consume for Smoke_10.png"
+      TimeStamp="7/6/2015 4:42:25 PM" />
+    <Url
+      Source="../../Content/Resources/Images/CONSUME/Using IFT Consume for Smoke_11.png"
+      TimeStamp="7/6/2015 4:42:25 PM" />
+    <Url
+      Source="../../Content/Resources/Images/CONSUME/Using IFT Consume for Smoke_12.png"
+      TimeStamp="7/6/2015 4:42:25 PM" />
+    <Url
+      Source="../../Content/Resources/Images/CONSUME/Using IFT Consume for Smoke_13.png"
+      TimeStamp="7/6/2015 4:42:25 PM" />
+    <Url
+      Source="../../Content/Resources/Images/CONSUME/Using IFT Consume for Smoke_14.png"
+      TimeStamp="7/6/2015 4:42:25 PM" />
+    <Url
+      Source="../../Content/Resources/Images/CONSUME/Using IFT Consume for Smoke_15.png"
+      TimeStamp="7/6/2015 4:42:25 PM" />
+    <Url
+      Source="../../Content/Resources/Images/CONSUME/Using IFT Consume for Smoke_16.png"
+      TimeStamp="7/6/2015 4:42:25 PM" />
+    <Url
+      Source="../../Content/Resources/Images/CONSUME/Using IFT Consume for Smoke_17.png"
+      TimeStamp="7/6/2015 4:42:25 PM" />
+    <Url
+      Source="../../Content/Resources/Images/CONSUME/Using IFT Consume for Smoke_18.png"
+      TimeStamp="7/6/2015 4:42:25 PM" />
+    <Url
+      Source="../../Content/Resources/Images/CONSUME/Using IFT Consume for Smoke_19.png"
+      TimeStamp="7/6/2015 4:42:25 PM" />
+    <Url
+      Source="../../Content/Resources/Images/CONSUME/Using IFT Consume for Smoke_20.png"
+      TimeStamp="7/6/2015 4:42:25 PM" />
+    <Url
+      Source="../../Content/Resources/Images/CONSUME/Using IFT Consume for Smoke_21.png"
+      TimeStamp="7/6/2015 4:42:25 PM" />
+    <Url
+      Source="../../Content/Resources/Images/CONSUME/Using IFT Consume for Smoke_22.png"
+      TimeStamp="7/6/2015 4:42:25 PM" />
+    <Url
+      Source="../../Content/Resources/Images/CONSUME/Using IFT Consume for Smoke_23.png"
+      TimeStamp="7/6/2015 4:42:26 PM" />
+    <Url
+      Source="../../Content/Resources/Images/CONSUME/Using IFT Consume for Smoke_24.png"
+      TimeStamp="7/6/2015 4:42:26 PM" />
+    <Url
+      Source="../../Content/Resources/Images/CONSUME/Using IFT Consume for Smoke_25.png"
+      TimeStamp="7/6/2015 4:42:26 PM" />
+    <Url
+      Source="../../Content/Resources/Images/CONSUME/Using IFT Consume for Smoke_26.png"
+      TimeStamp="7/6/2015 4:42:26 PM" />
+    <Url
+      Source="../../Content/Resources/Images/CONSUME/Using IFT Consume for Smoke_27.png"
+      TimeStamp="7/6/2015 4:42:26 PM" />
+    <Url
+      Source="../../Content/CONSUME/Using IFT Consume for Smoke.htm"
+      TimeStamp="7/6/2015 4:42:26 PM" />
+    <Url
+      Source="../TOCs/CONSUME.fltoc"
+      TimeStamp="7/6/2015 4:42:26 PM" />
+    <Url
+      Source="../../Content/Resources/Stylesheets/IFTDSS_help_7.css"
+      TimeStamp="7/6/2015 4:42:26 PM" />
+  </GeneratedFiles>
+  <ParagraphStyles>
+    <Map
+      From="Heading 1"
+      To="h1.Heading 1" />
+    <Map
+      From="Title"
+      To="h1.(MS Word Style)" />
+  </ParagraphStyles>
+  <CharacterStyles>
+    <Map
+      From="Hyperlink"
+      To="a.(MS Word Style)" />
+    <Map
+      From="Strong"
+      To="strong.(MS Word Style)" />
+  </CharacterStyles>
+  <NewTopicStyles />
+  <UsedParagraphStyles>
+    <StyleName
+      Name="Comment Text" />
+    <StyleName
+      Name="Heading 1" />
+    <StyleName
+      Name="List Paragraph" />
+    <StyleName
+      Name="Title" />
+  </UsedParagraphStyles>
+  <UsedCharacterStyles>
+    <StyleName
+      Name="Comment Reference" />
+    <StyleName
+      Name="Strong" />
+  </UsedCharacterStyles>
+</MsWordImport>

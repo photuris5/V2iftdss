@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="4" MadCap:lastHeight="230" MadCap:lastWidth="750" MadCap:fileTags="FileNeeds.04 Ready for review">
+    <head>
+    </head>
+    <body>
+        <p>In the run you are about to create, you will</p>
+        <ol style="list-style-type: lower-alpha;">
+            <li>Select an area of interest.</li>
+            <li>Input your environmental parameters.</li>
+            <li>Review/edit the spatial landscape data.</li>
+            <li>Analyze potential fire behavior output data.</li>
+            <li>Identify potential fire risks across a landscape.</li>
+        </ol>
+    </body>
+</html>

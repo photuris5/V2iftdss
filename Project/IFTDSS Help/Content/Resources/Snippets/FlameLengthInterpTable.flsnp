@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="5" MadCap:lastHeight="540" MadCap:lastWidth="619" MadCap:fileTags="FileNeeds.04 Ready for review">
+    <head>
+        <link href="../TableStyles/AlternatingRows.css" rel="stylesheet" MadCap:stylesheetType="table" />
+    </head>
+    <body>
+        <p>
+            <MadCap:keyword term="flame lengths:classes:interpretation table" />The following table shows how different flame lengths are interpreted for burn probability from random ignition. (Table modified from the National Wildfire Coordinating Group, <a href="../../10-Reference/Bibliography.htm#NWCG2004">2004</a>.)</p>
+        <table style="width: 100%;mc-table-style: url('../TableStyles/AlternatingRows.css');" class="TableStyle-AlternatingRows" cellspacing="0">
+            <col class="Column-Column1" style="width: 15%;" />
+            <col class="Column-Column1" style="width: 15%;" />
+            <col class="Column-Column1" style="width: 70%;" />
+            <thead>
+                <tr class="Head-Header1">
+                    <th class="HeadE-Column1-Header1">Flame Length Class</th>
+                    <th class="HeadE-Column1-Header1">Flame Length</th>
+                    <th class="HeadD-Column1-Header1">Fire Suppression Interpretations</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="Body-Body1">
+                    <td class="BodyE-Column1-Body1">Low</td>
+                    <td class="BodyE-Column1-Body1">&lt; 4 feet</td>
+                    <td class="BodyD-Column1-Body1">Fires can generally be attacked at the head or flanks by persons using hand tools. Handline should hold fire.</td>
+                </tr>
+                <tr class="Body-Body2">
+                    <td class="BodyE-Column1-Body2">Medium</td>
+                    <td class="BodyE-Column1-Body2">4 to 8 feet</td>
+                    <td class="BodyD-Column1-Body2">Fires are too intense for direct attack on the head by persons using hand tools. Handline cannot be relied on to hold the fire. Bulldozers, engines, and retardant drops can be effective.</td>
+                </tr>
+                <tr class="Body-Body1">
+                    <td class="BodyE-Column1-Body1">High</td>
+                    <td class="BodyE-Column1-Body1">8 to 11 feet</td>
+                    <td class="BodyD-Column1-Body1">Fires may present serious control problems: torching, crowning, and spotting. Control efforts at the head will probably be ineffective.</td>
+                </tr>
+                <tr class="Body-Body2">
+                    <td class="BodyB-Column1-Body2">Very High</td>
+                    <td class="BodyB-Column1-Body2">&gt; 11 feet</td>
+                    <td class="BodyA-Column1-Body2">Crowning, spotting, and major fire runs are probable. Control efforts at the head of the fire are ineffective.</td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>

@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MsWordImport
+  PreserveSourceStyles="true"
+  KeepSourceLinks="true"
+  ConvertInlineFormatting="true"
+  AddContinuedLinks="false"
+  AddContinuedFromLinks="false"
+  ContinuedLinkFormat="(continued in {title})"
+  ContinuedFromLinkFormat="(continued from {title})"
+  UseMaxCharLimit="false"
+  UseMinCharLimit="true"
+  MaxCharLimit="10000"
+  MinCharLimit="50"
+  FilenameLength="24"
+  GeneratePageLayouts="false"
+  UseFirstHeadingAsTopicTitle="true"
+  LastCollectTime="2015-06-17T15:39:35.3981448-07:00"
+  ProjectName="IFTDSS Help"
+  ProjectFolder="C:\Users\NIFTT\Documents\My Projects\REALPROJECT\IFTDSS Help\"
+  AutoSync="false"
+  AutoFitTables="false"
+  UseHeaderRows="false"
+  Stylesheet="../../Content/Resources/Stylesheets/IFTDSS_help.css"
+  LastImport="2015-06-17T15:40:53.5786165-07:00">
+  <Files>
+    <Url
+      Source="file:///E:/IFTDSS/CONTENT/IFTDSS_TUTORIALS/H_Values_at_Risk/Tutorial_H_Values_at_Risk_5_26_15_JH_no_commts.docx"
+      AbsoluteSource="file:///E:/IFTDSS/CONTENT/IFTDSS_TUTORIALS/H_Values_at_Risk/Tutorial_H_Values_at_Risk_5_26_15_JH_no_commts.docx" />
+  </Files>
+  <ExcludedFiles />
+  <CollectedSourceFiles />
+  <SkippedSourceFiles />
+  <GeneratedFiles>
+    <Url
+      Source="../../Content/Resources/Images/Tutorial_H_Values_at_Risk_5_26_15_JH_no_commts1/Tutorial H Creating a Values.jpg"
+      TimeStamp="6/17/2015 3:40:46 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Tutorial_H_Values_at_Risk_5_26_15_JH_no_commts1/Tutorial H Creating a Values.png"
+      TimeStamp="6/17/2015 3:40:46 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Tutorial_H_Values_at_Risk_5_26_15_JH_no_commts1/Tutorial H Creating a Values_1.png"
+      TimeStamp="6/17/2015 3:40:46 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Tutorial_H_Values_at_Risk_5_26_15_JH_no_commts1/Tutorial H Creating a Values_2.png"
+      TimeStamp="6/17/2015 3:40:46 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Tutorial_H_Values_at_Risk_5_26_15_JH_no_commts1/Tutorial H Creating a Values_3.png"
+      TimeStamp="6/17/2015 3:40:46 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Tutorial_H_Values_at_Risk_5_26_15_JH_no_commts1/Tutorial H Creating a Values_4.png"
+      TimeStamp="6/17/2015 3:40:46 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Tutorial_H_Values_at_Risk_5_26_15_JH_no_commts1/Tutorial H Creating a Values_5.png"
+      TimeStamp="6/17/2015 3:40:46 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Tutorial_H_Values_at_Risk_5_26_15_JH_no_commts1/Tutorial H Creating a Values_1.jpg"
+      TimeStamp="6/17/2015 3:40:46 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Tutorial_H_Values_at_Risk_5_26_15_JH_no_commts1/Tutorial H Creating a Values_6.png"
+      TimeStamp="6/17/2015 3:40:46 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Tutorial_H_Values_at_Risk_5_26_15_JH_no_commts1/Tutorial H Creating a Values_7.png"
+      TimeStamp="6/17/2015 3:40:46 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Tutorial_H_Values_at_Risk_5_26_15_JH_no_commts1/Tutorial H Creating a Values_8.png"
+      TimeStamp="6/17/2015 3:40:46 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Tutorial_H_Values_at_Risk_5_26_15_JH_no_commts1/Tutorial H Creating a Values_9.png"
+      TimeStamp="6/17/2015 3:40:46 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Tutorial_H_Values_at_Risk_5_26_15_JH_no_commts1/Tutorial H Creating a Values_10.png"
+      TimeStamp="6/17/2015 3:40:46 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Tutorial_H_Values_at_Risk_5_26_15_JH_no_commts1/Tutorial H Creating a Values_11.png"
+      TimeStamp="6/17/2015 3:40:46 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Tutorial_H_Values_at_Risk_5_26_15_JH_no_commts1/Tutorial H Creating a Values_12.png"
+      TimeStamp="6/17/2015 3:40:46 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Tutorial_H_Values_at_Risk_5_26_15_JH_no_commts1/Tutorial H Creating a Values_13.png"
+      TimeStamp="6/17/2015 3:40:46 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Tutorial_H_Values_at_Risk_5_26_15_JH_no_commts1/Tutorial H Creating a Values_14.png"
+      TimeStamp="6/17/2015 3:40:46 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Tutorial_H_Values_at_Risk_5_26_15_JH_no_commts1/Tutorial H Creating a Values_15.png"
+      TimeStamp="6/17/2015 3:40:46 PM" />
+    <Url
+      Source="../../Content/Tutorial_H_Values_at_Risk_5_26_15_JH_no_commts1/Tutorial H Creating a Values.htm"
+      TimeStamp="6/17/2015 3:40:46 PM" />
+    <Url
+      Source="../TOCs/Tutorial_H_Values_at_Risk_5_26_15_JH_no_commts1.fltoc"
+      TimeStamp="6/17/2015 3:40:46 PM" />
+    <Url
+      Source="../../Content/Resources/Stylesheets/IFTDSS_help_2.css"
+      TimeStamp="6/17/2015 3:40:46 PM" />
+  </GeneratedFiles>
+  <ParagraphStyles>
+    <Map
+      From="Heading 1"
+      To="h1.(MS Word Style)" />
+    <Map
+      From="Heading 2"
+      To="h2.Heading 2" />
+    <Map
+      From="Title"
+      To="h1.(MS Word Style)" />
+    <Map
+      From="List Paragraph"
+      To="p.(MS Word Style)" />
+  </ParagraphStyles>
+  <CharacterStyles>
+    <Map
+      From="Hyperlink"
+      To="a.(MS Word Style)" />
+    <Map
+      From="Strong"
+      To="strong.(MS Word Style)" />
+  </CharacterStyles>
+  <NewTopicStyles />
+  <UsedParagraphStyles>
+    <StyleName
+      Name="Heading 1" />
+    <StyleName
+      Name="List Paragraph" />
+    <StyleName
+      Name="Title" />
+  </UsedParagraphStyles>
+  <UsedCharacterStyles>
+    <StyleName
+      Name="Strong" />
+  </UsedCharacterStyles>
+</MsWordImport>

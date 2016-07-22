@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="4" MadCap:lastHeight="188" MadCap:lastWidth="1046" MadCap:fileTags="FileNeeds.04 Ready for review">
+    <head>
+    </head>
+    <body>
+        <p><em style="font-weight: bold;">To edit spatial landscape data multiple grid cells at a time,</em>
+        </p>
+        <ol>
+            <li>Select the <strong>Advanced Edit</strong> tool. The <strong>Advanced Edit</strong> panel appears.</li>
+            <li>In this panel, you can modify any of the spatial data in query format so that multiple cells can be changed at once.</li>
+            <li>Once you have edited the cells as desired, choose <strong>Submit</strong>.</li>
+        </ol>
+    </body>
+</html>

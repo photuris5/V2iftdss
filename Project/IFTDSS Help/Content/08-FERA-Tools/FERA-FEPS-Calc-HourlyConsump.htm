@@ -1,0 +1,938 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="2599" MadCap:lastWidth="912" MadCap:fileTags="FileNeeds.02 In progress">
+    <head>
+        <link href="../Resources/TableStyles/AlternatingRows.css" rel="stylesheet" MadCap:stylesheetType="table" />
+    </head>
+    <body>
+        <h1>Hourly Consumption Rate</h1>
+        <p>Hourly consumption rate is calculated as described in the following sections:</p>
+        <ul style="list-style-type: square;">
+            <li><a href="#Flaming">Flaming Phase Consumption</a>
+            </li>
+            <li><a href="#Smolderi">Smoldering Phase Consumption</a>
+            </li>
+            <li><a href="#Smolderi2">Smoldering Adjustment</a>
+            </li>
+            <li><a href="#Residual">Residual Smoldering Adjustment</a>
+            </li>
+            <li><a href="#Total">Total Consumption Rate</a>
+            </li>
+        </ul>
+        <h2><a name="Flaming"></a>Flaming Phase Combustion</h2>
+        <p>Rates of flaming phase consumption at any given hour are calculated as</p>
+        <p>
+            <MadCap:equation xmlns:dsi="http://www.w3.org/1998/Math/MathML">
+                <math>
+                    <mrow>
+                        <msub>
+                            <mrow>
+                                <mi>C</mi>
+                                <mi>R</mi>
+                            </mrow>
+                            <mrow>
+                                <mi>F</mi>
+                                <mo>,</mo>
+                                <mi>i</mi>
+                                <mo>⁢</mo>
+                                <mtext> </mtext>
+                                <mtext> </mtext>
+                                <mtext> </mtext>
+                            </mrow>
+                        </msub>
+                        <mo>⁢</mo>
+                        <mo>=</mo>
+                        <mtext> </mtext>
+                        <msub>
+                            <mrow>
+                                <mi>A</mi>
+                                <mi>R</mi>
+                            </mrow>
+                            <mrow>
+                                <mi>i</mi>
+                            </mrow>
+                        </msub>
+                        <mfrac>
+                            <mrow>
+                                <msub>
+                                    <mrow>
+                                        <mi>I</mi>
+                                        <mi>n</mi>
+                                        <mi>v</mi>
+                                    </mrow>
+                                    <mrow>
+                                        <mi>f</mi>
+                                    </mrow>
+                                </msub>
+                            </mrow>
+                            <mrow>
+                                <mn>100</mn>
+                            </mrow>
+                        </mfrac>
+                        <msub>
+                            <mrow>
+                                <mi>C</mi>
+                            </mrow>
+                            <mrow>
+                                <mi>f</mi>
+                            </mrow>
+                        </msub>
+                        <mo>(</mo>
+                        <mn>1</mn>
+                        <mo>−</mo>
+                        <msub>
+                            <mrow>
+                                <mi>D</mi>
+                                <mi>e</mi>
+                                <mi>c</mi>
+                                <mi>a</mi>
+                                <mi>y</mi>
+                            </mrow>
+                            <mrow>
+                                <mi>f</mi>
+                            </mrow>
+                        </msub>
+                        <mo>)</mo>
+                        <mtext> </mtext>
+                        <mo>+</mo>
+                        <mtext> </mtext>
+                        <mo>(</mo>
+                        <msub>
+                            <mrow>
+                                <mi>C</mi>
+                                <mi>R</mi>
+                            </mrow>
+                            <mrow>
+                                <mi>f</mi>
+                                <mo>,</mo>
+                                <mi>i</mi>
+                                <mo>−</mo>
+                                <mn>1</mn>
+                            </mrow>
+                        </msub>
+                        <msub>
+                            <mrow>
+                                <mi>D</mi>
+                                <mi>e</mi>
+                                <mi>c</mi>
+                                <mi>a</mi>
+                                <mi>y</mi>
+                            </mrow>
+                            <mrow>
+                                <mi>f</mi>
+                            </mrow>
+                        </msub>
+                        <mo>)</mo>
+                    </mrow>
+                </math>
+            </MadCap:equation>
+        </p>
+        <p>The following table provides the definitions of these variables.</p>
+        <table style="mc-table-style: url('../Resources/TableStyles/AlternatingRows.css');" class="TableStyle-AlternatingRows" cellspacing="0">
+            <col style="width: 142px;" class="Column-Column1" />
+            <col style="width: 145px;" class="Column-Column1" />
+            <col style="width: 592px;" class="Column-Column1" />
+            <thead>
+                <tr class="Head-Header1">
+                    <th class="HeadE-Column1-Header1">
+                        <p>Variable</p>
+                    </th>
+                    <th class="HeadE-Column1-Header1">
+                        <p>Units</p>
+                    </th>
+                    <th class="HeadD-Column1-Header1">
+                        <p>Definition</p>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="Body-Body1">
+                    <td class="BodyE-Column1-Body1">
+                        <p>CR<sub>F</sub><sub>,i</sub></p>
+                    </td>
+                    <td class="BodyE-Column1-Body1">
+                        <p>Tons/hr</p>
+                    </td>
+                    <td class="BodyD-Column1-Body1">
+                        <p>Flaming phase consumption rate at hour i</p>
+                    </td>
+                </tr>
+                <tr class="Body-Body2">
+                    <td class="BodyE-Column1-Body2">
+                        <p>CR<sub>F</sub><sub>, i-1</sub></p>
+                    </td>
+                    <td class="BodyE-Column1-Body2">
+                        <p>Tons/hr</p>
+                    </td>
+                    <td class="BodyD-Column1-Body2">
+                        <p>Flaming phase consumption rate at hour i-1</p>
+                    </td>
+                </tr>
+                <tr class="Body-Body1">
+                    <td class="BodyE-Column1-Body1">
+                        <p>AR<sub>i</sub></p>
+                    </td>
+                    <td class="BodyE-Column1-Body1">
+                        <p>Acres/hr</p>
+                    </td>
+                    <td class="BodyD-Column1-Body1">
+                        <p>Rate of increase in burn area between hour i-1 and hour i</p>
+                    </td>
+                </tr>
+                <tr class="Body-Body2">
+                    <td class="BodyE-Column1-Body2">
+                        <p>Inv<sub>F</sub></p>
+                    </td>
+                    <td class="BodyE-Column1-Body2">
+                        <p>%</p>
+                    </td>
+                    <td class="BodyD-Column1-Body2">
+                        <p>Flaming phase involvement</p>
+                    </td>
+                </tr>
+                <tr class="Body-Body1">
+                    <td class="BodyE-Column1-Body1">
+                        <p>C<sub>F</sub></p>
+                    </td>
+                    <td class="BodyE-Column1-Body1">
+                        <p>Tons/acre</p>
+                    </td>
+                    <td class="BodyD-Column1-Body1">
+                        <p>Flaming phase consumption</p>
+                    </td>
+                </tr>
+                <tr class="Body-Body2">
+                    <td class="BodyB-Column1-Body2">
+                        <p>Decay<sub>F</sub></p>
+                    </td>
+                    <td class="BodyB-Column1-Body2">
+                        <p>1/hr</p>
+                    </td>
+                    <td class="BodyA-Column1-Body2">
+                        <p>Flaming phase decay rate (holdover)</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <h2><a name="Smolderi"></a>Smoldering Phase Combustion</h2>
+        <p>Rates of smoldering phase combustion at any given hour are calculated as</p>
+        <p>
+            <MadCap:equation xmlns:dsi="http://www.w3.org/1998/Math/MathML">
+                <math>
+                    <mrow>
+                        <msub>
+                            <mrow>
+                                <mi>C</mi>
+                                <mi>R</mi>
+                            </mrow>
+                            <mrow>
+                                <mi>S</mi>
+                                <mo>,</mo>
+                                <mi>i</mi>
+                                <mo>⁢</mo>
+                                <mtext> </mtext>
+                                <mtext> </mtext>
+                                <mtext> </mtext>
+                            </mrow>
+                        </msub>
+                        <mo>⁢</mo>
+                        <mo>=</mo>
+                        <mtext> </mtext>
+                        <msub>
+                            <mrow>
+                                <mi>S</mi>
+                                <mi>A</mi>
+                                <mo>⁢</mo>
+                                <mtext> </mtext>
+                                <mi>A</mi>
+                                <mi>R</mi>
+                            </mrow>
+                            <mrow>
+                                <mi>i</mi>
+                            </mrow>
+                        </msub>
+                        <mfrac>
+                            <mrow>
+                                <msub>
+                                    <mrow>
+                                        <mi>I</mi>
+                                        <mi>n</mi>
+                                        <mi>v</mi>
+                                    </mrow>
+                                    <mrow>
+                                        <mi>s</mi>
+                                    </mrow>
+                                </msub>
+                            </mrow>
+                            <mrow>
+                                <mn>100</mn>
+                            </mrow>
+                        </mfrac>
+                        <msub>
+                            <mrow>
+                                <mi>C</mi>
+                            </mrow>
+                            <mrow>
+                                <mi>s</mi>
+                            </mrow>
+                        </msub>
+                        <mo>(</mo>
+                        <mn>1</mn>
+                        <mo>−</mo>
+                        <msub>
+                            <mrow>
+                                <mi>D</mi>
+                                <mi>e</mi>
+                                <mi>c</mi>
+                                <mi>a</mi>
+                                <mi>y</mi>
+                            </mrow>
+                            <mrow>
+                                <mi>s</mi>
+                            </mrow>
+                        </msub>
+                        <mo>)</mo>
+                        <mtext> </mtext>
+                        <mo>+</mo>
+                        <mtext> </mtext>
+                        <mo>(</mo>
+                        <msub>
+                            <mrow>
+                                <mi>C</mi>
+                                <mi>R</mi>
+                            </mrow>
+                            <mrow>
+                                <mi>s</mi>
+                                <mo>,</mo>
+                                <mi>i</mi>
+                                <mo>−</mo>
+                                <mn>1</mn>
+                            </mrow>
+                        </msub>
+                        <msub>
+                            <mrow>
+                                <mi>D</mi>
+                                <mi>e</mi>
+                                <mi>c</mi>
+                                <mi>a</mi>
+                                <mi>y</mi>
+                            </mrow>
+                            <mrow>
+                                <mi>s</mi>
+                            </mrow>
+                        </msub>
+                        <mo>)</mo>
+                    </mrow>
+                </math>
+            </MadCap:equation>
+        </p>
+        <p>The following table provides the definitions of these variables.</p>
+        <table style="mc-table-style: url('../Resources/TableStyles/AlternatingRows.css');" class="TableStyle-AlternatingRows" cellspacing="0">
+            <col style="width: 137px;" class="Column-Column1" />
+            <col style="width: 149px;" class="Column-Column1" />
+            <col style="width: 624px;" class="Column-Column1" />
+            <thead>
+                <tr class="Head-Header1">
+                    <th class="HeadE-Column1-Header1">
+                        <p>Variable</p>
+                    </th>
+                    <th class="HeadE-Column1-Header1">
+                        <p>Units</p>
+                    </th>
+                    <th class="HeadD-Column1-Header1">
+                        <p>Definition</p>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="Body-Body1">
+                    <td class="BodyE-Column1-Body1">
+                        <p>CR<sub>S,i</sub></p>
+                    </td>
+                    <td class="BodyE-Column1-Body1">
+                        <p>Tons/hr</p>
+                    </td>
+                    <td class="BodyD-Column1-Body1">
+                        <p>Smoldering phase consumption rate at hour i</p>
+                    </td>
+                </tr>
+                <tr class="Body-Body2">
+                    <td class="BodyE-Column1-Body2">
+                        <p>CR<sub>S,i-1</sub></p>
+                    </td>
+                    <td class="BodyE-Column1-Body2">
+                        <p>Tons/hr</p>
+                    </td>
+                    <td class="BodyD-Column1-Body2">
+                        <p>Smoldering phase consumption rate at hour i-1</p>
+                    </td>
+                </tr>
+                <tr class="Body-Body1">
+                    <td class="BodyE-Column1-Body1">
+                        <p>SA</p>
+                    </td>
+                    <td class="BodyE-Column1-Body1">
+                        <p>—</p>
+                    </td>
+                    <td class="BodyD-Column1-Body1">
+                        <p>Smoldering adjustment</p>
+                    </td>
+                </tr>
+                <tr class="Body-Body2">
+                    <td class="BodyE-Column1-Body2">
+                        <p>AR<sub>i</sub></p>
+                    </td>
+                    <td class="BodyE-Column1-Body2">
+                        <p>Acres/hr</p>
+                    </td>
+                    <td class="BodyD-Column1-Body2">
+                        <p>Rate of increase in burn area between hour i-1 and hour i</p>
+                    </td>
+                </tr>
+                <tr class="Body-Body1">
+                    <td class="BodyE-Column1-Body1">
+                        <p>Inv<sub>S</sub></p>
+                    </td>
+                    <td class="BodyE-Column1-Body1">
+                        <p>%</p>
+                    </td>
+                    <td class="BodyD-Column1-Body1">
+                        <p>Smoldering phase involvement</p>
+                    </td>
+                </tr>
+                <tr class="Body-Body2">
+                    <td class="BodyE-Column1-Body2">
+                        <p>C<sub>S</sub></p>
+                    </td>
+                    <td class="BodyE-Column1-Body2">
+                        <p>Tons/acre</p>
+                    </td>
+                    <td class="BodyD-Column1-Body2">
+                        <p>Smoldering phase consumption</p>
+                    </td>
+                </tr>
+                <tr class="Body-Body1">
+                    <td class="BodyB-Column1-Body1">
+                        <p>Decay<sub>S</sub></p>
+                    </td>
+                    <td class="BodyB-Column1-Body1">
+                        <p>1/hr</p>
+                    </td>
+                    <td class="BodyA-Column1-Body1">
+                        <p>Smoldering phase decay rate (holdover)</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <h2><a name="Smolderi2"></a>Smoldering Adjustment</h2>
+        <p>A smoldering adjustment (dimensionless) is calculated to adjust smoldering rates based on input midflame windspeed and relative humidity.</p>
+        <p>
+            <MadCap:equation xmlns:dsi="http://www.w3.org/1998/Math/MathML">
+                <math>
+                    <mrow>
+                        <mi>S</mi>
+                        <mi>A</mi>
+                        <mo>⁢</mo>
+                        <mtext> </mtext>
+                        <mo>=</mo>
+                        <mtext> </mtext>
+                        <mo>[</mo>
+                        <msup>
+                            <mrow>
+                                <mo>(</mo>
+                                <mfrac>
+                                    <mrow>
+                                        <msub>
+                                            <mrow>
+                                                <mi>U</mi>
+                                            </mrow>
+                                            <mrow>
+                                                <mi>F</mi>
+                                                <mi>H</mi>
+                                            </mrow>
+                                        </msub>
+                                    </mrow>
+                                    <mrow>
+                                        <msub>
+                                            <mrow>
+                                                <mi>U</mi>
+                                            </mrow>
+                                            <mrow>
+                                                <mi>b</mi>
+                                            </mrow>
+                                        </msub>
+                                    </mrow>
+                                </mfrac>
+                                <mo>)</mo>
+                            </mrow>
+                            <mrow>
+                                <mn>0.5</mn>
+                            </mrow>
+                        </msup>
+                        <mo>]</mo>
+                        <mtext> </mtext>
+                        <mtext> </mtext>
+                        <mtext> </mtext>
+                        <mo>[</mo>
+                        <mo>(</mo>
+                        <mfrac>
+                            <mrow>
+                                <mo>(</mo>
+                                <mn>100</mn>
+                                <mo>−</mo>
+                                <msub>
+                                    <mrow>
+                                        <mi>R</mi>
+                                        <mi>H</mi>
+                                    </mrow>
+                                    <mrow>
+                                        <mo>−</mo>
+                                        <mn>4</mn>
+                                    </mrow>
+                                </msub>
+                                <mo>)</mo>
+                            </mrow>
+                            <mrow>
+                                <msub>
+                                    <mrow>
+                                        <mi>R</mi>
+                                        <mi>H</mi>
+                                    </mrow>
+                                    <mrow>
+                                        <mi>b</mi>
+                                    </mrow>
+                                </msub>
+                            </mrow>
+                        </mfrac>
+                        <mo>]</mo>
+                    </mrow>
+                </math>
+            </MadCap:equation>
+        </p>
+        <p>The following table provides the definitions of these variables.</p>
+        <table style="mc-table-style: url('../Resources/TableStyles/AlternatingRows.css');" class="TableStyle-AlternatingRows" cellspacing="0">
+            <col style="width: 168px;" class="Column-Column1" />
+            <col style="width: 152px;" class="Column-Column1" />
+            <col class="Column-Column1" />
+            <thead>
+                <tr class="Head-Header1">
+                    <th class="HeadE-Column1-Header1">
+                        <p>Variable</p>
+                    </th>
+                    <th class="HeadE-Column1-Header1">
+                        <p>Units</p>
+                    </th>
+                    <th class="HeadD-Column1-Header1">
+                        <p>Definition</p>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="Body-Body1">
+                    <td class="BodyE-Column1-Body1">
+                        <p>SA</p>
+                    </td>
+                    <td class="BodyE-Column1-Body1">
+                        <p>—</p>
+                    </td>
+                    <td class="BodyD-Column1-Body1">
+                        <p>Smoldering adjustment</p>
+                    </td>
+                </tr>
+                <tr class="Body-Body2">
+                    <td class="BodyE-Column1-Body2">
+                        <p>U<sub>FH</sub></p>
+                    </td>
+                    <td class="BodyE-Column1-Body2">
+                        <p>Mph</p>
+                    </td>
+                    <td class="BodyD-Column1-Body2">
+                        <p>Windspeed at flame height</p>
+                    </td>
+                </tr>
+                <tr class="Body-Body1">
+                    <td class="BodyE-Column1-Body1">
+                        <p>U<sub>b</sub></p>
+                    </td>
+                    <td class="BodyE-Column1-Body1">
+                        <p>Mph</p>
+                    </td>
+                    <td class="BodyD-Column1-Body1">
+                        <p>Benchmark wind speed for smoldering (3 mph)</p>
+                    </td>
+                </tr>
+                <tr class="Body-Body2">
+                    <td class="BodyE-Column1-Body2">
+                        <p>RH<sub>4-</sub></p>
+                    </td>
+                    <td class="BodyE-Column1-Body2">
+                        <p>%</p>
+                    </td>
+                    <td class="BodyD-Column1-Body2">
+                        <p>Relative humidity 4 hours before current hour</p>
+                    </td>
+                </tr>
+                <tr class="Body-Body1">
+                    <td class="BodyB-Column1-Body1">
+                        <p>RH<sub>b</sub></p>
+                    </td>
+                    <td class="BodyB-Column1-Body1">
+                        <p>%</p>
+                    </td>
+                    <td class="BodyA-Column1-Body1">
+                        <p>Benchmark relative humidity deficit (60%)</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <h2><a name="Residual"></a>Residual Smoldering Adjustment</h2>
+        <p>Residual smoldering rates (termed long-term smoldering in FEPS version 1.0) are calculated as</p>
+        <p>
+            <MadCap:equation xmlns:dsi="http://www.w3.org/1998/Math/MathML">
+                <math>
+                    <mrow>
+                        <msub>
+                            <mrow>
+                                <mi>C</mi>
+                                <mi>R</mi>
+                            </mrow>
+                            <mrow>
+                                <mi>R</mi>
+                                <mi>S</mi>
+                                <mo>,</mo>
+                                <mi>i</mi>
+                                <mo>⁢</mo>
+                                <mtext> </mtext>
+                                <mtext> </mtext>
+                                <mtext> </mtext>
+                            </mrow>
+                        </msub>
+                        <mo>⁢</mo>
+                        <mo>=</mo>
+                        <mtext> </mtext>
+                        <msub>
+                            <mrow>
+                                <mi>S</mi>
+                                <mi>A</mi>
+                                <mo>⁢</mo>
+                                <mtext> </mtext>
+                                <mi>A</mi>
+                                <mi>R</mi>
+                            </mrow>
+                            <mrow>
+                                <mi>i</mi>
+                            </mrow>
+                        </msub>
+                        <mfrac>
+                            <mrow>
+                                <msub>
+                                    <mrow>
+                                        <mi>I</mi>
+                                        <mi>n</mi>
+                                        <mi>v</mi>
+                                    </mrow>
+                                    <mrow>
+                                        <mi>R</mi>
+                                        <mi>S</mi>
+                                    </mrow>
+                                </msub>
+                            </mrow>
+                            <mrow>
+                                <mn>100</mn>
+                            </mrow>
+                        </mfrac>
+                        <msub>
+                            <mrow>
+                                <mi>C</mi>
+                            </mrow>
+                            <mrow>
+                                <mi>R</mi>
+                                <mi>S</mi>
+                            </mrow>
+                        </msub>
+                        <mo>(</mo>
+                        <mn>1</mn>
+                        <mo>−</mo>
+                        <msub>
+                            <mrow>
+                                <mi>D</mi>
+                                <mi>e</mi>
+                                <mi>c</mi>
+                                <mi>a</mi>
+                                <mi>y</mi>
+                            </mrow>
+                            <mrow>
+                                <mi>R</mi>
+                                <mi>S</mi>
+                            </mrow>
+                        </msub>
+                        <mo>)</mo>
+                        <mtext> </mtext>
+                        <mo>+</mo>
+                        <mtext> </mtext>
+                        <mo>(</mo>
+                        <msub>
+                            <mrow>
+                                <mi>C</mi>
+                                <mi>R</mi>
+                            </mrow>
+                            <mrow>
+                                <mi>R</mi>
+                                <mi>S</mi>
+                                <mo>,</mo>
+                                <mi>i</mi>
+                                <mo>−</mo>
+                                <mn>1</mn>
+                            </mrow>
+                        </msub>
+                        <msub>
+                            <mrow>
+                                <mi>D</mi>
+                                <mi>e</mi>
+                                <mi>c</mi>
+                                <mi>a</mi>
+                                <mi>y</mi>
+                            </mrow>
+                            <mrow>
+                                <mi>R</mi>
+                                <mi>S</mi>
+                            </mrow>
+                        </msub>
+                        <mo>)</mo>
+                    </mrow>
+                </math>
+            </MadCap:equation>
+        </p>
+        <p>The following table provides the definitions of these variables.</p>
+        <table style="mc-table-style: url('../Resources/TableStyles/AlternatingRows.css');" class="TableStyle-AlternatingRows" cellspacing="0">
+            <col style="width: 167px;" class="Column-Column1" />
+            <col style="width: 123px;" class="Column-Column1" />
+            <col style="width: 594px;" class="Column-Column1" />
+            <thead>
+                <tr class="Head-Header1">
+                    <th class="HeadE-Column1-Header1">
+                        <p>Variable</p>
+                    </th>
+                    <th class="HeadE-Column1-Header1">
+                        <p>Units</p>
+                    </th>
+                    <th class="HeadD-Column1-Header1">
+                        <p>Definition</p>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="Body-Body1">
+                    <td class="BodyE-Column1-Body1">
+                        <p>CR<sub>R</sub><sub>S</sub><sub>,i</sub></p>
+                    </td>
+                    <td class="BodyE-Column1-Body1">
+                        <p>Tons/hr</p>
+                    </td>
+                    <td class="BodyD-Column1-Body1">
+                        <p>Residual smoldering consumption rate at hour i.</p>
+                    </td>
+                </tr>
+                <tr class="Body-Body2">
+                    <td class="BodyE-Column1-Body2">
+                        <p>CR<sub>RS, i-1</sub></p>
+                    </td>
+                    <td class="BodyE-Column1-Body2">
+                        <p>Tons/hr</p>
+                    </td>
+                    <td class="BodyD-Column1-Body2">
+                        <p>Residual smoldering phase consumption rate at hour i-1</p>
+                    </td>
+                </tr>
+                <tr class="Body-Body1">
+                    <td class="BodyE-Column1-Body1">
+                        <p>SA</p>
+                    </td>
+                    <td class="BodyE-Column1-Body1">
+                        <p>—</p>
+                    </td>
+                    <td class="BodyD-Column1-Body1">
+                        <p>Smoldering adjustment</p>
+                    </td>
+                </tr>
+                <tr class="Body-Body2">
+                    <td class="BodyE-Column1-Body2">
+                        <p>AR<sub>i</sub></p>
+                    </td>
+                    <td class="BodyE-Column1-Body2">
+                        <p>Acres/hr</p>
+                    </td>
+                    <td class="BodyD-Column1-Body2">
+                        <p>Rate of increase in burn area between hour i-1 and hour i</p>
+                    </td>
+                </tr>
+                <tr class="Body-Body1">
+                    <td class="BodyE-Column1-Body1">
+                        <p>Inv<sub>RS</sub></p>
+                    </td>
+                    <td class="BodyE-Column1-Body1">
+                        <p>%</p>
+                    </td>
+                    <td class="BodyD-Column1-Body1">
+                        <p>Residual smoldering phase involvement</p>
+                    </td>
+                </tr>
+                <tr class="Body-Body2">
+                    <td class="BodyE-Column1-Body2">
+                        <p>C<sub>S</sub></p>
+                    </td>
+                    <td class="BodyE-Column1-Body2">
+                        <p>Tons/acre</p>
+                    </td>
+                    <td class="BodyD-Column1-Body2">
+                        <p>Residual smoldering phase consumption</p>
+                    </td>
+                </tr>
+                <tr class="Body-Body1">
+                    <td class="BodyB-Column1-Body1">
+                        <p>Decay<sub>RS</sub></p>
+                    </td>
+                    <td class="BodyB-Column1-Body1">
+                        <p>1/hr</p>
+                    </td>
+                    <td class="BodyA-Column1-Body1">
+                        <p>Residual smoldering phase decay rate (holdover)</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <h2><a name="Total"></a>Total Consumption Rate</h2>
+        <p>Total consumption rates per hour are calculated as the sum of flaming, smoldering, and residual smoldering rates.</p>
+        <p>
+            <MadCap:equation xmlns:dsi="http://www.w3.org/1998/Math/MathML">
+                <math>
+                    <mrow>
+                        <msub>
+                            <mrow>
+                                <mi>C</mi>
+                                <mi>R</mi>
+                            </mrow>
+                            <mrow>
+                                <mi>T</mi>
+                                <mi>o</mi>
+                                <mi>t</mi>
+                                <mo>,</mo>
+                                <mi>i</mi>
+                            </mrow>
+                        </msub>
+                        <mo>⁢</mo>
+                        <mtext> </mtext>
+                        <mo>=</mo>
+                        <mtext> </mtext>
+                        <msub>
+                            <mrow>
+                                <mi>C</mi>
+                                <mi>R</mi>
+                            </mrow>
+                            <mrow>
+                                <mi>F</mi>
+                                <mo>,</mo>
+                                <mi>i</mi>
+                            </mrow>
+                        </msub>
+                        <mo>⁢</mo>
+                        <mtext> </mtext>
+                        <mo>+</mo>
+                        <mtext> </mtext>
+                        <msub>
+                            <mrow>
+                                <mi>C</mi>
+                                <mi>R</mi>
+                            </mrow>
+                            <mrow>
+                                <mi>S</mi>
+                                <mo>,</mo>
+                                <mi>i</mi>
+                            </mrow>
+                        </msub>
+                        <mo>⁢</mo>
+                        <mtext> </mtext>
+                        <mo>+</mo>
+                        <mtext> </mtext>
+                        <msub>
+                            <mrow>
+                                <mi>C</mi>
+                                <mi>R</mi>
+                            </mrow>
+                            <mrow>
+                                <mi>R</mi>
+                                <mi>S</mi>
+                                <mo>,</mo>
+                                <mi>i</mi>
+                            </mrow>
+                        </msub>
+                    </mrow>
+                </math>
+            </MadCap:equation>
+        </p>
+        <p>The following table provides the definitions of these variables.</p>
+        <table style="mc-table-style: url('../Resources/TableStyles/AlternatingRows.css');" class="TableStyle-AlternatingRows" cellspacing="0">
+            <col style="width: 144px;" class="Column-Column1" />
+            <col style="width: 147px;" class="Column-Column1" />
+            <col class="Column-Column1" style="width: 415px;" />
+            <thead>
+                <tr class="Head-Header1">
+                    <th class="HeadE-Column1-Header1">
+                        <p>Variable</p>
+                    </th>
+                    <th class="HeadE-Column1-Header1">
+                        <p>Units</p>
+                    </th>
+                    <th class="HeadD-Column1-Header1">
+                        <p>Definition</p>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="Body-Body1">
+                    <td class="BodyE-Column1-Body1">
+                        <p>CR<sub>Tot,i</sub></p>
+                    </td>
+                    <td class="BodyE-Column1-Body1">
+                        <p>Tons/hr</p>
+                    </td>
+                    <td class="BodyD-Column1-Body1">
+                        <p>Total consumption rate at hour i</p>
+                    </td>
+                </tr>
+                <tr class="Body-Body2">
+                    <td class="BodyE-Column1-Body2">
+                        <p>CR<sub>F,i</sub></p>
+                    </td>
+                    <td class="BodyE-Column1-Body2">
+                        <p>Tons/hr</p>
+                    </td>
+                    <td class="BodyD-Column1-Body2">
+                        <p>Flaming phase consumption rate at hour i.</p>
+                    </td>
+                </tr>
+                <tr class="Body-Body1">
+                    <td class="BodyE-Column1-Body1">
+                        <p>CR<sub>S,i</sub></p>
+                    </td>
+                    <td class="BodyE-Column1-Body1">
+                        <p>Tons/hr</p>
+                    </td>
+                    <td class="BodyD-Column1-Body1">
+                        <p>Smoldering phase consumption rate at hour i.</p>
+                    </td>
+                </tr>
+                <tr class="Body-Body2">
+                    <td class="BodyB-Column1-Body2">
+                        <p>CR<sub>RS,i</sub></p>
+                    </td>
+                    <td class="BodyB-Column1-Body2">
+                        <p>Tons/hr</p>
+                    </td>
+                    <td class="BodyA-Column1-Body2">
+                        <p>Residual smoldering consumption rate at hour i.</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>

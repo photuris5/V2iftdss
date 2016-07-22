@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="7" MadCap:lastHeight="918" MadCap:lastWidth="1007" MadCap:fileTags="FileNeeds.04 Ready for review">
+    <head>
+    </head>
+    <body>
+        <p>After defining your larger values at risk, draw smaller values of risk (e.g., archeological sites, endangered species habitat, structures) on top of the larger values at risk. As you do so, the smaller polygons replace the larger polygons beneath. This is what you want.</p>
+        <div>
+            <form>
+                <fieldset class="note">
+                    <legend>&#160;&#160;&#160;Tip&#160;&#160;&#160;</legend>
+                    <p class="noteBody">Creating a detailed values-at-risk map (with multiple response functions) produces better outputs.</p>
+                </fieldset>
+            </form>
+        </div>
+        <p>Once you create a polygon, the data area is rasterized. If your polygon line encompasses less than half of a pixel, that pixel will not be included in your polygon. If your polygon line encompasses more than half of a pixel, that pixel will be included in your polygon.</p>
+        <p>
+            <img src="../Images/RA-VAR-Tutorial/VAR-smaller-values-combined.png" class="screencap" title="Defining values at risk" alt="Defining values at risk." />
+        </p>
+    </body>
+</html>

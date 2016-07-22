@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc
+  Version="1"
+  sourceDocument="J:\910907 IFT-DSS Task 7 Documentation and Training\Online_help\Misc Resources\Working Files\IFT_FlamMap_MTT\IFTFlamMap_Inputs.docx">
+  <TocEntry
+    Title="Input Parameters IFT FlamMap MTT"
+    Link="/Content/10-Reference/RefFlam-MTT-In.htm" />
+  <TocEntry
+    Title="2 Intermediate Steps IFT FlamMap MTT"
+    Link="/Content/10-Reference/RefFlam-MTT-Intermediate.htm" />
+  <TocEntry
+    Title="Output Parameters IFT FlamMap MTT"
+    Link="/Content/10-Reference/RefFlam-MTT-Out.htm" />
+</CatapultToc>

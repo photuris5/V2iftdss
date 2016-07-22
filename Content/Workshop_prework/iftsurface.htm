@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="7" MadCap:lastHeight="7375" MadCap:lastWidth="954">
+    <head>
+    </head>
+    <body>
+        <h1>Running IFT-Surface Fire Behavior</h1>
+        <p>In this tutorial we'll produce fire behavior outputs using IFT-Surface in the <b>Prescribed Burn Planning</b> workflow, assuming a pre-treatment landscape, and  typical fall environmental conditions. We'll also see how outputs from this run can be labeled so they may be imported into a burn plan document later if we elected.</p>
+        <p>Inputs to run IFT-Surface include:</p>
+        <ul>
+            <li>Fire Behavior Fuel Model</li>
+            <li>1,10, and 100 hour fuel moistures</li>
+            <li>live herbaceous and woody fuel moistures</li>
+            <li>midflame windspeed</li>
+            <li>slope</li>
+            <li>aspect</li>
+            <li>flanking fire direction</li>
+            <li>elapsed time</li>
+        </ul>
+        <p>Outputs will include: </p>
+        <ul>
+            <li>Spread rates for heading, backing, and flanking fire</li>
+            <li>Heat per unit area</li>
+            <li>Fireline intensity for heading, backing, and flanking fire</li>
+            <li>Flame length for heading, backing, and flanking fire</li>
+            <li>Reaction intensity</li>
+            <li>Spread direction for heading, backing, and flanking fire</li>
+            <li>Spread distance for heading, backing, and flanking fire</li>
+            <li>Residence time</li>
+            <li>Effective windspeed</li>
+        </ul>
+        <h2>Initiating the Run</h2>
+        <p>From the IFTDSS&#160;Dashboard, go to the project summary page for the project we created in Tutorial 1, via the <b>Projects tab</b>, or the <b>Manage My Projects</b> link.</p>
+        <p>
+            <img src="../Resources/Images/GettingStarted2015/2_0_SystemOverview_cap_2.png" style="width: 366px;height: 325px;" />
+        </p>
+        <p>From the <b>Project Summary</b> page, scroll down and select <b>Create New Run</b>. From the list of tasks, select <b>Prescribed Burn Planning</b>&gt;<b>Fire Behavior</b>&gt; and <b>Calculate surface fire behavior (IFT-Surface)</b>.</p>
+        <p>
+            <img src="../Resources/Images/workshop_prework/2_0_iftflammap_stand_select.png" style="width: 812px;height: 621px;" />
+        </p>
+        <p>Once selected, give the run a descriptive name such as 'Squaw Crk. Rx Fire' and click <b>Next</b>.</p>
+        <p>
+            <img src="../Resources/Images/workshop_prework/2_0_iftsurface_runsetup.png" style="width: 750px;height: 145px;" />
+        </p>
+        <h2>Configuring the Run</h2>
+        <p>When configuring IFT-Surface you may create multiple simulations or stands to describe different fuel models, or different environmental or fuel parameters. This can be especially useful if you plan on using the IFTDSS burn plan feature later on, because you may create different simulations for different prescription scenarios and import these into the plan. For example, if you wanted to evaluate 4 different windspeeds, each with 4 different fuel moisture scenarios, you could conduct a run with 16 simulations.</p>
+        <p>
+            <img src="../Resources/Images/workshop_prework/simulation_labels.png" style="width: 458px;height: 98px;" />
+        </p>
+        <p>For this example, we'll create 4 simulations, and assign each one a different windspeed.  Under <b>Number of Stands or Simulations</b>, enter '4' and click <b>Next</b> to continue.</p>
+        <p>
+            <img src="../Resources/Images/workshop_prework/2_0_iftsurface_configure.png" />
+        </p>
+        <h2>Inputs</h2>
+        <p>Next we'll populate the inputs for each simulation. We'll give each the same information with the exception of the windspeed parameter. </p>
+        <p>For each input enter:</p>
+        <ul>
+            <li>Fire Behavior Fuel Model:&#160;TU5</li>
+            <li>1 hr fuel moisture: 8%</li>
+            <li>10 hr fuel moisture: 10%</li>
+            <li>100 hr fuel moisture: 16%</li>
+            <li>Live herbaceous fuel moisture: 45%</li>
+            <li>Live woody fuel moisture: 100%</li>
+            <li>Wind direction: 200 degrees</li>
+            <li>Slope: 20%</li>
+            <li>Aspect: 180 degrees</li>
+            <li>Flanking Fire Direction: 90 degrees</li>
+            <li>Elapsed Time:&#160;2 hours</li>
+            <li>For midflame windspeed use: 6,8,9 and 10 mph, respectively.</li>
+        </ul>
+        <div>
+            <form>
+                <fieldset class="note">
+                    <legend>&#160;&#160;&#160;Note&#160;&#160;&#160;</legend>
+                    <p class="noteBody">In this case we elected to use TU5 as the fire behavior fuel model, because it was the most common on our landscape. To find this information, hold down the Control key on your keyboard and click the <b>Data</b> tab at the top of IFTDSS to open <b>Saved Data Sets</b> in a new window. From the new window, find our data set and select <b>edit</b> under <b>Actions</b>. When the data set opens, click the <b>Landscape Statistics</b> key in the <b>Mapping toolbar</b>, make sure the 'Parameter' is set to 'fuel model', and 'Select Polygon' is set to 'Whole dataset', and click <b>Go</b>. This will generate a list of the fuel models on the landscape, and the acreage and percent cover associated with each one.</p>
+                </fieldset>
+            </form>
+        </div>
+        <p>When completed your inputs should resemble the image below. Scroll down and click <b>Next</b>.</p>
+        <p>
+            <img src="../Resources/Images/workshop_prework/2_0_iftsurface_inputs.png" style="width: 777px;height: 609px;" />
+        </p>
+        <h2>Outputs</h2>
+        <p>Before looking at the outputs, note that you can toggle between tablular view, and graphical view using the <b>Views</b> options to the left of the results. </p>
+        <p>
+            <img src="../Resources/Images/workshop_prework/2_0_iftsurface_outputs_1.png" style="width: 651px;height: 312px;" />
+        </p>
+        <p>&#160;</p>
+        <p>Additionally, if you want to export these outputs as a CSV spreadsheet to use outside of IFTDSS, that can be done by scrolling down to the bottom of the page and clicking <b>Export Table (CSV)</b>.</p>
+        <p>
+            <img src="../Resources/Images/workshop_prework/2_0_iftsurface_outputs_2.png" style="width: 680px;height: 98px;" />
+        </p>
+        <p>Another feature of IFT-Surface is the ability to label output results so they may be imported into a burn plan later. This is done via the <b>Mark simulations for use with Burn Plan</b> section. For example, we set this run up to perform 4 simulations, each looking at a different windspeed (6,8,9 and 10 mph). If these were the range of windspeeds for a prescribed burn plan we were writing, we could label each output accordingly. </p>
+        <p>Use the dropdown menu to label each simulation as low, optimal, high, and maximum fire behavior accordingly. When finished, that section should resemble the image below. Remember order in which windspeed inputs were entered: windspeeds 6,8,9,10, correspond to low, optimal, high, and maximum fire behaviors, respectively.</p>
+        <p>
+            <img src="../Resources/Images/workshop_prework/2_0_iftsurface_outputs_3.png" />
+        </p>
+        <p>You may also notice that there are three different prescription options in the prescription dropdown (prescription 1,2,or 3). To save time in this tutorial, we'll assume that each of the windspeeds entered is part of a single prescription. However, when using IFTDSS for your own future projects, it may be useful to know that you may label these outputs as different prescriptions. This allows you to create simulations and label outputs for up to three different prescription scenarios, which could then be input into the prescribed burn plan template. The prescribed burn plan template will be introduced during the 'Test Your Knowledge' portion of this online course.</p>
+        <div>
+            <form>
+                <fieldset class="note">
+                    <legend>&#160;&#160;&#160;Note&#160;&#160;&#160;</legend>
+                    <p class="noteBody">In IFTDSS, the Prescribed Burn Plan template and associated fire behavior modules allow the user to create and populate up to 3 different prescriptions per one burn plan</p>
+                </fieldset>
+            </form>
+        </div>
+        <p>Scrolling down, you will see the outputs for each simulation displayed in a table.</p>
+        <p>
+            <img src="../Resources/Images/workshop_prework/2_0_iftsurface_outputs_4.png" />
+        </p>
+        <p>Take a few minutes to look through the results. When finished evaluating the outputs, scroll down and click <b>Finish</b> to proceed to the <b>Run Summary</b>.</p>
+        <h2>Run Summary</h2>
+        <p>From the run summary page you  can download a CSV file of the outputs, as well as a chart representing each output. </p>
+        <p>
+            <img src="../Resources/Images/workshop_prework/2_0_iftsurface_run_summary.png" />
+        </p>
+        <p>When finished with the run you may scroll down and select <b>Back to Project</b>.</p>
+    </body>
+</html>

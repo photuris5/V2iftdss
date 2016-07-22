@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="4" MadCap:lastHeight="348" MadCap:lastWidth="750" MadCap:fileTags="FileNeeds.04 Ready for review">
+    <head>
+    </head>
+    <body>
+        <p>The relative net value change parameter is classified into five data subsets.</p>
+        <ul style="list-style-type: square;">
+            <li>Greatest Loss/Least Benefit</li>
+            <li>High Loss/Low Benefit</li>
+            <li>Average Loss/Benefit</li>
+            <li>Low Loss/High Benefit</li>
+            <li>Least Loss/Greatest Benefit</li>
+        </ul>
+        <p>For the default relative net value change parameter, <b>the output value range is binned by 20%</b> for all of the categories.</p>
+    </body>
+</html>

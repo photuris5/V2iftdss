@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="4" MadCap:lastHeight="202" MadCap:lastWidth="1046" MadCap:fileTags="FileNeeds.04 Ready for review">
+    <head>
+    </head>
+    <body>
+        <p>If you need to edit the spatial landscape data, you can do so either one grid cell at a time (using the <strong>Point Edit</strong> tool), or multiple grid cells at a time (using the <strong>Advanced Edit</strong> tool).</p>
+        <p><em style="font-weight: bold;">To edit spatial landscape data one grid cell at a time,</em>
+        </p>
+        <ol>
+            <li>Click on the grid cell you would like to edit, and the <strong>Point Edit</strong> panel appears.</li>
+            <li>Edit the grid cell data and choose <strong>Save</strong>.</li>
+        </ol>
+    </body>
+</html>

@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="5" MadCap:lastHeight="1134" MadCap:lastWidth="1040" MadCap:fileTags="FileNeeds.04 Ready for review">
+    <head>
+        <link href="../TableStyles/AlternatingRows.css" rel="stylesheet" MadCap:stylesheetType="table" />
+    </head>
+    <body>
+        <p>On the same page in IFTDSS  where you set the values for these options, you also have the option of selecting either the Finney method or the Scott and Reinhardt method for calculating crown fire  potential. See <a href="../../10-Reference/RefFlamMapCrownFireCalc.htm">Crown Fire Calculations Options</a> for a comparison of these two methods.</p>
+        <table style="width: 100%;mc-table-style: url('../TableStyles/AlternatingRows.css');" class="TableStyle-AlternatingRows" cellspacing="0">
+            <col class="Column-Column1" />
+            <col class="Column-Column1" />
+            <col class="Column-Column1" />
+            <thead>
+                <tr class="Head-Header1">
+                    <th class="HeadE-Column1-Header1">Name</th>
+                    <th class="HeadE-Column1-Header1">Units</th>
+                    <th class="HeadD-Column1-Header1">Brief Description</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="Body-Body1">
+                    <td class="BodyE-Column1-Body1">
+                        <MadCap:keyword term="Aspect (parameter):fire behavior (IFT-FlamMap)" />Aspect
+					</td>
+                    <td class="BodyE-Column1-Body1">Degrees
+					</td>
+                    <td class="BodyD-Column1-Body1">The direction a slope or other topographic feature is facing. 
+					</td>
+                </tr>
+                <tr class="Body-Body2">
+                    <td class="BodyE-Column1-Body2">
+                        <MadCap:keyword term="Canopy Base Height (parameter):fire behavior (FlamMap)" />Canopy Base Height
+					</td>
+                    <td class="BodyE-Column1-Body2">Feet, meters
+					</td>
+                    <td class="BodyD-Column1-Body2">
+                        <MadCap:keyword term="canopies:surface and crown fires and;crowns and crown fires:surface fires and;surface fires:crown fires and;fires:surface:crown fires and" />Canopy base height for a single tree is the height to the bottom of the live crown. Canopy base height for fire simulation at a stand level becomes more complicated because this parameter is important for determining transition from surface fire to crown fire. Therefore, on a stand or area basis, CBH also incorporates the effects of any ladder fuels present to increase vertical fuel continuity and assist in transitioning the fire from a surface fire to a crown fire.
+					</td>
+                </tr>
+                <tr class="Body-Body1">
+                    <td class="BodyE-Column1-Body1">
+                        <MadCap:keyword term="Canopy Bulk Density (parameter):fire behavior (FlamMap)" />Canopy Bulk Density
+					</td>
+                    <td class="BodyE-Column1-Body1">Pounds/foot<sup>3</sup>, kilograms/meter<sup>3</sup>, 
+					</td>
+                    <td class="BodyD-Column1-Body1">
+                        <MadCap:keyword term="crowns and crown fires:fires" />Canopy bulk density is the mass of available canopy fuel per unit of canopy volume. It is a bulk property of a plot, stand, or group of trees, not of an individual tree. CBD is needed to determine the characteristics of crown fires, such as whether a crown fire is active or passive.
+					</td>
+                </tr>
+                <tr class="Body-Body2">
+                    <td class="BodyE-Column1-Body2">
+                        <MadCap:keyword term="Canopy Coverage (parameter):fire behavior (FlamMap)" />Canopy Coverage
+					</td>
+                    <td class="BodyE-Column1-Body2">Percentage
+					</td>
+                    <td class="BodyD-Column1-Body2">
+                        <MadCap:keyword term="canopies:cover:fuel moisture and;fuel moisture scenarios:canopy cover and" />The horizontal percentage of the ground surface that is covered by tree crowns. In IFTDSS, canopy cover is a stand-level descriptor. In FlamMap, canopy cover is a necessary input for computing wind reduction factors and shading in the optional dead fuel moisture model.
+					</td>
+                </tr>
+                <tr class="Body-Body1">
+                    <td class="BodyE-Column1-Body1">
+                        <MadCap:keyword term="Canopy Height (parameter):fire behavior (FlamMap)" />Canopy Height
+					</td>
+                    <td class="BodyE-Column1-Body1">Feet, meters
+					</td>
+                    <td class="BodyD-Column1-Body1">
+                        <MadCap:keyword term="canopies:height;wind and wind speeds:canopy height and;fire behavior:canopy height and wind speeds and" />Canopy height or stand height for fire behavior modeling is the average height of the dominant or co-dominant tree layer in a stand. Canopy height is <i>not</i> the height of the tallest tree in the stand or an average height of all trees within the given area. Canopy height is used in fire behavior modeling for computing the reduction of 20-ft wind speeds to midflame wind speeds and for computing spotting distances from torching trees.
+					</td>
+                </tr>
+                <tr class="Body-Body2">
+                    <td class="BodyE-Column1-Body2">
+                        <MadCap:keyword term="Elevation (parameter):fire behavior (FlamMap)" />Elevation
+					</td>
+                    <td class="BodyE-Column1-Body2">Feet, meters
+					</td>
+                    <td class="BodyD-Column1-Body2">The height above sea level of the area of interest. Elevation is needed for fire behavior simulations to adiabatically adjust temperature and humidity and to convert fire spread between horizontal and slope distances.
+					</td>
+                </tr>
+                <tr class="Body-Body1">
+                    <td class="BodyE-Column1-Body1">
+                        <MadCap:keyword term="Fire Behavior Fuel Model (parameter):fire behavior (FlamMap)" />Fire Behavior Fuel Model
+					</td>
+                    <td class="BodyE-Column1-Body1">NA
+					</td>
+                    <td class="BodyD-Column1-Body1">
+                        <MadCap:keyword term="fire behavior:fuel models;vegetation types:fuel models and" />A fuel model is a set of fuelbed information needed by fire behavior or fire effects modules. Each fire behavior fuel model represents the characteristic biomass (or “fuels”) present in a landscape that, when burned, produce a characteristic set of fire behaviors. Fire behavior fuel models are available for a range of vegetation types, including grasslands, shrublands, forests, and harvest units (slash). <MadCap:keyword term="fire behavior:fuel models:supported types;modules:fire behavior fuel:supported types;13 original fire behavior fuel models:IFTDSS support for" />For fire behavior modeling, IFTDSS supports the original 13 fire behavior fuel models described by Anderson (<a href="../../10-Reference/Bibliography.htm#Anderson1982">1982</a>) and the <MadCap:keyword term="40 standard fire behavior fuel models:support for" />40 standard fire behavior fuel models described by Scott and Burgan (<a href="../../10-Reference/Bibliography.htm#ScottandBurgen2005">2005</a>).
+					</td>
+                </tr>
+                <tr class="Body-Body2">
+                    <td class="BodyB-Column1-Body2">
+                        <MadCap:keyword term="Slope (parameter):fire behavior (IFT-FlamMap)" />Slope
+					</td>
+                    <td class="BodyB-Column1-Body2">Percentage, degrees
+					</td>
+                    <td class="BodyA-Column1-Body2">
+                        <MadCap:keyword term="slopes:definition of" />Slope is the ratio of the elevational change (rise) over a horizontal distance (run). For a given land unit, the slope is a measure of the inclination or steepness expressed in either percentage or degrees. For fire behavior and fire effects modeling, slope is an essential parameter used to calculate slope influences on fire spread and solar radiance.
+					</td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>

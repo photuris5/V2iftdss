@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="4" MadCap:lastHeight="3283" MadCap:lastWidth="791">
+    <body>
+        <p>From the homepage, click on <b>Data</b> on the menu. Once in the <b>Saved Data Sets</b> screen select the <b>Shapefile Data</b> tab. The <b>Upload Shapefile</b> link is in the upper left corner of the <b>Shapefile Data</b> tab.</p>
+        <p>
+            <img src="../Images/Concepts_2015/JH_Homepage_Data_2.jpg" style="width: 722px;height: 332px;" alt="Option to upolad shape files as described in the text." />
+        </p>
+        <p>Before uploading a shape file ensure you have the 4 needed individual files that compose a shape file data set; .shp .shx .prj &amp; .dbf.</p>
+        <p>When uploading a shapefile you have 2 options</p>
+        <ol>
+            <li>You may upload the needed files individually</li>
+            <li>You may upload a zip file with the needed files</li>
+        </ol>
+        <p>
+            <img src="../Images/Concepts_2015/JH_Caution.jpg" style="width: 26px;height: 26px;" alt="caution sign" />You may not have the files in a subdirectory</p>
+        <p>
+            <img src="../Images/Concepts_2015/JH_Caution.jpg" style="width: 26px;height: 26px;" alt="caution sign" />There should not be more than one shapefile in a zip folder</p>
+        <p>Follow the instructions on the “<MadCap:xref href="../../03-Concepts/DataSetsUploading.htm"><b>Uploading a Data Set to IFTDSS</b></MadCap:xref>” page.</p>
+        <p>
+            <img src="../Images/Concepts_2015/JH_shpfile_uploading_page2.png" style="width: 736px; height: 702px;" alt="'Upload new data set' page displaying the files that have been uploaded." />
+        </p>
+        <p>If you experience a display issue the problem is most likely a projection issue. Double check your .prj file and try again. If the issue persists you may need to re-project the file in a GIS software package and then try again.</p>
+        <p>Double check your shape file uploaded properly by clicking on the gear icon in the <b>Action</b> column and click on <b>Edit</b>. </p>
+        <p>
+            <img src="../Images/Concepts_2015/JH_shpfile_list.png" style="width: 786px;height: 419px;" alt="Shapefile Data actions icon, as described in the text." />
+        </p>
+        <p>Once the map shows up you will need to zoom in to an appropriate level so you can see the shape. If your shape still isn’t visible ensure the <b>Shapefile Geometry</b> box is checked under the <b>Overlay</b> heading is CHECKED.<img src="../Images/Concepts_2015/JH_baselayer_shape_zoom.png" style="width: 631px;height: 488px;" alt="Map overlay with 'Shapefile geometry' layer checked." /></p>
+        <p>
+            <img src="../Images/Concepts_2015/JH_Caution.jpg" style="width: 26px;height: 26px;" />If when examining your shape you notice extra classes in the legend for your shapefile geometry, you must have multiple polygons within your shapefile. You can rename and change the color of each of the classes individually. If you wish to change the color of a shape and it has multiple classes you want to be identical in color you will have to copy and paste the color code for each layer.</p>
+        <p>
+            <img src="../Images/Concepts_2015/JH_colorwheel.png" alt="Edit feature window, with the option to change feature colors." />
+        </p>
+    </body>
+</html>

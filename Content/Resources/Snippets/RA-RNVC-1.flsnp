@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="7" MadCap:lastHeight="459" MadCap:lastWidth="1007" MadCap:fileTags="FileNeeds.04 Ready for review">
+    <head>
+    </head>
+    <body>
+        <p>After the risk model runs, you can view your map on the <b>Relative Net Value Change</b> page. Before you do so, this topic and the following few describe how risk and relative net value change are related.</p>
+        <h2>What is Risk?</h2>
+        <p>Risk is defined as the expected net value change per pixel calculated as the product of</p>
+        <ol>
+            <li>The probability that the area represented by the pixel will burn given a random ignition within the area of interest, and</li>
+            <li>The resulting change in financial or ecological value (response function) if the area represented by the pixel burns with a specific flame length for a single static IFT-FlamMap run.</li>
+        </ol>
+        <p>The next page uses a real example to show how net value change is calculated.</p>
+        <div>
+            <form>
+                <fieldset class="note">
+                    <legend>&#160;&#160;&#160;Note&#160;&#160;&#160;</legend>
+                    <p class="noteBody">Your output will look different than this example’s output due to differences in values at risk, as well as random ignitions across the landscape.</p>
+                </fieldset>
+            </form>
+        </div>
+    </body>
+</html>

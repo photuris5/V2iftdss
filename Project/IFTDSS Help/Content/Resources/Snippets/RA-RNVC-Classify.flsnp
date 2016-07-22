@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="7" MadCap:lastHeight="346" MadCap:lastWidth="1007" MadCap:fileTags="FileNeeds.04 Ready for review">
+    <head>
+    </head>
+    <body>
+        <p>On the <strong>Classify Relative Net Value Change</strong> step, you can adjust the weights of the five relative net value change parameter's data subsets.</p>
+        <p>Using this functionality, you can narrow your search of high fire hazard and risk areas to areas with the greatest potential loss.</p>
+        <p>In this example, we will reduce the output range for the Greatest Loss/Least Benefit category from 20% to 10%. We'll adjust other values so that the total of all five subsets is 100%.</p>
+        <div>
+            <form>
+                <fieldset class="note">
+                    <legend>&#160;&#160;&#160;Important&#160;&#160;&#160;</legend>
+                    <p class="noteBody">The sum of all five weights <strong>must</strong> be 100%.</p>
+                    <p class="noteBody">Also, if you do not change the default values, the custom relative net value change map (shown in the next step) will be the same as the default map (shown in the previous step).</p>
+                </fieldset>
+            </form>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,183 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="7" MadCap:lastHeight="6483" MadCap:lastWidth="1145">
+    <head>
+    </head>
+    <body>
+        <h1>RxBurn Planning Workflow</h1>
+        <p>The tools available for prescribed burn planning can be used to model the probability of ignition, fire behavior and fire effects, and fire containment. These tools can also be used to develop a prescribed burn plan as outlined in the Interagency Prescribed Fire Planning and Implementation Procedures Guidelines and in the RX-341 Prescribed Fire Plan Preparation course.</p>
+        <p>The RxBurn Planning workflow is extensive. Click on the capability to learn more about the tools and pathways associated with it:</p>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Probability of Ignition</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <h2>Probability of Ignition</h2>
+                <p>These tools can be used to calculate the probability of ignition from a firebrand or from a lightning strike. </p>
+                <p>
+                    <img src="../Resources/Images/Concepts_2015/Workflows/Rx_fire_pathway_prob_JH.png" style="width: 868px;height: 380px;">
+                    </img>
+                </p>
+                <p>Probability of ignition is calculated using the <a href="../10-Reference/RefIGNITE.htm">IFT-Ignite</a> tool. IFT-Ignite, based on BehavePlus calculates the the likelihood that either a firebrand or lightning will ignite ground fuel of the type specified. </p>
+                <p><a href="../10-Reference/RefIGNITEInFirebrand.htm">Firebrand Inputs for IFT-Ignite</a> include:</p>
+                <ul>
+                    <li>1-hr fuel moisture</li>
+                    <li>air temperature</li>
+                    <li>fuel shading from the sun</li>
+                </ul>
+                <p><a href="../10-Reference/RefIGNITEInLightning.htm">Lightning Inputs for IFT-Ignite</a> include:</p>
+                <ul>
+                    <li>100-hr fuel moisture</li>
+                    <li>Duff and litter depth</li>
+                    <li>Ignition fuel type</li>
+                    <li>Lightning strike type</li>
+                </ul>
+                <div>
+                    <form>
+                        <fieldset class="note">
+                            <legend>&#160;&#160;&#160;Note&#160;&#160;&#160;</legend>
+                            <p class="noteBody">If you are running this module for the IFTDSS burn plan document, these models can be used to fill in Elements 7, 16, and 17 of the burn plan.</p>
+                        </fieldset>
+                    </form>
+                </div>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Fire Behavior</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <h2>Fire Behavior</h2>
+                <p>The tools available for modeling crown and surface fire behavior can be run for an individual stand or spatially using LANDFIRE (.lcp) data. The surface fire behavior module for FCCS fuelbeds requires FCCS fuelbed data as an input.</p>
+                <p>
+                    <img src="../Resources/Images/Concepts_2015/Workflows/Rx_fire_behavior_JH.png" style="width: 907px;height: 489px;">
+                    </img>
+                </p>
+                <p MadCap:conditions="">Options for calculating fire behavior include:</p>
+                <ul>
+                    <li MadCap:conditions="">Calculate crown fire behavior (using <a href="../10-Reference/RefCROWN.htm">IFT-Crown</a>)</li>
+                    <li MadCap:conditions="">Calculate fire behavior across a landscape (using <a href="../10-Reference/RefFlamMapCrownFireCalc.htm">IFT-FlamMap</a>)</li>
+                    <li MadCap:conditions="">Calculate fire behavior for individual stands (using <a href="../10-Reference/RefFlamMap.htm">IFT-FlamMap</a>)</li>
+                    <li MadCap:conditions="">Calculate minimum travel time (using <a href="../10-Reference/RefFlam-MTT-Intro.htm">MTT</a>)</li>
+                    <li MadCap:conditions="">Calculate surface fire behavior (using <a href="../08-FERA-Tools/FERA-FCCS-SFB-Intro.htm"><a href="../10-Reference/RefFCCS.htm">FCCS</a></a>)</li>
+                    <li MadCap:conditions="">Calculate surface fire behavior (using <a href="../10-Reference/RefSURF.htm">IFT-Surface</a>)</li>
+                    <li MadCap:conditions="">Predict surface fire behavior, size, and spread distance (using <a href="../10-Reference/RefSurfSize.htm">IFT-Surface+Size</a>)</li>
+                    <li MadCap:conditions="">Calculate surface fire behavior for multiple fuelbeds using a single scenario and <a href="../08-FERA-Tools/FERA-FCCS-SFB-Intro.htm">FCCS</a>.</li>
+                </ul>
+                <p MadCap:conditions="">To calculate surface fire behavior using FCCS, the Fuelbed Crosswalk option is available, which derived FCCS fuelbeds from LANDFIRE Existing Vegetation Type.</p>
+                <div>
+                    <form>
+                        <fieldset class="note" MadCap:conditions="">
+                            <legend>&#160;&#160;&#160;Note&#160;&#160;&#160;</legend>
+                            <p class="noteBody" MadCap:conditions="">If you are running this module for the IFTDSS burn plan document, these models can be used to fill in Elements 7, 16, and 17 of the burn plan.</p>
+                        </fieldset>
+                    </form>
+                </div>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Fire Containment</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <h2 MadCap:conditions="">Fire Containment</h2>
+                <p MadCap:conditions="">The fire containment tools can be used to complete Elements 7, 16, and 17 of the burn plan.</p>
+                <p MadCap:conditions="">
+                    <img src="../Resources/Images/Concepts_2015/Workflows/Rx_fire_containment_JH.png" style="width: 1081px;height: 487px;">
+                    </img>
+                </p>
+                <p MadCap:conditions="">With the Containment pathway, users can:&#160;</p>
+                <ul>
+                    <li MadCap:conditions="">Calculate safety zone size (using <a href="../10-Reference/RefSAFETY.htm">IFT-Safety</a>)</li>
+                    <li MadCap:conditions="">Calculate spotting distance from a burning pile (using <a href="../10-Reference/RefSPOT.htm">IFT-Spot</a>)</li>
+                    <li MadCap:conditions="">Calculate spotting distance from a wind-driven surface fire (using <a href="../10-Reference/RefSPOT.htm">IFT-Spot</a>)</li>
+                    <li MadCap:conditions="">Estimate containment resources (using <a href="../10-Reference/RefCONTAIN.htm">IFT-Contain</a>)</li>
+                    <li MadCap:conditions="">Predict fire size and spread distance (using <a href="../10-Reference/RefSIZE.htm">IFT-Size</a>)</li>
+                    <li MadCap:conditions="">Predict surface fire behavior, size, and spread distance (Using <a href="../10-Reference/RefSurfSize.htm">IFT-Surface+Size</a>)</li>
+                </ul>
+                <p MadCap:conditions="">&#160;</p>
+                <div>
+                    <form>
+                        <fieldset class="note" MadCap:conditions="">
+                            <legend>&#160;&#160;&#160;Note&#160;&#160;&#160;</legend>
+                            <p class="noteBody" MadCap:conditions="">If you are running this module for the IFTDSS burn plan document, these models can be used to fill in Elements 7, 16, and 17 of the burn plan.</p>
+                        </fieldset>
+                    </form>
+                </div>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Fire Effects</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <h2 MadCap:conditions="">Fire Effects </h2>
+                <p MadCap:conditions="">The fire effects tools can be used to calculate consumption, emissions, tree mortality, and crown scorch height.</p>
+                <p MadCap:conditions="">
+                    <img src="../Resources/Images/Concepts_2015/Workflows/Rx_fire_effects_JH.png" style="width: 899px;height: 460px;" />
+                </p>
+                <p MadCap:conditions="">Using the Fire Effects pathway users can:</p>
+                <ul>
+                    <li MadCap:conditions="">Calculate consumption and emissions (using <a href="../10-Reference/RefFOFEM.htm">IFT-FOFEM</a>)</li>
+                    <li MadCap:conditions="">Calculate consumption and emissions across and landscape (using <a href="../10-Reference/RefConsume.htm">IFT-Consume</a>)</li>
+                    <li MadCap:conditions="">Calculate tree mortality (using <a href="../10-Reference/RefFOFTreeIn.htm">IFT-FOFEM</a>)</li>
+                    <li MadCap:conditions="">Calculate fire effects from <a href="../08-FERA-Tools/FERA-Consume-Activity.htm">activity fuels</a> or <a href="../08-FERA-Tools/FERA-Consume-NaturalFuelsIntro.htm">natural fuels</a> using Consume and inputs from downloaded data</li>
+                    <li MadCap:conditions="">Calculate fire effects from <a href="../08-FERA-Tools/FERA-Consume-Activity.htm">activity fuels</a> or <a href="../08-FERA-Tools/FERA-Consume-NaturalFuelsIntro.htm">natural fuels</a> using Consume and manually inputting data</li>
+                    <li MadCap:conditions="">Predicting crown scorch height (using <a href="../10-Reference/RefSCORCH.htm">IFT-Scorch</a>)</li>
+                </ul>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown MadCap:conditions="Default.LaterRelease">
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Historical Fire Weather</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <h2 MadCap:conditions="Default.LaterRelease">Historical Fire Weather</h2>
+                <p MadCap:conditions="Default.LaterRelease">The fire weather tools can be used to calculate historical daily and monthly fire weather statistics and fire danger indices based on the National Fire Danger Rating System (NFDRS).</p>
+                <p MadCap:conditions="Default.LaterRelease">
+                    <img src="../Resources/Images/Concepts_2015/Workflows/Rx_fire_weather_JH.png" />
+                </p>
+                <p MadCap:conditions="Default.LaterRelease">NEEDS&#160;MORE&#160;DOCUMENTATION</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Create a Burn Plan</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <h2 MadCap:conditions="">Create a Burn Plan Document </h2>
+                <p MadCap:conditions="">- The burn plan document pathway was designed based on the National Wildfire Coordinating Group's Interagency Prescribed Fire Planning and Implementation Procedures Guide (IPFPIPG, 2014) and consists of 21 elements (objectives, ignition plan, etc.). </p>
+                <p MadCap:conditions="">
+                    <img src="../Resources/Images/Concepts_2015/Workflows/Rx_fire_written_plan_JH.png" style="width: 585px;height: 454px;">
+                    </img>
+                </p>
+                <p MadCap:conditions="">Each screen in this pathway guides the user in developing the content for one of the 21 elements identified in the Guide. At any point during the development of the burn plan, the Prescribed Fire Plan can be downloaded as a Microsoft Word document using the Generate Burn Plan button at the bottom of any page in this pathway. The Prescribed Fire Plan will include all data that the user has entered and saved. Elements of the burn plan document include:</p>
+                <ol>
+                    <li MadCap:conditions="">Signature Page</li>
+                    <li MadCap:conditions="">Part A: Agency Administrator Ignition Authorization</li>
+                    <li MadCap:conditions="">Part B: Prescribed Fire Go/No-Go Checklist</li>
+                    <li MadCap:conditions="">Complexity Analysis Summary</li>
+                    <li MadCap:conditions="">Description of Prescribed Fire Area</li>
+                    <li MadCap:conditions="">Objectives</li>
+                    <li MadCap:conditions="">Funding</li>
+                    <li MadCap:conditions="">Prescription</li>
+                    <li MadCap:conditions="">Scheduling</li>
+                    <li MadCap:conditions="">Pre-Burn Considerations and Weather</li>
+                    <li MadCap:conditions="">Briefing Checklist</li>
+                    <li MadCap:conditions="">Organization and Equipment</li>
+                    <li MadCap:conditions="">Communication</li>
+                    <li MadCap:conditions="">Public and Personnel Safety, Medical</li>
+                    <li MadCap:conditions="">Test Fire</li>
+                    <li MadCap:conditions="">Ignition Plan</li>
+                    <li MadCap:conditions="">Holding Plan</li>
+                    <li MadCap:conditions="">Contingency Plan</li>
+                    <li MadCap:conditions=""> Wildfire Conversion</li>
+                    <li MadCap:conditions="">Smoke Management and Air Quality</li>
+                    <li MadCap:conditions="">Monitoring</li>
+                    <li MadCap:conditions="">Post-Burn Activities</li>
+                    <li MadCap:conditions="">Appendices</li>
+                </ol>
+                <p>After the user has completed the burn plan pathway and has downloaded the Prescribed Fire Plan, the user can easily update and/or customize all sections of the plan using Microsoft Word. Click <a href="../04-Prescribed-Burns/RxBurnsIntro.htm">here</a> for more information about this module.</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+    </body>
+</html>

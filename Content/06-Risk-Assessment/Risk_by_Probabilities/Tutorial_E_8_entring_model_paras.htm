@@ -1,0 +1,145 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="9" MadCap:lastHeight="4577" MadCap:lastWidth="761" MadCap:fileTags="MyAuthorFileTagSet.Josh Hyde">
+    <head>
+    </head>
+    <body>
+        <h1 class="Heading1">Inputting Environmental and Simulation Parameters</h1>
+        <p>Now that you have created a values-at-risk map, the next steps will involve inputting the environmental and simulation parameters needed to run the model.  </p>
+        <p>In the following steps we will cover:</p>
+        <ul>
+            <li>IFT-FlamMap Inputs: Crown Fire Calculation, Fuel Moisture, &amp; Weather)</li>
+            <li>IFT-RANDIG Inputs: Simulation Inputs</li>
+            <li>Setting Flame Length Classes</li>
+        </ul>
+        <p>
+            <img src="../../Resources/Images/Tutorial_E_FL_prob_2015/2_0_Tutorial_E_cap_13.png" style="width: 632px;height: 915px;" class="img_2" alt="Run 'Inputs' page with fields for properties, fuel moisture, and weather to run IFT-FlamMap, number of ignitions and duration to run IFT-RANDIG, and fields to enter flame length classes.">
+            </img>
+        </p>
+        <div>
+            <form>
+                <fieldset class="note">
+                    <legend>&#160;&#160;&#160;Note&#160;&#160;&#160;</legend>
+                    <p class="noteBody">The input fields are pre-populated with default values. </p>
+                </fieldset>
+            </form>
+        </div>
+        <div>
+            <form>
+                <fieldset class="note">
+                    <legend>&#160;&#160;&#160;Note&#160;&#160;&#160;</legend>
+                    <p class="noteBody">You should perform multiple runs with each crown fire initiation method to determine which method works best for your local vegetation. The Scott-Reinhardt method will generally result in more crown fire being modeled across the landscape. Visit the page for more details on crown fire calculations <a href="../../10-Reference/RefFlamMapCrownFireCalc.htm">Crown Fire Calculation Options</a> page.</p>
+                </fieldset>
+            </form>
+        </div>
+        <div>
+            <form>
+                <fieldset class="note">
+                    <legend>&#160;&#160;&#160;Tip&#160;&#160;&#160;</legend>
+                    <p class="noteBody">You can use the <strong class="Strong">Tab </strong>key on your keyboard to navigate to the next input field.</p>
+                </fieldset>
+            </form>
+        </div>
+        <p>&#160;</p>
+        <h2 class="Heading2"><a name="IFT-Flammap-inputs"></a>IFT-FlamMap Inputs: Crown Fire Calculation, Fuel Moisture, &amp; Weather</h2>
+        <p>There are two choices for the crown fire calculation method, Finney, and Scott and Reinhardt. We will select Finney for this example, you can read more about the differences between the two choices on the Crown Fire Calculation Options help page.</p>
+        <p>Fuel moisture and weather inputs should be based on dry, hot summer conditions that could potentially produce the worst-case flame length outcomes. </p>
+        <div>
+            <form>
+                <fieldset class="note">
+                    <legend>&#160;&#160;&#160;Tip&#160;&#160;&#160;</legend>
+                    <p class="noteBody">When assessing fire risk across large landscapes, especially in mountainous terrain, be aware that weather conditions can vary across diverse topographic settings. Create multiple runs to test different weather scenarios that can produce low, high, and extreme fire behaviors</p>
+                </fieldset>
+            </form>
+        </div>
+        <div>
+            <form>
+                <fieldset class="note">
+                    <legend>&#160;&#160;&#160;Tip&#160;&#160;&#160;</legend>
+                    <p class="noteBody">Definitions and possible value ranges will display when a mouse cursor is hovered over the underlined parameters. </p>
+                </fieldset>
+            </form>
+        </div>
+        <p>For this example, we input “red-flag warning” weather conditions that occur in this region (see the inputs in the figure below). Red-flag warning conditions often include low fuel moisture and low relative humidity, high/erratic winds, and lightning activity.</p>
+        <p>
+            <img src="../../Resources/Images/Tutorial_D_WCFL_2015/2_0_Tutorial_D_cap_14.png" class="img_2" style="width: 374px;height: 518px;" alt="Property, fuel moisture, and weather values as specified in the text.">
+            </img>
+        </p>
+        <div>
+            <form>
+                <fieldset class="note">
+                    <legend>&#160;&#160;&#160;Tip&#160;&#160;&#160;</legend>
+                    <p class="noteBody">Create multiple runs to model burn probability using low, medium, and high numbers of fire ignitions, and short and long durations. </p>
+                </fieldset>
+            </form>
+        </div>
+        <p>The results will help you understand how these inputs are affecting your specific area of interest.</p>
+        <h2 class="Heading2">IFT-RANDIG Inputs: Simulation Inputs</h2>
+        <p>Next, define the IFT-RANDIG simulation inputs. </p>
+        <ul>
+            <li>Specify the <strong class="Strong">Number of fire ignitions to simulate</strong>.&#160; This value refers to the number of randomly located ignition points across your run area. </li>
+        </ul>
+        <p class="p_3">The literature states that every pixel should have a chance of igniting; therefore, the larger the run area, the more random ignitions you will want to simulate. Start with 500 ignitions in small areas and 1000 ignitions in larger areas, add ignitions until most of the area experiences at least one fire. </p>
+        <ul>
+            <li>Specify the <strong class="Strong">Duration of the simulation</strong> in minutes.&#160; This value refers to the duration of the fire growth calculations for the set of constant fuel moisture and weather conditions.</li>
+        </ul>
+        <p>In this example, we chose to run the simulation for 60 minutes, which is the estimated response time for fire resources to be on scene at the Olompali State Historic Park. You can use shorter and longer duration times to answer a variety of questions. Starting with 1000 ignitions, a few large portions of the landscape did not burn, so we increased in the number of fire ignitions to 3000 for this example.</p>
+        <p class="p_3">
+            <img src="../../Resources/Images/Tutorial_D_WCFL_2015/2_0_Tutorial_D_cap_15.png" class="img_2" style="width: 429px;height: 169px;" alt="Simulation inputs as specified in the text.">
+            </img>
+        </p>
+        <div>
+            <form>
+                <fieldset class="note">
+                    <legend>&#160;&#160;&#160;Tip&#160;&#160;&#160;</legend>
+                    <p class="noteBody">Create multiple runs to model burn probability using (a) Low, medium, and high numbers of fire ignitions, and (b) short and long simulation durations. The results will help you understand how these inputs are affecting your specific area of interest.</p>
+                </fieldset>
+            </form>
+        </div>
+        <h2 class="Heading2">Setting Flame Length Classes</h2>
+        <p>Now <strong class="Strong">enter flame lengths for your flame length classes, or accept the default values</strong>.&#160; The default flame length classes are categorized by fire suppression limitations based on flame length (see table below). </p>
+        <p>The low flame lengths parameter is not directly editable.&#160; The minimum flame length for the low flame length class will always be zero.&#160; The upper limit for low flame lengths is determined by the value you enter for medium flame lengths. </p>
+        <p>For example, if you enter 4 for medium flame lengths, the range for low flame lengths becomes 0 to 4 feet.</p>
+        <p>
+            <img src="../../Resources/Images/Tutorial_D_WCFL_2015/2_0_Tutorial_D_cap_16.png" class="img_2" style="width: 367px;height: 300px;" alt="Flame length class settings as described in the text.">
+            </img>
+        </p>
+        <table style="width: 100%;">
+            <col>
+            </col>
+            <col>
+            </col>
+            <col>
+            </col>
+            <tbody>
+                <tr>
+                    <td class="centeredUC">Flame Length Class</td>
+                    <td class="centeredUC">Flame Length</td>
+                    <td class="centeredUC">Fire Suppression Interpretations</td>
+                </tr>
+                <tr>
+                    <td>Low</td>
+                    <td>&lt;4</td>
+                    <td>Fires can generally be attacked at the head or flanks by persons using hand tools. Handline should hold fire.</td>
+                </tr>
+                <tr>
+                    <td class="coloredbackground" style="text-align: left;">Medium</td>
+                    <td class="coloredbackground" style="text-align: left;">4 to 8 feet</td>
+                    <td class="coloredbackground" style="text-align: left;">Fires are too intense for direct attack on the head by persons using hand tools. Handline cannot be relied on to hold the fire. Bulldozers, engines, and retardant drops can be effective.</td>
+                </tr>
+                <tr>
+                    <td>High</td>
+                    <td>8 to 11 feet</td>
+                    <td>Fires may present serious control problems: torching, crowning, and spotting. Control efforts at the head will probably be ineffective.</td>
+                </tr>
+                <tr>
+                    <td class="coloredbackground" style="text-align: left;">Very High</td>
+                    <td class="coloredbackground" style="text-align: left;">&gt; 11 feet</td>
+                    <td class="coloredbackground" style="text-align: left;">Crowning, spotting, and major fire runs are probable. Control efforts at the head of the fire are ineffective.</td>
+                </tr>
+            </tbody>
+        </table>
+        <p>(Table modified from the National Wildfire Coordinating Group, 2004)</p>
+        <p>Choose <strong class="Strong">Next</strong> to submit the inputs.&#160; You are taken to the <strong class="Strong">Review Landscape Data</strong> step.</p>
+        <p MadCap:conditions="Default.ScreenOnly"><a href="Tutorial_E_7_defining_vals_at_risk.htm">&lt;&lt;&#160;Back:&#160;Values at risk</a> | <a href="Tutorial_E_9_Review_edit_data.htm">Next:&#160;Review and edit data &gt;&gt;</a></p>
+    </body>
+</html>

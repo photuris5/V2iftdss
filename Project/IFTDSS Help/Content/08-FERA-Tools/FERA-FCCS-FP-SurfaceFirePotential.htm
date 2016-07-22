@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us" MadCap:lastBlockDepth="5" MadCap:lastHeight="1167" MadCap:lastWidth="743" MadCap:fileTags="FileNeeds.04 Ready for review,FileNeeds.03 Indexing">
+    <head>
+        <link href="../Resources/TableStyles/AlternatingRows.css" rel="stylesheet" MadCap:stylesheetType="table" /><title>Surface Fire Potential FCCS</title>
+        <link href="../Resources/Stylesheets/TempImport.css" rel="stylesheet" />
+    </head>
+    <body>
+        <h1>
+            <MadCap:keyword term="FCCS fire potentials:surface fires" />Surface Fire Behavior Potential Output Parameters</h1>
+        <p>Surface fire behavior potential (SFP) is calculated as the maximum of flame length and rate of spread potentials, scaled to values of 0 to 9. Reaction potential is not included in the summary potential calculation.  The three subcomponents of SFP are</p>
+        <ul style="list-style-type: square;">
+            <li>Reaction potential (RP), which represents the reaction intensity (energy release per unit area per unit time) under dry fuel conditions and scaled to an index value.</li>
+            <li>Spread potential (SP), which is proportional to the rate of spread (distance per unit time at benchmark environmental conditions) in surface fuels.</li>
+            <li>Flame length potential (FP), which provides a measure of predicted flame length (in feet, at benchmark environmental conditions) proportional to fireline intensity or flame length.</li>
+        </ul>
+        <table class="TableStyle-AlternatingRows" style="mc-table-style: url('../Resources/TableStyles/AlternatingRows.css');" cellspacing="0">
+            <col style="width: 20%;" class="Column-Column1" />
+            <col style="width: 20%;" class="Column-Column1" />
+            <col style="width: 60%;" class="Column-Column1" />
+            <thead>
+                <tr class="Head-Header1">
+                    <th class="HeadE-Column1-Header1">
+                   Name
+                </th>
+                    <th class="HeadE-Column1-Header1">Units</th>
+                    <th class="HeadD-Column1-Header1">Brief Description</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="Body-Body1">
+                    <td class="BodyE-Column1-Body1">
+                        <MadCap:keyword term="Surface Fire Behavior Potential (parameter)" />Surface Fire Behavior Potential
+                </td>
+                    <td class="BodyE-Column1-Body1">
+                   NA
+                </td>
+                    <td class="BodyD-Column1-Body1">
+                   Summary surface fire behavior potential, calculated as the maximum of spread potential and flame length potential scaled to an index between 0–9.<br /><br />SFP = max(RP,SP)
+                </td>
+                </tr>
+                <tr class="Body-Body2">
+                    <td class="BodyE-Column1-Body2">
+                        <MadCap:keyword term="Surface Fire Flame Length Potential (parameter)" />Surface Fire Flame Length Potential
+                </td>
+                    <td class="BodyE-Column1-Body2">
+                   NA
+                </td>
+                    <td class="BodyD-Column1-Body2">
+                   Proportional to fireline intensity or flame length. FP = min(9,(2<MadCap:equation xmlns:dsi="http://www.w3.org/1998/Math/MathML" title="The square root of flame length" alt="The square root of flame length"><math><mrow><msqrt><mrow><mi>F</mi><mi>l</mi><mi>a</mi><mi>m</mi><mi>e</mi><mo>⁢</mo><mtext><![CDATA[ ]]></mtext><mi>L</mi><mi>e</mi><mi>n</mi><mi>g</mi><mi>t</mi><mi>h</mi></mrow></msqrt></mrow></math></MadCap:equation>))<br /><br />Where Flame length (ft; m) = Predicted flame length, measured as the distance between the flame length and the middle of the flame base.
+                    
+                </td>
+                </tr>
+                <tr class="Body-Body1">
+                    <td class="BodyE-Column1-Body1">
+                        <MadCap:keyword term="Surface Fire Reaction Potential (parameter)" />Surface Fire Reaction Potential
+                </td>
+                    <td class="BodyE-Column1-Body1">
+                   NA
+                </td>
+                    <td class="BodyD-Column1-Body1">
+                   Index of reaction intensity (energy released per unit area and time).<br /><br />RP = min(9,(0.08 <MadCap:equation xmlns:dsi="http://www.w3.org/1998/Math/MathML" title="The square root of reaction intensity" alt="The square root of reaction intensity"><math><mrow><msqrt><mrow><mi>R</mi><mi>e</mi><mi>a</mi><mi>c</mi><mi>t</mi><mi>i</mi><mi>o</mi><mi>n</mi><mo>⁢</mo><mtext><![CDATA[ ]]></mtext><mtext><![CDATA[ ]]></mtext><mi>I</mi><mi>n</mi><mi>t</mi><mi>e</mi><mi>n</mi><mi>s</mi><mi>i</mi><mi>t</mi><mi>y</mi></mrow></msqrt></mrow></math></MadCap:equation>))<br /><br />Where Reaction intensity (BTU-ft<sup>2</sup>/min; kW/min) = Predicted rate of the energy release per area (square foot or square meter) within the flaming front.
+                    
+                </td>
+                </tr>
+                <tr class="Body-Body2">
+                    <td class="BodyB-Column1-Body2">
+                        <MadCap:keyword term="Surface Fire Spread Potential (parameter)" />Surface Fire Spread Potential
+                </td>
+                    <td class="BodyB-Column1-Body2">
+                   NA
+                </td>
+                    <td class="BodyA-Column1-Body2">
+                   Proportional to the no-wind rate of spread in surface fuel (distance per unit time).<br /><br />SP = min(9,( 2
+<MadCap:equation xmlns:dsi="http://www.w3.org/1998/Math/MathML" title="The square root of the rate of spread" alt="The square root of the rate of spread"><math><mrow><msqrt><mrow><mi>R</mi><mi>a</mi><mi>t</mi><mi>e</mi><mo>⁢</mo><mtext><![CDATA[ ]]></mtext><mi>o</mi><mi>f</mi><mo>⁢</mo><mtext><![CDATA[ ]]></mtext><mi>S</mi><mi>p</mi><mi>r</mi><mi>e</mi><mi>a</mi><mi>d</mi></mrow></msqrt></mrow></math></MadCap:equation>                       ))<br /><br />Where Rate of spread (ft/min; m/min) = Predicted rate at which the flaming front passes through surface fuels.
+                    
+                </td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>

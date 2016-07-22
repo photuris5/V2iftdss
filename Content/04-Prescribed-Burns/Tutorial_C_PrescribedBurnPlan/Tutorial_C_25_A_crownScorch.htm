@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="5" MadCap:lastHeight="4306" MadCap:lastWidth="867">
+    <head>
+    </head>
+    <body>
+        <h2>Modeling Crown Scorch Height with IFT-Scorch</h2>
+        <h3>Setting up simulations in IFT-Scorch</h3>
+        <p>Give your run a descriptive name, in this case we include the four prescription conditions from Element 7 in the name. When this is done, click <b>Next</b>.</p>
+        <p>
+            <img src="../../Resources/Images/Tutorial_C_PrescribedBurnPlan/tutorial_c_scorch_run_name.png" />
+        </p>
+        <p>Next, specify the number of simulations to calculate. For example, if you wanted to simulate crown scorch under low, high, optimum, and maximum prescription condition, and for heading, backing, and flanking fires under each of those conditions, you would specify 12 simulations. </p>
+        <p>
+            <img src="../../Resources/Images/Tutorial_C_PrescribedBurnPlan/tutorial_c_scorch_sim_expl.png" />
+        </p>
+        <p>
+            <img src="../../Resources/Images/Tutorial_C_PrescribedBurnPlan/tutorial_c_scorch_sim_setup.png" />
+        </p>
+        <p>When you are finished, click <b>Next</b>.</p>
+        <h3>Populating Input Parameters</h3>
+        <p>Now you are on the Inputs step.  Use the midflame windspeed and air temperature from <a href="../2016RedBullEnv_paramters.pdf">your prescription parameters</a> to populate those inputs.</p>
+        <table style="width: 800px;">
+            <col style="width: 244px;" />
+            <col style="width: 150px;" />
+            <col style="width: 51px;" />
+            <col style="width: 78px;" />
+            <col style="width: 98px;" />
+            <tbody>
+                <tr>
+                    <td style="text-align: center;font-weight: bold;background-color: #6b8e23;color: #ffffff;">Weather</td>
+                    <td style="text-align: center;font-weight: bold;background-color: #6b8e23;color: #ffffff;">Low Fire Behavior</td>
+                    <td style="text-align: center;font-weight: bold;background-color: #6b8e23;color: #ffffff;">High</td>
+                    <td style="text-align: center;font-weight: bold;background-color: #6b8e23;color: #ffffff;">Optimal</td>
+                    <td style="text-align: center;font-weight: bold;background-color: #6b8e23;color: #ffffff;">Maximum</td>
+                </tr>
+                <tr>
+                    <td style="text-align: center;">Temperature</td>
+                    <td style="text-align: center;">50</td>
+                    <td style="text-align: center;">80</td>
+                    <td style="text-align: center;">70</td>
+                    <td style="text-align: center;">80</td>
+                </tr>
+                <tr>
+                    <td style="text-align: center;">Mid-flame wind speed (mi/h)</td>
+                    <td style="text-align: center;">3</td>
+                    <td style="text-align: center;">11</td>
+                    <td style="text-align: center;">5</td>
+                    <td style="text-align: center;">15</td>
+                </tr>
+            </tbody>
+        </table>
+        <p>To populate flame length, use the outputs from the Surface fire Behavior Run</p>
+        <p>
+            <img src="../../Resources/Images/Tutorial_C_PrescribedBurnPlan/tutorial_c_modSurfaceFire_FL_outputs.png" />
+        </p>
+        <p> In this run, organize the simulations such that :</p>
+        <p>Simulation #1: Low fire behavior (head)<br />Simulation #2: Low fire behavior (backing)<br />Simulation #3: Low fire behavior (flanking)<br />Simulation #4: High fire behavior (head)<br />Simulation #5: High fire behavior (backing)<br />…<br />Simulation #12: Maximum fire behavior (flanking)</p>
+        <p>
+            <img src="../../Resources/Images/Tutorial_C_PrescribedBurnPlan/tutorial_c_crownScorch2.png" style="width: 749px;height: 379px;" />
+        </p>
+        <div>
+            <form>
+                <p>When finished, select <b>Next</b>.</p>
+            </form>
+        </div>
+        <div>
+            <form>
+                <fieldset class="note">
+                    <legend>&#160;&#160;&#160;Tip&#160;&#160;&#160;</legend>
+                    <p class="noteBody">It is important that you remember how you classified each simulation in your IFT-surface run (low, optimal, high, and maximum) and how those simulation outputs translate into inputs for simulations in successive runs.</p>
+                </fieldset>
+            </form>
+        </div>
+        <h3>Viewing Outputs</h3>
+        <p>On the outputs page you can evaluate your outputs in tabular and graphical form.  It is in the tabular display that you can select which, if any, of the Simulations (out of the 12 you created on the Configure page) you might want to include in your burn plan. When finished, toggle the <b>Views</b> setting back to <b>Table</b>.</p>
+        <div>
+            <form>
+                <fieldset class="note">
+                    <legend>&#160;&#160;&#160;Note&#160;&#160;&#160;</legend>
+                    <p class="noteBody">IFTDSS allows the user to populate up to three fire behavior prescriptions.  Multiple prescriptions may be desired if the prescribed burn unit is comprised of multiple fuel models. In this example we are only using one prescription.</p>
+                </fieldset>
+            </form>
+        </div>
+        <p>
+            <img src="../../Resources/Images/Tutorial_C_PrescribedBurnPlan/tutorial_c_scorch_output.png" style="width: 463px;height: 286px;" />
+        </p>
+        <h3>Preparing Outputs for import</h3>
+        <p>To prepare the outputs for import into Element 7, make the following specifications within the <b>Mark Simulations</b> box. This box is used to label outputs so they can by easily located and imported into Element 7 of the burn plan.</p>
+        <p>The outputs for each of the 12 simulations in this run represent a different combination of environmental parameters and fire behavior outputs (Temperature, Mid-Flame wind speed, and flame length) that in this case, represent the low, high, optimal, and maximum prescription levels for each of the three fire types of head, flanking, and backing fire.  For IFT-scorch, the 12 combinations are organized horizontally and are named by simulation number as described in the input step.</p>
+        <p>If you recall from your inputs, Simulation 1 represents the Low/Head, Simulation 2 represents low/flanking, Simulation 3 represents low/backing, Simulation 4 represents optimal/head, Simulation 5 represents optimal/flanking, and so on. Ensure each simulation is correctly labeled for this example.</p>
+        <ul>
+            <li>Simulation 1: Prescription 1, Low Fire Behavior, Head</li>
+            <li>Simulation 2: Prescription 1, Low Fire Behavior, Backing</li>
+            <li>Simulation 3: Prescription 1, Low Fire Behavior, Flanking</li>
+            <li>Simulation 4: Prescription 1, High Fire Behavior, Head</li>
+            <li>Simulation 5: Prescription 1, High Fire Behavior, Backing</li>
+            <li>Simulation 6: Prescription 1, High Fire Behavior, Flanking</li>
+            <li>Simulation 7: Prescription 1, Optimal Fire Behavior, Head</li>
+            <li>Simulation 8: Prescription 1, Optimal Fire Behavior, Backing</li>
+            <li>Simulation 9: Prescription 1, Optimal Fire Behavior, Flanking</li>
+            <li>Simulation 10: Prescription 1, Maximum Fire Behavior, Head</li>
+            <li>Simulation 11: Prescription 1, Maximum Fire Behavior, Backing</li>
+            <li>Simulation 12: Prescription 1, Maximum Fire Behavior, Flanking</li>
+        </ul>
+        <p>Take some time to evaluate outputs by reviewing both the tabular and graphical displays to determine if scorch heights are at an acceptable limit for each of the 4 fire behavior levels.</p>
+        <p>When finished, click <b>Finish</b>. </p>
+        <p>
+            <img src="../../Resources/Images/Tutorial_C_PrescribedBurnPlan/tutorial_c_crownScorc3_2.png" style="width: 795px;height: 543px;" />
+        </p>
+        <p>After clicking Finish you will be taken to the Run summary page, which contains downloadable files from the run.</p>
+        <p>Next, return to the Project Summary page by scrolling down and clicking the <b>Back to Project Button</b>.</p>
+        <p>
+            <img src="../../Resources/Images/Tutorial_C_PrescribedBurnPlan/tutorial_c_backtoproject.png" />
+        </p>
+        <p MadCap:conditions="Default.ScreenOnly"><a href="Tutorial_C_24_RxBurnWorkflowScorch.htm">&lt;&lt; Back:&#160;Selecting the Scorch Height Run</a> | <a href="Tutorial_C_25_B_poi.htm">Next: Probability of Ignition &gt;&gt;</a></p>
+    </body>
+</html>

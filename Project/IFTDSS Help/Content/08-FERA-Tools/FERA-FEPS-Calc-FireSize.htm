@@ -1,0 +1,351 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="725" MadCap:lastWidth="790" MadCap:fileTags="FileNeeds.02 In progress">
+    <head>
+        <link href="../Resources/TableStyles/AlternatingRows.css" rel="stylesheet" MadCap:stylesheetType="table" />
+    </head>
+    <body>
+        <h1>Fire Size Calculations</h1>
+        <p>The fire size represents the cumulative fire size at a given hour. FEPS interpolates between the user-specified fire sizes using one of two equations, depending on the fire type. For a fire with a fire shape of “linear progression” (generally prescription burns), intermediate areas for each hour are calculated using the following equation.</p>
+        <p>
+            <MadCap:equation xmlns:dsi="http://www.w3.org/1998/Math/MathML">
+                <math>
+                    <mrow>
+                        <msub>
+                            <mrow>
+                                <mi>A</mi>
+                                <mi>r</mi>
+                                <mi>e</mi>
+                                <mi>a</mi>
+                            </mrow>
+                            <mrow>
+                                <mi>i</mi>
+                            </mrow>
+                        </msub>
+                        <mo>⁢</mo>
+                        <mo>=</mo>
+                        <mtext> </mtext>
+                        <mo>[</mo>
+                        <msub>
+                            <mrow>
+                                <msub>
+                                    <mrow>
+                                        <mi>A</mi>
+                                        <mi>r</mi>
+                                        <mi>e</mi>
+                                        <mi>a</mi>
+                                    </mrow>
+                                    <mrow>
+                                        <mi>j</mi>
+                                    </mrow>
+                                </msub>
+                                <mo>⁢</mo>
+                                <mo>+</mo>
+                                <mtext> </mtext>
+                                <mo>(</mo>
+                                <mi>A</mi>
+                                <mi>r</mi>
+                                <mi>e</mi>
+                                <mi>a</mi>
+                            </mrow>
+                            <mrow>
+                                <mi>k</mi>
+                            </mrow>
+                        </msub>
+                        <mo>⁢</mo>
+                        <mo>−</mo>
+                        <mtext> </mtext>
+                        <msub>
+                            <mrow>
+                                <mi>A</mi>
+                                <mi>r</mi>
+                                <mi>e</mi>
+                                <mi>a</mi>
+                            </mrow>
+                            <mrow>
+                                <mi>j</mi>
+                            </mrow>
+                        </msub>
+                        <mo>)</mo>
+                        <mo>]</mo>
+                        <mtext> </mtext>
+                        <mtext> </mtext>
+                        <mtext> </mtext>
+                        <mo>[</mo>
+                        <mfrac>
+                            <mrow>
+                                <msub>
+                                    <mrow>
+                                        <mi>H</mi>
+                                    </mrow>
+                                    <mrow>
+                                        <mi>i</mi>
+                                    </mrow>
+                                </msub>
+                                <mo>⁢</mo>
+                                <mo>−</mo>
+                                <mtext> </mtext>
+                                <msub>
+                                    <mrow>
+                                        <mi>H</mi>
+                                    </mrow>
+                                    <mrow>
+                                        <mi>j</mi>
+                                    </mrow>
+                                </msub>
+                            </mrow>
+                            <mrow>
+                                <msub>
+                                    <mrow>
+                                        <mi>H</mi>
+                                    </mrow>
+                                    <mrow>
+                                        <mi>k</mi>
+                                    </mrow>
+                                </msub>
+                                <mo>⁢</mo>
+                                <mo>−</mo>
+                                <mtext> </mtext>
+                                <msub>
+                                    <mrow>
+                                        <mi>H</mi>
+                                    </mrow>
+                                    <mrow>
+                                        <mi>j</mi>
+                                    </mrow>
+                                </msub>
+                            </mrow>
+                        </mfrac>
+                        <mo>]</mo>
+                    </mrow>
+                </math>
+            </MadCap:equation>
+        </p>
+        <p>For a freely spreading oval fire shape (generally wildland fires), intermediate areas for each hour are calculated as follows:</p>
+        <p>
+            <MadCap:equation xmlns:dsi="http://www.w3.org/1998/Math/MathML">
+                <math>
+                    <mrow>
+                        <msub>
+                            <mrow>
+                                <mi>A</mi>
+                                <mi>r</mi>
+                                <mi>e</mi>
+                                <mi>a</mi>
+                            </mrow>
+                            <mrow>
+                                <mi>i</mi>
+                            </mrow>
+                        </msub>
+                        <mo>⁢</mo>
+                        <mo>=</mo>
+                        <mtext> </mtext>
+                        <mo>[</mo>
+                        <msub>
+                            <mrow>
+                                <msub>
+                                    <mrow>
+                                        <mi>A</mi>
+                                        <mi>r</mi>
+                                        <mi>e</mi>
+                                        <mi>a</mi>
+                                    </mrow>
+                                    <mrow>
+                                        <mi>j</mi>
+                                    </mrow>
+                                </msub>
+                                <mo>⁢</mo>
+                                <mo>+</mo>
+                                <mtext> </mtext>
+                                <mo>(</mo>
+                                <mi>A</mi>
+                                <mi>r</mi>
+                                <mi>e</mi>
+                                <mi>a</mi>
+                            </mrow>
+                            <mrow>
+                                <mi>k</mi>
+                            </mrow>
+                        </msub>
+                        <mo>⁢</mo>
+                        <mo>−</mo>
+                        <mtext> </mtext>
+                        <msub>
+                            <mrow>
+                                <mi>A</mi>
+                                <mi>r</mi>
+                                <mi>e</mi>
+                                <mi>a</mi>
+                            </mrow>
+                            <mrow>
+                                <mi>j</mi>
+                            </mrow>
+                        </msub>
+                        <mo>)</mo>
+                        <mo>]</mo>
+                        <mtext> </mtext>
+                        <mtext> </mtext>
+                        <mtext> </mtext>
+                        <mo>[</mo>
+                        <mfrac>
+                            <mrow>
+                                <msup>
+                                    <mrow>
+                                        <mo>(</mo>
+                                        <msub>
+                                            <mrow>
+                                                <mi>H</mi>
+                                            </mrow>
+                                            <mrow>
+                                                <mi>i</mi>
+                                            </mrow>
+                                        </msub>
+                                        <mo>⁢</mo>
+                                        <mo>−</mo>
+                                        <mtext> </mtext>
+                                        <msub>
+                                            <mrow>
+                                                <mi>H</mi>
+                                            </mrow>
+                                            <mrow>
+                                                <mi>j</mi>
+                                            </mrow>
+                                        </msub>
+                                        <mo>)</mo>
+                                    </mrow>
+                                    <mrow>
+                                        <mn>2</mn>
+                                    </mrow>
+                                </msup>
+                            </mrow>
+                            <mrow>
+                                <msup>
+                                    <mrow>
+                                        <mo>(</mo>
+                                        <msub>
+                                            <mrow>
+                                                <mi>H</mi>
+                                            </mrow>
+                                            <mrow>
+                                                <mi>k</mi>
+                                            </mrow>
+                                        </msub>
+                                        <mo>−</mo>
+                                        <mtext> </mtext>
+                                        <msub>
+                                            <mrow>
+                                                <mi>H</mi>
+                                            </mrow>
+                                            <mrow>
+                                                <mi>j</mi>
+                                            </mrow>
+                                        </msub>
+                                        <mo>)</mo>
+                                    </mrow>
+                                    <mrow>
+                                        <mn>2</mn>
+                                    </mrow>
+                                </msup>
+                            </mrow>
+                        </mfrac>
+                        <mo>]</mo>
+                    </mrow>
+                </math>
+            </MadCap:equation>
+        </p>
+        <p>The following table provides the definitions of these variables.</p>
+        <table style="mc-table-style: url('../Resources/TableStyles/AlternatingRows.css');" class="TableStyle-AlternatingRows" cellspacing="0">
+            <col class="Column-Column1" style="width: 168px;" />
+            <col class="Column-Column1" style="width: 107px;" />
+            <col class="Column-Column1" style="width: 513px;" />
+            <thead>
+                <tr class="Head-Header1">
+                    <th class="HeadE-Column1-Header1">
+                        <p>Variable</p>
+                    </th>
+                    <th class="HeadE-Column1-Header1">
+                        <p>Units</p>
+                    </th>
+                    <th class="HeadD-Column1-Header1">
+                        <p>Definition</p>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="Body-Body1">
+                    <td class="BodyE-Column1-Body1">
+                        <p>Area<sub>i</sub></p>
+                    </td>
+                    <td class="BodyE-Column1-Body1">
+                        <p>acres</p>
+                    </td>
+                    <td class="BodyD-Column1-Body1">
+                        <p>Total cumulative area at hour i</p>
+                    </td>
+                </tr>
+                <tr class="Body-Body2">
+                    <td class="BodyE-Column1-Body2">
+                        <p>Area<sub>j</sub></p>
+                    </td>
+                    <td class="BodyE-Column1-Body2">
+                        <p>acres</p>
+                    </td>
+                    <td class="BodyD-Column1-Body2">
+                        <p>User-specified cumulative area at hour j</p>
+                    </td>
+                </tr>
+                <tr class="Body-Body1">
+                    <td class="BodyE-Column1-Body1">
+                        <p>Area<sub>k</sub></p>
+                    </td>
+                    <td class="BodyE-Column1-Body1">
+                        <p>acres</p>
+                    </td>
+                    <td class="BodyD-Column1-Body1">
+                        <p>User-specified cumulative area at hour k</p>
+                    </td>
+                </tr>
+                <tr class="Body-Body2">
+                    <td class="BodyE-Column1-Body2">
+                        <p>H<sub>i</sub></p>
+                    </td>
+                    <td class="BodyE-Column1-Body2">
+                        <p>—</p>
+                    </td>
+                    <td class="BodyD-Column1-Body2">
+                        <p>Hour i</p>
+                    </td>
+                </tr>
+                <tr class="Body-Body1">
+                    <td class="BodyE-Column1-Body1">
+                        <p>H<sub>j</sub></p>
+                    </td>
+                    <td class="BodyE-Column1-Body1">
+                        <p>—</p>
+                    </td>
+                    <td class="BodyD-Column1-Body1">
+                        <p>Hour j</p>
+                    </td>
+                </tr>
+                <tr class="Body-Body2">
+                    <td class="BodyB-Column1-Body2">
+                        <p>H<sub>k</sub></p>
+                    </td>
+                    <td class="BodyB-Column1-Body2">
+                        <p>—</p>
+                    </td>
+                    <td class="BodyA-Column1-Body2">
+                        <p>Hour k</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <div>
+            <form>
+                <fieldset class="note">
+                    <legend>&#160;&#160;&#160;Note&#160;&#160;&#160;</legend>
+                    <p class="noteBody">H<sub>j</sub> ≤ H<sub>i</sub> ≤ H<sub>k</sub></p>
+                </fieldset>
+            </form>
+        </div>
+    </body>
+</html>

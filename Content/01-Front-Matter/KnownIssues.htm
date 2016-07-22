@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="4" MadCap:lastHeight="1818" MadCap:lastWidth="1492" class="nobreadcrumbs" MadCap:fileTags="FileStatusTags.08 Flag">
+    <head>
+    </head>
+    <body>
+        <h1>
+            <MadCap:keyword term="known issues in IFTDSS;issues in IFTDSS;software issues" />Known Issues</h1>
+        <p>IFTDSS  is under ongoing research and development and should be considered an experimental system. As such, it will be continually updated and changed. The IFTDSS development team is working on resolving these issues, which will be corrected in future releases.</p>
+        <h2>Issues</h2>
+        <ul style="list-style-type: square;">
+            <li>IFTDSS supports landscape data sets on the order of 250,000 acres. We are working to increase the size of landscape (LANDFIRE) data that can be used for landscape-scale analyses.<!-- IFTDSS-2994 --></li>
+            <li>We are working on streamlining the GIS polygon drawing tools and the ability to import locally-developed Shapefiles.<!-- IFTDSS-1681 --></li>
+            <li>IFTDSS is being developed for compatibility with most standard and commonly used web browsers (Internet Explorer, Mozilla Firefox, Google Chrome); however, using older versions of these browsers may cause the system to run more slowly than normal and/or may cause features on the screen to be misaligned or not appear. </li>
+        </ul>
+        <h3>Set Flame Length Classes</h3>
+        <p>At the <b>Set Flame Length Classes</b> step for the following pathways, you can only specify flame lengths in feet, even if you switch to metric units.<!-- IFTDSS-3529 --></p>
+        <ul style="list-style-type: square;">
+            <li>Burn Probability by Random Ignition</li>
+            <li>Risk Assessment by Flame Length Classes</li>
+            <li>Risk Assessment Worst Case Flame Lengths</li>
+        </ul>
+        <p>However, IFTDSS will correctly bin the flame length classes in the units you have chosen.</p>
+        <h3>Probability of Burning</h3>
+        <p>At the <b>Output</b> step for the following pathways, the area outside your data set will be produced as zeros rather than as having no data. This may make it seem as though an area has no probability of burning, when in fact the model was not run on the area at all and so the probability of burning is unknown.<!-- IFTDSS-3601 --></p>
+        <ul style="list-style-type: square;">
+            <li>Fire Behavior Across a Landscape</li>
+            <li>Burn Probability by Random Ignition</li>
+            <li>Risk Assessment by Flame Length Classes</li>
+            <li>Risk Assessment Worst Case Flame Lengths</li>
+        </ul>
+        <h4>Detailed Description of the Issue</h4>
+        <p>On the <b>Configure</b> step for these pathways, if you select a data set that is smaller than your run area, the output values for each pixel in the area within the run set but outside your data set will be set as zeros (rather than no data).</p>
+        <p>The following images illustrate this issue. In the example used for these images, we chose a data set smaller than our run area.  In the first example, the area within the run but outside the data set area is displayed with an overlay that seems to indicate there is zero probability of burning for the area represented by those pixels. &#160;Instead, because there is no data, there should be no overlay at all.</p>
+        <p>In the second image, the spatial landscape data correctly shows data in the data set area and no data outside of the data set area.</p>
+        <p>
+            <img src="../Resources/Images/Known-Issues-1.png" style="padding-bottom: 10x; height: 280px; width: auto;" alt="Screen capture of known issue relating to data sets that are smaller than run area.">
+            </img>
+        </p>
+        <p>
+            <img src="../Resources/Images/Known-Issues-2.png" style="padding-bottom: 10px; height: 280px; width: auto;" alt="Screen capture of known issue relating to data sets that are smaller than run area.">
+            </img>
+        </p>
+        <h3>Number of Fire Ignitions to Simulate</h3>
+        <p>For the following pathways, the IFT-FlamMap-RANDIG Input parameter <b>Number of Fire Ignitions to Simulate</b> is limited to 20,000 ignitions:</p>
+        <ul style="list-style-type: square;">
+            <li>Burn Probability by Random Ignition</li>
+            <li>Risk Assessment by Flame Length Classes</li>
+            <li>Risk Assessment Worst Case Flame Lengths</li>
+        </ul>
+        <p>  Using a large data set (approximately 250,000 acres), the IFT-FlamMap-RANDIG module is estimated to take an hour to run per 2,000 ignitions. This is just an estimate; the module could take longer to run based on user load.</p>
+        <h2>Works in Progress</h2>
+        <p>
+            <MadCap:keyword term="FFA (Fire and Fuels Application):development status" />The Fire and Fuels Application (FFA) tools (FCCS, Consume, and FEPS) are under active development and have yet not undergone rigorous testing.  User documentation for these tools is also under development.  The IFTDSS development team is working with the FFA team to make updates and adjustments to these tools and pathways.  These tools will be available for active use in future releases of IFTDSS.</p>
+    </body>
+</html>

@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us" MadCap:lastBlockDepth="7" MadCap:lastHeight="1231" MadCap:lastWidth="841">
+    <head><title></title>
+        <link href="../../Resources/Stylesheets/IFTDSS_help_8.css" rel="stylesheet" />
+    </head>
+    <body>
+        <h1 class="Title">
+            <MadCap:keyword term="FOFEM;fire effects;smoke" />Using IFT-FOFEM: An example of comparing emissions </h1>
+        <h2>Overview &amp; Background</h2>
+        <p>
+            <img src="../../Resources/Images/Tutorial_FOFEM_cons_2015/19_YOS.JPG" style="float: right;padding-left: 5px;padding-bottom: 5px;" alt="Smoke rising above a ridge." MadCap:mediastyle="@media print { width: 3in;height: 3in; }" />Modeling the consumption of fuels and subsequent emissions is an important step in planning for smoke management. Running fuel consumption and emission production in IFTDSS can provide insight into potential emissions generated when a given area burns, as well as gauging the emissions impacts of fuels treatments by modeling consumption using pre and post treatment fuels data.&#160; There are two options for modeling fuel consumption and emissions in IFTDSS.</p>
+        <p>1) FOFEM: First Order Fire Effects Model: A consumption, emission, and fire effects model based on the BurnUp model (Albini 1994), fuel loading, moisture content, region, season, and other variables. IFT-FOFEM can be populated with different inputs for different simulations, and is intended to be used at the stand-level. </p>
+        <p>2) Consume: A decision-making tool designed to assist planning for prescribed burns and wildfires using realistic fuels data. Consume predicts fuel consumption, pollutant emissions, and heat release based on fuel characteristics, lighting patterns, fuel moistures and other environmental variables. Consume includes separate equations for calculating consumption of activity and natural fuels. Consume may be used to generate consumption and emissions data across the landscape, while Consume for Activity Fuels or Natural fuels may be used to generate information on the stand-level.</p>
+        <p>This tutorial will focus on predicting consumption and emissions using FOFEM and provides information and step by step instructions on the following:</p>
+        <ul class="ul_1">
+            <li class="ListParagraph_1"><a href="Tutorial_fofem_1_project.htm">Setting up a project</a>
+            </li>
+            <li class="ListParagraph_1"><a href="Tutorial_fofem_2_configuring.htm">Selecting and Configuring FOFEM</a> <![CDATA[ ]]></li>
+            <li class="ListParagraph_1"><a href="Tutorial_fofem_3_Acquiredata.htm">Acquiring data to run IFT-FOFEM</a>
+            </li>
+            <li class="ListParagraph_1"><a href="Tutorial_fofem_4_runfofem.htm">Populating and running IFT-FOFEM</a>
+            </li>
+            <li class="ListParagraph_1"><a href="Tutorial_fofem_5_outputs.htm">Viewing Output and Summary Data</a> <![CDATA[ ]]></li>
+            <li class="ListParagraph_1"><a href="Tutorial_fofem_6_runs_data.htm">Re-running and Comparing Runs</a>
+            </li>
+            <li class="ListParagraph_1"><a href="Tutorial_fofem_7_review_wrapup.htm">Review and wrap-up</a>
+            </li>
+        </ul>
+        <p style="text-align: center;" MadCap:conditions="Default.ScreenOnly"><b><a href="FOFEM_tutorial_10_30_15_2.pdf">A PDF version of this tutorial is available here.</a></b>
+        </p>
+        <div>
+            <form>
+                <fieldset class="note">
+                    <legend>&#160;&#160;&#160;Note&#160;&#160;&#160;</legend>
+                    <p class="noteBody">We will begin by setting up a project area for this example, which contains several fuel cover types. To run IFT-FOFEM&#160;with more than one fuel type, you must run several simulations within the run, using one fuel type per scenario. This can be done as batch, so that one run produces results for numerous simulations. The results for IFT-FOFEM are displayed in tabular format, and summarized by charts, but not geospatially. </p>
+                </fieldset>
+            </form>
+        </div>
+        <p class="p_2">For this tutorial we will run IFT-FOFEM to compare the emissions that may result from consumption of fuel in an untreated stand, with those of a stand treated with prescribed fire. </p>
+        <p MadCap:conditions="Default.ScreenOnly"><a href="Tutorial_fofem_1_project.htm">Next:&#160;Setting up a project &gt;&gt;</a>
+        </p>
+    </body>
+</html>

@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultFileTagSet
+  Type="Status"
+  Comment="My set of status tags">
+  <FileTag
+    Name="02 In progress"
+    OriginalName="02 Editing needed"
+    Comment="Needs editing and formatting, or is in the process of being edited and formatted" />
+  <FileTag
+    Name="01 Content needed"
+    Comment="Needs text, tables, and/or screen captures"
+    OriginalName="01 Content needed" />
+  <FileTag
+    Name="03 Indexing"
+    Comment="Needs indexing or is in the process of being indexed"
+    OriginalName="03 Indexing needed" />
+  <FileTag
+    Name="04 Ready for review"
+    Comment="Needs a master and senior review"
+    OriginalName="04 Master review needed" />
+  <FileTag
+    Name="05 Complete"
+    Comment="Done: written, edited, formatted, indexed, and reviewed"
+    OriginalName="06 Complete" />
+</CatapultFileTagSet>

@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="7" MadCap:lastHeight="1489" MadCap:lastWidth="1019" MadCap:fileTags="FileNeeds.04 Ready for review">
+    <head>
+    </head>
+    <body>
+        <p>Next, define another value at risk.</p>
+        <p>In this example, use the point-and-click method to draw a polygon over the private land (oak woodlands).</p>
+        <p><strong><em>To draw a polygon using the point-and-click method,</em></strong>
+        </p>
+        <ol>
+            <li>Select the <strong>Draw Polygon</strong> tool.<br /><br /><img src="../Images/RA-VAR-Tutorial/VAR-point-and-click-1.png" class="screencap" title="The Draw Polygon tool" alt="The Draw Polygon tool." /></li>
+            <li>To start drawing your first polygon, click on the map and release the mouse button.</li>
+            <li>Move the mouse to a new point and click and release to add another point.  Before moving on, make sure the point is established (by moving the mouse away from the point).<br /><br /><img src="../Images/RA-VAR-Tutorial/VAR-point-click-sequence.png" class="screencap" title="A sequence of drawing a polygon using the point-and-click method." alt="A sequence of drawing a polygon using the point-and-click method." /></li>
+            <li>Continue this process until you are done drawing your polygon.</li>
+            <li>When you are done drawing the polygon, double-click to create the polygon and to open the <strong>Edit Feature</strong> panel.</li>
+        </ol>
+        <div>
+            <form>
+                <fieldset class="note">
+                    <legend>&#160;&#160;&#160;Tip&#160;&#160;&#160;</legend>
+                    <p class="noteBody">
+                        <img src="../Images/RA-VAR-Tutorial/VAR-overlap.png" style="float: left;padding-right: 20px; padding-top: 4px; padding-bottom: 4px; height: 150px; width: auto;" title="A close-up of two polygons overlapping" alt="A close-up of two polygons overlapping." />Overlap your polygons. This insures that all pixels in your project area will be assigned a response function.<br /><br /><br /><br /><br /><br /><br /></p>
+                </fieldset>
+            </form>
+        </div>
+    </body>
+</html>

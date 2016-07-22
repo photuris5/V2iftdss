@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="2" MadCap:lastHeight="772" MadCap:lastWidth="1241">
+    <head>
+    </head>
+    <body>
+        <p>The mapping toolbar located at the top of the map provides tools navigating, creating, and editing data. The tools, and their corresponding icons, are displayed below.</p>
+        <p>Whenever you are working on a map in IFTDSS, you may hover your cursor over a tool icon and the name of icon will appear.</p>
+        <p>Tools that are disabled are faded out (for example, the <strong class="Strong">Polygon&#160; Edit</strong> and <strong class="Strong">Advanced Edit</strong> tools, circled here in red).</p>
+        <p>
+            <img src="../Images/Tutorial_creating_VARs_2015/2_0_Tutorial_H_cap_2.png" class="img_2" alt="The mapping tool bar." />
+        </p>
+    </body>
+</html>

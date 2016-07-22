@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:madcap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="10" MadCap:lastHeight="1000" MadCap:lastWidth="817" MadCap:fileTags="FileStatusTags.07 Complete,FileNeeds.05 Complete">
+    <head>
+        <link href="../Resources/TableStyles/AlternatingRows.css" rel="stylesheet" MadCap:stylesheetType="table" /><title>Surface Fire Spread and Intensity Input Options –  Moisture</title>
+    </head>
+    <body>
+        <h1>
+            <MadCap:keyword term="surface fire behavior (IFT-surface):moisture;moisture:surface fires and" />Surface Fire Behavior Input Options –  Moisture</h1>
+        <table style="caption-side: top;mc-table-style: url('../Resources/TableStyles/AlternatingRows.css');" class="TableStyle-AlternatingRows" cellspacing="0">
+            <col style="width: 15%;" class="Column-Column1" />
+            <col style="width: 20%;" class="Column-Column1" />
+            <col style="width: 65%;" class="Column-Column1" />
+            <thead>
+                <tr class="Head-Header1">
+                    <th class="HeadE-Column1-Header1">Name
+                </th>
+                    <th class="HeadE-Column1-Header1">Units
+                </th>
+                    <th class="HeadD-Column1-Header1">Brief Description
+                </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="Body-Body1">
+                    <td class="BodyE-Column1-Body1">
+                        <MadCap:keyword term="Dynamic curing load transfer (option)" />Dynamic curing load transfer                </td>
+                    <td class="BodyE-Column1-Body1">NA</td>
+                    <td class="BodyD-Column1-Body1">
+                        <MadCap:conditionalText MadCap:conditions="Default.LaterRelease">You have two options:<br /></MadCap:conditionalText>
+                        <ul style="list-style-type: square;">
+                            <li>
+                                <MadCap:keyword term="is calculated from live herbaceous fuel moisture (option);curing load;fire behavior fuel models:dynamic;dynamic fuel models" />is calculated from live herbaceous fuel moisture.<br /><br />With this option, dynamic fuel models include the transfer of live herbaceous fuel load to the dead category as a function of live herbaceous fuel moisture (Scott and Burgan, <a href="Bibliography.htm#ScottandBurgen2005">2005</a>). Seventeen of the 40 new fuel models are dynamic.</li>
+                            <MadCap:conditionalText MadCap:conditions="Default.LaterRelease">
+                                <li>
+                                    <MadCap:keyword term="is input directly (option)" />is input directly.<br /><br />With this option, rather than calculating the load transfer portion from live fuel moisture, you can enter the dynamic curing load transfer directly. With this option, you can examine the influence of the load transfer function on calculated fire behavior (Jolly, <a href="Bibliography.htm#Jolly2007">2007</a>; Andrews et al., <a href="Bibliography.htm#Andrewsetal2006">2006</a>).
+                            </li>
+                            </MadCap:conditionalText>
+                        </ul>
+                    </td>
+                </tr>
+                <tr class="Body-Body2">
+                    <td class="BodyB-Column1-Body2">
+                        <MadCap:keyword term="Moisture is entered (option)" />Moisture is entered                </td>
+                    <td class="BodyB-Column1-Body2">NA</td>
+                    <td class="BodyA-Column1-Body2">
+                        <MadCap:conditionalText MadCap:conditions="Default.LaterRelease">You have three options:<br /></MadCap:conditionalText>
+                        <ul style="list-style-type: square;">
+                            <MadCap:conditionalText MadCap:conditions="Default.LaterRelease">
+                                <li>
+                                    <MadCap:keyword term="by dead and live category (option)" />by dead and live category.<br /><br />With this option, the moisture content value entered (as a percentage) for "dead" is used for 1-hour, 10-hour, and 100-hour fuel. The moisture content for "live" is used for live woody and live herbaceous fuel. This value does not include foliar moisture (conifer needles).</li>
+                            </MadCap:conditionalText>
+                            <li>
+                                <MadCap:keyword term="by individual size class (option)" />by individual size class.<br /><br />With this option, the moisture content is entered (as a percentage) for each fuel size class, including 1-hour, 10-hour, and 100-hour dead fuels and herbaceous and woody live fuels.</li>
+                            <MadCap:conditionalText MadCap:conditions="Default.LaterRelease">
+                                <li>
+                                    <MadCap:keyword term="by moisture scenario (option)" />by moisture scenario.<br /><br />(For a list of the scenarios, see <MadCap:xref href="RefFCCSInEnvStandFuels.htm" target="" title="" alt=""><b>FCCS Inputs – Environmental Parameters: Standard Fuel Moisture Scenarios</b></MadCap:xref>.) With this option, you select a moisture scenario from a drop-down list. A moisture scenario is a predefined set of fuel moistures for 1-hour, 10-hour, and 100-hour dead fuel and for herbaceous and woody live fuel. A moisture scenario is analogous to the fuel model concept in that a single code represents a set of fuel. Fuel moisture scenarios may be developed, for example, to represent local 90-, 95-, and 97-percentile weather situations.</li>
+                            </MadCap:conditionalText>
+                        </ul>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>

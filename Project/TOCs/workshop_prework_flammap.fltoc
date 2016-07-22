@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc
+  Version="1">
+  <TocEntry
+    Title="New Book 1">
+    <TocEntry
+      Title="Running IFT-Flammap for a Landscape"
+      Link="/Content/Workshop_prework/Flammap_landscape.htm" />
+  </TocEntry>
+</CatapultToc>

@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="5" MadCap:lastHeight="850" MadCap:lastWidth="1033" MadCap:fileTags="FileNeeds.04 Ready for review">
+    <head>
+    </head>
+    <body>
+        <p>Continue to draw and edit your polygons as just described (using whichever method you prefer) until you fill your entire area of interest with polygons representing the larger values at risk. Remember to define your largest values at risk first (in this tutorial, we have first defined the wildland-urban interface and the oak woodlands). In the next few topics of this tutorial, you'll be defining your smaller values at risk.</p>
+        <div>
+            <form>
+                <fieldset class="note">
+                    <legend>&#160;&#160;&#160;Note&#160;&#160;&#160;</legend>
+                    <p class="noteBody">The polygons you draw for this tutorial do not have to match the polygons shown here.</p>
+                </fieldset>
+            </form>
+        </div>
+        <p>
+            <img src="../Images/RA-VAR-Tutorial/VAR-larger-values-first.png" class="screencap" title="Defining values at risk" alt="Defining values at risk." />
+        </p>
+    </body>
+</html>

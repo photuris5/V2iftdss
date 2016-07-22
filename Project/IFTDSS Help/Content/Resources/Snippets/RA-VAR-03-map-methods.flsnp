@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="1285" MadCap:lastWidth="1020" MadCap:fileTags="FileNeeds.04 Ready for review">
+    <head>
+    </head>
+    <body>
+        <p>In the next few steps, you will create a values-at-risk map by drawing and assigning response functions to polygons across the landscape.</p>
+        <p>There are two methods for using the map tools to draw polygons: the freeform method, and the point-and-click method.</p>
+        <ol>
+            <li>The <strong>freeform drawing method</strong> is useful when<ul style="list-style-type: square;"><li>You want to quickly and easily draw polygons.</li><li>You have a small area of interest.</li><li>You can see the entire area your polygon will encompass without moving the map.</li></ul></li>
+            <li>The <strong>point-and-click method</strong> is useful when<ul style="list-style-type: square;"><li>You want to zoom in to make a detailed polygon.</li><li>You need to move the map (using the pan tool) while you are drawing a polygon.</li></ul></li>
+        </ol>
+        <p>For this tutorial, you'll be using both polygon drawing methods, which are described in the topics that follow.</p>
+        <p>
+            <img src="../Images/RA-VAR-Tutorial/VAR-Define-VAR-step-map-only.png" class="screencap" title="The Map tool and a map" alt="TThe Map tool and a map ready to begin defining polygons." />
+        </p>
+    </body>
+</html>

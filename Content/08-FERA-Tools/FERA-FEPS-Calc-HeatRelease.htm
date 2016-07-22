@@ -1,0 +1,795 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="1578" MadCap:lastWidth="776">
+    <head>
+        <link href="../Resources/TableStyles/AlternatingRows.css" rel="stylesheet" MadCap:stylesheetType="table" />
+    </head>
+    <body>
+        <h1>Heat Release</h1>
+        <p>Heat release is calculated as</p>
+        <p>
+            <MadCap:equation xmlns:dsi="http://www.w3.org/1998/Math/MathML">
+                <math>
+                    <mrow>
+                        <msub>
+                            <mrow>
+                                <mi>Q</mi>
+                            </mrow>
+                            <mrow>
+                                <mi>i</mi>
+                            </mrow>
+                        </msub>
+                        <mo>⁢</mo>
+                        <mo>=</mo>
+                        <mtext> </mtext>
+                        <msub>
+                            <mrow>
+                                <mi>C</mi>
+                                <mi>R</mi>
+                            </mrow>
+                            <mrow>
+                                <mi>T</mi>
+                                <mi>o</mi>
+                                <mi>t</mi>
+                                <mo>,</mo>
+                                <mi>i</mi>
+                            </mrow>
+                        </msub>
+                        <msub>
+                            <mrow>
+                                <mtext> </mtext>
+                                <mi>C</mi>
+                            </mrow>
+                            <mrow>
+                                <mi>E</mi>
+                                <mi>f</mi>
+                                <mi>f</mi>
+                                <mo>,</mo>
+                                <mi>i</mi>
+                            </mrow>
+                        </msub>
+                        <msub>
+                            <mrow>
+                                <mtext> </mtext>
+                                <mi>B</mi>
+                            </mrow>
+                            <mrow>
+                                <mi>E</mi>
+                                <mi>f</mi>
+                                <mi>f</mi>
+                                <mo>,</mo>
+                                <mi>i</mi>
+                            </mrow>
+                        </msub>
+                        <msub>
+                            <mrow>
+                                <mtext> </mtext>
+                                <mi>E</mi>
+                            </mrow>
+                            <mrow>
+                                <mi>E</mi>
+                                <mi>f</mi>
+                                <mi>f</mi>
+                                <mo>,</mo>
+                                <mi>i</mi>
+                            </mrow>
+                        </msub>
+                        <mo>⁢</mo>
+                        <mtext> </mtext>
+                        <mi>h</mi>
+                        <mn>2000</mn>
+                    </mrow>
+                </math>
+            </MadCap:equation>
+        </p>
+        <p>The following table provides the definitions of these variables.</p>
+        <table style="mc-table-style: url('../Resources/TableStyles/AlternatingRows.css');" class="TableStyle-AlternatingRows" cellspacing="0">
+            <col style="width: 134px;" class="Column-Column1" />
+            <col style="width: 134px;" class="Column-Column1" />
+            <col style="width: 499px;" class="Column-Column1" />
+            <thead>
+                <tr class="Head-Header1">
+                    <th class="HeadE-Column1-Header1">
+                        <p>Variable</p>
+                    </th>
+                    <th class="HeadE-Column1-Header1">
+                        <p>Units</p>
+                    </th>
+                    <th class="HeadD-Column1-Header1">
+                        <p>Definition</p>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="Body-Body1">
+                    <td class="BodyE-Column1-Body1">
+                        <p>Q<sub>i</sub></p>
+                    </td>
+                    <td class="BodyE-Column1-Body1">
+                        <p>BTU/hr</p>
+                    </td>
+                    <td class="BodyD-Column1-Body1">
+                        <p>Heat release at hour i</p>
+                    </td>
+                </tr>
+                <tr class="Body-Body2">
+                    <td class="BodyE-Column1-Body2">
+                        <p>CR<sub>Tot,i</sub></p>
+                    </td>
+                    <td class="BodyE-Column1-Body2">
+                        <p>Tons/hr</p>
+                    </td>
+                    <td class="BodyD-Column1-Body2">
+                        <p>Total consumption rate at hour i</p>
+                    </td>
+                </tr>
+                <tr class="Body-Body1">
+                    <td class="BodyE-Column1-Body1">
+                        <p>C<sub>Eff,i</sub></p>
+                    </td>
+                    <td class="BodyE-Column1-Body1">
+                        <p>—</p>
+                    </td>
+                    <td class="BodyD-Column1-Body1">
+                        <p>Combustion efficiency at hour i</p>
+                    </td>
+                </tr>
+                <tr class="Body-Body2">
+                    <td class="BodyE-Column1-Body2">
+                        <p>B<sub>Eff,i</sub></p>
+                    </td>
+                    <td class="BodyE-Column1-Body2">
+                        <p>—</p>
+                    </td>
+                    <td class="BodyD-Column1-Body2">
+                        <p>Buoyant efficiency at hour i</p>
+                    </td>
+                </tr>
+                <tr class="Body-Body1">
+                    <td class="BodyE-Column1-Body1">
+                        <p>E<sub>Eff,i</sub></p>
+                    </td>
+                    <td class="BodyE-Column1-Body1">
+                        <p>—</p>
+                    </td>
+                    <td class="BodyD-Column1-Body1">
+                        <p>Entrainment efficiency at hour i</p>
+                    </td>
+                </tr>
+                <tr class="Body-Body2">
+                    <td class="BodyE-Column1-Body2">
+                        <p>h</p>
+                    </td>
+                    <td class="BodyE-Column1-Body2">
+                        <p>BTU/lb</p>
+                    </td>
+                    <td class="BodyD-Column1-Body2">
+                        <p>Heat of combustion (8000)</p>
+                    </td>
+                </tr>
+                <tr class="Body-Body1">
+                    <td class="BodyB-Column1-Body1">
+                        <p>2000</p>
+                    </td>
+                    <td class="BodyB-Column1-Body1">
+                        <p>lb/ton</p>
+                    </td>
+                    <td class="BodyA-Column1-Body1">
+                        <p>Pounds per ton conversion</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <h2>Bouyant Efficiency</h2>
+        <p>Buoyant efficiency is calculated as</p>
+        <p>
+            <MadCap:equation xmlns:dsi="http://www.w3.org/1998/Math/MathML">
+                <math>
+                    <mrow>
+                        <msub>
+                            <mrow>
+                                <mi>B</mi>
+                            </mrow>
+                            <mrow>
+                                <mi>E</mi>
+                                <mi>f</mi>
+                                <mi>f</mi>
+                                <mo>,</mo>
+                                <mi>i</mi>
+                            </mrow>
+                        </msub>
+                        <mo>⁢</mo>
+                        <mtext> </mtext>
+                        <mo>=</mo>
+                        <mtext> </mtext>
+                        <mfrac>
+                            <mrow>
+                                <mo>(</mo>
+                                <msub>
+                                    <mrow>
+                                        <mi>K</mi>
+                                    </mrow>
+                                    <mrow>
+                                        <mi>b</mi>
+                                        <mo>,</mo>
+                                        <mi>f</mi>
+                                    </mrow>
+                                </msub>
+                                <msub>
+                                    <mrow>
+                                        <mi>C</mi>
+                                        <mi>R</mi>
+                                    </mrow>
+                                    <mrow>
+                                        <mi>F</mi>
+                                        <mo>,</mo>
+                                        <mi>i</mi>
+                                    </mrow>
+                                </msub>
+                                <mo>)</mo>
+                                <mtext> </mtext>
+                                <mo>+</mo>
+                                <mtext> </mtext>
+                                <mo>(</mo>
+                                <msub>
+                                    <mrow>
+                                        <mi>K</mi>
+                                    </mrow>
+                                    <mrow>
+                                        <mi>b</mi>
+                                        <mo>,</mo>
+                                        <mi>S</mi>
+                                    </mrow>
+                                </msub>
+                                <msub>
+                                    <mrow>
+                                        <mi>C</mi>
+                                        <mi>R</mi>
+                                    </mrow>
+                                    <mrow>
+                                        <mi>S</mi>
+                                        <mo>,</mo>
+                                        <mi>i</mi>
+                                    </mrow>
+                                </msub>
+                                <mo>)</mo>
+                                <mtext> </mtext>
+                                <mo>+</mo>
+                                <mtext> </mtext>
+                                <msub>
+                                    <mrow>
+                                        <mi>K</mi>
+                                    </mrow>
+                                    <mrow>
+                                        <mi>b</mi>
+                                        <mo>,</mo>
+                                        <mi>R</mi>
+                                        <mi>S</mi>
+                                    </mrow>
+                                </msub>
+                                <msub>
+                                    <mrow>
+                                        <mi>C</mi>
+                                        <mi>R</mi>
+                                    </mrow>
+                                    <mrow>
+                                        <mi>R</mi>
+                                        <mi>S</mi>
+                                        <mo>,</mo>
+                                        <mi>i</mi>
+                                    </mrow>
+                                </msub>
+                                <mo>)</mo>
+                            </mrow>
+                            <mrow>
+                                <msub>
+                                    <mrow>
+                                        <mi>C</mi>
+                                        <mi>R</mi>
+                                    </mrow>
+                                    <mrow>
+                                        <mi>F</mi>
+                                        <mo>,</mo>
+                                        <mi>i</mi>
+                                    </mrow>
+                                </msub>
+                                <mo>⁢</mo>
+                                <mtext> </mtext>
+                                <mo>+</mo>
+                                <mtext> </mtext>
+                                <mtext> </mtext>
+                                <msub>
+                                    <mrow>
+                                        <msub>
+                                            <mrow>
+                                                <mi>C</mi>
+                                                <mi>R</mi>
+                                            </mrow>
+                                            <mrow>
+                                                <mi>S</mi>
+                                                <mo>,</mo>
+                                                <mi>i</mi>
+                                            </mrow>
+                                        </msub>
+                                        <mo>⁢</mo>
+                                        <mtext> </mtext>
+                                        <mo>+</mo>
+                                        <mtext> </mtext>
+                                        <mtext> </mtext>
+                                        <mi>C</mi>
+                                        <mi>R</mi>
+                                    </mrow>
+                                    <mrow>
+                                        <mi>R</mi>
+                                        <mi>S</mi>
+                                        <mo>,</mo>
+                                        <mi>i</mi>
+                                    </mrow>
+                                </msub>
+                                <mo>⁢</mo>
+                                <mo>+</mo>
+                                <mtext> </mtext>
+                                <mn>0.001</mn>
+                                <mo>⁢</mo>
+                            </mrow>
+                        </mfrac>
+                    </mrow>
+                </math>
+            </MadCap:equation>
+        </p>
+        <p>The following table provides the definitions of these variables.</p>
+        <table style="mc-table-style: url('../Resources/TableStyles/AlternatingRows.css');" class="TableStyle-AlternatingRows" cellspacing="0">
+            <col class="Column-Column1" />
+            <col class="Column-Column1" />
+            <col class="Column-Column1" />
+            <thead>
+                <tr class="Head-Header1">
+                    <th class="HeadE-Column1-Header1">
+                        <p>Variable</p>
+                    </th>
+                    <th class="HeadE-Column1-Header1">
+                        <p>Units</p>
+                    </th>
+                    <th class="HeadD-Column1-Header1">
+                        <p>Definition</p>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="Body-Body1">
+                    <td class="BodyE-Column1-Body1">
+                        <p>BEff<sub>i</sub></p>
+                    </td>
+                    <td class="BodyE-Column1-Body1">
+                        <p>&#160;</p>
+                    </td>
+                    <td class="BodyD-Column1-Body1">
+                        <p>Buoyant efficiency at hour i</p>
+                    </td>
+                </tr>
+                <tr class="Body-Body2">
+                    <td class="BodyE-Column1-Body2">
+                        <p>CR<sub>F,i</sub></p>
+                    </td>
+                    <td class="BodyE-Column1-Body2">
+                        <p>Tons/hr</p>
+                    </td>
+                    <td class="BodyD-Column1-Body2">
+                        <p>Flaming consumption rate at hour i</p>
+                    </td>
+                </tr>
+                <tr class="Body-Body1">
+                    <td class="BodyE-Column1-Body1">
+                        <p>CR<sub>S,i</sub></p>
+                    </td>
+                    <td class="BodyE-Column1-Body1">
+                        <p>Tons/hr</p>
+                    </td>
+                    <td class="BodyD-Column1-Body1">
+                        <p>Smoldering phase consumption rate at hour i</p>
+                    </td>
+                </tr>
+                <tr class="Body-Body2">
+                    <td class="BodyE-Column1-Body2">
+                        <p>CR<sub>RS,i</sub></p>
+                    </td>
+                    <td class="BodyE-Column1-Body2">
+                        <p>Tons/hr</p>
+                    </td>
+                    <td class="BodyD-Column1-Body2">
+                        <p>Residual smoldering phase consumption rate at hour i</p>
+                    </td>
+                </tr>
+                <tr class="Body-Body1">
+                    <td class="BodyE-Column1-Body1">
+                        <p>K<sub>b,F</sub></p>
+                    </td>
+                    <td class="BodyE-Column1-Body1">
+                        <p>—</p>
+                    </td>
+                    <td class="BodyD-Column1-Body1">
+                        <p>Flaming phase buoyant efficiency coefficient (0.8)</p>
+                    </td>
+                </tr>
+                <tr class="Body-Body2">
+                    <td class="BodyE-Column1-Body2">
+                        <p>K<sub>b,S</sub></p>
+                    </td>
+                    <td class="BodyE-Column1-Body2">
+                        <p>—</p>
+                    </td>
+                    <td class="BodyD-Column1-Body2">
+                        <p>Smoldering phase buoyant efficiency coefficient (0.3)</p>
+                    </td>
+                </tr>
+                <tr class="Body-Body1">
+                    <td class="BodyB-Column1-Body1">
+                        <p>K<sub>b,RS</sub></p>
+                    </td>
+                    <td class="BodyB-Column1-Body1">
+                        <p>—</p>
+                    </td>
+                    <td class="BodyA-Column1-Body1">
+                        <p>Residual smoldering phase buoyant efficiency coefficient (0.1)</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <h2>Entrainment Efficiency</h2>
+        <p>Entrainment efficiency is calculated as</p>
+        <p>
+            <MadCap:equation xmlns:dsi="http://www.w3.org/1998/Math/MathML">
+                <math>
+                    <mrow>
+                        <msub>
+                            <mrow>
+                                <mi>E</mi>
+                            </mrow>
+                            <mrow>
+                                <mi>E</mi>
+                                <mi>f</mi>
+                                <mi>f</mi>
+                                <mo>,</mo>
+                                <mi>i</mi>
+                            </mrow>
+                        </msub>
+                        <mo>⁢</mo>
+                        <mtext> </mtext>
+                        <mo>=</mo>
+                        <mtext> </mtext>
+                        <mn>0.95</mn>
+                        <mo>⁢</mo>
+                        <msub>
+                            <mrow>
+                                <mi>β</mi>
+                            </mrow>
+                            <mrow>
+                                <mn>1</mn>
+                            </mrow>
+                        </msub>
+                        <msub>
+                            <mrow>
+                                <mi>β</mi>
+                            </mrow>
+                            <mrow>
+                                <mn>2</mn>
+                            </mrow>
+                        </msub>
+                        <msub>
+                            <mrow>
+                                <mi>β</mi>
+                            </mrow>
+                            <mrow>
+                                <mn>3</mn>
+                            </mrow>
+                        </msub>
+                        <msub>
+                            <mrow>
+                                <mi>β</mi>
+                            </mrow>
+                            <mrow>
+                                <mn>4</mn>
+                            </mrow>
+                        </msub>
+                    </mrow>
+                </math>
+            </MadCap:equation>
+        </p>
+        <p>Where</p>
+        <p>
+            <MadCap:equation xmlns:dsi="http://www.w3.org/1998/Math/MathML">
+                <math>
+                    <mrow>
+                        <msub>
+                            <mrow>
+                                <mi>β</mi>
+                            </mrow>
+                            <mrow>
+                                <mn>1</mn>
+                            </mrow>
+                        </msub>
+                        <mo>⁢</mo>
+                        <mo>=</mo>
+                        <mtext> </mtext>
+                        <mstyle mathvariant="italic">
+                            <mi>min</mi>
+                        </mstyle>
+                        <mo>⁡</mo>
+                        <mo>[</mo>
+                        <mn>1</mn>
+                        <mo>,</mo>
+                        <mo>(</mo>
+                        <mfrac>
+                            <mrow>
+                                <msub>
+                                    <mrow>
+                                        <mi>A</mi>
+                                        <mi>R</mi>
+                                    </mrow>
+                                    <mrow>
+                                        <mi>i</mi>
+                                    </mrow>
+                                </msub>
+                                <mo>⁢</mo>
+                                <mo>+</mo>
+                                <mtext> </mtext>
+                                <msub>
+                                    <mrow>
+                                        <mi>A</mi>
+                                        <mi>R</mi>
+                                    </mrow>
+                                    <mrow>
+                                        <mi>i</mi>
+                                        <mo>−</mo>
+                                        <mn>1</mn>
+                                    </mrow>
+                                </msub>
+                            </mrow>
+                            <mrow>
+                                <mn>10</mn>
+                            </mrow>
+                        </mfrac>
+                        <mo>)</mo>
+                        <mo>]</mo>
+                    </mrow>
+                </math>
+            </MadCap:equation>
+        </p>
+        <p>
+            <MadCap:equation xmlns:dsi="http://www.w3.org/1998/Math/MathML">
+                <math>
+                    <mrow>
+                        <msub>
+                            <mrow>
+                                <mi>β</mi>
+                            </mrow>
+                            <mrow>
+                                <mn>2</mn>
+                            </mrow>
+                        </msub>
+                        <mo>⁢</mo>
+                        <mo>=</mo>
+                        <mtext> </mtext>
+                        <mstyle mathvariant="italic">
+                            <mrow>
+                                <mi>max</mi>
+                            </mrow>
+                        </mstyle>
+                        <mo>⁡</mo>
+                        <mo>[</mo>
+                        <mo>(</mo>
+                        <mn>0.8</mn>
+                        <msub>
+                            <mrow>
+                                <mtext> </mtext>
+                                <mtext> </mtext>
+                                <mi>β</mi>
+                            </mrow>
+                            <mrow>
+                                <mn>3</mn>
+                            </mrow>
+                        </msub>
+                        <mo>)</mo>
+                        <mo>,</mo>
+                        <msub>
+                            <mrow>
+                                <mi>β</mi>
+                            </mrow>
+                            <mrow>
+                                <mn>4</mn>
+                            </mrow>
+                        </msub>
+                        <mo>]</mo>
+                    </mrow>
+                </math>
+            </MadCap:equation>
+        </p>
+        <p>
+            <MadCap:equation xmlns:dsi="http://www.w3.org/1998/Math/MathML">
+                <math>
+                    <mrow>
+                        <msub>
+                            <mrow>
+                                <mi>β</mi>
+                            </mrow>
+                            <mrow>
+                                <mn>3</mn>
+                            </mrow>
+                        </msub>
+                        <mo>⁢</mo>
+                        <mo>=</mo>
+                        <mtext> </mtext>
+                        <mi mathvariant="italic">min</mi>
+                        <mo>⁡</mo>
+                        <mo>[</mo>
+                        <mn>1</mn>
+                        <mo>,</mo>
+                        <mo>(</mo>
+                        <mfrac>
+                            <mrow>
+                                <msub>
+                                    <mrow>
+                                        <mi>A</mi>
+                                        <mi>R</mi>
+                                    </mrow>
+                                    <mrow>
+                                        <mi>i</mi>
+                                    </mrow>
+                                </msub>
+                            </mrow>
+                            <mrow>
+                                <mn>100</mn>
+                            </mrow>
+                        </mfrac>
+                        <mo>)</mo>
+                        <mo>]</mo>
+                    </mrow>
+                </math>
+            </MadCap:equation>
+        </p>
+        <p>
+            <MadCap:equation xmlns:dsi="http://www.w3.org/1998/Math/MathML">
+                <math>
+                    <mrow>
+                        <msub>
+                            <mrow>
+                                <mi>β</mi>
+                            </mrow>
+                            <mrow>
+                                <mn>4</mn>
+                            </mrow>
+                        </msub>
+                        <mo>⁢</mo>
+                        <mo>=</mo>
+                        <mtext> </mtext>
+                        <mi>min</mi>
+                        <mo>⁡</mo>
+                        <mo>[</mo>
+                        <mn>1</mn>
+                        <mo>,</mo>
+                        <mo>(</mo>
+                        <mfrac>
+                            <mrow>
+                                <msub>
+                                    <mrow>
+                                        <mi>A</mi>
+                                        <mi>R</mi>
+                                    </mrow>
+                                    <mrow>
+                                        <mi>i</mi>
+                                    </mrow>
+                                </msub>
+                            </mrow>
+                            <mrow>
+                                <msub>
+                                    <mrow>
+                                        <mi>A</mi>
+                                        <mi>r</mi>
+                                        <mi>e</mi>
+                                        <mi>a</mi>
+                                    </mrow>
+                                    <mrow>
+                                        <mi>i</mi>
+                                    </mrow>
+                                </msub>
+                                <mo>⁢</mo>
+                                <mtext> </mtext>
+                                <mo>+</mo>
+                                <mtext> </mtext>
+                                <mn>1</mn>
+                            </mrow>
+                        </mfrac>
+                        <mo>)</mo>
+                        <mo>]</mo>
+                    </mrow>
+                </math>
+            </MadCap:equation>
+        </p>
+        <p>The following table provides the definitions of these variables.</p>
+        <table style="mc-table-style: url('../Resources/TableStyles/AlternatingRows.css');" class="TableStyle-AlternatingRows" cellspacing="0">
+            <col style="width: 112px;" class="Column-Column1" />
+            <col style="width: 118px;" class="Column-Column1" />
+            <col class="Column-Column1" style="width: 429px;" />
+            <thead>
+                <tr class="Head-Header1">
+                    <th class="HeadE-Column1-Header1">
+                        <p>Variable</p>
+                    </th>
+                    <th class="HeadE-Column1-Header1">
+                        <p>Units</p>
+                    </th>
+                    <th class="HeadD-Column1-Header1">
+                        <p>Definition</p>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="Body-Body1">
+                    <td class="BodyE-Column1-Body1">
+                        <p>E<sub>Eff,i</sub></p>
+                    </td>
+                    <td class="BodyE-Column1-Body1">
+                        <p>&#160;</p>
+                    </td>
+                    <td class="BodyD-Column1-Body1">
+                        <p>Entrainment efficiency at hour i</p>
+                    </td>
+                </tr>
+                <tr class="Body-Body2">
+                    <td class="BodyE-Column1-Body2">
+                        <p>AR<sub>i</sub></p>
+                    </td>
+                    <td class="BodyE-Column1-Body2">
+                        <p>Acres/hr</p>
+                    </td>
+                    <td class="BodyD-Column1-Body2">
+                        <p>Rate of increase in burn area between hour i-1 and hour i</p>
+                    </td>
+                </tr>
+                <tr class="Body-Body1">
+                    <td class="BodyE-Column1-Body1">
+                        <p>AR<sub>i-1</sub></p>
+                    </td>
+                    <td class="BodyE-Column1-Body1">
+                        <p>Acres/hr</p>
+                    </td>
+                    <td class="BodyD-Column1-Body1">
+                        <p>Rate of increase in burn area between hour 1-2 and hour i-1</p>
+                    </td>
+                </tr>
+                <tr class="Body-Body2">
+                    <td class="BodyE-Column1-Body2">
+                        <p>Area<sub>i</sub></p>
+                    </td>
+                    <td class="BodyE-Column1-Body2">
+                        <p>Acres</p>
+                    </td>
+                    <td class="BodyD-Column1-Body2">
+                        <p>Cumulative burn area at hour i</p>
+                    </td>
+                </tr>
+                <tr class="Body-Body1">
+                    <td class="BodyE-Column1-Body1">
+                        <p>0.95</p>
+                    </td>
+                    <td class="BodyE-Column1-Body1">
+                        <p>—</p>
+                    </td>
+                    <td class="BodyD-Column1-Body1">
+                        <p>Maximum entrainment efficiency </p>
+                    </td>
+                </tr>
+                <tr class="Body-Body2">
+                    <td class="BodyB-Column1-Body2">
+                        <p>0.8</p>
+                    </td>
+                    <td class="BodyB-Column1-Body2">
+                        <p>—</p>
+                    </td>
+                    <td class="BodyA-Column1-Body2">
+                        <p>Entrainment efficiency in first hour or 100 Acre/hr grown rate</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>

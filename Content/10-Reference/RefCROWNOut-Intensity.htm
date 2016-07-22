@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us" MadCap:lastBlockDepth="7" MadCap:lastHeight="803" MadCap:lastWidth="1156" MadCap:fileTags="FileStatusTags.07 Complete,FileNeeds.05 Complete">
+    <head>
+        <link href="../Resources/TableStyles/AlternatingRows.css" rel="stylesheet" MadCap:stylesheetType="table" /><title>Crown Fire Behavior Intensity Output Parameters</title>
+        <link href="../Resources/Stylesheets/WordImport.css" rel="stylesheet" />
+    </head>
+    <body>
+        <h1>
+            <MadCap:keyword term="crowns and crown fires:crown fire behavior (IFT-crown):intensity;crowns and crown fires:intensity" />Crown Fire Behavior Intensity Output Parameters</h1>
+        <table class="TableStyle-AlternatingRows" style="caption-side: top;mc-table-style: url('../Resources/TableStyles/AlternatingRows.css');" cellspacing="0">
+            <col style="width: 15%;" class="Column-Column1" />
+            <col style="width: 20%;" class="Column-Column1" />
+            <col style="width: 65%;" class="Column-Column1" />
+            <thead>
+                <tr class="Head-Header1">
+                    <th class="HeadE-Column1-Header1">Name
+                    </th>
+                    <th class="HeadE-Column1-Header1">Units
+                    </th>
+                    <th class="HeadD-Column1-Header1">Brief Description
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="Body-Body1">
+                    <td class="BodyE-Column1-Body1">
+                        <MadCap:keyword term="Canopy Heat per Unit Area (parameter);canopies:heat" />Canopy Heat per Unit Area
+                    </td>
+                    <td class="BodyE-Column1-Body1">Btus per feet<sup class="sup_1">2</sup>,&#160;
+                        kilojoules per meter<sup class="sup_1">2</sup></td>
+                    <td class="BodyD-Column1-Body1">Estimated from crown load as described by Rothermel (<a href="Bibliography.htm#Rothermel1991">1991</a>).&#160; Canopy heat per unit area is added to the surface heat per unit area to get crown fire heat per unit area, which is used to calculate crown fireline intensity.
+                        
+                    </td>
+                </tr>
+                <tr class="Body-Body2">
+                    <td class="BodyE-Column1-Body2">
+                        <MadCap:keyword term="Crown Fire Heat per Unit Area (parameter);crowns and crown fires:fires:heat" />Crown Fire Heat per Unit Area
+                    </td>
+                    <td class="BodyE-Column1-Body2">Btus per feet<sup class="sup_1">2</sup>, kilojoules per meter<sup class="sup_1">2</sup></td>
+                    <td class="BodyD-Column1-Body2">The sum of surface fire heat per unit area and canopy heat per unit area. Crown fire heat per unit area is used to calculate crown fireline intensity.
+                    </td>
+                </tr>
+                <tr class="Body-Body1">
+                    <td class="BodyE-Column1-Body1">
+                        <MadCap:keyword term="Crown Fireline Intensity (parameter);crowns and crown fires:fireline intensity" />Crown Fireline Intensity
+                    </td>
+                    <td class="BodyE-Column1-Body1">Btus per feet per second, kilowatts per meter
+                    </td>
+                    <td class="BodyD-Column1-Body1">Calculated from surface heat per unit area, crown fire heat per unit area, and crown rate of spread as described by Rothermel (1991).&#160;Crown fireline intensity is used to calculate crown flame length and the power of the fire.
+                        
+                    </td>
+                </tr>
+                <tr class="Body-Body2">
+                    <td class="BodyE-Column1-Body2">
+                        <MadCap:keyword term="Crown Flame Length (parameter);crowns and crown fires:flame length" />Crown Flame Length
+                    </td>
+                    <td class="BodyE-Column1-Body2">Feet, meters
+                    </td>
+                    <td class="BodyD-Column1-Body2">Crown flame length, based on 20-foot wind speeds, is calculated from crown fireline intensity as described by Rothermel (1991). Crown flame length is used to find the power of the fire.
+The flame length equation is from Thomas (<a href="Bibliography.htm#Thomas1962">1962</a>).                 
+                    </td>
+                </tr>
+                <tr class="Body-Body1">
+                    <td class="BodyE-Column1-Body1">
+                        <MadCap:keyword term="Crown Load (parameter)" />Crown Load
+                    </td>
+                    <td class="BodyE-Column1-Body1">Tons per acre, tonne per hectare (Mg/ha) 
+                        
+                    </td>
+                    <td class="BodyD-Column1-Body1">Used to calculate crown fireline intensity as described by Rothermel (1991).&#160;Crown load is found by multiplying canopy bulk density by the difference between canopy height and canopy base height.
+                        
+                    </td>
+                </tr>
+                <tr class="Body-Body2">
+                    <td class="BodyE-Column1-Body2">
+                        <MadCap:keyword term="Power of the Fire (parameter);fires:power of" />Power of the Fire
+                    </td>
+                    <td class="BodyE-Column1-Body2">Feet-pound per second per feet<sup class="sup_1">2</sup>, meter-kilogram per second per meter<sup class="sup_1">2</sup></td>
+                    <td class="BodyD-Column1-Body2">The rate at which energy is released from a fire, calculated on a unit-area basis.&#160;This power is the source of energy that produces the convection column.&#160; If the power of the fire is greater than the power of the wind, then the fire-wind system is dominated by the energy of the fire.&#160;Such fires are said to be plume dominated.
+Power of the fire is described by Rothermel (1991) based on work by Byram (<a href="Bibliography.htm#Byram1959">1959</a>).                    </td>
+                </tr>
+                <tr class="Body-Body1">
+                    <td class="BodyE-Column1-Body1">
+                        <MadCap:keyword term="Power of the Wind (parameter);wind and wind speeds:power of" />Power of the Wind
+                    </td>
+                    <td class="BodyE-Column1-Body1">Feet-pound per second per feet<sup class="sup_1">2</sup>, meter-kilogram per second per meter<sup class="sup_1">2</sup></td>
+                    <td class="BodyD-Column1-Body1">The rate of kinetic energy in the wind field. It is expressed in the same units as the power of the fire.&#160; If the power of the wind is greater than the power of the fire, then the fire-wind system is dominated by the energy of the wind.&#160; Such fires are said to be wind-driven.&#160;Power of the wind is described by Rothermel (1991) based on work by Byram (1959).
+                    </td>
+                </tr>
+                <tr class="Body-Body2">
+                    <td class="BodyE-Column1-Body2">
+                        <MadCap:keyword term="Power Ratio (parameter)" />Power Ratio
+                    </td>
+                    <td class="BodyE-Column1-Body2">A ratio</td>
+                    <td class="BodyD-Column1-Body2">
+                        <MadCap:keyword term="fires:wind-driven:definition;fires:plume-dominated:definition;wind-driven surface fires:definition;plume-dominated fires:definition" />The power of the fire divided by the power of the wind.&#160; If the power ratio is less than one (i.e., the power of the wind is greater than the power of the fire), the fire is estimated to be wind-driven.
+If the power ratio is greater than one (i.e., the power of the fire is greater than the power of the wind), the fire is plume-dominated.</td>
+                </tr>
+                <tr class="Body-Body1">
+                    <td class="BodyB-Column1-Body1">
+                        <MadCap:keyword term="Wind-driven Fire (parameter);wind-driven surface fires" />Wind-driven Fire
+                    </td>
+                    <td class="BodyB-Column1-Body1">Yes or No
+                    </td>
+                    <td class="BodyA-Column1-Body1"> <![CDATA[ ]]><i>Yes</i> indicates that it is a wind-driven fire (i.e., the power of the wind is greater than the power of the fire). <i>No</i> indicates that it is a plume-dominated fire (i.e., the power of the fire is greater than the power of the wind).
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>

@@ -1,0 +1,225 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us" MadCap:lastBlockDepth="6" MadCap:lastHeight="2139" MadCap:lastWidth="717" MadCap:fileTags="FileNeeds.04 Ready for review">
+    <head>
+        <link href="../Resources/TableStyles/AlternatingRows.css" rel="stylesheet" MadCap:stylesheetType="table" /><title>All Fire and Fuel Potentials FCCS</title>
+        <link href="../Resources/Stylesheets/TempImport.css" rel="stylesheet" />
+    </head>
+    <body>
+        <h1>All Fire and Fuel Potentials Output Parameters (FCCS)</h1>
+        <p>For your convenience, this table lists all the parameters that are listed by category on these separate topic pages:</p>
+        <ul style="list-style-type: square;">
+            <li>
+                <MadCap:xref href="FERA-FCCS-FP-AvailableFuelPot.htm"><b>Available Fuel Potential Output Parameters</b>
+                </MadCap:xref>
+            </li>
+            <li>
+                <MadCap:xref href="FERA-FCCS-FP-CrownFirePot.htm"><b>Crown Fire Potential Output Parameters</b>
+                </MadCap:xref>
+            </li>
+            <li>
+                <MadCap:xref href="FERA-FCCS-FP-SurfaceFirePotential.htm"><b>Surface Fire Potential Output Parameters</b>
+                </MadCap:xref>
+            </li>
+        </ul>
+        <p>This table also includes the 
+                        <strong><a href="#FCCSFirePotCode">FCCS Fire Potential Code</a></strong>
+parameter.</p>
+        <table class="TableStyle-AlternatingRows" style="mc-table-style: url('../Resources/TableStyles/AlternatingRows.css');" cellspacing="0">
+            <col style="width: 20%;" class="Column-Column1" />
+            <col style="width: 20%;" class="Column-Column1" />
+            <col style="width: 60%;" class="Column-Column1" />
+            <thead>
+                <tr class="Head-Header1">
+                    <th class="HeadE-Column1-Header1">Name</th>
+                    <th class="HeadE-Column1-Header1">
+                        Units
+                    </th>
+                    <th class="HeadD-Column1-Header1">
+                        Brief Description
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="Body-Body1">
+                    <td colspan="3" class="BodyE-Column1-Body1">
+                        <p class="centeredUC">FCCS Fire potential code</p>
+                    </td>
+                </tr>
+                <tr class="Body-Body2">
+                    <td class="BodyE-Column1-Body2"> <![CDATA[
+						]]><a name="FCCSFirePotCode"></a><MadCap:keyword term="FCCS Fire Potential code (parameter)" />FCCS Fire Potential Code
+					</td>
+                    <td class="BodyE-Column1-Body2">
+						NA
+					</td>
+                    <td class="BodyD-Column1-Body2">
+						A three-digit code representing the surface fire behavior, crown fire, and available fuel potentials.<br /><br />FPC = SFP, CFP, AFP
+                        
+					</td>
+                </tr>
+                <tr class="Body-Body1">
+                    <td colspan="3" class="BodyE-Column1-Body1">
+                        <p class="centeredUC">
+                            <MadCap:keyword term="surface fire behavior potentials (FCCS)" />surface fire behavior potentials</p>
+                    </td>
+                </tr>
+                <tr class="Body-Body2">
+                    <td class="BodyE-Column1-Body2">
+                        <MadCap:keyword term="Surface Fire Behavior Potential (parameter)" />Surface Fire Behavior Potential
+                    </td>
+                    <td class="BodyE-Column1-Body2">
+                        NA
+                    </td>
+                    <td class="BodyD-Column1-Body2">
+                        Summary surface fire behavior potential, calculated as the maximum of spread potential and flame length potential scaled to an index between 0–9.<br /><br />SFP = max(RP,SP)
+                        
+                    </td>
+                </tr>
+                <tr class="Body-Body1">
+                    <td class="BodyE-Column1-Body1">
+                        <MadCap:keyword term="Surface Fire Flame Length Potential (parameter)" />Surface Fire Flame Length Potential
+                    </td>
+                    <td class="BodyE-Column1-Body1">
+                        NA
+                    </td>
+                    <td class="BodyD-Column1-Body1">
+                        Proportional to fireline intensity or flame length.<br /><br />FP = min(9,(2 <MadCap:equation xmlns:dsi="http://www.w3.org/1998/Math/MathML" title="The square root of flame length" alt="The square root of flame length"><math><mrow><msqrt><mrow><mi>F</mi><mi>l</mi><mi>a</mi><mi>m</mi><mi>e</mi><mo>⁢</mo><mtext><![CDATA[ ]]></mtext><mi>L</mi><mi>e</mi><mi>n</mi><mi>g</mi><mi>t</mi><mi>h</mi></mrow></msqrt></mrow></math></MadCap:equation>))<br /><br />Where Flame length (ft; m) = Predicted flame length, measured as the distance between the flame length and the middle of the flame base.
+                        
+                    </td>
+                </tr>
+                <tr class="Body-Body2">
+                    <td class="BodyE-Column1-Body2">
+                        <MadCap:keyword term="Surface Fire Reaction Potential (parameter)" />Surface Fire Reaction Potential
+                    </td>
+                    <td class="BodyE-Column1-Body2">
+                        NA
+                    </td>
+                    <td class="BodyD-Column1-Body2">
+                        Index of reaction intensity (energy released per unit area and time)<br /><br />RP = min(9,(0.08 <MadCap:equation xmlns:dsi="http://www.w3.org/1998/Math/MathML" title="The square root of reaction intensity" alt="The square root of reaction intensity"><math><mrow><msqrt><mrow><mi>R</mi><mi>e</mi><mi>a</mi><mi>c</mi><mi>t</mi><mi>i</mi><mi>o</mi><mi>n</mi><mo>⁢</mo><mtext><![CDATA[ ]]></mtext><mtext><![CDATA[ ]]></mtext><mi>I</mi><mi>n</mi><mi>t</mi><mi>e</mi><mi>n</mi><mi>s</mi><mi>i</mi><mi>t</mi><mi>y</mi></mrow></msqrt></mrow></math></MadCap:equation>))<br /><br />Where Reaction intensity (BTU-ft<sup>2</sup>/min;<br />kW/min) = Predicted rate of the energy release per area (square foot or square meter) within the flaming front.
+                        
+                    </td>
+                </tr>
+                <tr class="Body-Body1">
+                    <td class="BodyE-Column1-Body1">
+                        <MadCap:keyword term="Surface Fire Spread Potential (parameter)" />Surface Fire Spread Potential
+                    </td>
+                    <td class="BodyE-Column1-Body1">
+                        NA
+                    </td>
+                    <td class="BodyD-Column1-Body1">
+                        Proportional to the no-wind rate of spread in surface fuel (distance per unit time).&#160;<br /><br />SP = min(9,(2 <MadCap:equation xmlns:dsi="http://www.w3.org/1998/Math/MathML" title="The square root of the rate of spread" alt="The square root of the rate of spread"><math><mrow><msqrt><mrow><mi>R</mi><mi>a</mi><mi>t</mi><mi>e</mi><mo>⁢</mo><mtext><![CDATA[ ]]></mtext><mi>o</mi><mi>f</mi><mo>⁢</mo><mtext><![CDATA[ ]]></mtext><mi>S</mi><mi>p</mi><mi>r</mi><mi>e</mi><mi>a</mi><mi>d</mi></mrow></msqrt></mrow></math></MadCap:equation>))<br /><br />Where Rate of spread (ft/min; m/min) = Predicted rate at which the flaming front passes through surface fuels.
+                        
+                    </td>
+                </tr>
+                <tr class="Body-Body2">
+                    <td colspan="3" class="BodyE-Column1-Body2">
+                        <p class="centeredUC">
+                            <MadCap:keyword term="crown fire potentials (FCCS)" />Crown fire potentials</p>
+                    </td>
+                </tr>
+                <tr class="Body-Body1">
+                    <td class="BodyE-Column1-Body1">
+                        <MadCap:keyword term="Crown Fire Initiation Potential (parameter)" />Crown Fire Initiation Potential
+                    </td>
+                    <td class="BodyE-Column1-Body1">
+                        NA
+                    </td>
+                    <td class="BodyD-Column1-Body1">
+                        The potential for fire to reach the canopy layer.
+                        
+                    </td>
+                </tr>
+                <tr class="Body-Body2">
+                    <td class="BodyE-Column1-Body2">
+                        <MadCap:keyword term="Crown Fire Potential (parameter)" />Crown Fire Potential
+                    </td>
+                    <td class="BodyE-Column1-Body2">
+                        NA
+                    </td>
+                    <td class="BodyD-Column1-Body2">
+                        The weighted average of crown fire subpotentials scaled to an index between 0–9.<br /><br />CFP = (IC+TC/3+RC)/2.333
+                        
+                    </td>
+                </tr>
+                <tr class="Body-Body1">
+                    <td class="BodyE-Column1-Body1">
+                        <MadCap:keyword term="Crown Fire Spreading Potential (parameter)" />Crown Fire Spreading Potential
+                    </td>
+                    <td class="BodyE-Column1-Body1">
+                        NA
+                    </td>
+                    <td class="BodyD-Column1-Body1">
+                        The relative index of crown fire rate of spread.
+                    </td>
+                </tr>
+                <tr class="Body-Body2">
+                    <td class="BodyE-Column1-Body2">
+                        <MadCap:keyword term="Crown-to-Crown Transmissivity Potential (parameter)" />Crown-to-Crown Transmissivity Potential
+                        
+                    </td>
+                    <td class="BodyE-Column1-Body2">
+                        NA
+                    </td>
+                    <td class="BodyD-Column1-Body2">
+                        The potential for fire to carry through a canopy.
+                    </td>
+                </tr>
+                <tr class="Body-Body1">
+                    <td colspan="3" class="BodyE-Column1-Body1">
+                        <p class="centeredUC">
+                            <MadCap:keyword term="available fuel potentials (FCCS)" />available fuel potentials</p>
+                    </td>
+                </tr>
+                <tr class="Body-Body2">
+                    <td class="BodyE-Column1-Body2">
+                        <MadCap:keyword term="Available Fuel Potential (parameter)" />Available Fuel Potential
+                        
+                    </td>
+                    <td class="BodyE-Column1-Body2">
+                        NA
+                    </td>
+                    <td class="BodyD-Column1-Body2">
+                        The sum of fuel loadings in all combustion phases scaled to an index between 0–9.<br /><br />AFP = min(9, sum(FA,SA,RA))
+                        
+                    </td>
+                </tr>
+                <tr class="Body-Body1">
+                    <td class="BodyE-Column1-Body1">
+                        <MadCap:keyword term="Flame Available Fuel Potential (parameter)" />Flame Available Fuel Potential
+                    </td>
+                    <td class="BodyE-Column1-Body1">
+                        10 tons/acre
+                    </td>
+                    <td class="BodyD-Column1-Body1">
+                        The sum of fuel loadings available for the flaming phase of combustion.<br /><br />FA = FA/10
+                        
+                    </td>
+                </tr>
+                <tr class="Body-Body2">
+                    <td class="BodyE-Column1-Body2">
+                        <MadCap:keyword term="Residual Available Fuel Potential (parameter)" />Residual Available Fuel Potential 
+                    </td>
+                    <td class="BodyE-Column1-Body2">
+                        10 tons/acre
+                    </td>
+                    <td class="BodyD-Column1-Body2">
+                        The sum of fuel loadings available for the residual smoldering phase of combustion.<br /><br />RA = RA/10
+                        
+                    </td>
+                </tr>
+                <tr class="Body-Body1">
+                    <td class="BodyB-Column1-Body1">
+                        <MadCap:keyword term="Smoldering Available Fuel Potential (parameter)" />Smoldering Available Fuel Potential
+                    </td>
+                    <td class="BodyB-Column1-Body1">
+                        10 tons/acre 
+                    </td>
+                    <td class="BodyA-Column1-Body1">
+                        The sum of fuel loadings available for the smoldering phase of combustion.<br /><br />SA = SA/10
+                        
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>

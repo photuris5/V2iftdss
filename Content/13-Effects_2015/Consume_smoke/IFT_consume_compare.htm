@@ -1,0 +1,580 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="2123" MadCap:lastWidth="839">
+    <head>
+        <link href="../../Resources/TableStyles/AlternatingRows.css" rel="stylesheet" MadCap:stylesheetType="table" />
+    </head>
+    <body>
+        <h1>Consume Runs</h1>
+        <p>Within the <b>Prescribed Burn</b> workflow under <b>fire effects</b>, there are several run options using the Consume fire effects model, depending on the inputs, outputs, and  output format desired. These are compared in the table below.</p>
+        <table style="mc-table-style: url('../../Resources/TableStyles/AlternatingRows.css');width: 831px;" class="TableStyle-AlternatingRows" cellspacing="0">
+            <col class="Column-Column1" style="width: 364px;" />
+            <col class="Column-Column1" style="width: 68px;" />
+            <col class="Column-Column1" />
+            <col class="Column-Column1" />
+            <col class="Column-Column1" />
+            <col class="Column-Column1" />
+            <thead>
+                <tr class="Head-Header1">
+                    <th class="HeadE-Column1-Header1">Input</th>
+                    <th class="HeadE-Column1-Header1">Consume Manual Loadings, Activity Fuels</th>
+                    <th class="HeadE-Column1-Header1">Consume Manual Loadings, Natural Fuels </th>
+                    <th class="HeadE-Column1-Header1">Consume Activity Fuels</th>
+                    <th class="HeadE-Column1-Header1">Consume Natural Fuels</th>
+                    <th class="HeadD-Column1-Header1">IFT-Consume Landscape</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="Body-Body1">
+                    <td class="BodyD-Column1-Body1" colspan="6" style="text-align: center;"><b>Data Inputs</b>
+                    &#160;
+                </td>
+                </tr>
+                <tr class="Body-Body2">
+                    <td class="BodyE-Column1-Body2">FCCS Fuelbed layer</td>
+                    <td class="BodyE-Column1-Body2">&#160;</td>
+                    <td class="BodyE-Column1-Body2">&#160;</td>
+                    <td class="BodyE-Column1-Body2" style="text-align: center;">x</td>
+                    <td class="BodyE-Column1-Body2" style="text-align: center;">x</td>
+                    <td class="BodyD-Column1-Body2" style="text-align: center;">x</td>
+                </tr>
+                <tr class="Body-Body1">
+                    <td class="BodyD-Column1-Body1" colspan="6" style="text-align: center;"><b>Model parameters</b>
+                    </td>
+                </tr>
+                <tr class="Body-Body2">
+                    <td class="BodyE-Column1-Body2">Consumption equation</td>
+                    <td class="BodyE-Column1-Body2">&#160;</td>
+                    <td class="BodyE-Column1-Body2">x</td>
+                    <td class="BodyE-Column1-Body2" style="text-align: center;">&#160;</td>
+                    <td class="BodyE-Column1-Body2" style="text-align: center;">x</td>
+                    <td class="BodyD-Column1-Body2" style="text-align: center;">x</td>
+                </tr>
+                <tr class="Body-Body1">
+                    <td class="BodyE-Column1-Body1">Emissions factor group</td>
+                    <td class="BodyE-Column1-Body1">x</td>
+                    <td class="BodyE-Column1-Body1">x</td>
+                    <td class="BodyE-Column1-Body1" style="text-align: center;">x</td>
+                    <td class="BodyE-Column1-Body1" style="text-align: center;">x</td>
+                    <td class="BodyD-Column1-Body1" style="text-align: center;">x</td>
+                </tr>
+                <tr class="Body-Body2">
+                    <td class="BodyD-Column1-Body2" colspan="6" style="text-align: center;"><b>Fuel Moistures</b>
+                    </td>
+                </tr>
+                <tr class="Body-Body1">
+                    <td class="BodyE-Column1-Body1">Duff moisture</td>
+                    <td class="BodyE-Column1-Body1" style="text-align: center;">x</td>
+                    <td class="BodyE-Column1-Body1" style="text-align: center;">x</td>
+                    <td class="BodyE-Column1-Body1" style="text-align: center;">x</td>
+                    <td class="BodyE-Column1-Body1" style="text-align: center;">x</td>
+                    <td class="BodyD-Column1-Body1" style="text-align: center;">x</td>
+                </tr>
+                <tr class="Body-Body2">
+                    <td class="BodyE-Column1-Body2">10 hr fuel moisture</td>
+                    <td class="BodyE-Column1-Body2" style="text-align: center;">x</td>
+                    <td class="BodyE-Column1-Body2" style="text-align: center;">&#160;</td>
+                    <td class="BodyE-Column1-Body2" style="text-align: center;">x</td>
+                    <td class="BodyE-Column1-Body2" style="text-align: center;">&#160;</td>
+                    <td class="BodyD-Column1-Body2" style="text-align: center;">&#160;</td>
+                </tr>
+                <tr class="Body-Body1">
+                    <td class="BodyE-Column1-Body1">1000 hr fuel moisture</td>
+                    <td class="BodyE-Column1-Body1" style="text-align: center;">x</td>
+                    <td class="BodyE-Column1-Body1" style="text-align: center;">x</td>
+                    <td class="BodyE-Column1-Body1" style="text-align: center;">x</td>
+                    <td class="BodyE-Column1-Body1" style="text-align: center;">x</td>
+                    <td class="BodyD-Column1-Body1" style="text-align: center;">x</td>
+                </tr>
+                <tr class="Body-Body2">
+                    <td class="BodyE-Column1-Body2">1000 fuel moisture measurement method</td>
+                    <td class="BodyE-Column1-Body2" style="text-align: center;">x</td>
+                    <td class="BodyE-Column1-Body2" style="text-align: center;">x</td>
+                    <td class="BodyE-Column1-Body2" style="text-align: center;">x</td>
+                    <td class="BodyE-Column1-Body2" style="text-align: center;">&#160;</td>
+                    <td class="BodyD-Column1-Body2" style="text-align: center;">&#160;</td>
+                </tr>
+                <tr class="Body-Body1">
+                    <td class="BodyD-Column1-Body1" colspan="6" style="text-align: center;font-weight: bold;">Fuel Characteristics</td>
+                </tr>
+                <tr class="Body-Body2">
+                    <td class="BodyE-Column1-Body2">Duff, upper and lower percent cover</td>
+                    <td class="BodyE-Column1-Body2" style="text-align: center;">x</td>
+                    <td class="BodyE-Column1-Body2" style="text-align: center;">x</td>
+                    <td class="BodyE-Column1-Body2" style="text-align: center;">&#160;</td>
+                    <td class="BodyE-Column1-Body2" style="text-align: center;">&#160;</td>
+                    <td class="BodyD-Column1-Body2" style="text-align: center;">&#160;</td>
+                </tr>
+                <tr class="Body-Body1">
+                    <td class="BodyE-Column1-Body1">Duff, upper and lower depth</td>
+                    <td class="BodyE-Column1-Body1" style="text-align: center;">x</td>
+                    <td class="BodyE-Column1-Body1" style="text-align: center;">x</td>
+                    <td class="BodyE-Column1-Body1" style="text-align: center;">&#160;</td>
+                    <td class="BodyE-Column1-Body1" style="text-align: center;">&#160;</td>
+                    <td class="BodyD-Column1-Body1" style="text-align: center;">&#160;</td>
+                </tr>
+                <tr class="Body-Body2">
+                    <td class="BodyE-Column1-Body2">Litter cover</td>
+                    <td class="BodyE-Column1-Body2" style="text-align: center;">x</td>
+                    <td class="BodyE-Column1-Body2" style="text-align: center;">x</td>
+                    <td class="BodyE-Column1-Body2" style="text-align: center;">&#160;</td>
+                    <td class="BodyE-Column1-Body2" style="text-align: center;">&#160;</td>
+                    <td class="BodyD-Column1-Body2" style="text-align: center;">&#160;</td>
+                </tr>
+                <tr class="Body-Body1">
+                    <td class="BodyE-Column1-Body1">Litter depth</td>
+                    <td class="BodyE-Column1-Body1" style="text-align: center;">x</td>
+                    <td class="BodyE-Column1-Body1" style="text-align: center;">x</td>
+                    <td class="BodyE-Column1-Body1" style="text-align: center;">&#160;</td>
+                    <td class="BodyE-Column1-Body1" style="text-align: center;">&#160;</td>
+                    <td class="BodyD-Column1-Body1" style="text-align: center;">&#160;</td>
+                </tr>
+                <tr class="Body-Body2">
+                    <td class="BodyE-Column1-Body2">Lichen depth and percent cover</td>
+                    <td class="BodyE-Column1-Body2" style="text-align: center;">x</td>
+                    <td class="BodyE-Column1-Body2" style="text-align: center;">x</td>
+                    <td class="BodyE-Column1-Body2" style="text-align: center;">&#160;</td>
+                    <td class="BodyE-Column1-Body2" style="text-align: center;">&#160;</td>
+                    <td class="BodyD-Column1-Body2" style="text-align: center;">&#160;</td>
+                </tr>
+                <tr class="Body-Body1">
+                    <td class="BodyE-Column1-Body1">Moss depth and percent cover</td>
+                    <td class="BodyE-Column1-Body1" style="text-align: center;">x</td>
+                    <td class="BodyE-Column1-Body1" style="text-align: center;">x</td>
+                    <td class="BodyE-Column1-Body1" style="text-align: center;">&#160;</td>
+                    <td class="BodyE-Column1-Body1" style="text-align: center;">&#160;</td>
+                    <td class="BodyD-Column1-Body1" style="text-align: center;">&#160;</td>
+                </tr>
+                <tr class="Body-Body2">
+                    <td class="BodyE-Column1-Body2">Squirrel midden loading</td>
+                    <td class="BodyE-Column1-Body2" style="text-align: center;">x</td>
+                    <td class="BodyE-Column1-Body2" style="text-align: center;">x</td>
+                    <td class="BodyE-Column1-Body2" style="text-align: center;">&#160;</td>
+                    <td class="BodyE-Column1-Body2" style="text-align: center;">&#160;</td>
+                    <td class="BodyD-Column1-Body2" style="text-align: center;">&#160;</td>
+                </tr>
+                <tr class="Body-Body1">
+                    <td class="BodyE-Column1-Body1">Basal accumulation loading</td>
+                    <td class="BodyE-Column1-Body1" style="text-align: center;">x</td>
+                    <td class="BodyE-Column1-Body1" style="text-align: center;">x</td>
+                    <td class="BodyE-Column1-Body1" style="text-align: center;">&#160;</td>
+                    <td class="BodyE-Column1-Body1" style="text-align: center;">&#160;</td>
+                    <td class="BodyD-Column1-Body1" style="text-align: center;">&#160;</td>
+                </tr>
+                <tr class="Body-Body2">
+                    <td class="BodyE-Column1-Body2">1 hr woody fuel loading</td>
+                    <td class="BodyE-Column1-Body2" style="text-align: center;">x</td>
+                    <td class="BodyE-Column1-Body2" style="text-align: center;">x</td>
+                    <td class="BodyE-Column1-Body2" style="text-align: center;">&#160;</td>
+                    <td class="BodyE-Column1-Body2" style="text-align: center;">&#160;</td>
+                    <td class="BodyD-Column1-Body2" style="text-align: center;">&#160;</td>
+                </tr>
+                <tr class="Body-Body1">
+                    <td class="BodyE-Column1-Body1">10 hr woody fuel loading</td>
+                    <td class="BodyE-Column1-Body1" style="text-align: center;">x</td>
+                    <td class="BodyE-Column1-Body1" style="text-align: center;">x</td>
+                    <td class="BodyE-Column1-Body1" style="text-align: center;">&#160;</td>
+                    <td class="BodyE-Column1-Body1" style="text-align: center;">&#160;</td>
+                    <td class="BodyD-Column1-Body1" style="text-align: center;">&#160;</td>
+                </tr>
+                <tr class="Body-Body2">
+                    <td class="BodyE-Column1-Body2">100 hr woody fuel loading</td>
+                    <td class="BodyE-Column1-Body2" style="text-align: center;">x</td>
+                    <td class="BodyE-Column1-Body2" style="text-align: center;">x</td>
+                    <td class="BodyE-Column1-Body2" style="text-align: center;">&#160;</td>
+                    <td class="BodyE-Column1-Body2" style="text-align: center;">&#160;</td>
+                    <td class="BodyD-Column1-Body2" style="text-align: center;">&#160;</td>
+                </tr>
+                <tr class="Body-Body1">
+                    <td class="BodyE-Column1-Body1">CWD loading, 3-9" dia., sound and rotten</td>
+                    <td class="BodyE-Column1-Body1" style="text-align: center;">x</td>
+                    <td class="BodyE-Column1-Body1" style="text-align: center;">x</td>
+                    <td class="BodyE-Column1-Body1" style="text-align: center;">&#160;</td>
+                    <td class="BodyE-Column1-Body1" style="text-align: center;">&#160;</td>
+                    <td class="BodyD-Column1-Body1" style="text-align: center;">&#160;</td>
+                </tr>
+                <tr class="Body-Body2">
+                    <td class="BodyE-Column1-Body2">CWD loading, 9-20" dia., sound and rotten</td>
+                    <td class="BodyE-Column1-Body2" style="text-align: center;">x</td>
+                    <td class="BodyE-Column1-Body2" style="text-align: center;">x</td>
+                    <td class="BodyE-Column1-Body2" style="text-align: center;">&#160;</td>
+                    <td class="BodyE-Column1-Body2" style="text-align: center;">&#160;</td>
+                    <td class="BodyD-Column1-Body2" style="text-align: center;">&#160;</td>
+                </tr>
+                <tr class="Body-Body1">
+                    <td class="BodyE-Column1-Body1">CWD loading, 20+" dia., sound and rotten</td>
+                    <td class="BodyE-Column1-Body1" style="text-align: center;">x</td>
+                    <td class="BodyE-Column1-Body1" style="text-align: center;">x</td>
+                    <td class="BodyE-Column1-Body1" style="text-align: center;">&#160;</td>
+                    <td class="BodyE-Column1-Body1" style="text-align: center;">&#160;</td>
+                    <td class="BodyD-Column1-Body1" style="text-align: center;">&#160;</td>
+                </tr>
+                <tr class="Body-Body2">
+                    <td class="BodyE-Column1-Body2">Stump loading, sound and rotten</td>
+                    <td class="BodyE-Column1-Body2" style="text-align: center;">x</td>
+                    <td class="BodyE-Column1-Body2" style="text-align: center;">x</td>
+                    <td class="BodyE-Column1-Body2" style="text-align: center;">&#160;</td>
+                    <td class="BodyE-Column1-Body2" style="text-align: center;">&#160;</td>
+                    <td class="BodyD-Column1-Body2" style="text-align: center;">&#160;</td>
+                </tr>
+                <tr class="Body-Body1">
+                    <td class="BodyE-Column1-Body1">Herbaceous percent live (primary &amp; secondary)</td>
+                    <td class="BodyE-Column1-Body1" style="text-align: center;">x</td>
+                    <td class="BodyE-Column1-Body1" style="text-align: center;">x</td>
+                    <td class="BodyE-Column1-Body1" style="text-align: center;">&#160;</td>
+                    <td class="BodyE-Column1-Body1" style="text-align: center;">&#160;</td>
+                    <td class="BodyD-Column1-Body1" style="text-align: center;">&#160;</td>
+                </tr>
+                <tr class="Body-Body2">
+                    <td class="BodyE-Column1-Body2">Herbaceous loading (primary &amp; secondary)</td>
+                    <td class="BodyE-Column1-Body2" style="text-align: center;">x</td>
+                    <td class="BodyE-Column1-Body2" style="text-align: center;">x</td>
+                    <td class="BodyE-Column1-Body2" style="text-align: center;">&#160;</td>
+                    <td class="BodyE-Column1-Body2" style="text-align: center;">&#160;</td>
+                    <td class="BodyD-Column1-Body2" style="text-align: center;">&#160;</td>
+                </tr>
+                <tr class="Body-Body1">
+                    <td class="BodyE-Column1-Body1">Shrub percent live (primary &amp; secondary)</td>
+                    <td class="BodyE-Column1-Body1" style="text-align: center;">x</td>
+                    <td class="BodyE-Column1-Body1" style="text-align: center;">x</td>
+                    <td class="BodyE-Column1-Body1" style="text-align: center;">&#160;</td>
+                    <td class="BodyE-Column1-Body1" style="text-align: center;">&#160;</td>
+                    <td class="BodyD-Column1-Body1" style="text-align: center;">&#160;</td>
+                </tr>
+                <tr class="Body-Body2">
+                    <td class="BodyE-Column1-Body2">Shrub loading (primary &amp; secondary)</td>
+                    <td class="BodyE-Column1-Body2" style="text-align: center;">x</td>
+                    <td class="BodyE-Column1-Body2" style="text-align: center;">x</td>
+                    <td class="BodyE-Column1-Body2" style="text-align: center;">&#160;</td>
+                    <td class="BodyE-Column1-Body2" style="text-align: center;">&#160;</td>
+                    <td class="BodyD-Column1-Body2" style="text-align: center;">&#160;</td>
+                </tr>
+                <tr class="Body-Body1">
+                    <td class="BodyE-Column1-Body1">Under, mid, and overstory tree loading</td>
+                    <td class="BodyE-Column1-Body1" style="text-align: center;">x</td>
+                    <td class="BodyE-Column1-Body1" style="text-align: center;">x</td>
+                    <td class="BodyE-Column1-Body1" style="text-align: center;">&#160;</td>
+                    <td class="BodyE-Column1-Body1" style="text-align: center;">&#160;</td>
+                    <td class="BodyD-Column1-Body1" style="text-align: center;">&#160;</td>
+                </tr>
+                <tr class="Body-Body2">
+                    <td class="BodyE-Column1-Body2">Ladder fuel loading</td>
+                    <td class="BodyE-Column1-Body2" style="text-align: center;">x</td>
+                    <td class="BodyE-Column1-Body2" style="text-align: center;">x</td>
+                    <td class="BodyE-Column1-Body2" style="text-align: center;">&#160;</td>
+                    <td class="BodyE-Column1-Body2" style="text-align: center;">&#160;</td>
+                    <td class="BodyD-Column1-Body2" style="text-align: center;">&#160;</td>
+                </tr>
+                <tr class="Body-Body1">
+                    <td class="BodyE-Column1-Body1">Snag fuel loading (classes 1-3)</td>
+                    <td class="BodyE-Column1-Body1" style="text-align: center;">x</td>
+                    <td class="BodyE-Column1-Body1" style="text-align: center;">x</td>
+                    <td class="BodyE-Column1-Body1" style="text-align: center;">&#160;</td>
+                    <td class="BodyE-Column1-Body1" style="text-align: center;">&#160;</td>
+                    <td class="BodyD-Column1-Body1" style="text-align: center;">&#160;</td>
+                </tr>
+                <tr class="Body-Body2">
+                    <td class="BodyD-Column1-Body2" style="text-align: center;" colspan="6"><b>Burn Characteristics &amp; Weather</b>
+                    </td>
+                </tr>
+                <tr class="Body-Body1">
+                    <td class="BodyE-Column1-Body1">Percent shrubs blackened by fire</td>
+                    <td class="BodyE-Column1-Body1" style="text-align: center;font-weight: normal;">x</td>
+                    <td class="BodyE-Column1-Body1" style="text-align: center;font-weight: normal;">x</td>
+                    <td class="BodyE-Column1-Body1" style="text-align: center;font-weight: normal;">x</td>
+                    <td class="BodyE-Column1-Body1" style="text-align: center;font-weight: normal;">x</td>
+                    <td class="BodyD-Column1-Body1" style="text-align: center;font-weight: normal;">x</td>
+                </tr>
+                <tr class="Body-Body2">
+                    <td class="BodyE-Column1-Body2">Percent canopy modified by heat/flames</td>
+                    <td class="BodyE-Column1-Body2" style="text-align: center;font-weight: normal;">x</td>
+                    <td class="BodyE-Column1-Body2" style="text-align: center;font-weight: normal;">x</td>
+                    <td class="BodyE-Column1-Body2" style="text-align: center;font-weight: normal;">x</td>
+                    <td class="BodyE-Column1-Body2" style="text-align: center;font-weight: normal;">x</td>
+                    <td class="BodyD-Column1-Body2" style="text-align: center;font-weight: normal;">x</td>
+                </tr>
+                <tr class="Body-Body1">
+                    <td class="BodyE-Column1-Body1">Length of ignition</td>
+                    <td class="BodyE-Column1-Body1" style="text-align: center;font-weight: normal;">x</td>
+                    <td class="BodyE-Column1-Body1" style="text-align: center;font-weight: normal;">x</td>
+                    <td class="BodyE-Column1-Body1" style="text-align: center;font-weight: normal;">x</td>
+                    <td class="BodyE-Column1-Body1" style="text-align: center;font-weight: normal;">&#160;</td>
+                    <td class="BodyD-Column1-Body1" style="text-align: center;font-weight: normal;">&#160;</td>
+                </tr>
+                <tr class="Body-Body2">
+                    <td class="BodyE-Column1-Body2">Mid-flame windspeed</td>
+                    <td class="BodyE-Column1-Body2" style="text-align: center;font-weight: normal;">x</td>
+                    <td class="BodyE-Column1-Body2" style="text-align: center;font-weight: normal;">x</td>
+                    <td class="BodyE-Column1-Body2" style="text-align: center;font-weight: normal;">x</td>
+                    <td class="BodyE-Column1-Body2" style="text-align: center;font-weight: normal;">&#160;</td>
+                    <td class="BodyD-Column1-Body2" style="text-align: center;font-weight: normal;">&#160;</td>
+                </tr>
+                <tr class="Body-Body1">
+                    <td class="BodyE-Column1-Body1">Days since rain</td>
+                    <td class="BodyE-Column1-Body1" style="text-align: center;font-weight: normal;">x</td>
+                    <td class="BodyE-Column1-Body1" style="text-align: center;font-weight: normal;">x</td>
+                    <td class="BodyE-Column1-Body1" style="text-align: center;font-weight: normal;">x</td>
+                    <td class="BodyE-Column1-Body1" style="text-align: center;font-weight: normal;">&#160;</td>
+                    <td class="BodyD-Column1-Body1" style="text-align: center;font-weight: normal;">&#160;</td>
+                </tr>
+                <tr class="Body-Body2">
+                    <td class="BodyD-Column1-Body2" colspan="6" style="text-align: center;"><b>Site Characteristics</b>
+                    </td>
+                </tr>
+                <tr class="Body-Body1">
+                    <td class="BodyE-Column1-Body1">Ecoregion</td>
+                    <td class="BodyE-Column1-Body1" style="text-align: center;font-weight: normal;">x</td>
+                    <td class="BodyE-Column1-Body1" style="text-align: center;font-weight: normal;">x</td>
+                    <td class="BodyE-Column1-Body1" style="text-align: center;font-weight: normal;">&#160;</td>
+                    <td class="BodyE-Column1-Body1" style="text-align: center;font-weight: normal;">&#160;</td>
+                    <td class="BodyD-Column1-Body1" style="text-align: center;font-weight: normal;">&#160;</td>
+                </tr>
+                <tr class="Body-Body2">
+                    <td class="BodyE-Column1-Body2">Cover type</td>
+                    <td class="BodyE-Column1-Body2" style="text-align: center;font-weight: normal;">x</td>
+                    <td class="BodyE-Column1-Body2" style="text-align: center;font-weight: normal;">x</td>
+                    <td class="BodyE-Column1-Body2" style="text-align: center;font-weight: normal;">&#160;</td>
+                    <td class="BodyE-Column1-Body2" style="text-align: center;font-weight: normal;">&#160;</td>
+                    <td class="BodyD-Column1-Body2" style="text-align: center;font-weight: normal;">&#160;</td>
+                </tr>
+                <tr class="Body-Body1">
+                    <td class="BodyE-Column1-Body1">Slope</td>
+                    <td class="BodyE-Column1-Body1" style="text-align: center;font-weight: normal;">x</td>
+                    <td class="BodyE-Column1-Body1" style="text-align: center;font-weight: normal;">x</td>
+                    <td class="BodyE-Column1-Body1" style="text-align: center;font-weight: normal;">x</td>
+                    <td class="BodyE-Column1-Body1" style="text-align: center;font-weight: normal;">&#160;</td>
+                    <td class="BodyD-Column1-Body1" style="text-align: center;font-weight: normal;">&#160;</td>
+                </tr>
+                <tr class="Body-Body2">
+                    <td class="BodyD-Column1-Body2" colspan="6">&#160;</td>
+                </tr>
+                <tr class="Body-Body1">
+                    <td class="BodyE-Column1-Body1" style="background-color: #556b2f;font-weight: bold;color: #ffffff;">Outputs</td>
+                    <td class="BodyE-Column1-Body1" style="background-color: #556b2f;font-weight: bold;color: #ffffff;">Consume Manual Loadings, Activity Fuels</td>
+                    <td class="BodyE-Column1-Body1" style="background-color: #556b2f;font-weight: bold;color: #ffffff;">Consume Manual Loadings, Natural Fuels </td>
+                    <td class="BodyE-Column1-Body1" style="background-color: #556b2f;font-weight: bold;color: #ffffff;">Consume Activity Fuels</td>
+                    <td class="BodyE-Column1-Body1" style="background-color: #556b2f;font-weight: bold;color: #ffffff;">Consume Natural Fuels</td>
+                    <td class="BodyD-Column1-Body1" style="background-color: #556b2f;font-weight: bold;color: #ffffff;">IFT-Consume Landscape</td>
+                </tr>
+                <tr class="Body-Body2">
+                    <td class="BodyD-Column1-Body2" style="font-weight: bold;text-align: center;" colspan="6">Output format</td>
+                </tr>
+                <tr class="Body-Body1">
+                    <td class="BodyE-Column1-Body1" style="text-align: left;font-weight: normal;">Tabular</td>
+                    <td class="BodyE-Column1-Body1" style="text-align: center;font-weight: normal;">x</td>
+                    <td class="BodyE-Column1-Body1" style="text-align: center;font-weight: normal;">x</td>
+                    <td class="BodyE-Column1-Body1" style="text-align: center;font-weight: normal;">x</td>
+                    <td class="BodyE-Column1-Body1" style="text-align: center;font-weight: normal;">x</td>
+                    <td class="BodyD-Column1-Body1" style="text-align: center;font-weight: normal;">&#160;</td>
+                </tr>
+                <tr class="Body-Body2">
+                    <td class="BodyE-Column1-Body2" style="text-align: left;font-weight: normal;">Spreadsheet</td>
+                    <td class="BodyE-Column1-Body2" style="text-align: center;font-weight: normal;">x</td>
+                    <td class="BodyE-Column1-Body2" style="text-align: center;font-weight: normal;">x</td>
+                    <td class="BodyE-Column1-Body2" style="text-align: center;font-weight: normal;">x</td>
+                    <td class="BodyE-Column1-Body2" style="text-align: center;font-weight: normal;">x</td>
+                    <td class="BodyD-Column1-Body2" style="text-align: center;font-weight: normal;">&#160;</td>
+                </tr>
+                <tr class="Body-Body1">
+                    <td class="BodyE-Column1-Body1" style="text-align: left;font-weight: normal;">Word document report</td>
+                    <td class="BodyE-Column1-Body1" style="text-align: center;font-weight: normal;">x</td>
+                    <td class="BodyE-Column1-Body1" style="text-align: center;font-weight: normal;">x</td>
+                    <td class="BodyE-Column1-Body1" style="text-align: center;font-weight: normal;">x</td>
+                    <td class="BodyE-Column1-Body1" style="text-align: center;font-weight: normal;">x</td>
+                    <td class="BodyD-Column1-Body1" style="text-align: center;font-weight: normal;">&#160;</td>
+                </tr>
+                <tr class="Body-Body2">
+                    <td class="BodyE-Column1-Body2" style="text-align: left;font-weight: normal;">Mapping, raster, shapefile, or LCP</td>
+                    <td class="BodyE-Column1-Body2" style="text-align: center;font-weight: normal;">&#160;</td>
+                    <td class="BodyE-Column1-Body2" style="text-align: center;font-weight: normal;">&#160;</td>
+                    <td class="BodyE-Column1-Body2" style="text-align: center;font-weight: normal;">&#160;</td>
+                    <td class="BodyE-Column1-Body2" style="text-align: center;font-weight: normal;">&#160;</td>
+                    <td class="BodyD-Column1-Body2" style="text-align: center;font-weight: normal;">x</td>
+                </tr>
+                <tr class="Body-Body1">
+                    <td class="BodyD-Column1-Body1" style="font-weight: bold;text-align: center;" colspan="6">Fuels</td>
+                </tr>
+                <tr class="Body-Body2">
+                    <td class="BodyE-Column1-Body2">Preburn loadings</td>
+                    <td class="BodyE-Column1-Body2" style="text-align: center;font-weight: normal;">&#160;</td>
+                    <td class="BodyE-Column1-Body2" style="text-align: center;font-weight: normal;">&#160;</td>
+                    <td class="BodyE-Column1-Body2" style="text-align: center;font-weight: normal;">x</td>
+                    <td class="BodyE-Column1-Body2" style="text-align: center;font-weight: normal;">x</td>
+                    <td class="BodyD-Column1-Body2" style="text-align: center;font-weight: normal;">x</td>
+                </tr>
+                <tr class="Body-Body1">
+                    <td class="BodyE-Column1-Body1"> Total
+consumption</td>
+                    <td class="BodyE-Column1-Body1" style="text-align: center;font-weight: normal;">x</td>
+                    <td class="BodyE-Column1-Body1" style="text-align: center;font-weight: normal;">x</td>
+                    <td class="BodyE-Column1-Body1" style="text-align: center;font-weight: normal;">x</td>
+                    <td class="BodyE-Column1-Body1" style="text-align: center;font-weight: normal;">x</td>
+                    <td class="BodyD-Column1-Body1" style="text-align: center;font-weight: normal;">x</td>
+                </tr>
+                <tr class="Body-Body2">
+                    <td class="BodyE-Column1-Body2">Ground fuel consumption
+</td>
+                    <td class="BodyE-Column1-Body2" style="text-align: center;font-weight: normal;">x</td>
+                    <td class="BodyE-Column1-Body2" style="text-align: center;font-weight: normal;">x</td>
+                    <td class="BodyE-Column1-Body2" style="text-align: center;font-weight: normal;">x</td>
+                    <td class="BodyE-Column1-Body2" style="text-align: center;font-weight: normal;">x</td>
+                    <td class="BodyD-Column1-Body2" style="text-align: center;font-weight: normal;">x</td>
+                </tr>
+                <tr class="Body-Body1">
+                    <td class="BodyE-Column1-Body1">Litter, lichen, and moss consumption
+</td>
+                    <td class="BodyE-Column1-Body1" style="text-align: center;font-weight: normal;">x</td>
+                    <td class="BodyE-Column1-Body1" style="text-align: center;font-weight: normal;">x</td>
+                    <td class="BodyE-Column1-Body1" style="text-align: center;font-weight: normal;">x</td>
+                    <td class="BodyE-Column1-Body1" style="text-align: center;font-weight: normal;">x</td>
+                    <td class="BodyD-Column1-Body1" style="text-align: center;font-weight: normal;">x</td>
+                </tr>
+                <tr class="Body-Body2">
+                    <td class="BodyE-Column1-Body2">Downed wood consumption</td>
+                    <td class="BodyE-Column1-Body2" style="text-align: center;font-weight: normal;">x</td>
+                    <td class="BodyE-Column1-Body2" style="text-align: center;font-weight: normal;">x</td>
+                    <td class="BodyE-Column1-Body2" style="text-align: center;font-weight: normal;">x</td>
+                    <td class="BodyE-Column1-Body2" style="text-align: center;font-weight: normal;">x</td>
+                    <td class="BodyD-Column1-Body2" style="text-align: center;font-weight: normal;">x</td>
+                </tr>
+                <tr class="Body-Body1">
+                    <td class="BodyE-Column1-Body1">Herbaceous consumption
+</td>
+                    <td class="BodyE-Column1-Body1" style="text-align: center;font-weight: normal;">x</td>
+                    <td class="BodyE-Column1-Body1" style="text-align: center;font-weight: normal;">x</td>
+                    <td class="BodyE-Column1-Body1" style="text-align: center;font-weight: normal;">x</td>
+                    <td class="BodyE-Column1-Body1" style="text-align: center;font-weight: normal;">x</td>
+                    <td class="BodyD-Column1-Body1" style="text-align: center;font-weight: normal;">x</td>
+                </tr>
+                <tr class="Body-Body2">
+                    <td class="BodyE-Column1-Body2">Shrub consumption</td>
+                    <td class="BodyE-Column1-Body2" style="text-align: center;font-weight: normal;">x</td>
+                    <td class="BodyE-Column1-Body2" style="text-align: center;font-weight: normal;">x</td>
+                    <td class="BodyE-Column1-Body2" style="text-align: center;font-weight: normal;">x</td>
+                    <td class="BodyE-Column1-Body2" style="text-align: center;font-weight: normal;">x</td>
+                    <td class="BodyD-Column1-Body2" style="text-align: center;font-weight: normal;">x</td>
+                </tr>
+                <tr class="Body-Body1">
+                    <td class="BodyE-Column1-Body1">Canopy consumption</td>
+                    <td class="BodyE-Column1-Body1" style="text-align: center;font-weight: normal;">x</td>
+                    <td class="BodyE-Column1-Body1" style="text-align: center;font-weight: normal;">x</td>
+                    <td class="BodyE-Column1-Body1" style="text-align: center;font-weight: normal;">x</td>
+                    <td class="BodyE-Column1-Body1" style="text-align: center;font-weight: normal;">x</td>
+                    <td class="BodyD-Column1-Body1" style="text-align: center;font-weight: normal;">x</td>
+                </tr>
+                <tr class="Body-Body2">
+                    <td class="BodyD-Column1-Body2" colspan="6" style="text-align: center;"><b>Emissions</b>
+                    </td>
+                </tr>
+                <tr class="Body-Body1">
+                    <td class="BodyE-Column1-Body1">Carbon monoxide</td>
+                    <td class="BodyE-Column1-Body1" style="text-align: center;font-weight: normal;">x</td>
+                    <td class="BodyE-Column1-Body1" style="text-align: center;font-weight: normal;">x</td>
+                    <td class="BodyE-Column1-Body1" style="text-align: center;font-weight: normal;">x</td>
+                    <td class="BodyE-Column1-Body1" style="text-align: center;font-weight: normal;">x</td>
+                    <td class="BodyD-Column1-Body1" style="text-align: center;font-weight: normal;">x</td>
+                </tr>
+                <tr class="Body-Body2">
+                    <td class="BodyE-Column1-Body2">Carbon dioxide</td>
+                    <td class="BodyE-Column1-Body2" style="text-align: center;font-weight: normal;">x</td>
+                    <td class="BodyE-Column1-Body2" style="text-align: center;font-weight: normal;">x</td>
+                    <td class="BodyE-Column1-Body2" style="text-align: center;font-weight: normal;">x</td>
+                    <td class="BodyE-Column1-Body2" style="text-align: center;font-weight: normal;">x</td>
+                    <td class="BodyD-Column1-Body2" style="text-align: center;font-weight: normal;">x</td>
+                </tr>
+                <tr class="Body-Body1">
+                    <td class="BodyE-Column1-Body1">Methane</td>
+                    <td class="BodyE-Column1-Body1" style="text-align: center;font-weight: normal;">x</td>
+                    <td class="BodyE-Column1-Body1" style="text-align: center;font-weight: normal;">x</td>
+                    <td class="BodyE-Column1-Body1" style="text-align: center;font-weight: normal;">x</td>
+                    <td class="BodyE-Column1-Body1" style="text-align: center;font-weight: normal;">x</td>
+                    <td class="BodyD-Column1-Body1" style="text-align: center;font-weight: normal;">x</td>
+                </tr>
+                <tr class="Body-Body2">
+                    <td class="BodyE-Column1-Body2">Non-methane hydrocarbon</td>
+                    <td class="BodyE-Column1-Body2" style="text-align: center;font-weight: normal;">x</td>
+                    <td class="BodyE-Column1-Body2" style="text-align: center;font-weight: normal;">x</td>
+                    <td class="BodyE-Column1-Body2" style="text-align: center;font-weight: normal;">x</td>
+                    <td class="BodyE-Column1-Body2" style="text-align: center;font-weight: normal;">x</td>
+                    <td class="BodyD-Column1-Body2" style="text-align: center;font-weight: normal;">x</td>
+                </tr>
+                <tr class="Body-Body1">
+                    <td class="BodyE-Column1-Body1">Particulate matter </td>
+                    <td class="BodyE-Column1-Body1" style="text-align: center;font-weight: normal;">x</td>
+                    <td class="BodyE-Column1-Body1" style="text-align: center;font-weight: normal;">x</td>
+                    <td class="BodyE-Column1-Body1" style="text-align: center;font-weight: normal;">x</td>
+                    <td class="BodyE-Column1-Body1" style="text-align: center;font-weight: normal;">x</td>
+                    <td class="BodyD-Column1-Body1" style="text-align: center;font-weight: normal;">x</td>
+                </tr>
+                <tr class="Body-Body2">
+                    <td class="BodyE-Column1-Body2">Particulate matter 2.5</td>
+                    <td class="BodyE-Column1-Body2" style="text-align: center;font-weight: normal;">x</td>
+                    <td class="BodyE-Column1-Body2" style="text-align: center;font-weight: normal;">x</td>
+                    <td class="BodyE-Column1-Body2" style="text-align: center;font-weight: normal;">x</td>
+                    <td class="BodyE-Column1-Body2" style="text-align: center;font-weight: normal;">x</td>
+                    <td class="BodyD-Column1-Body2" style="text-align: center;font-weight: normal;">x</td>
+                </tr>
+                <tr class="Body-Body1">
+                    <td class="BodyE-Column1-Body1">Particulate matter 10</td>
+                    <td class="BodyE-Column1-Body1" style="text-align: center;font-weight: normal;">x</td>
+                    <td class="BodyE-Column1-Body1" style="text-align: center;font-weight: normal;">x</td>
+                    <td class="BodyE-Column1-Body1" style="text-align: center;font-weight: normal;">x</td>
+                    <td class="BodyE-Column1-Body1" style="text-align: center;font-weight: normal;">x</td>
+                    <td class="BodyD-Column1-Body1" style="text-align: center;font-weight: normal;">x</td>
+                </tr>
+                <tr class="Body-Body2">
+                    <td class="BodyD-Column1-Body2" style="text-align: center;" colspan="6"><b>Heat Release</b>
+                    </td>
+                </tr>
+                <tr class="Body-Body1">
+                    <td class="BodyE-Column1-Body1">Heat release, Ground fuel consumption
+</td>
+                    <td class="BodyE-Column1-Body1" style="text-align: center;font-weight: normal;">x</td>
+                    <td class="BodyE-Column1-Body1" style="text-align: center;font-weight: normal;">x</td>
+                    <td class="BodyE-Column1-Body1" style="text-align: center;font-weight: normal;">x</td>
+                    <td class="BodyE-Column1-Body1" style="text-align: center;font-weight: normal;">x</td>
+                    <td class="BodyD-Column1-Body1" style="text-align: center;font-weight: normal;">x</td>
+                </tr>
+                <tr class="Body-Body2">
+                    <td class="BodyE-Column1-Body2">Heat release, litter, lichen, and moss consumption</td>
+                    <td class="BodyE-Column1-Body2" style="text-align: center;font-weight: normal;">x</td>
+                    <td class="BodyE-Column1-Body2" style="text-align: center;font-weight: normal;">x</td>
+                    <td class="BodyE-Column1-Body2" style="text-align: center;font-weight: normal;">x</td>
+                    <td class="BodyE-Column1-Body2" style="text-align: center;font-weight: normal;">x</td>
+                    <td class="BodyD-Column1-Body2" style="text-align: center;font-weight: normal;">x</td>
+                </tr>
+                <tr class="Body-Body1">
+                    <td class="BodyE-Column1-Body1">Heat release, downed wood consumption</td>
+                    <td class="BodyE-Column1-Body1" style="text-align: center;font-weight: normal;">x</td>
+                    <td class="BodyE-Column1-Body1" style="text-align: center;font-weight: normal;">x</td>
+                    <td class="BodyE-Column1-Body1" style="text-align: center;font-weight: normal;">x</td>
+                    <td class="BodyE-Column1-Body1" style="text-align: center;font-weight: normal;">x</td>
+                    <td class="BodyD-Column1-Body1" style="text-align: center;font-weight: normal;">x</td>
+                </tr>
+                <tr class="Body-Body2">
+                    <td class="BodyE-Column1-Body2">Heat release, herbaceous consumption</td>
+                    <td class="BodyE-Column1-Body2" style="text-align: center;font-weight: normal;">x</td>
+                    <td class="BodyE-Column1-Body2" style="text-align: center;font-weight: normal;">x</td>
+                    <td class="BodyE-Column1-Body2" style="text-align: center;font-weight: normal;">x</td>
+                    <td class="BodyE-Column1-Body2" style="text-align: center;font-weight: normal;">x</td>
+                    <td class="BodyD-Column1-Body2" style="text-align: center;font-weight: normal;">x</td>
+                </tr>
+                <tr class="Body-Body1">
+                    <td class="BodyE-Column1-Body1">Heat release, shrub consumption</td>
+                    <td class="BodyE-Column1-Body1" style="text-align: center;font-weight: normal;">x</td>
+                    <td class="BodyE-Column1-Body1" style="text-align: center;font-weight: normal;">x</td>
+                    <td class="BodyE-Column1-Body1" style="text-align: center;font-weight: normal;">x</td>
+                    <td class="BodyE-Column1-Body1" style="text-align: center;font-weight: normal;">x</td>
+                    <td class="BodyD-Column1-Body1" style="text-align: center;font-weight: normal;">x</td>
+                </tr>
+                <tr class="Body-Body2">
+                    <td class="BodyB-Column1-Body2">Heat release, canopy consumption</td>
+                    <td class="BodyB-Column1-Body2" style="text-align: center;font-weight: normal;">x</td>
+                    <td class="BodyB-Column1-Body2" style="text-align: center;font-weight: normal;">x</td>
+                    <td class="BodyB-Column1-Body2" style="text-align: center;font-weight: normal;">x</td>
+                    <td class="BodyB-Column1-Body2" style="text-align: center;font-weight: normal;">x</td>
+                    <td class="BodyA-Column1-Body2" style="text-align: center;font-weight: normal;">x</td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>

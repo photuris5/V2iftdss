@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="5" MadCap:lastHeight="724" MadCap:lastWidth="624" MadCap:fileTags="FileNeeds.04 Ready for review">
+    <head>
+    </head>
+    <body>
+        <p>You can use the <strong>Layers</strong> panel to view either your values at risk or the response functions that you assigned to your values at risk.</p>
+        <p>Information about the response function layer is shown in a <strong>Legends</strong> box on the right of the map.</p>
+        <p>
+            <img src="../Images/RA-VAR-Tutorial/VAR-layers-RF.png" class="screencap" title="Editing polygons" alt="Editing polygons." />
+        </p>
+        <p>To continue the risk assessment pathway, when your values-at-risk map is complete, choose <strong>Next</strong> in IFTDSS. </p>
+    </body>
+</html>

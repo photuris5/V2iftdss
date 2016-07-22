@@ -1,0 +1,130 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="5" MadCap:lastHeight="1356" MadCap:lastWidth="786" MadCap:fileTags="FileNeeds.04 Ready for review">
+    <head>
+        <link href="../../Resources/TableStyles/AltRowsCentered.css" rel="stylesheet" MadCap:stylesheetType="table" />
+    </head>
+    <body>
+        <h1><a name="Example"></a>
+            <MadCap:keyword term="net value change:flame length probabilities example;flame length probabilities:net value change and;risk assessments:relative net value change:flame length probabilities example" />Example Using the Flame Length Probabilities Approach</h1>
+        <p>This topic provides an example of how <a href="RiskAssessNetValueChange.htm">net value change</a> is calculated using the flame length probabilities approach.</p>
+        <p>The pixel in the following image has been assigned a response function of 14. Burn probabilities at low, medium, high, and very high flame lengths have been calculated for each grid cell (sometimes that probability will be zero).</p>
+        <p>
+            <img src="../../Resources/Images/NVC_flame_length_example.png" style="max-width: 600px;" class="screencap" />
+        </p>
+        <p>
+            <MadCap:keyword term="net value change:multiplier;net value change:calculating" />The NVC multiplier for each flame length class is multiplied by the burn probability for each flame length class, and these values are summed to calculate the relative net value change.</p>
+        <p><em>Net Value Change = ∑[(Burn Probability at</em> x <em>flame length class) x (NVC Multiplier at</em> x <em>flame length class)]</em></p>
+        <p>where <em>x</em> is the user-defined flame length class.</p>
+        <p><em>Net Value Change = 0 + 0 + (-1.6) + 0</em>
+        </p>
+        <p><em>Net Value Change = -1.6</em>
+        </p>
+        <p> The equation takes into account all flame lengths; in this example, the calculation has been made for response function 14, as shown in the following table.</p>
+        <table class="TableStyle-AltRowsCentered" style="mc-table-style: url('../../Resources/TableStyles/AltRowsCentered.css');" cellspacing="0">
+            <col style="width: 73pt;" class="Column-Column1" />
+            <col style="width: 126pt;" class="Column-Column1" />
+            <col style="width: 27pt;" class="Column-Column1" />
+            <col style="width: 122pt;" class="Column-Column1" />
+            <col style="width: 18pt;" class="Column-Column1" />
+            <col style="width: 117pt;" class="Column-Column1" />
+            <thead>
+                <tr class="Head-Header1">
+                    <th class="HeadE-Column1-Header1">Flame Length Class</th>
+                    <th class="HeadE-Column1-Header1">
+                        Response Function #14 (NVC Multipliers)</th>
+                    <th class="HeadE-Column1-Header1">Operator</th>
+                    <th class="HeadE-Column1-Header1">Burn Probability for Each Flame Length Class
+</th>
+                    <th class="HeadE-Column1-Header1">Operator</th>
+                    <th class="HeadD-Column1-Header1">Sum the Values in this Column to Calculate Relative NVC.</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr style="height: 18pt;" class="Body-Body1">
+                    <td class="BodyE-Column1-Body1">
+                        Low
+                    </td>
+                    <td class="BodyE-Column1-Body1">
+                        0
+                    </td>
+                    <td class="BodyE-Column1-Body1">
+                        x
+                    </td>
+                    <td class="BodyE-Column1-Body1">
+                        0
+                    </td>
+                    <td class="BodyE-Column1-Body1">
+                        =
+                    </td>
+                    <td class="BodyD-Column1-Body1">
+                        0
+                    </td>
+                </tr>
+                <tr class="Body-Body2">
+                    <td class="BodyE-Column1-Body2">
+                        Medium
+                    </td>
+                    <td class="BodyE-Column1-Body2">
+                        0
+                    </td>
+                    <td class="BodyE-Column1-Body2">
+                        x
+                    </td>
+                    <td class="BodyE-Column1-Body2">
+                        0.01
+                    </td>
+                    <td class="BodyE-Column1-Body2">
+                        =
+                    </td>
+                    <td class="BodyD-Column1-Body2">
+                        0
+                    </td>
+                </tr>
+                <tr class="Body-Body1">
+                    <td class="BodyE-Column1-Body1">
+                     High
+                    </td>
+                    <td class="BodyE-Column1-Body1">
+                        -80
+                    </td>
+                    <td class="BodyE-Column1-Body1">
+                        x
+                    </td>
+                    <td class="BodyE-Column1-Body1">
+                        0.02
+                    </td>
+                    <td class="BodyE-Column1-Body1">
+                        =
+                    </td>
+                    <td class="BodyD-Column1-Body1">
+                        -1.6
+                    </td>
+                </tr>
+                <tr class="Body-Body2">
+                    <td class="BodyE-Column1-Body2">
+                      Very High
+                    </td>
+                    <td class="BodyE-Column1-Body2">
+                        -80
+                    </td>
+                    <td class="BodyE-Column1-Body2">
+                        x
+                    </td>
+                    <td class="BodyE-Column1-Body2">
+                        0
+                    </td>
+                    <td class="BodyE-Column1-Body2">
+                        =
+                    </td>
+                    <td class="BodyD-Column1-Body2">
+                        0
+                    </td>
+                </tr>
+                <tr class="Body-Body1">
+                    <td class="BodyB-Column1-Body1" colspan="5" align="right">Net value change =</td>
+                    <td class="BodyA-Column1-Body1">-1.6</td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>

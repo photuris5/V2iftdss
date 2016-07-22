@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultVariableSet>
+  <Variable
+    Comment=""
+    Name="CompanyName">Sonoma Technology, Inc.</Variable>
+  <Variable
+    Comment=""
+    Name="PhoneNumber">707 665-9900</Variable>
+</CatapultVariableSet>

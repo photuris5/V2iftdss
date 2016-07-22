@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:madcap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us" MadCap:fileTags="FileStatusTags.07 Complete,FileNeeds.05 Complete" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="9" MadCap:lastHeight="1095" MadCap:lastWidth="847">
+    <head>
+        <link href="../Resources/TableStyles/AlternatingRows.css" rel="stylesheet" MadCap:stylesheetType="table" /><title>Surface Fire Spread and Intensity Input Options –  Wind Speed</title>
+    </head>
+    <body>
+        <h1>
+            <MadCap:keyword term="surface fire behavior (IFT-surface):wind speed;wind and wind speeds:surface fires and" />Surface Fire Behavior Input Options –  Wind Speed</h1>
+        <table style="caption-side: top;mc-table-style: url('../Resources/TableStyles/AlternatingRows.css');" class="TableStyle-AlternatingRows" cellspacing="0">
+            <col style="width: 15%;" class="Column-Column1" />
+            <col style="width: 20%;" class="Column-Column1" />
+            <col style="width: 65%;" class="Column-Column1" />
+            <thead>
+                <tr class="Head-Header1">
+                    <th class="HeadE-Column1-Header1">Name
+                </th>
+                    <th class="HeadE-Column1-Header1">Units
+                </th>
+                    <th class="HeadD-Column1-Header1">Brief Description
+                </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="Body-Body1">
+                    <td class="BodyE-Column1-Body1">
+                        <MadCap:keyword term="Wind speed (option)" />Wind speed<MadCap:conditionalText MadCap:conditions="Default.LaterRelease"><MadCap:keyword term="Wind speed is entered as one of five choices (option)" />is entered as one of five choices
+</MadCap:conditionalText></td>
+                    <td class="BodyE-Column1-Body1">Miles per hour, kilometers per hour<MadCap:conditionalText MadCap:conditions="Default.LaterRelease">; value between 0.1 and 1
+</MadCap:conditionalText></td>
+                    <td class="BodyD-Column1-Body1">
+                        <MadCap:conditionalText MadCap:conditions="Default.LaterRelease">Choose one of the following options:<br /></MadCap:conditionalText>
+                        <ul style="list-style-type: square;">
+                            <MadCap:conditionalText MadCap:conditions="Default.LaterRelease">
+                                <li>
+                                    <MadCap:keyword term="10-m wind and calculated wind adjustment factor (option)" />10-m wind and calculated wind adjustment factor.<br /><br />With this option, you enter a wind speed at 10 meters above the vegetation on the worksheet and the WAF is calculated. WAF is applied to 20-ft wind, which is estimated from 10-m wind.</li>
+                                <li>
+                                    <MadCap:keyword term="10-m wind and input wind adjustment factor (option)" />10-m wind and input wind adjustment factor.<br /><br />With this option, you enter wind speed at 10 meters above the vegetation and WAF  on the worksheet. The module reduces 10-m (32.8-ft) wind speeds to 20-ft wind speeds. The WAF is applied to 20-ft wind speeds to get midflame wind speeds.</li>
+                                <li>
+                                    <MadCap:keyword term="20-ft wind and calculated wind adjustment factor (option)" />20-ft wind and calculated wind adjustment factor.<br /><br />With this option, you enter wind speed at 20 feet above the vegetation on the worksheet. The WAF is calculated from overstory description and fuel model for exposed fuel. The calculations do not take into account surrounding vegetation or location in the terrain.</li>
+                                <li>
+                                    <MadCap:keyword term="20-ft wind and input wind adjustment factor (option)" />20-ft wind and input wind adjustment factor.<br /><br />With this option, you enter wind speed at 20 feet above the vegetation and WAF  on the worksheet. WAF depends on sheltering of surface fuels from the wind, location on the terrain, and fuel model for exposed fuel. 20-ft wind x WAF = midflame wind.</li>
+                            </MadCap:conditionalText>
+                            <li>
+                                <MadCap:keyword term="Midflame wind speed (option)" />Midflame wind speed.<br /><br />With this option, you enter the wind speed that exists at midflame height above the fuel bed; this wind speed affects surface fire spread. Midflame wind is often called eye-level wind.</li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr class="Body-Body2">
+                    <td class="BodyB-Column1-Body2">
+                        <MadCap:keyword term="Impose maximum reliable effective (option)" />Impose maximum reliable effective wind speed limit?
+                </td>
+                    <td class="BodyB-Column1-Body2">Yes<MadCap:conditionalText MadCap:conditions="Default.LaterRelease"> or No
+</MadCap:conditionalText></td>
+                    <td class="BodyA-Column1-Body2"><i>Yes</i>: When the effective wind speed exceeds a maximum reliable wind speed, which is a function of reaction intensity, the maximum reliable value is used in the calculations.<MadCap:conditionalText MadCap:conditions="Default.LaterRelease"><br /><br /><i>No</i>: The value for effective wind speed is used, without imposing a limit.
+</MadCap:conditionalText></td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>

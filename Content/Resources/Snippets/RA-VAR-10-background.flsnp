@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="7" MadCap:lastHeight="1273" MadCap:lastWidth="1007" MadCap:fileTags="FileNeeds.04 Ready for review">
+    <head>
+    </head>
+    <body>
+        <div>
+            <form>
+                <fieldset class="note">
+                    <legend>&#160;&#160;&#160;Important!    <![CDATA[  ]]></legend>
+                    <p class="noteBody">All grid cells within an area of interest should have a response function.  So that you don't have to define values at risk for every pixel, you can assign a background to your values-at-risk  map.  The following steps show how to do so.  Any grid cells not captured within a polygon will be assigned the response function assigned to the background.</p>
+                </fieldset>
+            </form>
+        </div>
+        <p><strong><em>To assign a response function that will be applied to the background,</em></strong>
+        </p>
+        <ol>
+            <li>Select the <strong>Modify Polygon</strong> tool.</li>
+            <li>Under the <strong>Edit Feature</strong> drop-down, <strong>(background)</strong> is automatically selected.<br /><br />If you prefer, you can change the background’s name from <strong>(background)</strong>.<br /><br /></li>
+            <li> Assign the background a color.</li>
+            <li>    Assign to the background a response function.<br /><br />For example, if you assign the background a response function of 4, the risk model assumes that the areas that were not defined as a value at risk (i.e., areas that were not assigned a response function) will burn with a moderate benefit under low flame lengths to a moderate loss under very high flame lengths.<br /><br /></li>
+            <li>Choose <strong>Submit</strong>.</li>
+        </ol>
+        <p>
+            <img src="../Images/RA-VAR-Tutorial/VAR-background.png" class="screencap" title="Defining values at risk" alt="Defining values at risk." />
+        </p>
+    </body>
+</html>

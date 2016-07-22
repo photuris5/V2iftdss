@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="4" MadCap:lastHeight="327" MadCap:lastWidth="750" MadCap:fileTags="FileNeeds.04 Ready for review">
+    <head>
+    </head>
+    <body>
+        <p>For example, if your data ranges from a numerical value of -5 to +10, the data subsets will be binned into the following data ranges:</p>
+        <ul style="list-style-type: square;">
+            <li>-5 to -2</li>
+            <li>-2 to 1</li>
+            <li>1 to 4</li>
+            <li>4 to 7</li>
+            <li>7 to 10</li>
+        </ul>
+        <p>Using the example from the previous page (see screenshot below), the relative net value change value (-0.08) for that specific grid cell was binned into the <strong>High Loss/Low Benefit</strong> category.</p>
+    </body>
+</html>

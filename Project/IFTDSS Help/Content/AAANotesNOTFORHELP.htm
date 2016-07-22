@@ -1,0 +1,208 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="25074" MadCap:lastWidth="652" MadCap:conditions="Default.Internal" MadCap:searchable="False">
+    <head>
+    </head>
+    <body>
+        <h1>Notes and Tips</h1>
+        <p><strong>This file is NOT&#160;intended to be any part of the help system.</strong> It is accordingly marked as not searchable. (To make a topic unsearchable, press F4 on a file name in the Content Explorer, access the Topic Properties tab, and under <b>Searchable</b>, and uncheck "Include topic when full-text search database is generated.")</p>
+        <p>Links to sections in this file:</p>
+        <ul style="list-style-type: square;">
+            <li><a href="#Accessib">Accessibility</a>
+            </li>
+            <li><a href="#Code"><a href="#Topic">Changes Needed for Topic Contents</a></a>
+            </li>
+            <li><a href="#Indexing">Indexing Notes</a>
+            </li>
+            <li><a href="#Creating">Creating a Target for Index Entries</a>
+            </li>
+            <li><a href="#Code">Code for Notes, Reminders, Importants, Etc.</a>
+            </li>
+            <li><a href="#Flare">Flare Bugs</a>
+            </li>
+            <li><a href="#Indexing"><a href="#Technica">Flare Technical Support Information</a></a>
+            </li>
+            <li><a href="#Links">Links to Help Topics (for Software Developers)</a>
+            </li>
+            <li><a href="#PDF">PDF Outputs</a>
+            </li>
+            <li><a href="#QR Code">QR Code</a>
+            </li>
+            <li><a href="#Resource">Resources for Definitions</a>
+            </li>
+            <li><a href="#Snippets">Snippets</a>
+            </li>
+            <li><a href="#Tables">Tables</a>
+            </li>
+        </ul>
+        <p>IFTDSS can be accessed by typing smf-qa in a browser address bar. The code name for authorizing a new account is testdrive.</p>
+        <p>General note: when creating content, especially a large amount of content, create the content first, then add it to the TOC when it is ready to go live. It is okay to keep checking in your work as you go; as long as it isn't part of the TOC, you won't be breaking anything. (Although added content is searchable unless you specifically set the topic property otherwise.)</p>
+        <h2><a name="Accessib"></a>Accessibility</h2>
+        <p>For accessibility, I have been adding alt text to all figures (when adding the figures to a help page). I started this process in mid-summer 2012, so older images do not all have alt text. When creating alt text, you don't need to repeat what is in the regular text, because a screen reader will read the regular text. Instead, if it would be helpful, describe the unique part of the contents of the figure. At a minimum, describe the figure in a sentence.</p>
+        <p>When editing regular text, even if something is in a figure, keep in mind that someone might not be able to see that figure, so make sure the regular text repeats or echoes the information in the figure some way. For example, if the figure has a link circled in it, also put the full text of the link into the regular text.</p>
+        <h2><a name="Topic"></a>Changes Needed for Topic Contents</h2>
+        <ol>
+            <li>10/30/12 Remove all the "related topics" sections.</li>
+            <li>7/3/12 Create snippets for material that is used in more than one topic. Place indexing outside the snippet so the same material is only indexed once. Snippet indexing shows up; changes to snippets are propagated to all locations where the snippet is used.<br /><br />"...create two separate topics that reside in the relevant locations in the Content Explorer, create a snippet of the topic content and insert the snippet into the two topics. But this seems redundant even if we are able to single-source the content via the snippet. ..." ..."Mark one of those topics as not being searchable so your users don't get two identical topics returned when they do searches."</li>
+            <li>7/3/12 Look for "as implemented in" and change to appropriate name. Update index accordingly. Mostly done; need to scour for any that might remain. 8/23/12 I think I've found them all.</li>
+            <li>7/3/12 At some point, the IFTDSS&#160;comparison with BEHAVE topics will need to be updated. 8/15/12: Erin is aware and will do when needed.</li>
+            <li>Convert tutorials A, B, and C to native help format.</li>
+            <li>10-5-12 The welcome material and such all need to be overhauled for release 2.0.</li>
+            <li>10-26-12 I've added a lot of new material for release 2.0 that has not been edited, senior or master reviewed, or indexed. I've marked those topics using the flags; here are some notes about that material.</li>
+            <ul>
+                <li>IFT-FVS and FEPS materials and tables all need indexing.</li>
+                <li>Equations (which are images) in both sets of content need to be made into native Flare equations, then the images removed from help. (Done for FEPS calculations section.)</li>
+                <li>FEPS tables need code cleanup: (a) remove underlying Word code; (b) standardize the column sizes using percentages; (c) content in some columns needs to be centered; (d) change BTU to Btu; (e) change -- to NA.</li>
+                <li>Some files need to be split up into separate topics.</li>
+                <li>Some sections need content for the "book"-level entry.</li>
+                <li>Some references need to be added to the bibliography.</li>
+            </ul>
+            <li>10-26-12 Search all files and change b to strong and i to em.</li>
+            <li>10-26-12 I've hidden some sections and marked them as unsearchable:  Reference Material &gt; Fire Behavior Modules &gt; Surface Fire Behavior (FCCS).</li>
+            <li>10-26-12 I also copied the FCCS SFB module info document (in the section above) to Fire and Fuels Application (FFA) Tools &gt; FCCS Fuel Characteristics &gt; FCCS Surface Fire Behavior.</li>
+            <li>10-26-12 Reference Material &gt; Fuels Treatments (IFT-FVS) has a number of book sections with no content. I'm fine with this, but HRH would like all book-level topics to have content. Remember to change book-level topic properties so they use the miniTOC master page.</li>
+            <li>10-29-12 Add references from the IFT-FVS module information document to the IFTDSS bibliography. (I did this for all the other module info docs, so we should do this for consistency. Also, if we bring the module info docs into Flare format, then having the references already in the bibliography will make that process faster, since we can just include links to the bibliography instead of repeating the references on the module info docs pages.)</li>
+            <li>2/18/2014. Search for and remove "as implemented by" throughout. Especially, look at the table of elements and modules/tools for prescribed burn plans. After updating that table, retake the screen capture needed for tutorial C.</li>
+            <li>2/18/2014. I've hidden the Flare-formatted tutorials D, E, and F for now. At some point we need to unhide and update them.</li>
+        </ol>
+        <h2><a name="Indexing"></a>Indexing Notes</h2>
+        <ol>
+            <li>Index .xml and .kml file references where pertinent, as well as any other file name extension.</li>
+            <li>7/3/12 Check for indexing of fuel models by type. For example, "chaparral (fire behavior fuel model 4)." Is it consistent? If not, make it so. Since there are multiple entries now for each fuel model, consider putting in a "see" reference; "chaparral fuel model. See FM 4."</li>
+            <li>7/3/12 Check all new FEPS material and make sure it is indexed.</li>
+            <li>7/3/12 Look for "as implemented in" and change to appropriate name. (Not sure I've updated the index yet.)</li>
+            <li>7/3/12 For each intro to the parameters in the reference section (for all modules), change the "module name: ___" index entry to "module name:parameters."</li>
+            <li>7/3/12 Figure out how to index the pollutant - flaming etc. parameters (FERA-FEPS-Out-CSV.htm).</li>
+            <li>7/3/12 Take another look at all the FCCS entries. Can any be consolidated? Maybe with snippets?</li>
+            <li>10/29/12 Index the FEPS and FVS tables.</li>
+        </ol>
+        <h2><a name="Creating"></a>Creating a Target for Index Entries</h2>
+        <p>Re: Is it possible to print the index in WebHelp? (my query)</p>
+        <p>by GinnyR on Mon Jun 11, 2012 3:41 pm</p>
+        <p>I create a WordSpellCheck target that matches the conditions and variables of my WebHelp target. I also add an Index topic with index proxy to the WebHelp TOC and condition it as PrintOnly - so it won't show up in the WebHelp output. I use the Word output for spell checks. To include the index in the Word2003 spellcheck, Ctrl+A and click Tools &gt; Language &gt;Set Language. Click US English and clear checkbox for "Do not check spelling and grammar." If you don't need the electronic spell-checker you could do the same thing with a PDF target.</p>
+        <p>Ginny Reynolds</p>
+        <p>http://www.bridge-tek.com</p>
+        <h2><a name="Code"></a>Code for Notes, Reminders, Importants, Etc.</h2>
+        <p>To insert a note, reminder, "important," or whatever, open the topic in the text editor, then choose <strong>Insert</strong> (tab) &gt; <strong>Snippet</strong> &gt; <strong>Note.flsnp</strong>. Convert the snippet to text, and change the text as needed.</p>
+        <p>Alternatively, you can copy and paste the following in the desired location. Replace "Note" with or Important or Reminder if needed; also, of course, replace "Put your note text here." with your actual text. </p>
+        <div>
+            <form>
+                <fieldset class="note">
+                    <legend>&#160;&#160;&#160;Note&#160;&#160;&#160;</legend>
+                    <p class="noteBody">Put your note text here.</p>
+                </fieldset>
+            </form>
+        </div>
+        <h3>Note Style</h3>
+        <p>This uses a style defined in the style sheet. To change the note style, go to the <strong>fieldset</strong> part of the style sheet and edit the <strong>note</strong> class.</p>
+        <h3>Box Shadow</h3>
+        <p>I got the information on how to create the rounded corner and the box shadow here:</p>
+        <p><a href="http://www.css3.info/preview/box-shadow/">http://www.css3.info/preview/box-shadow/</a>
+        </p>
+        <h2>Equations</h2>
+        <p>You must have GhostScript installed in order to use the equation editor.</p>
+        <p><a href="http://www.ghostscript.com/">http://www.ghostscript.com/</a>
+        </p>
+        <h2><a name="Flare"></a>Flare Bugs</h2>
+        <p>I placed an equation in a snippet, then used that snippet in a topic. When I tried to build the output, I got an error message and the build stopped. After looking at where the build stopped, I realized it was at the topic with the equation. I took a screen shot of the equation, removed the equation from the snippet, replaced it with the screen shot (with alt text describing the formula--fortunately it was very simple), and re-built. This time the build succeeded.</p>
+        <h2><a name="Technica"></a>Flare Technical Support Information</h2>
+        <ul style="list-style-type: square;">
+            <li>Flare 7.x. Download link: http://www.madcapsoftware.com/downloads/flare070-3j7jy.aspx</li>
+            <li>Serial number (key): F70V9Z-0E6n4f-0Z0S1Q-8njwJk-sFeBNn-6Jr41Q-7ik2rS-y4Fz7f-HQQHnA-CI4zRS-Dfqg==</li>
+            <li>Maintenance key (same for Flare 7 and 8): FLP7607259</li>
+            <li>Flare technical support is at the Platinum level for 12 months; expires in late May</li>
+            <li>For support visit: https://www.madcapsoftware.com/support/contact.aspx?p=flare</li>
+            <li>Or call 858-320-0387 and choose option 3</li>
+            <li>
+                <p>Flare 8 product key: tzdk1-f089e-33241-50013-465ea-abac3-31e74-20bf6</p>
+            </li>
+        </ul>
+        <p>Bugs to submit:</p>
+        <ul style="list-style-type: square;">
+            <li>Submit a bug about how Flare doesn't rename links.</li>
+        </ul>
+        <ul style="list-style-type: square;">
+            <li>Submit a bug about how you can't click just the first box in the tag or SVN boxes.</li>
+        </ul>
+        <h2><a name="Links"></a>Links to Help Topics (For Software&#160;Developers)</h2>
+        <p>Links into help should be: [path to help root]/ IFTDSS_Help_CSH.htm#03-Concepts/ProjViewList.htm</p>
+        <p>Note that the “Content” folder is not necessary in the path.</p>
+        <h2><a name="PDF"></a>PDF Outputs<br /></h2>
+        <p>This is from the Flare forums in response to a question I posted:</p>
+        <h3>Answer One</h3>
+        <p>i have 2 different TOCs in flare. 1 is for webhelp - includes everything. 1 is for PDF/print. i keep everything in the webhelp version all the time, and the PDF one is empty except for a title page topic, the confidentiality topic, and a toc proxy topic. when i want to make a pdf of a particular section, i drag that section from the webhelp toc to the print toc so it copies over (or you could recreate it in the print toc). then i have a target just for making pdfs, so i generate that and save it back to a location inside my content explorer so i can link to it in my webhelp toc. when i want to make a different pdf, i delete the section that i had added and add a new one (changing the title to match).</p>
+        <p>the only part that gets a little confusing for me is that i have lots of conditions, so i need to make sure the print target has the correct conditions (some are print- or web-only).</p>
+        <h3>Answer Two</h3>
+        <p>Create separate PDF</p>
+        <p>I create a PDF version of the help I want by creating a separate target with its own TOC that includes just the topics I need. I would then add the generated PDF document to a Resources subfolder called "PrintableDocuments" and provide links to that PDF from the web topics via links like "Printable Version". This does not generate a PDF on the fly, but that works for me.</p>
+        <p>Create single topic with "tabs"</p>
+        <p>Another option is to keep the web help information all in one topic, but display it under different tabs. Users click through different tabs which is a lot easier that scrolling a long topic, however, the content is all stored in the one place - have a look at the site (http://www.barelyfitz.com/projects/tabber/). This site shows examples and provides the CSS and javascript you need to get this to work. It is mainly the CSS that manages the layout - I think you can then print a whole topic that uses the print medium that has each tabbed section printed one after the other.</p>
+        <h2><a name="QR&#160;Code"></a>QR&#160;Code</h2>
+        <p>The following QR code has STI&#160;contact information.</p>
+        <p>
+            <MadCap:qrCode alt="http://www.sonomatech.com" title="Sonoma Technology, Inc.'s web wite URL">http://www.sonomatech.com</MadCap:qrCode>
+        </p>
+        <h2><a name="Resource"></a>Resources for Definitions</h2>
+        <p>10/28/2011 Email sent asking Tami if she would like these in the help.</p>
+        <p>http://www.nationalatlas.gov/mld/ecoregp.html</p>
+        <p>http://www.nwcg.gov/pms/pubs/glossary/f.htm#Fuel</p>
+        <p>http://www.okanogan1.com/ecology/webfire/definitions/fire-wildfire-definitions.pdf</p>
+        <p>https://fp.auburn.edu/fire/fuels_effect.htm</p>
+        <h2><a name="Snippets"></a>Snippets</h2>
+        <p>Some things to bear in mind about snippets:</p>
+        <ul style="list-style-type: square;">
+            <li>If using a snippet multiple times, where each page is identical, mark all but one topic as unsearchable.</li>
+        </ul>
+        <h2><a name="Tables"></a>Tables</h2>
+        <p>Use the alternating styles style; be sure to specify that there is a heading row. For tables that just don't look good, there is a plain style that has the dark green header row and plain white rows otherwise.</p>
+        <h3>Table Column Widths</h3>
+        <p>Set the widths of table columns to percentages.</p>
+        <p>Use the following percentages for the input/output parameter tables: </p>
+        <p>&lt;col style="width: 15%;" class="Column-Column1" /&gt;</p>
+        <p>&lt;col style="width: 20%;" class="Column-Column1" /&gt;</p>
+        <p>&lt;col style="width: 65%;" class="Column-Column1" /&gt;</p>
+        <h3>Merged Cells and Row Colors</h3>
+        <p>If you have merged cells in the first column, but multiple rows for each merged cell, and the colors aren't alternating as desired, try inserting the following code between the two rows (this is for three-column tables).</p>
+        <p>&lt;tr class="Body-Body2"&gt;</p>
+        <p>&lt;td class="BodyE-Column1-Body2"&gt;</p>
+        <p>&lt;/td&gt;</p>
+        <p>&lt;td class="BodyE-Column1-Body2"&gt;</p>
+        <p>&lt;/td&gt;</p>
+        <p>&lt;td class="BodyD-Column1-Body2"&gt;</p>
+        <p>&lt;/td&gt;</p>
+        <p>&lt;/tr&gt;</p>
+        <h3>Importing and Formatting Word Tables</h3>
+        <p>Mary Jo, you may need to bring tables into Flare from Word. The process is pretty straightforward if you are importing a plain Word table. Therefore, when possible, remove all table formatting—colors, styles, etc. before importing.</p>
+        <p>Unfortunately, if the table has been formatted in Word, Flare brings in all kinds of messy Word formatting. That formatting needs to be removed at the code level.</p>
+        <p><strong><em>To import and format a nice, easy, plain table,</em></strong>
+        </p>
+        <ol>
+            <li>Access <strong>Project Organizer &gt; Imports</strong>.</li>
+            <li>Double-click on <strong>WordImport</strong>. This opens an existing Word import panel. (Alternatively, you can right-click on <strong>Imports</strong> and select <strong>Add MS&#160;Word Import File</strong>. The <strong>Add File</strong> dialog box opens; enter a name for the import file and choose <strong>Add</strong>.)<br /><br />I'm assuming you will be using the <strong>WordImport</strong> file.</li>
+            <li>Select any files showing in the <strong>WordImport</strong> panel and choose <strong>Remove</strong> (bottom right).</li>
+            <li>Now choose <strong>Add Files</strong>. Browse to and select the Word file(s) you want to import.</li>
+            <li>In the upper corner of the <strong>WordImport</strong> panel, choose <strong>Reimport</strong>. </li>
+            <li>Various dialog boxes ask you various things. You can pretty much just accept whatever is offered.</li>
+            <li>The imported file is placed in the <strong>Content Explorer</strong> under <strong>WordImport</strong>.</li>
+            <li>Click on the file name and press <strong>F2</strong> to rename the file according to whatever convention fits where it is going. When asked what you want to do with the file, save it under its new name and remove the link.</li>
+            <li>Open the file, right-click anywhere inside the table, and choose <strong>Table&#160;Properties</strong>.</li>
+            <li>You pretty much just need to make two changes in the <strong>Table Properties</strong><strong>&gt;</strong><strong>General</strong> tab: set <strong>Number of header rows</strong> (usually just one), and set <strong>Table Styles</strong> to <i>Alternating Rows</i>. (Or to one of your three other choices. There are two alternating row styles, one with text left-aligned and one with text centered. There are two plain styles—no alternating row colors—again, one is left-aligned and the other is centered.)</li>
+            <li>Flare creates a new header row; it isn't smart enough to convert your first row into a header row. So either drag and drop the table header text into the correct cells in the header row, or copy and paste the text, or retype it. Then delete the old header row.</li>
+            <li>Save everything.</li>
+            <li>Submit the file change to source control (<strong>Source Control </strong>tab<strong> &gt; Check In All</strong>), then move the table file to the folder where it needs to go. (You can just drag and drop.) The reason for saving, submitting, <i>then</i> moving is because Flare gets confused when you try to submit more than one operation on a file at a time to source control. It usually won't check the file in and you have to perform all kinds of shenanigans to get that file into source control. So, for example, if you rename a file and also try to delete it, Flare generally won't cooperate.</li>
+        </ol>
+        <p><strong><em>To import and format a Word-formatted table,</em></strong>
+        </p>
+        <ol>
+            <li>First, if possible, take the easy route by removing the formatting in Word. If for some reason you can't, do everything you would do for the easy table up through saving everything.</li>
+            <li>Now, open the file in the text editor. You're going to be doing a lot of searching and replacing.</li>
+            <li>Take a look at the page title (after the &lt;body&gt; element); make sure it has &lt;h1&gt; before the text and &lt;/h1&gt; after, and no odd &lt;p <i>something is here</i>&gt; and/or &lt;span&gt; around or inside the title.</li>
+            <li>Search for all &lt;p&gt; elements and then again for all &lt;/p&gt; elements and replace with nothing.</li>
+            <li>Search for all &lt;p <i>something is here</i>&gt; elements and replace with nothing. Often there will be a bunch of paragraphs with class="p_1", class="p_2" and so on. You'll need to search for each of these individually.</li>
+            <li>Do the same for &lt;/span&gt; and &lt;span class="<i>something</i>"&gt; etc.; search for them and replace with nothing.</li>
+            <li>Search for just the word <i>span</i> and take a look; often the global searches don't find them if they are next to other text. Remove every span or p element.</li>
+            <li>You might have to find &lt;sup <i>something is here</i>&gt; elements and change them just to &lt;sup&gt;.</li>
+            <li>If there are any paragraphs outside the table, for each one, put &lt;p&gt; in front and &lt;/p&gt; at the end.</li>
+        </ol>
+        <p>&#160;</p>
+    </body>
+</html>

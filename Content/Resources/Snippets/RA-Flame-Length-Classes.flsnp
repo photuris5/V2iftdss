@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="7" MadCap:lastHeight="917" MadCap:lastWidth="883" MadCap:fileTags="FileNeeds.04 Ready for review">
+    <head>
+    </head>
+    <body>
+        <p>Now enter flame lengths for your flame length classes, or accept the default values.  The default flame length classes are categorized by fire suppression limitations based on flame length; for information on the flame length classes, see <MadCap:xref href="../../06-Risk-Assessment/STI_risk_pre2014/RiskAssessFlameLengthInterp.htm"><b>Flame Length Classes and Their Interpretations</b></MadCap:xref>.</p>
+        <p>
+            <img src="../Images/RA-WC-Tutorial/WC-flame-length-classes.png" class="screencap" title="Set flame length classes; either accept the default values or enter your own." alt="Set flame length classes; either accept the default values or enter your own." />
+        </p>
+        <div>
+            <form>
+                <fieldset class="note">
+                    <legend>&#160;&#160;&#160;Note&#160;&#160;&#160;</legend>
+                    <p class="noteBody">The Low Flame Lengths parameter is not directly editable.&#160; The minimum flame length for the low flame length class will always be zero.  The upper limit for low flame lengths is determined by the value you enter for medium flame lengths.</p>
+                    <p class="noteBody">For example, if you enter 4 for medium flame lengths, the range for low flame lengths becomes 0 to 4 feet.</p>
+                </fieldset>
+            </form>
+        </div>
+        <p>Choose <strong>Next</strong> to submit the inputs.  You are taken to the <strong>Review Landscape Data</strong> step.</p>
+    </body>
+</html>

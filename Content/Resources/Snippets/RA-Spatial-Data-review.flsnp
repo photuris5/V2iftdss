@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="4" MadCap:lastHeight="624" MadCap:lastWidth="1046" MadCap:fileTags="FileNeeds.04 Ready for review">
+    <head>
+    </head>
+    <body>
+        <p>Now that you have specified the necessary inputs, you can use the map to review and edit your spatial landscape data. This topic describes how to review your data; the next one describes how to edit it.</p>
+        <p>On this map, you can view one of three base layers (different graphical representations of the area—street map, topographical map, or imagery).</p>
+        <p>You can also choose an overlay. Overlays provide visual representations of different types of data.</p>
+        <p> The LANDFIRE data layers, in the order in which they are listed onscreen, are</p>
+        <ul style="list-style-type: square;">
+            <li>Fuel Model</li>
+            <li>Elevation</li>
+            <li>Slope</li>
+            <li>Aspect</li>
+            <li>Canopy Coverage</li>
+            <li>Canopy Height</li>
+            <li>Canopy Base Height</li>
+            <li>Canopy Bulk Density</li>
+        </ul>
+        <p>In this example, you can see the area of interest with data from the <strong>Fire Behavior Fuel Model</strong> displayed within the data set boundary.</p>
+    </body>
+</html>

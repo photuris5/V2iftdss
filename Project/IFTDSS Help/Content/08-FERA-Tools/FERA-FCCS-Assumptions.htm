@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:fileTags="FileNeeds.03 Indexing" MadCap:lastBlockDepth="2" MadCap:lastHeight="1238" MadCap:lastWidth="782" class="miniTOCpage">
+    <head>
+    </head>
+    <body>
+        <h1>Assumptions and Limitations</h1>
+        <p>FCCS makes point-based calculations of fuel characteristics and potential fire behavior and does not spread fire across landscapes. However, because fuelbeds have no inherent scale, FCCS outputs can be easily mapped in GIS by assigning polygons or raster cells with a unique fuelbed identification number.</p>
+        <h2>Environmental Conditions</h2>
+        <p> When mapping FCCS predictions across landscapes, it is important to consider that environmental variable inputs, including moisture content (%) of live herbaceous and shrub fuels; 1-hr, 10-hr and 100-hr woody fuels; midflame windspeed; and slope gradient substantially affect FCCS predictions of surface and crown fire behavior.</p>
+        <p>The default environmental variable scenario in FCCS is for dry fuel conditions (D2L2: 90% shrub FM, 60% herbaceous FM, 6% 1-hr FM, 7% 10-hr FM, and 8% 100-hr FM), 4-mph midflame wind speeds, and 0% slope. </p>
+        <p>If environmental conditions vary across your landscape, you will need to <a href="FERA-Fuelbed-Editor.htm">create custom fuelbeds</a> with custom environmental variables.  The FCCS batch mode is best suited for large numbers of fuelbeds and can accommodate custom environmental variables.</p>
+        <h2>Crosswalk</h2>
+        <p>As part of the surface fire behavior outputs, FCCS provides a crosswalk to one of the <a href="../10-Reference/RefFuelModels.htm">13 original fire behavior fuel models and one of the 40 standard fuel models</a> (Scott and Burgan, <a href="../10-Reference/Bibliography.htm#ScottandBurgen2005">2005</a>).  This is a static crosswalk based on predicted surface fire flame length and rate of spread for a given set of environmental variables (fuel moisture, midflame windspeed, and slope gradient).  The crosswalk is invalid under any other environmental scenario and is generally not appropriate for simulating fire spread across landscapes (as in FARSITE).</p>
+        <p>Fuel model crosswalks can be used in <a href="../10-Reference/RefFlamMap.htm">IFT-FlamMap</a> as long as input wind, slope, and fuel moistures remain the same as in the original FCCS prediction.</p>
+        <h2>Surface Fire Behavior</h2>
+        <p>Surface fire behavior predictions are made using a reformulated Rothermel model (Sandberg et al., <a href="../10-Reference/Bibliography.htm#Sandbergetal2007b">2007b</a>) that contains many of the same assumptions that are in the Rothermel (<a href="../10-Reference/Bibliography.htm#Rothermel1972">1972</a>) spread model.  Modeled surface fire behavior in the FCCS produces outputs within a reasonable range of the 13 original and 40 standard fire behavior fuel models in Behave Plus under the default D2L2 scenario (Sandberg et al., 2007b).  However, modeled surface fire behavior and crown fire potentials have not been validated against actual fire behavior measurements.</p>
+        <p>For a comparison of the assumptions and potential applications of the original Rothermel model and the modified Rothermel model, see <MadCap:xref href="FERA-FCCS-AssumptionsTable.htm"><b>Comparison of Rothermel and FCCS Assumptions</b></MadCap:xref>.</p>
+    </body>
+</html>

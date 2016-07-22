@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc
+  Version="1">
+  <TocEntry
+    Title="New Book 1">
+    <TocEntry
+      Title="Creating a New Project"
+      Link="/Content/Workshop_prework/ProjCreate_copy.htm" />
+    <TocEntry
+      Title="Set Up Project Area of Interest"
+      Link="/Content/Workshop_prework/MMT_Step5_copy.htm" />
+  </TocEntry>
+</CatapultToc>

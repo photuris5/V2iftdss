@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="417" MadCap:lastWidth="1027" MadCap:fileTags="FileNeeds.04 Ready for review">
+    <head>
+    </head>
+    <body>
+        <p>In this step, you will prepare an area of interest.</p>
+        <p><strong><em>To select an area of interest and name your run,</em></strong>
+        </p>
+        <ol>
+            <li>Select an area of interest within the project boundary.  For this example,  enter the following coordinates (which represent a smaller area within the project boundary).
+<br /><br /><ul style="list-style-type: square;"><li><strong>North:</strong> 38.155672364916</li><li><strong>East:</strong> -122.5502871142</li><li><strong>South:</strong> 38.120028050516</li><li><strong>West:</strong> -122.5986956225</li></ul></li>
+            <li>You must name your run. For future reference, give your run a descriptive name.</li>
+            <li>Choose <strong>Next</strong>, which takes you to the <strong>Configure</strong> page in IFTDSS. There you select a data set; after that, you will define your values at risk.</li>
+        </ol>
+    </body>
+</html>

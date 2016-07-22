@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="7" MadCap:lastHeight="1363" MadCap:lastWidth="1019" MadCap:fileTags="FileNeeds.04 Ready for review">
+    <head>
+    </head>
+    <body>
+        <p>In this step, you use the freeform drawing method to draw a polygon over the wildland-urban interface. The polygon encloses (defines) a value at risk. Once you define a value at risk area, you assign a response function to that value at risk.</p>
+        <div>
+            <form>
+                <fieldset class="note">
+                    <legend>&#160;&#160;&#160;Tip&#160;&#160;&#160;</legend>
+                    <p class="noteBody">Define your largest values at risk first (for example, the wildland-urban interface and oak woodlands), then define your smaller values at risk.</p>
+                </fieldset>
+            </form>
+        </div>
+        <p><strong><em>To draw a polygon using the freeform drawing method,</em></strong>
+        </p>
+        <ol>
+            <li>Select the <strong>Draw Polygon</strong> tool.<br /><br /><img src="../Images/RA-VAR-Tutorial/VAR-freeform-drawing.png" style="padding-top: 20px; height: auto; width: 800px;" title="Freeform drawing example" alt="This image illustrates the initial steps for drawing a polygon for your values at risk using the freeform drawing method." /></li>
+            <li>While holding down the <strong>Shift</strong> key, click on the map, hold down the left mouse button and start drawing your first polygon. While still holding down the <strong>Shift</strong> key and left mouse button, move the mouse as if it were a pencil to draw your polygon (outlining the wildland-urban interface).<br /><br /><img src="../Images/RA-VAR-Tutorial/VAR-freeform-sequence.png" style="padding-top: 20px; height: auto; width: 800px;" title="Freeform drawing example" alt="This image shows the sequence of drawing a polygon using the freeform drawing method." /></li>
+            <li>Release the left mouse button when you are done drawing the polygon. This creates the polygon and opens the <strong>Edit Feature</strong> panel (shown on the next topic page).</li>
+        </ol>
+        <p>&#160;</p>
+    </body>
+</html>

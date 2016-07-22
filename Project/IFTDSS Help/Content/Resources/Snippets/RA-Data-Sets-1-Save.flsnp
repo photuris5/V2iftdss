@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="4" MadCap:lastHeight="397" MadCap:lastWidth="1053" MadCap:fileTags="FileNeeds.04 Ready for review">
+    <head>
+    </head>
+    <body>
+        <p>After you have analyzed your high risk areas in Google Earth, return to your risk assessment run in IFTDSS.</p>
+        <p>From the <strong>Map Summary</strong> page, choose <strong>Next</strong>.  You are taken to the <strong>Run Summary page</strong>.</p>
+        <p>At this step, you can save your input and output data sets for future use in other runs.  Saving your data sets is useful; for example, if you edited the spatial landscape data; you can reuse the data you edited.</p>
+        <p><i style="font-weight: bold;">To save a data set,</i>
+        </p>
+        <ol>
+            <li>Select <strong>Save As</strong> on the risk input data set.</li>
+            <li>Enter a unique name for the data set copy.</li>
+            <li>Choose <strong>OK</strong>.</li>
+        </ol>
+        <p>You can also <strong>Copy This Run</strong>.  Copying a run is useful when you want to rerun the same run with different inputs.</p>
+    </body>
+</html>

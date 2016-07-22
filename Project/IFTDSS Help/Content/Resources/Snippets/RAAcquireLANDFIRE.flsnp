@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="4" MadCap:lastHeight="894" MadCap:lastWidth="750" MadCap:fileTags="FileNeeds.04 Ready for review">
+    <head>
+    </head>
+    <body>
+        <p>In the previous step, you created a new project and accessed the <strong>Project Summary</strong> page. Next, acquire LANDFIRE data.</p>
+        <p><em style="font-weight: bold;">To acquire LANDFIRE data,</em>
+        </p>
+        <ol>
+            <li>On the Project Summary page, choose <strong>Select a data set and project area</strong>.</li>
+            <br />
+            <br />
+            <img src="../Images/RA-WC-Tutorial/WC-select-data-set.png" class="screencap" title="Choose Select a data set and project area" alt="Choose Select a data set and project area" />
+            <li>Clicking this link takes you to the <strong>Select a Data Set and an Area of Interest for your Project</strong> page.<br /><br /><img src="../Images/RA-WC-Tutorial/WC-acquire-LANDFIRE-data.png" class="screencap" title="Select a data set and an area of interest" alt="Shows the Select a data set and an area of interest page" /></li>
+            <li>Choose <strong>Acquire data from LANDFIRE</strong>, then choose <strong>Next</strong>. On the next page, you will specify the area of interest for your project.</li>
+        </ol>
+    </body>
+</html>

@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="3" MadCap:lastHeight="140" MadCap:lastWidth="973">
+    <head><title></title>
+        <link href="../Stylesheets/IFTDSS_help.css" rel="stylesheet" />
+    </head>
+    <body>
+        <MadCap:bodyProxy />
+        <div>
+            <p align="center">
+                <img src="../Images/JFSP_new.jpg" style="width: 65px; height: auto;" alt="Joint Fire Science Program logo" class="footer" />&#160;&#160;
+                <img src="../Images/fmc_logo-small.gif" alt="Fuels Management Committee logo" class="footer" />
+            </p>
+        </div>
+    </body>
+</html>

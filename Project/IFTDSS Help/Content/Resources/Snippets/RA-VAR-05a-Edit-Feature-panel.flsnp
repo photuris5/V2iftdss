@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="466" MadCap:lastWidth="724" MadCap:fileTags="FileNeeds.04 Ready for review">
+    <head>
+    </head>
+    <body>
+        <p>After you create the polygon, the <strong>Edit Feature</strong> panel appears.</p>
+        <p><em style="font-weight: bold;">To edit the polygon,</em>
+        </p>
+        <ol>
+            <li>Name the polygon.</li>
+            <li>Give the polygon a color. It is helpful to assign a different color to each polygon so you can more easily distinguish between them.
+			 <ol style="list-style-type: lower-alpha;"><li><img src="../Images/Tutorials-Shared/Color-wheel.png" class="screencap" style="float: left;padding-right: 40px; height: 90px; width: auto;" title="The Edit Feature color wheel" alt="The Edit Feature color wheel has an outer ring for selecting the color and an inner square for selecting a hue or shade of the color." />Click on the <strong>Color</strong> text box. A color wheel appears with an outer circle of color and an inner square for assigning a hue or shade to that color.</li><li>Use the color wheel to choose a color.</li><li>Use the inner box to choose the shade of the color selected.<br /><br /></li></ol></li>
+            <li class="clearfloats">Assign a response function to the polygon.</li>
+            <li>Choose <strong>Submit</strong> to save the polygon data. You can later edit this data using the Modify Polygon tool.</li>
+        </ol>
+    </body>
+</html>

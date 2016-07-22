@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="5" MadCap:lastHeight="525" MadCap:lastWidth="1033" MadCap:fileTags="FileNeeds.04 Ready for review">
+    <head>
+    </head>
+    <body>
+        <p>You are now on the <strong>Map Summary</strong> step, and your custom relative net value change distribution is the active layer.</p>
+        <p>Here you can compare your relative net value change distribution to the default relative net value change distribution.</p>
+        <p>In this example, you can see that the custom relative net value change reduced the amount of pixels in the <strong>Greatest Loss/Least Benefits</strong> category.</p>
+        <div>
+            <form>
+                <fieldset class="note">
+                    <legend>&#160;&#160;&#160;Remember&#160;&#160;</legend>
+                    <p class="noteBody">If  you did not change the default values in the previous step (in other words, if you did not enter custom values), the custom relative net value change map will be the same as the default map.</p>
+                </fieldset>
+            </form>
+        </div>
+        <p>Now we can focus our attention on the highest risk areas across our area of interest (outlined in yellow in the image below).</p>
+        <p style="font-weight: bold;">The task here is to find areas across your landscape that are predicted to have the greatest loss/least benefit due to fire.</p>
+        <p>You can export IFTDSS inputs and outputs to Google Earth to further analyze potential fire hazard and risk. We'll do this next: we will export our map summary data and review this data using Google Earth.</p>
+    </body>
+</html>

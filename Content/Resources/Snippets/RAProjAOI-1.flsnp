@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="9" MadCap:lastHeight="3050" MadCap:lastWidth="868" MadCap:fileTags="FileNeeds.04 Ready for review">
+    <head>
+    </head>
+    <body>
+        <p>You can navigate to your desired location (your project area of interest) in one of three ways.</p>
+        <ol style="list-style-type: upper-alpha;">
+            <li>Use the navigation tools located in the top left portion of the map.</li>
+            <li>Use the mouse.  Click and drag to move; double-click to zoom in.</li>
+            <li>Enter coordinates.</li>
+        </ol>
+        <p>
+            <img src="../Images/RA-WC-Tutorial/WC-select-AOI.png" class="screencap" title="Specifying a project area of interest" alt="Specifying a project area of interest" />
+        </p>
+        <div>
+            <form>
+                <fieldset class="note">
+                    <legend>&#160;&#160;&#160;Note&#160;&#160;</legend>
+                    <p class="noteBody">Once you select a project area of interest, the project area cannot be changed.  To change the project area, you must create a new project.</p>
+                </fieldset>
+            </form>
+        </div>
+        <p><i style="font-weight: bold;">For this tutorial, to specify a project area of interest,</i>
+        </p>
+        <ol>
+            <li>Assign a name to your data set in the <strong>Data Set Name</strong> field.</li>
+            <li>Enter the following coordinates:<br /><br /><ul style="list-style-type: square;"><li><strong>North:</strong> 38.164505878997</li><li><strong>East:</strong>	-122.54560796614</li><li><strong>South:</strong> 38.111039352952</li><li><strong>West:</strong>	-122.62800542709<br /><br /></li></ul>
+           
+            As you enter coordinates, the area of interest is updated.<br /><br /><div><form><fieldset class="note"><legend>&#160;&#160;&#160;Important&#160;&#160;&#160;</legend><p class="noteBody">Acquisition of LANDFIRE data is limited to 250,000 acres.</p></fieldset></form></div></li>
+            <li>Once you enter all coordinates, the project area of interest is displayed.<br /><br /><img src="../Images/RA-WC-Tutorial/WC-proj-AOI-setup-initial-view.png" class="screencap" title="The initial view of your project area of interest" alt="The initial view of your project area of interest" /></li>
+            <li>You can view different base layers (imagery, topographical map, or street map) of the area of interest by clicking the plus sign in the upper right corner of the map and choosing a different view.<br /><br /><img src="../Images/RA-WC-Tutorial/WC-proj-AOI-setup.png" class="screencap" title="Viewing your project area of interest" alt="Viewing your project area of interest" /></li>
+            <li>Choose <strong>Next</strong>. There is a short wait while IFTDSS imports the LANDFIRE data. Once the data set is loaded into IFTDSS, the <strong>Project Summary</strong> page opens, where you can create a new run for your project area of interest.</li>
+        </ol>
+    </body>
+</html>

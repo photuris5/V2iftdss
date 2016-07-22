@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="4" MadCap:lastHeight="404" MadCap:lastWidth="1143" MadCap:fileTags="FileNeeds.04 Ready for review">
+    <head>
+    </head>
+    <body>
+        <p>IFTDSS provides two approaches for assessing fire hazard and risk across the landscape based on the methods described in <i>RMRS-GTR-235 Wildfire Risk and Hazard: Procedures for the First Approximation</i> (Calkin et. al., <a href="../../10-Reference/Bibliography.htm#Calkinetal2010a">2010a</a>). These methods are the</p>
+        <ul style="list-style-type: square;">
+            <li>Worst-case flame lengths approach (in IFTDSS, this is called <b>Risk assessment – worst-case flame lengths</b>)</li>
+            <li>Flame length probabilities approach (in IFTDSS, this is called <b>Risk assessment – by flame length probabilities</b>)</li>
+        </ul>
+        <p>The processes employed in IFTDSS use a quantitative risk framework to approximate the expected loss and/or potential ecological benefits to valued resources (values at risk) from wildfire.</p>
+        <p>In the risk assessment, burn probabilities and fire behavior potentials are estimated using the fire simulation modules <a href="../../10-Reference/RefFlamMap.htm">IFT-FlamMap</a> and <a href="../../10-Reference/RefRANIn.htm">IFT-FlamMap-RANDIG</a>.</p>
+        <p>The modeled output is coupled with data on human and ecological values at risk using a set of fire-effects response functions, with the goal of estimating the expected loss or potential benefit resulting from fire.</p>
+    </body>
+</html>

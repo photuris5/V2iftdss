@@ -1,0 +1,351 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultIndexLinkSet>
+  <IndexLink
+    Term="fires:spot"
+    LinkType="see"
+    LinkedTerm="spot fires and spotting distance (IFT-spot)"></IndexLink>
+  <IndexLink
+    Term="piles, burning"
+    LinkType="see"
+    LinkedTerm="burning piles"></IndexLink>
+  <IndexLink
+    Term="burning piles"
+    LinkType="seealso"
+    LinkedTerm="fires"></IndexLink>
+  <IndexLink
+    Term="spot fires and spotting distance (IFT-spot)"
+    LinkType="seealso"
+    LinkedTerm="fires"></IndexLink>
+  <IndexLink
+    Term="fires:burning piles"
+    LinkType="see"
+    LinkedTerm="burning piles"></IndexLink>
+  <IndexLink
+    Term="trees:torching"
+    LinkType="see"
+    LinkedTerm="torching trees"></IndexLink>
+  <IndexLink
+    Term="fires:wind-driven surface"
+    LinkType="see"
+    LinkedTerm="wind-driven surface fires"></IndexLink>
+  <IndexLink
+    Term="surface fires:wind-driven"
+    LinkType="see"
+    LinkedTerm="wind-driven surface fires"></IndexLink>
+  <IndexLink
+    Term="aspen"
+    LinkType="see"
+    LinkedTerm="western aspen fuel model"></IndexLink>
+  <IndexLink
+    Term="files, data"
+    LinkType="see"
+    LinkedTerm="data sets and data management"></IndexLink>
+  <IndexLink
+    Term="data files"
+    LinkType="see"
+    LinkedTerm="data sets and data management"></IndexLink>
+  <IndexLink
+    Term="wind"
+    LinkType="see"
+    LinkedTerm="wind and wind speeds"></IndexLink>
+  <IndexLink
+    Term="scorch height"
+    LinkType="see"
+    LinkedTerm="crowns and crown fires:scorch height (IFT-scorch)"></IndexLink>
+  <IndexLink
+    Term="SURFACE"
+    LinkType="see"
+    LinkedTerm="surface fire behavior (IFT-surface)"></IndexLink>
+  <IndexLink
+    Term="FOFEM"
+    LinkType="see"
+    LinkedTerm="consumption, emissions, and tree mortality (IFT-FOFEM)"></IndexLink>
+  <IndexLink
+    Term="FlamMap"
+    LinkType="see"
+    LinkedTerm="fire behavior (IFT-FlamMap)"></IndexLink>
+  <IndexLink
+    Term="FCCS surface fire behavior"
+    LinkType="see"
+    LinkedTerm="surface fire behavior (FCCS)"></IndexLink>
+  <IndexLink
+    Term="CROWN"
+    LinkType="see"
+    LinkedTerm="crowns and crown fires:crown fire behavior (IFT-crown)"></IndexLink>
+  <IndexLink
+    Term="Consume"
+    LinkType="see"
+    LinkedTerm="consumption, emissions, and heat release (Consume)"></IndexLink>
+  <IndexLink
+    Term="IGNITE"
+    LinkType="see"
+    LinkedTerm="probability of ignition (IFT-ignite)"></IndexLink>
+  <IndexLink
+    Term="CONTAIN"
+    LinkType="see"
+    LinkedTerm="containment resources (IFT-contain)"></IndexLink>
+  <IndexLink
+    Term="SAFETY"
+    LinkType="see"
+    LinkedTerm="safety zone size (IFT-safety)"></IndexLink>
+  <IndexLink
+    Term="SIZE"
+    LinkType="see"
+    LinkedTerm="size and spread (IFT-size)"></IndexLink>
+  <IndexLink
+    Term="BehavePlus:SAFETY"
+    LinkType="see"
+    LinkedTerm="safety zone size (IFT-safety)"></IndexLink>
+  <IndexLink
+    Term="BehavePlus:SCORCH"
+    LinkType="see"
+    LinkedTerm="crowns and crown fires:scorch height (IFT-scorch)"></IndexLink>
+  <IndexLink
+    Term="BehavePlus:SURFACE"
+    LinkType="see"
+    LinkedTerm="surface fire behavior (IFT-surface)"></IndexLink>
+  <IndexLink
+    Term="BehavePlus:CONTAIN"
+    LinkType="see"
+    LinkedTerm="containment resources (IFT-contain)"></IndexLink>
+  <IndexLink
+    Term="BehavePlus:SPOT"
+    LinkType="see"
+    LinkedTerm="spot fires and spotting distance (IFT-spot)"></IndexLink>
+  <IndexLink
+    Term="BehavePlus:CROWN"
+    LinkType="see"
+    LinkedTerm="crowns and crown fires:crown fire behavior (IFT-crown)"></IndexLink>
+  <IndexLink
+    Term="BehavePlus:SIZE"
+    LinkType="see"
+    LinkedTerm="size and spread (IFT-size)"></IndexLink>
+  <IndexLink
+    Term="BehavePlus:IGNITE"
+    LinkType="see"
+    LinkedTerm="probability of ignition (IFT-ignite)"></IndexLink>
+  <IndexLink
+    Term="ignition probability"
+    LinkType="see"
+    LinkedTerm="probability of ignition (IFT-ignite)"></IndexLink>
+  <IndexLink
+    Term="fire hazard analysis"
+    LinkType="see"
+    LinkedTerm="hazard analysis"></IndexLink>
+  <IndexLink
+    Term="crown fire behavior (IFT-crown)"
+    LinkType="see"
+    LinkedTerm="crowns and crown fires"></IndexLink>
+  <IndexLink
+    Term="Fire and Environmental Research Application (FERA)"
+    LinkType="see"
+    LinkedTerm="FFA (Fire and Fuels Application)"></IndexLink>
+  <IndexLink
+    Term="fuelbeds:FCCS"
+    LinkType="see"
+    LinkedTerm="FCCS fuelbeds"></IndexLink>
+  <IndexLink
+    Term="RANDIG"
+    LinkType="see"
+    LinkedTerm="burn probability from random ignition (IFT-FlamMap-RANDIG)"></IndexLink>
+  <IndexLink
+    Term="random ignition"
+    LinkType="see"
+    LinkedTerm="burn probability from random ignition (IFT-FlamMap-RANDIG)"></IndexLink>
+  <IndexLink
+    Term="burn probability"
+    LinkType="seealso"
+    LinkedTerm="burn probability from random ignition (IFT-FlamMap-RANDIG)"></IndexLink>
+  <IndexLink
+    Term="burn probability"
+    LinkType="seealso"
+    LinkedTerm="risk assessments:flame length probabilities"></IndexLink>
+  <IndexLink
+    Term="flame lengths:probabilities"
+    LinkType="see"
+    LinkedTerm="flame length probabilities"></IndexLink>
+  <IndexLink
+    Term="flame length probabilities"
+    LinkType="seealso"
+    LinkedTerm="risk assessments"></IndexLink>
+  <IndexLink
+    Term="dozers"
+    LinkType="see"
+    LinkedTerm="bulldozers"></IndexLink>
+  <IndexLink
+    Term="crews, production rates"
+    LinkType="see"
+    LinkedTerm="fireline production rates"></IndexLink>
+  <IndexLink
+    Term="production rates (fireline)"
+    LinkType="see"
+    LinkedTerm="fireline production rates"></IndexLink>
+  <IndexLink
+    Term="Fire Emission Production Simulator (FEPS)"
+    LinkType="see"
+    LinkedTerm="FEPS (Fire Emission Production Simulator)"></IndexLink>
+  <IndexLink
+    Term="highly valued resources (HVR)"
+    LinkType="see"
+    LinkedTerm="values at risk"></IndexLink>
+  <IndexLink
+    Term="HVR (highly valued resources)"
+    LinkType="see"
+    LinkedTerm="values at risk"></IndexLink>
+  <IndexLink
+    Term="IFT-surface"
+    LinkType="see"
+    LinkedTerm="surface fire behavior (IFT-surface)"></IndexLink>
+  <IndexLink
+    Term="IFT-FlamMap"
+    LinkType="see"
+    LinkedTerm="fire behavior (IFT-FlamMap)"></IndexLink>
+  <IndexLink
+    Term="IFT-safety"
+    LinkType="see"
+    LinkedTerm="safety zone size (IFT-safety)"></IndexLink>
+  <IndexLink
+    Term="IFT-crown"
+    LinkType="see"
+    LinkedTerm="crown fire behavior (IFT-crown)"></IndexLink>
+  <IndexLink
+    Term="IFT-scorch"
+    LinkType="see"
+    LinkedTerm="crowns and crown fires:scorch height (IFT-scorch)"></IndexLink>
+  <IndexLink
+    Term="IFT-FOFEM"
+    LinkType="see"
+    LinkedTerm="consumption, emissions, and tree mortality (IFT-FOFEM)"></IndexLink>
+  <IndexLink
+    Term="wind and wind speeds"
+    LinkType="seealso"
+    LinkedTerm="wind-driven surface fires"></IndexLink>
+  <IndexLink
+    Term="IFT-ignite"
+    LinkType="see"
+    LinkedTerm="probability of ignition (IFT-ignite)"></IndexLink>
+  <IndexLink
+    Term="IFT-RANDIG"
+    LinkType="see"
+    LinkedTerm="burn probability from random ignition (IFT-FlamMap-RANDIG)"></IndexLink>
+  <IndexLink
+    Term="IFT-contain"
+    LinkType="see"
+    LinkedTerm="containment resources (IFT-contain)"></IndexLink>
+  <IndexLink
+    Term="IFT-spot"
+    LinkType="see"
+    LinkedTerm="spot fires and spotting distance (IFT-spot)"></IndexLink>
+  <IndexLink
+    Term="IFT-size"
+    LinkType="see"
+    LinkedTerm="size and spread (IFT-size)"></IndexLink>
+  <IndexLink
+    Term="SCORCH"
+    LinkType="see"
+    LinkedTerm="crowns and crown fires:scorch height (IFT-scorch)"></IndexLink>
+  <IndexLink
+    Term="risk assessments"
+    LinkType="seealso"
+    LinkedTerm="values at risk"></IndexLink>
+  <IndexLink
+    Term="low flame length"
+    LinkType="see"
+    LinkedTerm="flame lengths"></IndexLink>
+  <IndexLink
+    Term="medium flame length"
+    LinkType="see"
+    LinkedTerm="flame lengths"></IndexLink>
+  <IndexLink
+    Term="high flame length"
+    LinkType="see"
+    LinkedTerm="flame lengths"></IndexLink>
+  <IndexLink
+    Term="very high flame length"
+    LinkType="see"
+    LinkedTerm="flame lengths"></IndexLink>
+  <IndexLink
+    Term="fire behavior"
+    LinkType="seealso"
+    LinkedTerm="fire behavior (IFT-FlamMap)"></IndexLink>
+  <IndexLink
+    Term="response functions"
+    LinkType="seealso"
+    LinkedTerm="risk assessments"></IndexLink>
+  <IndexLink
+    Term="IFT-surface+size"
+    LinkType="see"
+    LinkedTerm="surface fire behavior, size, and spread distance (IFT-surface+size)"></IndexLink>
+  <IndexLink
+    Term="wildfires"
+    LinkType="see"
+    LinkedTerm="wildland fires"></IndexLink>
+  <IndexLink
+    Term="flame lengths:worst case"
+    LinkType="see"
+    LinkedTerm="worst-case flame length risk assessments"></IndexLink>
+  <IndexLink
+    Term="risk assessments:flame length probabilities"
+    LinkType="see"
+    LinkedTerm="flame length probabilities"></IndexLink>
+  <IndexLink
+    Term="risk assessments:worst-case flame length risk assessments"
+    LinkType="see"
+    LinkedTerm="worst-case flame length risk assessments"></IndexLink>
+  <IndexLink
+    Term="worst-case flame length risk assessments"
+    LinkType="seealso"
+    LinkedTerm="risk assessments"></IndexLink>
+  <IndexLink
+    Term="drawing methods"
+    LinkType="see"
+    LinkedTerm="polygons"></IndexLink>
+  <IndexLink
+    Term="polygon drawing methods"
+    LinkType="see"
+    LinkedTerm="polygons"></IndexLink>
+  <IndexLink
+    Term="relative net value change"
+    LinkType="see"
+    LinkedTerm="net value change:relative"></IndexLink>
+  <IndexLink
+    Term="risk assessments:relative net value change"
+    LinkType="seealso"
+    LinkedTerm="net value change:relative"></IndexLink>
+  <IndexLink
+    Term="net value change"
+    LinkType="seealso"
+    LinkedTerm="values at risk"></IndexLink>
+  <IndexLink
+    Term="values at risk"
+    LinkType="seealso"
+    LinkedTerm="net value change"></IndexLink>
+  <IndexLink
+    Term="probability of burns"
+    LinkType="see"
+    LinkedTerm="burn probability"></IndexLink>
+  <IndexLink
+    Term="fire behavior (IFT-FlamMap)"
+    LinkType="seealso"
+    LinkedTerm="fire behavior (MTT)"></IndexLink>
+  <IndexLink
+    Term="minimum travel time"
+    LinkType="see"
+    LinkedTerm="fire behavior (MTT)"></IndexLink>
+  <IndexLink
+    Term="MTT"
+    LinkType="see"
+    LinkedTerm="fire behavior (MTT)"></IndexLink>
+  <IndexLink
+    Term="overall burn probability"
+    LinkType="see"
+    LinkedTerm="burn probability"></IndexLink>
+  <IndexLink
+    Term="FERA (Fire and Environmental Research Application)"
+    LinkType="see"
+    LinkedTerm="FFA (Fire and Fuels Application)"></IndexLink>
+  <IndexLink
+    Term="Fire and Fuels Application (FFA)"
+    LinkType="see"
+    LinkedTerm="FFA (Fire and Fuels Application)"></IndexLink>
+</CatapultIndexLinkSet>

@@ -1,0 +1,160 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc
+  Version="1">
+  <TocEntry
+    Title="Tutorial C">
+    <TocEntry
+      Title="Tutorial C: How to Use IFTDSS to Prepare a Prescribed Burn Plan"
+      Link="/Content/04-Prescribed-Burns/Tutorial_C_PrescribedBurnPlan/Tutorial_C_0_PrescribedBurnPlanningPrep.htm" />
+    <TocEntry
+      Title="Introduction"
+      Link="/Content/04-Prescribed-Burns/Tutorial_C_PrescribedBurnPlan/Tutorial_C_1_Intro.htm" />
+    <TocEntry
+      Title="Objectives"
+      Link="/Content/04-Prescribed-Burns/Tutorial_C_PrescribedBurnPlan/Tutorial_C_2_Object.htm" />
+    <TocEntry
+      Title="Getting Started"
+      Link="/Content/04-Prescribed-Burns/Tutorial_C_PrescribedBurnPlan/Tutorial_C_3_GetStart.htm" />
+    <TocEntry
+      Title="Selecting a Project Area of Interest"
+      Link="/Content/04-Prescribed-Burns/Tutorial_C_PrescribedBurnPlan/Tutorial_C_4_Proj.htm" />
+    <TocEntry
+      Title="Editing Landscape Data (part 1)"
+      Link="/Content/04-Prescribed-Burns/Tutorial_C_PrescribedBurnPlan/Tutorial_C_5_editLandscape1.htm" />
+    <TocEntry
+      Title="Editing Landscape Data (part 2)"
+      Link="/Content/04-Prescribed-Burns/Tutorial_C_PrescribedBurnPlan/Tutorial_C_6_editLandscape2.htm" />
+    <TocEntry
+      Title="Editing Landscape Data (part 3)"
+      Link="/Content/04-Prescribed-Burns/Tutorial_C_PrescribedBurnPlan/Tutorial_C_7_editLandscape3.htm" />
+    <TocEntry
+      Title="Creating a New Run"
+      Link="/Content/04-Prescribed-Burns/Tutorial_C_PrescribedBurnPlan/Tutorial_C_8_CreateRun.htm" />
+    <TocEntry
+      Title="Creating a Burn Plan"
+      Link="/Content/04-Prescribed-Burns/Tutorial_C_PrescribedBurnPlan/Tutorial_C_9_CreateBurnPlan.htm" />
+    <TocEntry
+      Title="Table of Contents and Navigation"
+      Link="/Content/04-Prescribed-Burns/Tutorial_C_PrescribedBurnPlan/Tutorial_C_10_TOCNav.htm" />
+    <TocEntry
+      Title="Elements Overview"
+      Link="/Content/04-Prescribed-Burns/Tutorial_C_PrescribedBurnPlan/Tutorial_C_11_Elements.htm" />
+    <TocEntry
+      Title="Modules and Burn Plan Elements"
+      Link="/Content/04-Prescribed-Burns/Tutorial_C_PrescribedBurnPlan/Tutorial_C_12_modulesBurnPlan.htm" />
+    <TocEntry
+      Title="Signature Page (Element 1)"
+      Link="/Content/04-Prescribed-Burns/Tutorial_C_PrescribedBurnPlan/Tutorial_C_13_sigpage.htm" />
+    <TocEntry
+      Title="Go/No-Go Checklists (Element 2, Part A and Part B)"
+      Link="/Content/04-Prescribed-Burns/Tutorial_C_PrescribedBurnPlan/Tutorial_C_14_gonogo.htm" />
+    <TocEntry
+      Title="Complexity Analysis Summary (Element 3 and Appendix C)"
+      Link="/Content/04-Prescribed-Burns/Tutorial_C_PrescribedBurnPlan/Tutorial_C_15_complex.htm" />
+    <TocEntry
+      Title="Description of the Prescribed Fire Area (Element 4)"
+      Link="/Content/04-Prescribed-Burns/Tutorial_C_PrescribedBurnPlan/Tutorial_C_16_prescribeArea.htm" />
+    <TocEntry
+      Title="Resource and Prescribed Fire Objectives (Element 5)"
+      Link="/Content/04-Prescribed-Burns/Tutorial_C_PrescribedBurnPlan/Tutorial_C_17_resPrescFireObj.htm" />
+    <TocEntry
+      Title="Funding (Element 6)"
+      Link="/Content/04-Prescribed-Burns/Tutorial_C_PrescribedBurnPlan/Tutorial_C_18_funding.htm" />
+    <TocEntry
+      Title="Environmental and Fire Behavior Prescription (Element 7)"
+      Link="/Content/04-Prescribed-Burns/Tutorial_C_PrescribedBurnPlan/Tutorial_C_19_envPrescipt.htm" />
+    <TocEntry
+      Title="Modeling Potential Fire Behavior and Effects"
+      Link="/Content/04-Prescribed-Burns/Tutorial_C_PrescribedBurnPlan/Tutorial_C_20_modPotFire.htm" />
+    <TocEntry
+      Title="Prescribed Burn Planning Workflow - Surface Fire Behavior"
+      Link="/Content/04-Prescribed-Burns/Tutorial_C_PrescribedBurnPlan/Tutorial_C_21_RxBurnWorkflow.htm" />
+    <TocEntry
+      Title="Modeling Surface Fire Behavior (Element 7)"
+      Link="/Content/04-Prescribed-Burns/Tutorial_C_PrescribedBurnPlan/Tutorial_C_22_modSurfaceFire.htm" />
+    <TocEntry
+      Title="Creating a New Run to Predict Scorch Height using IFT-Scroch"
+      Link="/Content/04-Prescribed-Burns/Tutorial_C_PrescribedBurnPlan/Tutorial_C_23_newRunScorch.htm" />
+    <TocEntry
+      Title="Prescribed Burn Planning Workflow - Predict Crown Scorch Height"
+      Link="/Content/04-Prescribed-Burns/Tutorial_C_PrescribedBurnPlan/Tutorial_C_24_RxBurnWorkflowScorch.htm" />
+    <TocEntry
+      Title="Modeling Crown Scorch Height with IFT-Scorch"
+      Link="/Content/04-Prescribed-Burns/Tutorial_C_PrescribedBurnPlan/Tutorial_C_25_A_crownScorch.htm" />
+    <TocEntry
+      Title="Creating a New Run to Determine Probability of Ignition"
+      Link="/Content/04-Prescribed-Burns/Tutorial_C_PrescribedBurnPlan/Tutorial_C_25_B_poi.htm" />
+    <TocEntry
+      Title="Prescribed Burn Planning Workflow - Probability of Ignition"
+      Link="/Content/04-Prescribed-Burns/Tutorial_C_PrescribedBurnPlan/Tutorial_C_25_C_poi.htm" />
+    <TocEntry
+      Title="Running the Probability of Ignition Module"
+      Link="/Content/04-Prescribed-Burns/Tutorial_C_PrescribedBurnPlan/Tutorial_C_25_D_poi.htm" />
+    <TocEntry
+      Title="Environmental and Fire Behavior Prescription (Element 7)"
+      Link="/Content/04-Prescribed-Burns/Tutorial_C_PrescribedBurnPlan/Tutorial_C_26_envPrescipt2.htm" />
+    <TocEntry
+      Title="Modeling Considerations"
+      Link="/Content/04-Prescribed-Burns/Tutorial_C_PrescribedBurnPlan/Tutorial_C_27_modelConsider.htm" />
+    <TocEntry
+      Title="Scheduling; Pre-burn Considerations and Weather; Briefing (Elements 8, 9, and 10)"
+      Link="/Content/04-Prescribed-Burns/Tutorial_C_PrescribedBurnPlan/Tutorial_C_28_scheduling.htm" />
+    <TocEntry
+      Title="Organization and Equipment; Communication; Safety and Medical (Elements 11, 12 and 13)"
+      Link="/Content/04-Prescribed-Burns/Tutorial_C_PrescribedBurnPlan/Tutorial_C_29_orgEquip.htm" />
+    <TocEntry
+      Title="Test Fire and Ignition Plan (Elements 14 and 15)"
+      Link="/Content/04-Prescribed-Burns/Tutorial_C_PrescribedBurnPlan/Tutorial_C_30_testFire.htm" />
+    <TocEntry
+      Title="Holding and Contingency Plans (Elements 16 and 17)"
+      Link="/Content/04-Prescribed-Burns/Tutorial_C_PrescribedBurnPlan/Tutorial_C_31_holdContingency.htm" />
+    <TocEntry
+      Title="Wildfire Conversion, Smoke Management and Air Quality (Elements 18 and 19)"
+      Link="/Content/04-Prescribed-Burns/Tutorial_C_PrescribedBurnPlan/Tutorial_C_32_wildfireConvSmoke.htm" />
+    <TocEntry
+      Title="Monitoring and Post-burn Activity (Elements 20 and 21)"
+      Link="/Content/04-Prescribed-Burns/Tutorial_C_PrescribedBurnPlan/Tutorial_C_33_monitorPostBurn.htm" />
+    <TocEntry
+      Title="Appendices"
+      Link="/Content/04-Prescribed-Burns/Tutorial_C_PrescribedBurnPlan/Tutorial_C_34_appendices.htm" />
+    <TocEntry
+      Title="Generating the Burn Plan"
+      Link="/Content/04-Prescribed-Burns/Tutorial_C_PrescribedBurnPlan/Tutorial_C_35_genBurnPlan.htm" />
+    <TocEntry
+      Title="Customizing the Burn Plan"
+      Link="/Content/04-Prescribed-Burns/Tutorial_C_PrescribedBurnPlan/Tutorial_C_36_customBurnPlan.htm" />
+    <TocEntry
+      Title="Appendix A: Maps"
+      Link="/Content/04-Prescribed-Burns/Tutorial_C_PrescribedBurnPlan/Tutorial_C_37_appendAMaps.htm" />
+    <TocEntry
+      Title="Appendix A: Maps con't"
+      Link="/Content/04-Prescribed-Burns/Tutorial_C_PrescribedBurnPlan/Tutorial_C_38_appendAMaps1.htm" />
+    <TocEntry
+      Title="Appendix A: Maps (2)"
+      Link="/Content/04-Prescribed-Burns/Tutorial_C_PrescribedBurnPlan/Tutorial_C_39_appendAMaps2.htm" />
+    <TocEntry
+      Title="Appendix A: Maps (3)"
+      Link="/Content/04-Prescribed-Burns/Tutorial_C_PrescribedBurnPlan/Tutorial_C_40_appendAMaps4.htm" />
+    <TocEntry
+      Title="Appendix A: Maps (Drawing polygons and saving map images)"
+      Link="/Content/04-Prescribed-Burns/Tutorial_C_PrescribedBurnPlan/Tutorial_C_41_appendAMaps5.htm" />
+    <TocEntry
+      Title="Appendix A: Maps (Inserting a Saved Map Image into Word)"
+      Link="/Content/04-Prescribed-Burns/Tutorial_C_PrescribedBurnPlan/Tutorial_C_42_appendAMaps6.htm" />
+    <TocEntry
+      Title="Appendix B: Technical Reviewer Checklist"
+      Link="/Content/04-Prescribed-Burns/Tutorial_C_PrescribedBurnPlan/Tutorial_C_45_appendB.htm" />
+    <TocEntry
+      Title="Appendix C: Complexity Analysis"
+      Link="/Content/04-Prescribed-Burns/Tutorial_C_PrescribedBurnPlan/Tutorial_C_46_appendC.htm" />
+    <TocEntry
+      Title="Appendix D: Agency-Specific Job Hazard Analysis"
+      Link="/Content/04-Prescribed-Burns/Tutorial_C_PrescribedBurnPlan/Tutorial_C_47_appendD.htm" />
+    <TocEntry
+      Title="Appendix E: Documentation"
+      Link="/Content/04-Prescribed-Burns/Tutorial_C_PrescribedBurnPlan/Tutorial_C_48_appendE.htm" />
+    <TocEntry
+      Title="Additional Help"
+      Link="/Content/04-Prescribed-Burns/Tutorial_C_PrescribedBurnPlan/Tutorial_C_50_addHelp.htm" />
+  </TocEntry>
+</CatapultToc>

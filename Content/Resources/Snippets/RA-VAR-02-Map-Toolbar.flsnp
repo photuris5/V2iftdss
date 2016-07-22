@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="2" MadCap:lastHeight="818" MadCap:lastWidth="1209" MadCap:fileTags="FileNeeds.04 Ready for review">
+    <head>
+    </head>
+    <body>
+        <p>The map toolbar, located at the top of the map, provides tools for drawing your values at risk.</p>
+        <p>Hover your cursor over each tool for a brief description of that tool.</p>
+        <p>Tools that are disabled are faded out (for example, the <strong>Advanced Edit</strong> tool, circled here in red).</p>
+        <p>
+            <img src="../Images/Tutorials-Shared/Map-toolbar_annotated.png" class="screencap" title="The tools on the Map toolbar" alt="The names of the tools on the Map toolbar." />
+        </p>
+    </body>
+</html>

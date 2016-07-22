@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:madcap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us" MadCap:fileTags="FileStatusTags.07 Complete,FileNeeds.05 Complete" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="7" MadCap:lastHeight="953" MadCap:lastWidth="903">
+    <head>
+        <link href="../Resources/TableStyles/AlternatingRows.css" rel="stylesheet" MadCap:stylesheetType="table" /><title>Surface Fire Size Output Parameters</title>
+    </head>
+    <body>
+        <h1>
+            <MadCap:keyword term="size and spread (IFT-size):output parameters" />Surface Fire Size Output Parameters</h1>
+        <table style="caption-side: top;mc-table-style: url('../Resources/TableStyles/AlternatingRows.css');" class="TableStyle-AlternatingRows" cellspacing="0">
+            <col style="width: 15%;" class="Column-Column1" />
+            <col style="width: 20%;" class="Column-Column1" />
+            <col style="width: 65%;" class="Column-Column1" />
+            <thead>
+                <tr class="Head-Header1">
+                    <th class="HeadE-Column1-Header1">Name
+                </th>
+                    <th class="HeadE-Column1-Header1">Units
+                </th>
+                    <th class="HeadD-Column1-Header1">Brief Description
+                </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="Body-Body1">
+                    <td class="BodyE-Column1-Body1">
+                        <MadCap:keyword term="Area (parameter)" />Area
+                </td>
+                    <td class="BodyE-Column1-Body1">Acres, hectares
+                </td>
+                    <td class="BodyD-Column1-Body1">
+                        <MadCap:keyword term="point source fires:area;fires:point source:area;Fire Size At Report (parameter):Area parameter and;Area (parameter):Fire Size At Report parameter and;elliptical fire shape model;fires:elliptical shape model;modules:elliptical fire shape;fires:surface:area;surface fires:area;crowns and crown fires:fires:area" />The area of a fire that started from a point source is based on the elliptical fire shape model. To avoid confusion, the parameter is called Area when it is an output of the fire size and spread module. It is called Fire Size At Report when it is an input to the containment resources module. Calculation of area is based on maximum rate of spread, effective wind speed, and elapsed time. This variable applies to surface fires, although crown fire area can also be calculated.
+(Anderson, <a href="Bibliography.htm#Anderson1983">1983</a>; Andrews, <a href="Bibliography.htm#Andrews1986">1986</a>)                </td>
+                </tr>
+                <tr class="Body-Body2">
+                    <td class="BodyE-Column1-Body2">
+                        <MadCap:keyword term="Backing Spread Distance (parameter)" />Backing Spread Distance
+                </td>
+                    <td class="BodyE-Column1-Body2">Chains, meters
+                </td>
+                    <td class="BodyD-Column1-Body2">
+                        <MadCap:keyword term="fires:distance" />Based on the elliptical fire shape model, this parameter  is the distance the fire travels in a specified period of time in the direction that is 180 degrees from the direction of maximum spread.
+                </td>
+                </tr>
+                <tr class="Body-Body1">
+                    <td class="BodyE-Column1-Body1">
+                        <MadCap:keyword term="Fire Length (parameter)" />Fire Length
+                </td>
+                    <td class="BodyE-Column1-Body1">Chains, meters
+                </td>
+                    <td class="BodyD-Column1-Body1">
+                        <MadCap:keyword term="fires:length" />The distance from the head of a fire to the back end of the fire calculated for an elliptically shaped fire. Fire length is the sum of the forward spread distance and the backing spread distance.
+
+(Anderson, 1983; Andrews, 1986)                 </td>
+                </tr>
+                <tr class="Body-Body2" MadCap:conditions="Default.LaterRelease">
+                    <td class="BodyE-Column1-Body2">
+                        <MadCap:keyword term="Fire Shape Diagram (parameter)" />Fire Shape Diagram
+                </td>
+                    <td class="BodyE-Column1-Body2">Diagram
+                </td>
+                    <td class="BodyD-Column1-Body2">
+                        <MadCap:keyword term="fires:shape" />Fire shape diagrams of the elliptical shape of a point source surface fire with no suppression action are produced for each result in the table output. Surface rate of spread and elapsed time determine the forward spread distance. Effective wind speed determines the length-to-width ratio.
+                </td>
+                </tr>
+                <tr class="Body-Body1">
+                    <td class="BodyE-Column1-Body1">
+                        <MadCap:keyword term="Forward Spread Distance (parameter)" />Forward Spread Distance
+                </td>
+                    <td class="BodyE-Column1-Body1">Chains, meters
+                </td>
+                    <td class="BodyD-Column1-Body1">Based on the elliptical fire shape model, this parameter is the distance the head fire travels in a specified period of time. This measurement is the same as surface spread distance for a heading fire.
+                </td>
+                </tr>
+                <tr class="Body-Body2">
+                    <td class="BodyE-Column1-Body2">
+                        <MadCap:keyword term="Length-to-Width Ratio (parameter)" />Length-to-Width Ratio
+                </td>
+                    <td class="BodyE-Column1-Body2">A ratio</td>
+                    <td class="BodyD-Column1-Body2">The length-to-width ratio is a function of the effective wind speed. Fire burning under a high wind speed will be long and narrow with a large length-to-width ratio. Although this parameter applies to surface fires, crown fire length-to-width ratios can also be calculated. 
+(Anderson, 1983; Andrews, 1986) <br /><br /><b>Note:</b> The length-to-width ratio of an elliptically shaped fire is sometimes called length-to-breadth ratio. </td>
+                </tr>
+                <tr class="Body-Body1">
+                    <td class="BodyE-Column1-Body1">
+                        <MadCap:keyword term="Maximum Fire Width (parameter)" />Maximum Fire Width
+                </td>
+                    <td class="BodyE-Column1-Body1">Chains, meters
+                </td>
+                    <td class="BodyD-Column1-Body1">Based on the elliptical fire shape model, this parameter is the maximum width of the ellipse.
+
+(Anderson, 1983; Andrews, 1986)                 </td>
+                </tr>
+                <tr class="Body-Body2">
+                    <td class="BodyB-Column1-Body2">
+                        <MadCap:keyword term="Perimeter (parameter)" />Perimeter
+                </td>
+                    <td class="BodyB-Column1-Body2">Chains, meters
+                </td>
+                    <td class="BodyA-Column1-Body2">The perimeter of a point source fire without suppression action is based on the elliptical fire shape model. Perimeter is the distance around the outside of the ellipse. Although this parameter applies to surface fires, crown fire perimeters can also be calculated.
+
+(Anderson, 1983; Andrews, 1986)                 </td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>

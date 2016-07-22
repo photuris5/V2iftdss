@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="4" MadCap:lastHeight="1985" MadCap:lastWidth="1053" MadCap:fileTags="FileNeeds.04 Ready for review">
+    <head>
+    </head>
+    <body>
+        <p>The information from this risk assessment can be used with other ecological and natural resource planning information to rapidly assess areas within the landscape that may warrant fuels treatment.</p>
+        <p>Some of the next steps to take are to</p>
+        <ol>
+            <li>Review aerial photography of the area.<br /><img src="../Images/Tutorials-Shared/assessing-needs-1.jpeg" class="screencap" title="Aerial photography of an area of interest" alt="Aerial photography of an area of interest" /><br /><br />If we take a closer look, an aerial photograph of this project area shows that a neighborhood within a high risk area is intermixed with trees, increasing the likelihood that the neighborhood will burn.<br /><img src="../Images/Tutorials-Shared/assessing-needs-2.jpeg" class="screencap" title="A closer look at the aerial photography of an area of interest" alt="A closer look at the aerial photography of an area of interest" /></li>
+            <li>Make a site visit.</li>
+            <li>Conduct additional fuels treatment analyses.</li>
+            <li>Review the fire behavior fuel model layer. Although this neighborhood is assigned the <strong>Non-burnable 1:  Urban/Developed</strong> fuel model, it is clear from the aerial photography (and possibly the site visit) that this neighborhood has the potential to burn in a fire.<br /><img src="../Images/Tutorials-Shared/assessing-needs-3.png" class="screencap" title="Aerial photography of an area of interest with the fuel model showing that this area is non-burnable" alt="Aerial photography of an area of interest with the fuel model showing that this area is non-burnable" /></li>
+        </ol>
+        <h2>Conclusion from These Analyses</h2>
+        <p>After reviewing the aerial photography and the fire behavior fuel model layer, it is clear that the LANDFIRE data needs to be edited; return to the step in which you edited the spatial landscape data to edit your fuel models.  Then rerun the module to see differences in the fire behavior and risk outputs.</p>
+    </body>
+</html>

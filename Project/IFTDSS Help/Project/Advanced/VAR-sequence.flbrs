@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc
+  Version="1">
+  <TocEntry
+    Title="Creating a Values at Risk Map (Tutorial)"
+    Link="/Content/06-Risk-Assessment/RiskAssessVAR-Map.htm">
+    <TocEntry
+      Title="Overview"
+      Link="/Content/06-Risk-Assessment/RiskAssessVAR-1-overview.htm" />
+    <TocEntry
+      Title="Definitions"
+      Link="/Content/06-Risk-Assessment/RiskAssessVAR-00-definitions.htm"></TocEntry>
+    <TocEntry
+      Title="The Map Toolbar"
+      Link="/Content/06-Risk-Assessment/RiskAssessVAR-2-MapToolbar.htm"></TocEntry>
+    <TocEntry
+      Title="Mapping Methods"
+      Link="/Content/06-Risk-Assessment/RiskAssessVAR-3-MapMethods.htm" />
+    <TocEntry
+      Title="The Freeform Drawing Method"
+      Link="/Content/06-Risk-Assessment/RiskAssessVAR-4-freeform.htm" />
+    <TocEntry
+      Title="The Edit Feature Panel"
+      Link="/Content/06-Risk-Assessment/RiskAssessVAR-5-Edit-Feature.htm" />
+    <TocEntry
+      Title="The Point-and-Click Drawing Method"
+      Link="/Content/06-Risk-Assessment/RiskAssessVAR-6-Point-Click.htm" />
+    <TocEntry
+      Title="The Edit Feature Panel Redux"
+      Link="/Content/06-Risk-Assessment/RiskAssessVAR-7-edit-feature-RF4.htm" />
+    <TocEntry
+      Title="Continue Creating Polygons"
+      Link="/Content/06-Risk-Assessment/RiskAssessVAR-8-continue.htm" />
+    <TocEntry
+      Title="Define Smaller Values at Risk"
+      Link="/Content/06-Risk-Assessment/RiskAssessVAR-9-smaller-values.htm" />
+    <TocEntry
+      Title="Set a Background Response Function"
+      Link="/Content/06-Risk-Assessment/RiskAssessVAR-10-background.htm" />
+    <TocEntry
+      Title="Edit Values at Risk"
+      Link="/Content/06-Risk-Assessment/RiskAssessVAR-11-editing.htm" />
+    <TocEntry
+      Title="Review Your Values at Risk"
+      Link="/Content/06-Risk-Assessment/RiskAssessVAR-12-review.htm" />
+  </TocEntry>
+</CatapultToc>

@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="7" MadCap:lastHeight="953" MadCap:lastWidth="883" MadCap:fileTags="FileNeeds.04 Ready for review">
+    <head>
+    </head>
+    <body>
+        <p>After acquiring the LANDFIRE data, you are returned to the <b>Project Summary</b> page. This page is where you create runs. In this tutorial, for use in spatial models, you now have a project area of interest (indicated by <b>A</b> in the illustration) and a project data set (indicated by <b>B</b> in the illustration).</p>
+        <p>
+            <img src="../Images/RA-WC-Tutorial/WC-create-new-run-1.png" class="screencap" title="The Project Summary page" alt="On the Project Summary page, you can view runs and datra sets and create new runs. You can also manage your projects in other ways." />
+        </p>
+        <div>
+            <form>
+                <fieldset class="note">
+                    <legend>&#160;&#160;&#160;Note&#160;&#160;&#160;</legend>
+                    <p class="noteBody">The steps here are specific to this tutorial; for more information on creating runs in general, see <MadCap:xref href="../../03-Concepts/ProjRun.htm"><b>Creating a Run</b></MadCap:xref>.</p>
+                </fieldset>
+            </form>
+        </div>
+    </body>
+</html>

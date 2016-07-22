@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc
+  Version="1">
+  <TocEntry
+    Title="New Book 1">
+    <TocEntry
+      Title="LANDFIRE data management in IFTDSS"
+      Link="/Content/07-FuelsTreatment/Landfire_data/Tutorial_F_0_landfire_data_mgt.htm" />
+    <TocEntry
+      Title="Uploading an lcp file"
+      Link="/Content/07-FuelsTreatment/Landfire_data/Tutorial_F_1_uploading_lcp_file.htm" />
+    <TocEntry
+      Title="Acquiring Landscape data from LANDFIRE within IFTDSS"
+      Link="/Content/07-FuelsTreatment/Landfire_data/Tutorial_F_2_Acquire_lcp_from_iftdss.htm" />
+    <TocEntry
+      Title="Editing data using Data Studio"
+      Link="/Content/07-FuelsTreatment/Landfire_data/Tutorial_F_3_Editing_data_w_data_studio.htm" />
+    <TocEntry
+      Title="Point Editing"
+      Link="/Content/07-FuelsTreatment/Landfire_data/Tutorial_F_4_point_edit.htm" />
+    <TocEntry
+      Title="Advanced Editing: edit pixels across the entire run area"
+      Link="/Content/07-FuelsTreatment/Landfire_data/Tutorial_F_5_advanced_edit.htm" />
+    <TocEntry
+      Title="Polygon Advanced Edit: edit pixels within a user-drawn polygon"
+      Link="/Content/07-FuelsTreatment/Landfire_data/Tutorial_F_6_advanced_edit_polygons.htm" />
+    <TocEntry
+      Title="Review and wrap-up"
+      Link="/Content/07-FuelsTreatment/Landfire_data/Tutorial_F_7_review_wrapup.htm" />
+  </TocEntry>
+</CatapultToc>

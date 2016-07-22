@@ -1,0 +1,752 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="5" MadCap:lastHeight="4393" MadCap:lastWidth="1056" MadCap:fileTags="FileStatusTags.03 Edited,FileStatusTags.02 HRH reviewed,FileStatusTags.05 Flare properties applied,FileNeeds.05 Complete">
+    <head>
+        <link href="../Resources/TableStyles/AlternatingRows.css" rel="stylesheet" MadCap:stylesheetType="table" />
+    </head>
+    <body>
+        <h1>
+            <MadCap:keyword term="surface fire behavior (IFT-surface):SURFACE and;BehavePlus" />BehavePlus SURFACE Compared to IFT-surface</h1>
+        <h2>Fire Behavior Fuel Models 
+        </h2>
+        <p>IFT-surface supports the 13 fire behavior fuel models from Anderson (<a href="../10-Reference/Bibliography.htm#Anderson1982">1982</a>) and the 40 additional fire behavior fuel models from Scott and Burgan (<a href="../10-Reference/Bibliography.htm#ScottandBurgen2005">2005</a>). IFT-surface does not support custom fuel modeling, special case fuel models (palmetto-gallberry, western aspen, or southern California chaparral), the two fuel models concept (2-D expected spread, harmonic mean, or area weighted), or exporting custom fuel model sets.</p>
+        <h3>Fuel Moisture Inputs </h3>
+        <p>In IFTDSS, moisture is entered by individual size classes. IFTDSS does not support moisture scenarios or the direct input of moisture by live and dead fuel categories.</p>
+        <h3>Dynamic Curing Load Transfer </h3>
+        <p>IFTDSS supports dynamic curing load transfer (Scott and Burgan, 2005) calculated from live herbaceous fuel moisture, but IFTDSS does not allow the transfer of live fuel load to dead fuel load to be input directly. Dynamic curing load transfer is based on the concept that the live herbaceous fuel loading is slowly transferred from the live to dead category as the fuel ages seasonally.</p>
+        <h3>Wind Speed</h3>
+        <p>IFTDSS supports the entry of mid-flame wind speed, but does not give the option of entering 20-ft or 10-m wind speeds with a user-supplied wind speed adjustment factor (WAF) or calculated WAF. IFTDSS always uses the maximum reliable effective wind speed (i.e., this approach cannot be disabled).</p>
+        <h3>Directions</h3>
+        <p>IFTDSS supports surface fire spread direction in the direction of maximum spread. In addition, you can specify that you want to receive fire behavior output for backing fire (180 degrees from the direction of maximum spread) or flanking fire (30, 45, 60, or 90 degrees from the direction of maximum spread). Wind direction is specified in degrees from north. There is no option to have winds traveling in an upslope direction.</p>
+        <h3>Slope</h3>
+        <p>IFTDSS supports the use of percentage as a measure of slope steepness. Percentage values are entered directly by the user; the option of using map measurements to calculate slope steepness has not been implemented.</p>
+        <h2>Input Parameters</h2>
+        <table align="center" class="TableStyle-AlternatingRows" style="caption-side: top;mc-table-style: url('../Resources/TableStyles/AlternatingRows.css');" cellspacing="0">
+            <col style="width: 10%;" class="Column-Column1" />
+            <col style="width: 15%;" class="Column-Column1" />
+            <col style="width: 37%;" class="Column-Column1" />
+            <col style="width: 37%;" class="Column-Column1" />
+            <thead>
+                <tr class="Head-Header1">
+                    <th class="HeadE-Column1-Header1" rowspan="2">Type
+of Data                   </th>
+                    <th class="HeadE-Column1-Header1" rowspan="2">Choose One
+                    </th>
+                    <th class="HeadE-Column1-Header1" colspan="2">Parameters</th>
+                </tr>
+                <tr class="Head-Header1">
+                    <th class="HeadE-Column1-Header1">BehavePlus SURFACE</th>
+                    <th class="HeadD-Column1-Header1">IFT-surface</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr style="height: 15pt;" class="Body-Body1">
+                    <td colspan="2" rowspan="7" class="BodyE-Column1-Body1">Fuel
+                    </td>
+                    <td class="BodyE-Column1-Body1">Fire behavior fuel models (standard or custom)
+                    </td>
+                    <td class="BodyD-Column1-Body1">Fire behavior fuel models (standard only)
+                        
+                    </td>
+                </tr>
+                <tr style="height: 15pt;" class="Body-Body2">
+                    <td class="BodyE-Column1-Body2">Fuel parameters (custom modeling)
+                    </td>
+                    <td class="BodyD-Column1-Body2">Not implemented
+                        
+                    </td>
+                </tr>
+                <tr style="height: 12pt;" class="Body-Body1">
+                    <td class="BodyE-Column1-Body1">Two fuel models (2-D expected spread)
+                    </td>
+                    <td class="BodyD-Column1-Body1">Not implemented
+                    </td>
+                </tr>
+                <tr style="height: 15pt;" class="Body-Body2">
+                    <td class="BodyE-Column1-Body2">Two fuel models (harmonic mean)
+                    </td>
+                    <td class="BodyD-Column1-Body2">Not implemented
+                    </td>
+                </tr>
+                <tr style="height: 15pt;" class="Body-Body1">
+                    <td class="BodyE-Column1-Body1">Two fuel models (area weighted)
+                    </td>
+                    <td class="BodyD-Column1-Body1">Not implemented
+                    </td>
+                </tr>
+                <tr style="height: 15pt;" class="Body-Body2">
+                    <td class="BodyE-Column1-Body2">Special-case fuel model (palmetto-gallberry)
+                    </td>
+                    <td class="BodyD-Column1-Body2">Not implemented
+                    </td>
+                </tr>
+                <tr style="height: 16pt;" class="Body-Body1">
+                    <td class="BodyE-Column1-Body1">Special-case fuel model (western aspen)
+                    </td>
+                    <td class="BodyD-Column1-Body1">Not implemented
+                    </td>
+                </tr>
+                <tr style="height: 15pt;" class="Body-Body2">
+                    <td colspan="2" rowspan="3" class="BodyE-Column1-Body2">Dynamic curing load transfer is
+                    </td>
+                    <td class="BodyE-Column1-Body2">Calculated from live herbaceous fuel moisture
+                    </td>
+                    <td class="BodyD-Column1-Body2">Calculated from live herbaceous fuel moisture
+                    </td>
+                </tr>
+                <tr style="height: 16pt;" class="Body-Body1">
+                    <td class="BodyE-Column1-Body1">Input directly
+                    </td>
+                    <td class="BodyD-Column1-Body1">Not implemented
+                        
+                    </td>
+                </tr>
+                <tr class="Body-Body2">
+                    <td class="BodyE-Column1-Body2">
+                    </td>
+                    <td class="BodyD-Column1-Body2">
+                    </td>
+                </tr>
+                <tr style="height: 15pt;" class="Body-Body1">
+                    <td rowspan="3" class="BodyE-Column1-Body1">Moisture 
+                    </td>
+                    <td rowspan="3" class="BodyE-Column1-Body1">Moisture is entered by
+                    </td>
+                    <td class="BodyE-Column1-Body1">Dead and live category
+                    </td>
+                    <td class="BodyD-Column1-Body1">Not implemented
+                        
+                    </td>
+                </tr>
+                <tr style="height: 15pt;" class="Body-Body2">
+                    <td class="BodyE-Column1-Body2">Individual size class
+                    </td>
+                    <td class="BodyD-Column1-Body2">Individual size class
+                    </td>
+                </tr>
+                <tr style="height: 16pt;" class="Body-Body1">
+                    <td class="BodyE-Column1-Body1">Moisture scenario
+                    </td>
+                    <td class="BodyD-Column1-Body1">Not implemented
+                        
+                    </td>
+                </tr>
+                <tr style="height: 15pt;" class="Body-Body2">
+                    <td rowspan="7" class="BodyE-Column1-Body2">Wind Speed 
+                    </td>
+                    <td rowspan="5" class="BodyE-Column1-Body2">Wind speed is entered as
+                    </td>
+                    <td class="BodyE-Column1-Body2">Midflame height
+                    </td>
+                    <td class="BodyD-Column1-Body2">Midflame height
+                    </td>
+                </tr>
+                <tr style="height: 15pt;" class="Body-Body1">
+                    <td class="BodyE-Column1-Body1">20-ft wind and input WAF
+                    </td>
+                    <td class="BodyD-Column1-Body1">Not implemented
+                    </td>
+                </tr>
+                <tr style="height: 15pt;" class="Body-Body2">
+                    <td class="BodyE-Column1-Body2">20-ft wind and calculated WAF
+                    </td>
+                    <td class="BodyD-Column1-Body2">Not implemented
+                    </td>
+                </tr>
+                <tr style="height: 15pt;" class="Body-Body1">
+                    <td class="BodyE-Column1-Body1">10-m wind and input WAF
+                    </td>
+                    <td class="BodyD-Column1-Body1">Not implemented
+                    </td>
+                </tr>
+                <tr style="height: 15pt;" class="Body-Body2">
+                    <td class="BodyE-Column1-Body2">10-m wind and calculated WAF
+                    </td>
+                    <td class="BodyD-Column1-Body2">Not implemented
+                    </td>
+                </tr>
+                <tr style="height: 15pt;" class="Body-Body1">
+                    <td rowspan="2" class="BodyE-Column1-Body1">Impose maximum reliable effective wind speed limit?
+                    </td>
+                    <td class="BodyE-Column1-Body1">Yes
+                    </td>
+                    <td class="BodyD-Column1-Body1">Yes
+                    </td>
+                </tr>
+                <tr style="height: 16pt;" class="Body-Body2">
+                    <td class="BodyE-Column1-Body2">No
+                    </td>
+                    <td class="BodyD-Column1-Body2">Not implemented
+                        
+                    </td>
+                </tr>
+                <tr style="height: 15pt;" class="Body-Body1">
+                    <td rowspan="7" class="BodyE-Column1-Body1">Directions 
+                    </td>
+                    <td rowspan="2" class="BodyE-Column1-Body1">Surface fire spread direction is 
+                    </td>
+                    <td class="BodyE-Column1-Body1">Only in the direction of maximum spread
+                    </td>
+                    <td class="BodyD-Column1-Body1">Only in the direction of maximum spread
+                    </td>
+                </tr>
+                <tr style="height: 15pt;" class="Body-Body2">
+                    <td class="BodyE-Column1-Body2">In directions specified on the worksheet
+                    </td>
+                    <td class="BodyD-Column1-Body2">Not implemented
+                        
+                    </td>
+                </tr>
+                <tr style="height: 15pt;" class="Body-Body1">
+                    <td rowspan="2" class="BodyE-Column1-Body1">Wind is
+                    </td>
+                    <td class="BodyE-Column1-Body1">Specified on the worksheet
+                    </td>
+                    <td class="BodyD-Column1-Body1">Specified on the worksheet
+                    </td>
+                </tr>
+                <tr style="height: 15pt;" class="Body-Body2">
+                    <td class="BodyE-Column1-Body2">Upslope
+                    </td>
+                    <td class="BodyD-Column1-Body2">Not implemented
+                        
+                    </td>
+                </tr>
+                <tr style="height: 15pt;" class="Body-Body1">
+                    <td rowspan="2" class="BodyE-Column1-Body1">Wind and spread directions are
+                    </td>
+                    <td class="BodyE-Column1-Body1">Degrees clockwise from upslope
+                    </td>
+                    <td class="BodyD-Column1-Body1">Not implemented
+                        
+                    </td>
+                </tr>
+                <tr style="height: 16pt;" class="Body-Body2">
+                    <td class="BodyE-Column1-Body2">Degrees clockwise from north
+                    </td>
+                    <td class="BodyD-Column1-Body2">Degrees clockwise from north
+                    </td>
+                </tr>
+                <tr class="Body-Body1">
+                    <td class="BodyE-Column1-Body1">
+                    </td>
+                    <td class="BodyE-Column1-Body1">
+                    </td>
+                    <td class="BodyD-Column1-Body1">
+                    </td>
+                </tr>
+                <tr style="height: 15pt;" class="Body-Body2">
+                    <td colspan="2" rowspan="4" class="BodyE-Column1-Body2">Slope steepness is
+                    </td>
+                    <td class="BodyE-Column1-Body2">Specified as percent
+                    </td>
+                    <td class="BodyD-Column1-Body2">Specified as percent
+                    </td>
+                </tr>
+                <tr style="height: 15pt;" class="Body-Body1">
+                    <td class="BodyE-Column1-Body1">Specified as degrees
+                    </td>
+                    <td class="BodyD-Column1-Body1">Not implemented
+                        
+                    </td>
+                </tr>
+                <tr style="height: 15pt;" class="Body-Body2">
+                    <td class="BodyE-Column1-Body2">Specified on the worksheet
+                    </td>
+                    <td class="BodyD-Column1-Body2">Specified on the worksheet
+                    </td>
+                </tr>
+                <tr style="height: 16pt;" class="Body-Body1">
+                    <td class="BodyB-Column1-Body1">Calculated from map measurements
+                    </td>
+                    <td class="BodyA-Column1-Body1">Not implemented
+                        
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <h2>Output Parameters</h2>
+        <p>IFTDSS supports seven of the nine standard fire behavior outputs (surface rate of spread, heat per unit area, fireline intensity, flame length, reaction intensity, direction of maximum spread, and surface spread distance). The fire characteristics chart and the wind/slope/spread direction diagram are not included.</p>
+        <p>IFTDSS provides several fire behavior output variables that are calculated by the FBSDK code and the BehavePlus libraries but that are not presented in BehavePlus 5.0.5: estimates of rates of spread, surface spread distances, flame lengths, and fireline intensities for backing and flanking fires in addition to the head fire estimates provided by BehavePlus.</p>
+        <table class="TableStyle-AlternatingRows" style="caption-side: top;mc-table-style: url('../Resources/TableStyles/AlternatingRows.css');" cellspacing="0">
+            <col style="width: 20%;" class="Column-Column1" />
+            <col style="width: 32%;" class="Column-Column1" />
+            <col style="width: 32%;" class="Column-Column1" />
+            <thead>
+                <tr class="Head-Header1">
+                    <th class="HeadE-Column1-Header1" rowspan="2">Type
+ of Data                  </th>
+                    <th class="HeadE-Column1-Header1" colspan="2">Parameters
+                    </th>
+                </tr>
+                <tr class="Head-Header1">
+                    <th class="HeadE-Column1-Header1">BehavePlus SURFACE</th>
+                    <th class="HeadD-Column1-Header1">IFT-surface</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr style="height: 15pt;" class="Body-Body1">
+                    <td rowspan="19" class="BodyE-Column1-Body1">Standard Outputs</td>
+                    <td rowspan="3" class="BodyE-Column1-Body1">Surface Rate of Spread
+                    </td>
+                    <td class="BodyD-Column1-Body1">Surface Rate of Spread (head)
+                    </td>
+                </tr>
+                <tr style="height: 15pt;" class="Body-Body2">
+                    <td class="BodyD-Column1-Body2">Surface Rate of Spread (backing)
+                    </td>
+                </tr>
+                <tr style="height: 15pt;" class="Body-Body1">
+                    <td class="BodyD-Column1-Body1">Surface Rate of Spread (flanking)
+                    </td>
+                </tr>
+                <tr style="height: 15pt;" class="Body-Body2">
+                    <td class="BodyE-Column1-Body2">Heat per Unit Area
+                    </td>
+                    <td class="BodyD-Column1-Body2">Heat per Unit Area
+                    </td>
+                </tr>
+                <tr style="height: 15pt;" class="Body-Body1">
+                    <td rowspan="3" class="BodyE-Column1-Body1">Fireline Intensity
+                    </td>
+                    <td class="BodyD-Column1-Body1">Fireline Intensity (head)
+                    </td>
+                </tr>
+                <tr style="height: 15pt;" class="Body-Body2">
+                    <td class="BodyD-Column1-Body2">Fireline Intensity (backing)
+                    </td>
+                </tr>
+                <tr style="height: 15pt;" class="Body-Body1">
+                    <td class="BodyD-Column1-Body1">Fireline Intensity (flanking)
+                    </td>
+                </tr>
+                <tr style="height: 15pt;" class="Body-Body2">
+                    <td rowspan="3" class="BodyE-Column1-Body2">Flame Length
+                    </td>
+                    <td class="BodyD-Column1-Body2">Flame Length (head)
+                    </td>
+                </tr>
+                <tr style="height: 15pt;" class="Body-Body1">
+                    <td class="BodyD-Column1-Body1">Flame Length (backing)
+                    </td>
+                </tr>
+                <tr style="height: 15pt;" class="Body-Body2">
+                    <td class="BodyD-Column1-Body2">Flame Length (flanking)
+                    </td>
+                </tr>
+                <tr style="height: 15pt;" class="Body-Body1">
+                    <td class="BodyE-Column1-Body1">Reaction Intensity
+                    </td>
+                    <td class="BodyD-Column1-Body1">Reaction Intensity
+                    </td>
+                </tr>
+                <tr style="height: 15pt;" class="Body-Body2">
+                    <td rowspan="3" class="BodyE-Column1-Body2">Direction of Maximum Spread
+                    </td>
+                    <td class="BodyD-Column1-Body2">Direction of Maximum Spread (head)
+                    </td>
+                </tr>
+                <tr style="height: 15pt;" class="Body-Body1">
+                    <td class="BodyD-Column1-Body1">Direction of Maximum Spread (backing)</td>
+                </tr>
+                <tr class="Body-Body2">
+                    <td class="BodyD-Column1-Body2">
+                    </td>
+                </tr>
+                <tr style="height: 15pt;" class="Body-Body1">
+                    <td rowspan="3" class="BodyE-Column1-Body1">Surface Spread Distance
+                    </td>
+                    <td class="BodyD-Column1-Body1">Surface Spread Distance (head)
+                    </td>
+                </tr>
+                <tr style="height: 15pt;" class="Body-Body2">
+                    <td class="BodyD-Column1-Body2">Surface Spread Distance (backing)
+                    </td>
+                </tr>
+                <tr style="height: 15pt;" class="Body-Body1">
+                    <td class="BodyD-Column1-Body1">Surface Spread Distance (flanking)
+                    </td>
+                </tr>
+                <tr style="height: 15pt;" class="Body-Body2">
+                    <td class="BodyE-Column1-Body2">Wind/Slope/Spread Direction Diagram
+                    </td>
+                    <td class="BodyD-Column1-Body2">Not implemented
+                    
+                    </td>
+                </tr>
+                <tr style="height: 15pt;" class="Body-Body1">
+                    <td class="BodyB-Column1-Body1">Fire Characteristics Chart
+                    </td>
+                    <td class="BodyA-Column1-Body1">Not implemented
+                    
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <h2>Other Outputs and Intermediate Values</h2>
+        <p>The surface module in BehavePlus 5.0.5 has a number of optional and intermediate outputs related to adjusting wind speeds, editing and producing custom fuel models, and calculating the standard fire behavior outputs. IFTDSS does not support fuel model editing or the creation of custom fuel models so there are no output parameters for these fuel variables.</p>
+        <table class="TableStyle-AlternatingRows" style="caption-side: top;mc-table-style: url('../Resources/TableStyles/AlternatingRows.css');" cellspacing="0">
+            <col style="width: 20%;" class="Column-Column1" />
+            <col style="width: 32%;" class="Column-Column1" />
+            <col style="width: 32%;" class="Column-Column1" />
+            <thead>
+                <tr class="Head-Header1">
+                    <th class="HeadE-Column1-Header1" rowspan="2">Type
+of Data                   </th>
+                    <th class="HeadE-Column1-Header1" colspan="2">Parameters
+                    </th>
+                </tr>
+                <tr class="Head-Header1">
+                    <th class="HeadE-Column1-Header1">BehavePlus
+SURFACE                    </th>
+                    <th class="HeadD-Column1-Header1">IFT-surface   <![CDATA[                 ]]></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr style="height: 13pt;" class="Body-Body1">
+                    <td rowspan="9" class="BodyE-Column1-Body1">Wind 
+                    </td>
+                    <td class="BodyE-Column1-Body1">Midflame Wind Speed
+                    </td>
+                    <td class="BodyD-Column1-Body1">Not implemented</td>
+                </tr>
+                <tr style="height: 13pt;" class="Body-Body2">
+                    <td class="BodyE-Column1-Body2">Wind Adjustment Factor
+                    </td>
+                    <td class="BodyD-Column1-Body2">Not implemented</td>
+                </tr>
+                <tr style="height: 13pt;" class="Body-Body1">
+                    <td class="BodyE-Column1-Body1">Crown Ratio
+                    </td>
+                    <td class="BodyD-Column1-Body1">Not implemented
+                    
+                    </td>
+                </tr>
+                <tr style="height: 13pt;" class="Body-Body2">
+                    <td class="BodyE-Column1-Body2">Crown Fill Portion
+                    </td>
+                    <td class="BodyD-Column1-Body2">Not implemented
+                    
+                    </td>
+                </tr>
+                <tr style="height: 13pt;" class="Body-Body1">
+                    <td class="BodyE-Column1-Body1">WAF Calculation
+                    </td>
+                    <td class="BodyD-Column1-Body1">Not implemented
+                    
+                    </td>
+                </tr>
+                <tr style="height: 13pt;" class="Body-Body2">
+                    <td class="BodyE-Column1-Body2">Effective Wind Speed
+                    </td>
+                    <td class="BodyD-Column1-Body2">Effective Wind Speed
+                    </td>
+                </tr>
+                <tr style="height: 13pt;" class="Body-Body1">
+                    <td class="BodyE-Column1-Body1">Effective Wind Speed Limit
+                    </td>
+                    <td class="BodyD-Column1-Body1">Not implemented
+                    
+                    </td>
+                </tr>
+                <tr style="height: 13pt;" class="Body-Body2">
+                    <td class="BodyE-Column1-Body2">Maximum Effective Wind Exceed
+                    </td>
+                    <td class="BodyD-Column1-Body2">Not implemented
+                    
+                    </td>
+                </tr>
+                <tr class="Body-Body1">
+                    <td class="BodyE-Column1-Body1">
+                    </td>
+                    <td class="BodyD-Column1-Body1">
+                    </td>
+                </tr>
+                <tr style="height: 13pt;" class="Body-Body2">
+                    <td rowspan="3" class="BodyE-Column1-Body2">Slope outputs from map measurement calculations
+                    
+                    </td>
+                    <td class="BodyE-Column1-Body2">Slope steepness
+                    </td>
+                    <td class="BodyD-Column1-Body2">Not implemented
+                    
+                    </td>
+                </tr>
+                <tr style="height: 13pt;" class="Body-Body1">
+                    <td class="BodyE-Column1-Body1">Slope Elevation Change
+                    </td>
+                    <td class="BodyD-Column1-Body1">Not implemented
+                    
+                    </td>
+                </tr>
+                <tr style="height: 13pt;" class="Body-Body2">
+                    <td class="BodyE-Column1-Body2">Slope Horizontal Distance
+                    </td>
+                    <td class="BodyD-Column1-Body2">Not implemented
+                    
+                    </td>
+                </tr>
+                <tr style="height: 13pt;" class="Body-Body1">
+                    <td rowspan="7" class="BodyE-Column1-Body1">Fuel
+                    </td>
+                    <td class="BodyE-Column1-Body1">Fuel Load Transfer Portion
+                    </td>
+                    <td class="BodyD-Column1-Body1">Not implemented
+                    
+                    </td>
+                </tr>
+                <tr style="height: 13pt;" class="Body-Body2">
+                    <td class="BodyE-Column1-Body2">Dead Herbaceous Fuel Load
+                    </td>
+                    <td class="BodyD-Column1-Body2">Not implemented
+                    
+                    </td>
+                </tr>
+                <tr style="height: 13pt;" class="Body-Body1">
+                    <td class="BodyE-Column1-Body1">Live Herbaceous Fuel Load
+                    </td>
+                    <td class="BodyD-Column1-Body1">Not implemented
+                    
+                    </td>
+                </tr>
+                <tr style="height: 13pt;" class="Body-Body2">
+                    <td class="BodyE-Column1-Body2">Total Dead Fuel Load
+                    </td>
+                    <td class="BodyD-Column1-Body2">Not implemented
+                    
+                    </td>
+                </tr>
+                <tr style="height: 13pt;" class="Body-Body1">
+                    <td class="BodyE-Column1-Body1">Total Live Fuel Load
+                    </td>
+                    <td class="BodyD-Column1-Body1">Not implemented
+                    
+                    </td>
+                </tr>
+                <tr style="height: 13pt;" class="Body-Body2">
+                    <td class="BodyE-Column1-Body2">Dead Fuel Load Portion
+                    </td>
+                    <td class="BodyD-Column1-Body2">Not implemented
+                    
+                    </td>
+                </tr>
+                <tr style="height: 13pt;" class="Body-Body1">
+                    <td class="BodyE-Column1-Body1">Live Fuel Load Portion
+                    </td>
+                    <td class="BodyD-Column1-Body1">Not implemented
+                    
+                    </td>
+                </tr>
+                <tr style="height: 13pt;" class="Body-Body2">
+                    <td rowspan="7" class="BodyE-Column1-Body2">Aspen
+                    </td>
+                    <td class="BodyE-Column1-Body2">1-h Fuel Load
+                    </td>
+                    <td class="BodyD-Column1-Body2">Not implemented
+                    
+                    </td>
+                </tr>
+                <tr style="height: 13pt;" class="Body-Body1">
+                    <td class="BodyE-Column1-Body1">Live Herbaceous Fuel Load
+                    </td>
+                    <td class="BodyD-Column1-Body1">Not implemented
+                    
+                    </td>
+                </tr>
+                <tr style="height: 13pt;" class="Body-Body2">
+                    <td class="BodyE-Column1-Body2">Live Woody Fuel Load
+                    </td>
+                    <td class="BodyD-Column1-Body2">Not implemented
+                    
+                    </td>
+                </tr>
+                <tr style="height: 13pt;" class="Body-Body1">
+                    <td class="BodyE-Column1-Body1">1-h SA/V
+                    </td>
+                    <td class="BodyD-Column1-Body1">Not implemented
+                    
+                    </td>
+                </tr>
+                <tr style="height: 13pt;" class="Body-Body2">
+                    <td class="BodyE-Column1-Body2">Live Woody SA/V
+                    </td>
+                    <td class="BodyD-Column1-Body2">Not implemented
+                    
+                    </td>
+                </tr>
+                <tr style="height: 13pt;" class="Body-Body1">
+                    <td class="BodyE-Column1-Body1">Probability of Aspen Mortality
+                    </td>
+                    <td class="BodyD-Column1-Body1">Not implemented
+                    
+                    </td>
+                </tr>
+                <tr class="Body-Body2">
+                    <td class="BodyE-Column1-Body2">
+                    </td>
+                    <td class="BodyD-Column1-Body2">
+                    </td>
+                </tr>
+                <tr style="height: 13pt;" class="Body-Body1">
+                    <td rowspan="9" class="BodyE-Column1-Body1">Palmetto-gallberry
+                    </td>
+                    <td class="BodyE-Column1-Body1">P-G Dead Fine Fuel Load
+                    </td>
+                    <td class="BodyD-Column1-Body1">Not implemented
+                    
+                    </td>
+                </tr>
+                <tr style="height: 13pt;" class="Body-Body2">
+                    <td class="BodyE-Column1-Body2">P-G Dead Medium Fuel Load
+                    </td>
+                    <td class="BodyD-Column1-Body2">Not implemented
+                    
+                    </td>
+                </tr>
+                <tr style="height: 13pt;" class="Body-Body1">
+                    <td class="BodyE-Column1-Body1">P-G Dead Foliage Fuel Load
+                    </td>
+                    <td class="BodyD-Column1-Body1">Not implemented
+                    
+                    </td>
+                </tr>
+                <tr style="height: 13pt;" class="Body-Body2">
+                    <td class="BodyE-Column1-Body2">P-G Live Fine Fuel Load
+                    </td>
+                    <td class="BodyD-Column1-Body2">Not implemented
+                    
+                    </td>
+                </tr>
+                <tr style="height: 13pt;" class="Body-Body1">
+                    <td class="BodyE-Column1-Body1">P-G Live Medium Fuel Load
+                    </td>
+                    <td class="BodyD-Column1-Body1">Not implemented
+                    
+                    </td>
+                </tr>
+                <tr style="height: 13pt;" class="Body-Body2">
+                    <td class="BodyE-Column1-Body2">P-G Live Foliage Fuel Load
+                    </td>
+                    <td class="BodyD-Column1-Body2">Not implemented
+                    
+                    </td>
+                </tr>
+                <tr style="height: 13pt;" class="Body-Body1">
+                    <td class="BodyE-Column1-Body1">P-G Litter Fuel Load
+                    </td>
+                    <td class="BodyD-Column1-Body1">Not implemented
+                    
+                    </td>
+                </tr>
+                <tr style="height: 13pt;" class="Body-Body2">
+                    <td class="BodyE-Column1-Body2">Fuel bed depth</td>
+                    <td class="BodyD-Column1-Body2">Not implemented</td>
+                </tr>
+                <tr class="Body-Body1">
+                    <td class="BodyE-Column1-Body1">
+                    </td>
+                    <td class="BodyD-Column1-Body1">
+                    </td>
+                </tr>
+                <tr style="height: 13pt;" class="Body-Body2">
+                    <td rowspan="14" class="BodyE-Column1-Body2">Intermediates
+                    </td>
+                    <td class="BodyE-Column1-Body2">Characteristic Dead Fuel Moisture
+                    </td>
+                    <td class="BodyD-Column1-Body2">Not implemented
+                    
+                    </td>
+                </tr>
+                <tr style="height: 13pt;" class="Body-Body1">
+                    <td class="BodyE-Column1-Body1">Characteristic Live Fuel Moisture
+                    </td>
+                    <td class="BodyD-Column1-Body1">Not implemented
+                    
+                    </td>
+                </tr>
+                <tr style="height: 13pt;" class="Body-Body2">
+                    <td class="BodyE-Column1-Body2">Live Fuel Moisture of Extinction
+                    </td>
+                    <td class="BodyD-Column1-Body2">Not implemented
+                    
+                    </td>
+                </tr>
+                <tr style="height: 13pt;" class="Body-Body1">
+                    <td class="BodyE-Column1-Body1">Characteristic SA/V
+                    </td>
+                    <td class="BodyD-Column1-Body1">Not implemented
+                    
+                    </td>
+                </tr>
+                <tr style="height: 13pt;" class="Body-Body2">
+                    <td class="BodyE-Column1-Body2">Bulk Density
+                    </td>
+                    <td class="BodyD-Column1-Body2">Not implemented
+                    
+                    </td>
+                </tr>
+                <tr style="height: 13pt;" class="Body-Body1">
+                    <td class="BodyE-Column1-Body1">Packing Ratio
+                    </td>
+                    <td class="BodyD-Column1-Body1">Not implemented
+                    
+                    </td>
+                </tr>
+                <tr style="height: 13pt;" class="Body-Body2">
+                    <td class="BodyE-Column1-Body2">Relative Packing Ratio
+                    </td>
+                    <td class="BodyD-Column1-Body2">Not implemented
+                    
+                    </td>
+                </tr>
+                <tr style="height: 13pt;" class="Body-Body1">
+                    <td class="BodyE-Column1-Body1">Dead Fuel Reaction Intensity
+                    </td>
+                    <td class="BodyD-Column1-Body1">Not implemented
+                    
+                    </td>
+                </tr>
+                <tr style="height: 13pt;" class="Body-Body2">
+                    <td class="BodyE-Column1-Body2">Live Fuel Reaction Intensity
+                    </td>
+                    <td class="BodyD-Column1-Body2">Not implemented
+                    
+                    </td>
+                </tr>
+                <tr style="height: 13pt;" class="Body-Body1">
+                    <td class="BodyE-Column1-Body1">Wind Factor
+                    </td>
+                    <td class="BodyD-Column1-Body1">Not implemented
+                    
+                    </td>
+                </tr>
+                <tr style="height: 13pt;" class="Body-Body2">
+                    <td class="BodyE-Column1-Body2">Slope Factor
+                    </td>
+                    <td class="BodyD-Column1-Body2">Not implemented
+                    
+                    </td>
+                </tr>
+                <tr style="height: 13pt;" class="Body-Body1">
+                    <td class="BodyE-Column1-Body1">Heat Source
+                    </td>
+                    <td class="BodyD-Column1-Body1">Not implemented
+                    
+                    </td>
+                </tr>
+                <tr style="height: 13pt;" class="Body-Body2">
+                    <td class="BodyE-Column1-Body2">Heat Sink
+                    </td>
+                    <td class="BodyD-Column1-Body2">Not implemented
+                    
+                    </td>
+                </tr>
+                <tr style="height: 13pt;" class="Body-Body1">
+                    <td class="BodyB-Column1-Body1">Flame Residence Time
+                    </td>
+                    <td class="BodyA-Column1-Body1">Flame Residence Time
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>

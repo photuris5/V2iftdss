@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="4" MadCap:lastHeight="1281" MadCap:lastWidth="802" MadCap:fileTags="FileNeeds.02 In progress">
+    <head>
+    </head>
+    <body>
+        <h1>FEPS and Fire Information</h1>
+        <p>As implemented in IFTDSS and BlueSky, FEPS calculates hourly consumption and emissions for a 24-hour period.  For fire events that span multiple days, each day should be represented by a different run.</p>
+        <h2>Fire Size</h2>
+        <p>Enter the size of the fire for each 24-hour period.</p>
+        <h2>Fire Shape</h2>
+        <p>Enter either Oval for wildfires or Linear for prescribed burns.</p>
+        <h2>Fuel Consumption</h2>
+        <p>Fuel consumption values can be calculated in either <a href="../10-Reference/RefConsume.htm">Consume</a> or <a href="../10-Reference/RefFOFEM.htm">IFT-FOFEM</a>.  Consume and FEPS can only be run together for a single fuelbed in the FFA.  For burn units with multiple fuelbeds, total fuel consumption and emissions can be calculated in a Consume run and then manually entered in the FEPS pathway.</p>
+        <p>Four inputs are required:</p>
+        <ul style="list-style-type: square;">
+            <li>Flaming consumption (fuel consumption during the flaming phase of combustion)</li>
+            <li>Smoldering consumption (fuel consumption during the smoldering phase of combustion)</li>
+            <li>Residual consumption (fuel consumption during the residual smoldering phase of combustion).</li>
+            <li>Duff fuel moisture (%)</li>
+        </ul>
+        <h2>Total Emissions</h2>
+        <p>FEPS calculates hourly emissions for the following pollutant species:</p>
+        <ul style="list-style-type: square;">
+            <li>PM<sub>2.5</sub> (particulate matter &lt; 2.5 microns in diameter)</li>
+            <li>PM<sub>10</sub> (particulate matter &lt; 10 microns in diameter)</li>
+            <li>CO (carbon monoxide)</li>
+            <li>CO<sub>2</sub> (carbon dioxide)</li>
+            <li>CH<sub>4</sub> (methane)</li>
+            <li>NO<sub>x</sub> (mono-nitrogen oxides)</li>
+            <li>NH<sub>3</sub> (ammonia)</li>
+            <li>SO<sub>2</sub> (sulfur dioxide)</li>
+            <li>VOC (volatile organic compounds)</li>
+        </ul>
+        <p>Total emissions by pollutant species can be calculated using Consume and IFT-FOFEM.  Consume outputs all pollutants allowed by FEPS.  IFT-FOFEM calculates total emission for all pollutant species except for NH<sub>3</sub> and VOC.</p>
+    </body>
+</html>

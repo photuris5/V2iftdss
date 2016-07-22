@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="2" MadCap:lastHeight="1593" MadCap:lastWidth="1241">
+    <body>
+        <p>To begin, click <strong class="Strong">Create a New Project </strong>under the Home tab.</p>
+        <p>
+            <img src="../Images/Tutorial_D_WCFL_2015/2_0_Tutorial_D_cap_1.png" style="width: 359px;height: 303px;" class="img_2" alt="Option to create a new project." />
+        </p>
+        <p class="p_2">Choose a descriptive project name.</p>
+        <p class="ListParagraph_1">If desired, fill in the optional information.</p>
+        <p class="p_2">Choose <strong class="Strong">Next</strong>.</p>
+        <p>
+            <img src="../Images/Tutorial_D_WCFL_2015/2_0_Tutorial_D_cap_2.png" style="width: 402px;height: 594px;" class="img_2" alt="Fields to input the project name, and optional details." />
+        </p>
+        <p>After creating a new project, you will see the page for <strong class="Strong">creating a new run</strong>.&#160; </p>
+        <p>For the next steps, setting up an area of interest and acquiring LANDFIRE data, we are going to navigate to the project summary page by clicking on our project name (circled in red).</p>
+        <p>
+            <img src="../Images/Tutorial_D_WCFL_2015/2_0_Tutorial_D_cap_3.png" class="img_2" style="width: 632px;height: 342px;" alt="The newly created project name appears in the to left corner." />
+        </p>
+    </body>
+</html>

@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultTarget
+  Version="1"
+  Comment="New Target"
+  Type="PDF"
+  Destinations=""
+  GlossaryTermConversion="marked"
+  MasterToc="/Project/TOCs/IFTDSS-Print-TOC.fltoc"
+  MasterPageLayout="/Content/Resources/PageLayouts/PDF-Layout.flpgl"
+  MasterStylesheet="/Content/Resources/Stylesheets/IFTDSS_help.css"
+  ConditionTagExpression="include[Default.PrintOnly] exclude[Default.Internal or Default.LaterRelease or Default.Mobile or Default.Removed or Default.ScreenOnly] "
+  PatchHeadingLevels="true">
+  <PrintedOutput
+    CollapseMargins="true" />
+  <DocumentProperties
+    Author="Sonoma Technology, Inc."
+    Title="IFTDSS User's Manual" />
+  <PDF
+    ConvertBookmarks="true"
+    Tagged="true"
+    InitialMagnification="Fit"
+    PageLayout="TwoPageLeft"
+    TitleBar="DocumentTitle"
+    CollapsedBookmarks="true" />
+  <Destinations> </Destinations>
+</CatapultTarget>

@@ -1,0 +1,1129 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultGlossary>
+  <GlossaryEntry
+    TermClass="Popup">
+    <Terms>
+      <Term>IFTDSS</Term>
+    </Terms>
+    <Definition
+      Link="">Interagency Fuels Treatment Decision Support System. A web-based software integration framework that organizes and extends previously existing fire and fuels software applications to make fuels treatment planning and analysis more efficient and effective.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    TermClass="Popup">
+    <Terms>
+      <Term>JFSP</Term>
+    </Terms>
+    <Definition
+      Link="">Joint Fire Science Program. Created by Congress in 1998 to act as an interagency research, development, and applications partnership between the U.S. Department of the Interior and the U.S. Department of Agriculture.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    TermClass="Popup">
+    <Terms>
+      <Term>FCCS</Term>
+      <Term>FCCS Surface Fire Behavior</Term>
+    </Terms>
+    <Definition
+      Link="">Fuel Characteristic Classification System surface fire behavior model. This model is used to calculate surface fire behavior for selected fuelbeds under various environmental conditions. In IFTDSS, see "surface fire behavior (FCCS)."</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    TermClass="Popup">
+    <Terms>
+      <Term>FEPS</Term>
+    </Terms>
+    <Definition
+      Link="">Fire Emission Production Simulator. A FERA tool for modeling consumption, emissions, and heat release characteristics of prescribed burns and wildland fires.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    TermClass="Popup">
+    <Terms>
+      <Term>FERA</Term>
+    </Terms>
+    <Definition
+      Link="">Fire and Environmental Research Applications Team. A USDA Forest Service research team focusing on fuels and fire and landscape ecology.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    TermClass="Popup">
+    <Terms>
+      <Term>FVS</Term>
+    </Terms>
+    <Definition
+      Link="">Forest Vegetation Simulator. A family of forest growth simulation models.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    TermClass="Popup">
+    <Terms>
+      <Term>adiabatically</Term>
+      <Term>adiabatic</Term>
+    </Terms>
+    <Definition
+      Link="">The term "adiabatic" describes any process that occurs without heat transfer.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    TermClass="Popup">
+    <Terms>
+      <Term>GIS</Term>
+    </Terms>
+    <Definition
+      Link="">Geographic information system. A system for capturing, managing, and analyzing geographically referenced data.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    TermClass="Popup">
+    <Terms>
+      <Term>WFDSS</Term>
+    </Terms>
+    <Definition
+      Link="">Wildland Fire Decision Support System. An integrated set of tools used for fire modeling.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    TermClass="Popup">
+    <Terms>
+      <Term>ladder fuels</Term>
+      <Term>Ladder fuels</Term>
+    </Terms>
+    <Definition
+      Link="">Ladder fuels provide vertical continuity between vegetation strata, making it possible for fires to carry from the surface into the crowns of surrounding trees and shrubs.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    TermClass="Popup">
+    <Terms>
+      <Term>FOFEM</Term>
+      <Term>IFT-FOFEM</Term>
+    </Terms>
+    <Definition
+      Link="">FOFEM stands for First Order Fire Effects Model. This model is used to predict fuel consumption, emissions, and smoke production; and tree mortality.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    TermClass="Popup">
+    <Terms>
+      <Term>LCP</Term>
+      <Term>lcp</Term>
+      <Term>.LCP</Term>
+      <Term>.lcp</Term>
+    </Terms>
+    <Definition
+      Link="">A FARSITE Landscape data file.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    TermClass="Popup">
+    <Terms>
+      <Term>KML</Term>
+    </Terms>
+    <Definition
+      Link="">Keyhole Markup Language (KML), which is based on XML, is a file format used to display geographic data in an Earth browser (such as Google Earth, Google Maps, and Google Maps for mobile). For more information, see http://code.google.com/apis/kml/documentation/kml_tut.html.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    TermClass="Popup">
+    <Terms>
+      <Term>CBH</Term>
+    </Terms>
+    <Definition
+      Link="">Canopy base height. The canopy base height 
+(also known as crown base height) for an individual tree is the height at which sufficient fuel density exists for sustained canopy ignition.  For a stand of trees, canopy base height considers both the height of the main canopy layer as well as the height of ladder fuels in the understory.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    TermClass="Popup">
+    <Terms>
+      <Term>CBD</Term>
+    </Terms>
+    <Definition
+      Link="">Canopy bulk density. The density of available canopy fuel in a stand.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    TermClass="Popup">
+    <Terms>
+      <Term>PC</Term>
+    </Terms>
+    <Definition
+      Link="">The pocosin ecosystem. Pocosin is a type of palustrine wetland with deep, acidic, sandy, peat soils. "Palustrine" means any non-tidal inland wetland which does not have flowing water and that only contains ocean-derived salts in concentrations of less than 0.05%.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    TermClass="Popup">
+    <Terms>
+      <Term>PN</Term>
+    </Terms>
+    <Definition
+      Link="">The Ponderosa ecosystem (grassland savanna with stands of Pinus ponderosa).</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    TermClass="Popup">
+    <Terms>
+      <Term>SAF/SFM</Term>
+    </Terms>
+    <Definition
+      Link="">Society of American Foresters/sustainable forest management. The management of forests using social, economic, and environmental principles.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    TermClass="Popup">
+    <Terms>
+      <Term>NVCS</Term>
+    </Terms>
+    <Definition
+      Link="">National Vegetation Classification System. A consistent, US-wide system for classifying vegetation.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    TermClass="Popup">
+    <Terms>
+      <Term>duff</Term>
+      <Term>Duff</Term>
+    </Terms>
+    <Definition
+      Link="">Duff is the dark, partially to fully decomposed organic material (unrecognizable plant forms) above mineral soil and below the litter layer. Duff has two layers: an upper (fermentation) layer and a lower (humus) layer.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    TermClass="Popup">
+    <Terms>
+      <Term>litter</Term>
+      <Term>Litter</Term>
+      <Term>litter fuel</Term>
+      <Term>Litter fuel</Term>
+    </Terms>
+    <Definition
+      Link="">Litter is the leaves, needles, fine twigs (but not branches), and other recognizable organic material (such as leaves and flowers), on the forest or grassland floor that have undergone little or no decomposition. This layer sits on top of the duff layer.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    TermClass="Popup">
+    <Terms>
+      <Term>forb</Term>
+      <Term>forbs</Term>
+      <Term>phorb</Term>
+    </Terms>
+    <Definition
+      Link="">A forb is an herbaceous, flowering plant that is not a graminoid (that is, is not a sedge, rush, or true grass). Sometimes spelled phorb, especially in older works.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    TermClass="Popup">
+    <Terms>
+      <Term>DBH</Term>
+      <Term>D.B.H.</Term>
+      <Term>Diameter Breast Height</Term>
+      <Term>Diameter at Breast Height</Term>
+    </Terms>
+    <Definition
+      Link="">Tree diameter at breast height. Because trees are generally wider at the base and narrower higher up, the diameter at breast height is used to define the size of the tree. The definition of breast height can vary but is usually 4.5 feet above the ground.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    TermClass="Popup">
+    <Terms>
+      <Term>AOI</Term>
+      <Term>area of interest</Term>
+    </Terms>
+    <Definition
+      Link="">For IFTDSS, an area of interest (AOI) is a scale-independent unit of area defined by a user. When working with spatial models, you will need to define an AOI. Within an AOI, project areas and vegetation units can be defined for analysis. There is no minimum size unit, but the maximum size for a unit is one million acres (approximately 400,000 hectares).</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    TermClass="Popup">
+    <Terms>
+      <Term>aspatial fuels treatment analysis</Term>
+    </Terms>
+    <Definition
+      Link="">A fuels treatment analysis based on a single treatment unit, with the focus on learning fire behavior within that treatment unit, or on the biological effects of changing vegetation caused by the treatment implementation.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    TermClass="Popup">
+    <Terms>
+      <Term>Consume</Term>
+    </Terms>
+    <Definition
+      Link="">A fire effects prediction model. It uses fuel loadings, fuel moisture, and weather variables to predict fuel consumption, particulate emissions, and heat energy released under prescribed fire and wildfire conditions. In IFTDSS, see "consumption, emissions, and heat release (Consume)."</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    TermClass="Popup">
+    <Terms>
+      <Term>FARSITE</Term>
+    </Terms>
+    <Definition
+      Link="">A fire growth simulation model. FARSITE uses spatial information about topography and fuels along with weather and wind files.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    TermClass="Popup">
+    <Terms>
+      <Term>FFE</Term>
+    </Terms>
+    <Definition
+      Link="">Fuels and Fire Extension. An extension to the Forest Vegetaion Simulator that simulates fuel dynamics and fire behavior.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    TermClass="Popup">
+    <Terms>
+      <Term>FFI</Term>
+    </Terms>
+    <Definition
+      Link="">FEAT/FIREMON Integrated. A monitoring software tool that integrates the Fire Ecology Assessment Tool (FEAT) with FIREMON. It is used for collecting, storing, and analyzing ecological information.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    TermClass="Popup">
+    <Terms>
+      <Term>FIA</Term>
+    </Terms>
+    <Definition
+      Link="">Forest Inventory Assessment; sometimes Forest Inventory and Analysis. The process of collecting and analyzing data on forests.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    TermClass="Popup">
+    <Terms>
+      <Term>fire hazard</Term>
+    </Terms>
+    <Definition
+      Link="">For IFTDSS, a fire hazard is an act or phenomenon with the potential to do harm.  It can be expressed as potential fire behavior (e.g., fire line intensity, crown scorch height), or a property of the fuels, such as fuel loading or vegetation biomass, or both. A fire hazard is independent of weather and describes the fuels at one point in time.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    TermClass="Popup">
+    <Terms>
+      <Term>fire regime</Term>
+    </Terms>
+    <Definition
+      Link="">A general description of the role fire plays in an ecosystem. Fire regimes are generally described by the characteristics of fire in a given ecosystem, such as the size, frequency, predictability, intensity, biological severity, and seasonality of fire.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    TermClass="Popup">
+    <Terms>
+      <Term>fire risk</Term>
+    </Terms>
+    <Definition
+      Link="">The chance that a fire might start based on the nature and incidence of its causative agents. Generally, for IFTDSS, fire risk is the probability that a fire ignites and then subsequently spreads to ignite adjacent fuels within a specified area and defined time frame (also see definition of risk from an engineering perspective).</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    TermClass="Popup">
+    <Terms>
+      <Term>graminoid</Term>
+    </Terms>
+    <Definition
+      Link="">Sedges, rushes, and true grasses.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    TermClass="Popup">
+    <Terms>
+      <Term>BehavePlus</Term>
+    </Terms>
+    <Definition
+      Link="">A fire modeling system containing a collection of mathematical models that describe fire and the fire environment. BehavePlus can be used for a multitude of fire management applications, including projecting the behavior of an ongoing fire, planning prescribed fires, and training.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    TermClass="Popup">
+    <Terms>
+      <Term>first order fire effects</Term>
+    </Terms>
+    <Definition
+      Link="">Direct or indirect immediate consequences of fire. Examples of first order fire effects are biomass consumption, crown scorch, bole damage, tree mortality, soil heating, and smoke production. See also IFT-FOFEM.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    TermClass="Popup">
+    <Terms>
+      <Term>bole</Term>
+    </Terms>
+    <Definition
+      Link="">The trunk of a tree.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    TermClass="Popup">
+    <Terms>
+      <Term>Surface fuels</Term>
+      <Term>surface fuels</Term>
+      <Term>surface fuel</Term>
+    </Terms>
+    <Definition
+      Link="">Surface fuels include the litter, grass, brush, and other dead and live vegetation within about 6 feet of the ground.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    TermClass="Popup">
+    <Terms>
+      <Term>fireline</Term>
+      <Term>fireguard</Term>
+      <Term>firebreak</Term>
+    </Terms>
+    <Definition
+      Link="">A fireline (also called a fireguard or firebreak) is a trip of open land (cleared or plowed to the mineral soil) that is used to stop the spread of a fire.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    TermClass="Popup">
+    <Terms>
+      <Term>surface fire</Term>
+    </Terms>
+    <Definition
+      Link="">A fire that burns only the surface litter and growth of a forest.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    TermClass="Popup">
+    <Terms>
+      <Term>resource</Term>
+      <Term>resources</Term>
+    </Terms>
+    <Definition
+      Link="">1. The tools, equipment, services, supplies, and personnel available for assignment to incidents. 2. The natural resources of an area. 3. Within IFTDSS, tools, workflows, and other elements.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    TermClass="Popup">
+    <Terms>
+      <Term>shrub</Term>
+      <Term>shrubs</Term>
+    </Terms>
+    <Definition
+      Link="">Shrubs (also called bushes) are woody perennial plants that differ from trees by their low height and multiple basal stems. If a shrub is very small (such as a lavender plant), it might be called a subshrub. In parks, a group of cultivated shrubs is called a shrubbery.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    TermClass="Popup">
+    <Terms>
+      <Term>woody fuel</Term>
+      <Term>woody fuels</Term>
+    </Terms>
+    <Definition
+      Link="">Woody fuels have a true woody stem. Woody fuels include sound wood, rotten wood, and stumps.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    TermClass="Popup">
+    <Terms>
+      <Term>Non-woody fuels</Term>
+      <Term>non-woody fuels</Term>
+    </Terms>
+    <Definition
+      Link="">Non-woody fuels lack a true woody stem; this is what distinguishes them from woody fuels.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    TermClass="Popup">
+    <Terms>
+      <Term>chain</Term>
+      <Term>chains</Term>
+    </Terms>
+    <Definition
+      Link="">A unit of length. One chain is 66 feet in length (22 yards; approximately twenty meters).</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    TermClass="Popup">
+    <Terms>
+      <Term>cover type</Term>
+    </Terms>
+    <Definition
+      Link="">The type of vegetation (or lack of it) growing on an area. Cover type defines both a qualitative aspect (the dominant cover type) as well as a quantitative aspect (the abundance of the predominant features of that cover type).</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    TermClass="Popup">
+    <Terms>
+      <Term>crown base height</Term>
+    </Terms>
+    <Definition
+      Link="">The vertical distance from the ground to the bottom of the live crown of an individual tree (Scott and Reinhardt, 2001). This is also known as the canopy base height.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    TermClass="Popup">
+    <Terms>
+      <Term>basal accumulation</Term>
+      <Term>basal accumulations</Term>
+      <Term>Basal Accumulations</Term>
+    </Terms>
+    <Definition
+      Link="">Accumulations of bark, downed woody debris, litter, and duff surrounding tree trunks.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    TermClass="Popup">
+    <Terms>
+      <Term>squirrel midden</Term>
+    </Terms>
+    <Definition
+      Link="">A mound formed from the bits left behind after a squirrel finishes eating.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    TermClass="Popup">
+    <Terms>
+      <Term>fuelbed</Term>
+      <Term>fuelbeds</Term>
+      <Term>fuelbed(s)</Term>
+    </Terms>
+    <Definition
+      Link="">A fuelbed is an area of similar fuel characteristics within a unit.  A fuelbed contains one or more fuelbed strata (e.g., canopy, shrubs, etc).</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    TermClass="Popup">
+    <Terms>
+      <Term>ecoregions</Term>
+      <Term>ecoregion</Term>
+      <Term>Eco Region</Term>
+    </Terms>
+    <Definition
+      Link="">Ecosystems of regional extent. Usually refers to Bailey's 13 ecoregions, which are Hot Continental, Marine, Mediterranean, Prairie, Rainforest, Savanna, Subarctic, Subtropical, Temperate Desert, Temperate Steppe, Tropical/Subtropical Desert, Tropical/Subtropical Steppe Desert, Tundra, and Warm Continental.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    TermClass="Popup">
+    <Terms>
+      <Term>Bailey's ecoregions</Term>
+    </Terms>
+    <Definition
+      Link="">Tundra, subarctic, warm continental, hot continental, subtropical, prairie, marine, Mediterranean, tropical/subtropical steppe desert, tropical/subtropical desert, temperate steppe, temperate desert, savanna, and rainforest.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    TermClass="Popup">
+    <Terms>
+      <Term>surface rate of spread</Term>
+      <Term>Surface rate of spread</Term>
+    </Terms>
+    <Definition
+      Link="">The "speed" at which a fire travels through the surface fuels.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    TermClass="Popup">
+    <Terms>
+      <Term>Btu</Term>
+      <Term>Btus</Term>
+    </Terms>
+    <Definition
+      Link="">British thermal units; approximately 1,055 joules. Both BTU and Btu are correct.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    TermClass="Popup">
+    <Terms>
+      <Term>flaming front</Term>
+    </Terms>
+    <Definition
+      Link="">The zone of a moving fire where the combustion is primarily flaming. Behind this flaming zone, combustion is primarily smoldering. (Adapted from http://www.pbs.org/wgbh/nova/fire/glossary.html.)</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    TermClass="Popup">
+    <Terms>
+      <Term>flame length</Term>
+      <Term>flame length class</Term>
+      <Term>user-defined flame length</Term>
+    </Terms>
+    <Definition
+      Link="">The flame length of a spreading surface fire within the flaming front is measured from midway in the active flaming combustion zone to the average tip of the flames. Flame length is an indicator of fire intensity. Flame lengths are divided into classes (low, medium, high, very high). In IFTDSS risk assessment, you can define the lengths you want assigned for each class.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    TermClass="Popup">
+    <Terms>
+      <Term>flame depth</Term>
+    </Terms>
+    <Definition
+      Link="">The depth of the fire front. (From http://www.nwcg.gov/pms/pubs/glossary/f.htm.)</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    TermClass="Popup">
+    <Terms>
+      <Term>flame height</Term>
+    </Terms>
+    <Definition
+      Link="">The average maximum vertical extension of flames at the leading edge of the fire front. Occasional flashes that rise above the general level of flames are not considered. This distance is less than the flame length if flames are tilted due to wind or slope. (From http://www.nwcg.gov/pms/pubs/glossary/f.htm.)</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    TermClass="Popup">
+    <Terms>
+      <Term>wind adjustment factor (WAF)</Term>
+    </Terms>
+    <Definition
+      Link="">An adjustment to wind speed used when calculating fire spread and intensity.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    TermClass="Popup">
+    <Terms>
+      <Term>canopy base height</Term>
+    </Terms>
+    <Definition
+      Link="">The canopy base height 
+(also known as crown base height) for an individual tree is the height at which sufficient fuel density exists for sustained canopy ignition.  For a stand of trees, canopy base height considers both the height of the main canopy layer as well as the height of ladder fuels in the understory.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    TermClass="Popup">
+    <Terms>
+      <Term>fireline intensity</Term>
+    </Terms>
+    <Definition
+      Link="">The heat energy released per unit time from a one-foot-wide (or one-meter-wide) section of the fuel bed extending from the front to the rear of the flaming zone.  Fireline intensity is a function of rate of spread and heat per unit area, and is directly related to flame length.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    TermClass="Popup">
+    <Terms>
+      <Term>HPUA</Term>
+    </Terms>
+    <Definition
+      Link="">Heat per unit area. Heat energy release per unit area (square foot or square meter) within the flaming front of the surface fuel.  HPUA is not affected by wind speed, slope, or direction of spread.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    TermClass="Popup">
+    <Terms>
+      <Term>foliar moisture</Term>
+    </Terms>
+    <Definition
+      Link="">The moisture content of the overstory foliage, the conifer needles. It is used along with fireline intensity and canopy base height to determine the threshold for transition to crown fire.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    TermClass="Popup">
+    <Terms>
+      <Term>rate of spread</Term>
+    </Terms>
+    <Definition
+      Link="">For FCCS, this is the distance per unit of time of the flaming front. For other models, the definition might be somewhat different or more specific.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    TermClass="Popup">
+    <Terms>
+      <Term>reaction intensity</Term>
+    </Terms>
+    <Definition
+      Link="">The rate of the energy release per area (square foot or square meter) within the flaming front. There can be different types of reaction intensity, such as for dead fuels or live fuels.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    TermClass="Popup">
+    <Terms>
+      <Term>epiphytes</Term>
+    </Terms>
+    <Definition
+      Link="">Non-parasitic plants that grow on other plants, such as bromeliads, many types of ferns, orchids, and air plants. An epiphyte depends on the plant it is growing on for mechanical support only; it doesn't depend on it for nutrients.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    TermClass="Popup">
+    <Terms>
+      <Term>epicormic sprouting</Term>
+    </Terms>
+    <Definition
+      Link="">Sprouting that comes from buds that normally lie dormant under the bark of a trunk, stem, or branch of a plant.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    TermClass="Popup">
+    <Terms>
+      <Term>LLM</Term>
+    </Terms>
+    <Definition
+      Link="">Litter, lichen, and moss. The top layer of forest or rangeland floors.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    TermClass="Popup">
+    <Terms>
+      <Term>lichen</Term>
+      <Term>Lichen</Term>
+    </Terms>
+    <Definition
+      Link="">A forest floor layer comprising ground lichens occurring on rocks, bare ground, or low vegetation.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    TermClass="Popup">
+    <Terms>
+      <Term>moss</Term>
+      <Term>Moss</Term>
+    </Terms>
+    <Definition
+      Link="">A forest floor layer comprising low-growing bryophytes. Bryophytes are usually found in moist habitats.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    TermClass="Popup">
+    <Terms>
+      <Term>bryophytes</Term>
+    </Terms>
+    <Definition
+      Link="">Land plants that do not have true vascular tissue.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    TermClass="Popup">
+    <Terms>
+      <Term>canopy</Term>
+      <Term>Canopy</Term>
+    </Terms>
+    <Definition
+      Link="">The stratum containing the crowns of the tallest vegetation present (living or dead), usually above 20 feet. (Source: NWCG Glossary of Wildland Fire Terminology.) Canopy characteristics (including canopy bulk density and canopy base height) for conifer stands are (1) Douglas-fir/lodgepole pine, (2) lodgepole pine, (3) Ponderosa pine/Douglas-fir, (4) Ponderosa pine, and (5) Sierra Nevada mixed conifer (Scott and Reinhardt, 2005).</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    TermClass="Popup">
+    <Terms>
+      <Term>lightered</Term>
+      <Term>Lightered</Term>
+      <Term>lighterwood</Term>
+      <Term>Lighterwood</Term>
+    </Terms>
+    <Definition
+      Link="">Lightwood (fatwood, lightered wood or stumps, stumpwood): coniferous wood having an abnormally high content of resin and therefore easily set alight (afire). (From Burns and Honkala v.2, 1990)</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    TermClass="Popup">
+    <Terms>
+      <Term>lethal temperature</Term>
+    </Terms>
+    <Definition
+      Link="">The temperature needed to kill live crown foliage. It is assumed to be 140° Fahrenheit (60° Celsius).</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    TermClass="Popup">
+    <Terms>
+      <Term>spotting distance</Term>
+    </Terms>
+    <Definition
+      Link="">The maximum distance from different possible sources (e.g., burning piles, torching trees, or wind-driven surface fires) where one can expect potential spot fires.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    TermClass="Popup">
+    <Terms>
+      <Term>SA/V</Term>
+    </Terms>
+    <Definition
+      Link="">Surface area to volume ratio. The area on the outside of the fuel (surface area) divided by the volume of the fuel.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    TermClass="Popup">
+    <Terms>
+      <Term>P-G</Term>
+      <Term>palmetto-gallberry</Term>
+      <Term>Palmetto-gallberry</Term>
+    </Terms>
+    <Definition
+      Link="">Palmetto-gallberry, a fuel type. It is "the complex association of saw-palmetto [Serenoa repens (Bartr.) Small] and common gallberry [llex glabra (L.) Gray] with many other plants beneath slash pines (Pinus elliottii Engelm.) or mixtures of slash and longleaf pine (P. palustris Mill.). Openings frequently contain small shrubs [Vaccinium spp., Quercus spp., and Kalmiella hirsuta (Walt.) Small] and wiregrass (Aristida spp.). Palmetto and gallberry are two of the most common plants occurring in forest understories on the Lower Coastal Plain of the Southern United States." (Hough and Albini, 1978)</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    TermClass="Popup">
+    <Terms>
+      <Term>CONTAIN</Term>
+      <Term>IFT-contain</Term>
+    </Terms>
+    <Definition
+      Link="">A model for estimating the fire suppression resources necessary for containing a fire that is growing from a point source. See also "containment resources."</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    TermClass="Popup">
+    <Terms>
+      <Term>IGNITE</Term>
+      <Term>IFT-ignite</Term>
+    </Terms>
+    <Definition
+      Link="">A model that calculates the probability of ignition from either a firebrand or a lightning strike. See also "probability of ignition."</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    TermClass="Popup">
+    <Terms>
+      <Term>SAFETY</Term>
+      <Term>IFT-safety</Term>
+    </Terms>
+    <Definition
+      Link="">A model used to calculate safety zone size. See also "safety zone size."</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    TermClass="Popup">
+    <Terms>
+      <Term>SCORCH</Term>
+      <Term>IFT-scorch</Term>
+    </Terms>
+    <Definition
+      Link="">This model is used to estimate crown scorch height from surface fire flame lengths. See also "crown scorch height."</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    TermClass="Popup">
+    <Terms>
+      <Term>SIZE</Term>
+      <Term>IFT-size</Term>
+    </Terms>
+    <Definition
+      Link="">This model is used to estimate the size of a point source fire. See also "fire size and spread."</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    TermClass="Popup">
+    <Terms>
+      <Term>SPOT</Term>
+      <Term>IFT-spot</Term>
+    </Terms>
+    <Definition
+      Link="">This model calculates the maximum distance from different possible sources (burning piles,  torching trees, or wind-driven surface fires) where one can expect potential spot fires. See also "spotting distance."</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    TermClass="Popup">
+    <Terms>
+      <Term>SURFACE</Term>
+      <Term>IFT-surface</Term>
+    </Terms>
+    <Definition
+      Link="">This model calculates surface fire spread and intensity.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    TermClass="Popup">
+    <Terms>
+      <Term>crosswalk</Term>
+    </Terms>
+    <Definition
+      Link="">A method for transitioning from one or more of the original 13 fuel models to one or more of the 40 new models, or vice versa.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    TermClass="Popup">
+    <Terms>
+      <Term>FlamMap</Term>
+      <Term>IFT-FlamMap</Term>
+    </Terms>
+    <Definition
+      Link="">A fire behavior mapping and analysis program that computes potential fire behavior characteristics (spread rate, flame length, fireline intensity, etc.) over an entire landscape under constant weather and fuel moisture conditions. You can use it for hazard analysis and for prescribed burn planning.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    TermClass="Popup">
+    <Terms>
+      <Term>CROWN</Term>
+    </Terms>
+    <Definition
+      Link="">A model used to estimate the critical surface intensity needed for transition from surface to crown fire. In IFTDSS, see "crown fire behavior."</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    TermClass="Popup">
+    <Terms>
+      <Term>slope</Term>
+    </Terms>
+    <Definition
+      Link="">The ratio of the elevational change (rise) over a horizontal distance (run).</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    TermClass="Popup">
+    <Terms>
+      <Term>crown fire</Term>
+    </Terms>
+    <Definition
+      Link="">A fire that is in the forest canopy.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    TermClass="Popup">
+    <Terms>
+      <Term>NRC</Term>
+    </Terms>
+    <Definition
+      Link="">National Research Council. A branch of the National Academies (National Academy of Sciences, National Academy of Engineering, and Institute of Medicine), the NRC does much of the research for those bodies.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    TermClass="Popup">
+    <Terms>
+      <Term>WAF</Term>
+    </Terms>
+    <Definition
+      Link="">Wind adjustment factor. An adjustment to wind speed used when calculating fire spread and intensity.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    TermClass="Popup">
+    <Terms>
+      <Term>extinction moisture</Term>
+      <Term>moisture of extinction</Term>
+    </Terms>
+    <Definition
+      Link="">The percentage of moisture content in fuel at which a fire will not spread through that fuel, or spreads only sporadically and in an unpredictable manner. The percentage of moisture that constitutes moisture of extinction depends on fuel characteristics and situations.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    TermClass="Popup">
+    <Terms>
+      <Term>needle drape</Term>
+    </Terms>
+    <Definition
+      Link="">Dead needles hanging in the understory canopy or at the shrub level. Needle drape is an aerial fuel.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    TermClass="Popup">
+    <Terms>
+      <Term>blowdown</Term>
+    </Terms>
+    <Definition
+      Link="">Trees that have been blown down by the wind.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    TermClass="Popup">
+    <Terms>
+      <Term>workflow</Term>
+    </Terms>
+    <Definition
+      Link="">A set of modeling pathways that provide access to fuels treatment analysis and planning tools in a stepwise and intuitive manner. Each workflow addresses a particular business need.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    TermClass="Popup">
+    <Terms>
+      <Term>NEXUS</Term>
+    </Terms>
+    <Definition
+      Link="">A crown fire hazard assessment system.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    TermClass="Popup">
+    <Terms>
+      <Term>fuel model</Term>
+      <Term>fuel models</Term>
+    </Terms>
+    <Definition
+      Link="">A fuel model is a set of information on the fuelbed inputs to be used in specific fire behavior or fire effects models. Anderson (1982) proposed 13 fuel models; Scott and Burgan (2005) proposed an additional 40.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    TermClass="Popup">
+    <Terms>
+      <Term>NWCG</Term>
+    </Terms>
+    <Definition
+      Link="">National Wildfire Coordinating Group. An operational group that coordinates programs of participating wildfire management agencies.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    TermClass="Popup">
+    <Terms>
+      <Term>IT</Term>
+    </Terms>
+    <Definition
+      Link="">Information technology. Refers generally to the technology used to acquire, process, store, and disseminate electronic data. Refers more specifically to the field of work managing that technology.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    TermClass="Popup">
+    <Terms>
+      <Term>LANDFIRE</Term>
+    </Terms>
+    <Definition
+      Link="">Landscape Fire and Resource Management Planning Tools Project. An interagency vegetation, fire, and fuel characteristics mapping program whose focus is the entire United States. Sponsors are the United States Department of the Interior and the USDA Forest Service.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    TermClass="Popup">
+    <Terms>
+      <Term>understory</Term>
+    </Terms>
+    <Definition
+      Link="">The area of the forest in which plants are growing  at the lowest height level under the forest canopy. Typical plants include small trees, shrubs, herbs, vines, and small canopy trees that haven't yet made it to the top.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    TermClass="Popup">
+    <Terms>
+      <Term>slash</Term>
+    </Terms>
+    <Definition
+      Link="">The coarse and fine woody debris generated by natural processes (such as wind) or by logging operations.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    TermClass="Popup">
+    <Terms>
+      <Term>timber</Term>
+    </Terms>
+    <Definition
+      Link="">Trees; also, the wood from trees. Typically, a tree is a perennial woody plant with a single main trunk and and many secondary branches. A group of trees is called a stand, wood, timber, or forest, with number of trees determining which term is preferred.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    TermClass="Popup">
+    <Terms>
+      <Term>grass</Term>
+      <Term>grasses</Term>
+    </Terms>
+    <Definition
+      Link="">Graminoids: herbaceous plants with narrow leaves growing from the base. The term "grasses" includes both the true grasses (cereals, bamboo, and grasses) as well as sedges and rushes (marsh and grassland plants).</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    TermClass="Popup">
+    <Terms>
+      <Term>acre</Term>
+    </Terms>
+    <Definition
+      Link="">A measure of land used in the Imperial and US systems; 43,560 square feet or 4,840 square yards. There are 640 acres in one square mile. One acre is 0.405 hectares.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    TermClass="Popup">
+    <Terms>
+      <Term>hectare</Term>
+      <Term>hectares</Term>
+    </Terms>
+    <Definition
+      Link="">A metric measure of area, usually applied to land, defined as 10,000 square meters. A hectare of land is about 2.47 acres.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    TermClass="Popup">
+    <Terms>
+      <Term>fuel moisture</Term>
+    </Terms>
+    <Definition
+      Link="">Moisture content in fuels determines whether and to what extent fuels will burn. Fuel moisture is a percentage calculated by the weight of contained water in the fuel divided by the ovendry weight of the fuel.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    TermClass="Popup">
+    <Terms>
+      <Term>fuel</Term>
+      <Term>fuels</Term>
+    </Terms>
+    <Definition
+      Link="">Combustable materials that a fire consumes in order to burn. The models in IFTDSS take fuel inputs such as trees, bushes, and grasslands.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    TermClass="Popup">
+    <Terms>
+      <Term>flash point</Term>
+    </Terms>
+    <Definition
+      Link="">The temperature at which a combination of fuel and an oxidizer will ignite.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    TermClass="Popup">
+    <Terms>
+      <Term>FIREHARM</Term>
+    </Terms>
+    <Definition
+      Link="">FIRE Hazard and Risk Model. A research model for mapping fire hazard and fire risk.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    TermClass="Popup">
+    <Terms>
+      <Term>project</Term>
+    </Terms>
+    <Definition
+      Link="">A project consists of one or more units that are organized and managed as a single endeavor.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    TermClass="Popup">
+    <Terms>
+      <Term>unit</Term>
+    </Terms>
+    <Definition
+      Link="">A unit encompasses a single or group of fuelbeds that are part of a fuel treatment (e.g., harvest unit, prescribed burn unit) or wildland fire.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    TermClass="Popup">
+    <Terms>
+      <Term>fuelbed stratum</Term>
+    </Terms>
+    <Definition
+      Link="">A fuelbed stratum is a horizontal layer of a fuelbed that represents a combustion environment. Fuelbed strata can include canopy, shrub, nonwoody vegetation (i.e., grasses, forbs and herbs), woody fuel, moss, lichen, litter, and ground fuels.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    TermClass="Popup">
+    <Terms>
+      <Term>fuel category</Term>
+    </Terms>
+    <Definition
+      Link="">Each fuelbed stratum is composed of one or more fuel categories, each of which comprises a unique combustion environment. Examples of fuel categories in the ground fuel stratum include duff and basal accumulation.  Fuel categories may also have subcategories. For example, the canopy stratum has three categories, including trees, snags, and ladder fuels. In turn, the tree category has three subcategories, including overstory, midstory, and understory trees.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    TermClass="Popup">
+    <Terms>
+      <Term>combustion stage</Term>
+    </Terms>
+    <Definition
+      Link="">A unique burn environment composed of specific types of fuelbed strata.  These stages are flaming, smoldering, and residual smoldering.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    TermClass="Popup">
+    <Terms>
+      <Term>consumption</Term>
+    </Terms>
+    <Definition
+      Link="">The amount of fuels by weight (tons/acre) consumed within a specific combustion stage for a fuel category within a fuelbed stratum.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    TermClass="Popup">
+    <Terms>
+      <Term>emissions</Term>
+    </Terms>
+    <Definition
+      Link="">Pollutants produced within a specific combustion stage for a fuel category within a fuelbed stratum. For example, emissions can be carbon monoxide and particular matter that are released to the atmosphere from the combustion of biomass.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    TermClass="Popup">
+    <Terms>
+      <Term>fuel loading</Term>
+    </Terms>
+    <Definition
+      Link="">Dry weight in tons/acre of fuels.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    TermClass="Popup">
+    <Terms>
+      <Term>RANDIG</Term>
+      <Term>IFT-RANDIG</Term>
+    </Terms>
+    <Definition
+      Link="">A module that simulates random ignitions. One useful application is in risk assessments.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    TermClass="Popup">
+    <Terms>
+      <Term>handline</Term>
+    </Terms>
+    <Definition
+      Link="">A fire break that is dug manually.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    TermClass="Popup">
+    <Terms>
+      <Term>foehn wind</Term>
+      <Term>föhn wind</Term>
+    </Terms>
+    <Definition
+      Link="">Foehn (föhn) winds are dry, down-slope winds that occur on the leeward (downwind, rain shadow) side of a mountain range. This type of wind is also sometimes called a Chinook wind. The process for the creation of these winds is adiabatic warming of air that dropped its moisture on the windward side of the mountain. Föhn winds can raise air temperatures dramatically (30°C/54°F) in just a few hours and can contribute to the rapid spread of wildland fires. These winds are known by different names in different places around the world. The Santa Ana winds of southern California are similar, though they are are katabatic winds that originate in dry deserts.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    TermClass="Popup">
+    <Terms>
+      <Term>katabatic</Term>
+    </Terms>
+    <Definition
+      Link="">A katabatic wind carries high density air from a higher elevation downslope under the force of gravity. The air warms adiabatically as it descends.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    TermClass="Popup">
+    <Terms>
+      <Term>model</Term>
+      <Term>module</Term>
+    </Terms>
+    <Definition
+      Link="">A model is a set of mathematical relationships that describe an aspect of wildland fire (Andrews and Queen, 2001); generally, models are equations that are published in scientific literature. A module is a collection of models. A modeling system or software application is a set of modules presented through a software interface. A fuel model is not an equation but is instead a description of fuels accompanied by a list of values for use as input into fire behavior models.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    TermClass="Popup">
+    <Terms>
+      <Term>HVR</Term>
+      <Term>highly valued resources</Term>
+      <Term>values at risk</Term>
+    </Terms>
+    <Definition
+      Link="">Features on the landscape that are influenced positively and/or negatively by fire. These features are called values at risk or highly valued resources (HVR). Examples of values at risk include archaeological sites, historic buildings, wildland urban interface, airports, highway buffers, and conifer forests.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    TermClass="Popup">
+    <Terms>
+      <Term>NVC</Term>
+      <Term>net value change</Term>
+      <Term>relative net value change</Term>
+    </Terms>
+    <Definition
+      Link="">Relative net value change is the main output of the risk assessment pathways in IFTDSS. The relative net value change in land value due to fire is assumed to be a function of fire behavior, and includes both positive and negative effects for fire. For more information, see Calkin et al 2010a.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    TermClass="Popup">
+    <Terms>
+      <Term>CSV</Term>
+    </Terms>
+    <Definition
+      Link="">Comma-separated values. This is a way of formatting data in a file so that it can be read by different programs. Usually this type of file is produced by saving a database or spreadsheet in this format. In this format, the values for each row or record are separated by commas.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    TermClass="Popup">
+    <Terms>
+      <Term>burn probability</Term>
+    </Terms>
+    <Definition
+      Link="">The likelihood that an area will burn. In IFTDSS, this is more specifically defined as the likelihood that an area represented by a pixel will burn under specific conditions.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    TermClass="Popup">
+    <Terms>
+      <Term>response function</Term>
+    </Terms>
+    <Definition
+      Link="">The mathematical relationship between fire characteristic and fire outcome.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    TermClass="Popup">
+    <Terms>
+      <Term>FBPS</Term>
+      <Term>Fire Behavior Prediction System</Term>
+      <Term>Fire Behavior Prediction System (FBPS)</Term>
+    </Terms>
+    <Definition
+      Link="">A Fire Behavior Prediction System (FBPS) uses one or more fire behavior fuel models. A fire behavior fuel model describes how fire is likely to behave based on natural fuel conditions. Using Rothermel's 1972 seminal work, Anderson (1982) originally described 13 fire behavior fuel models. Later, Scott and Burgan (2005) added 40 more fire behavior fuel models.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    TermClass="Popup">
+    <Terms>
+      <Term>activity fuel</Term>
+      <Term>activity fuels</Term>
+    </Terms>
+    <Definition
+      Link="">Activity fuels have arisen out of forestry practices, either as a by-product of those practices or through deliberate modification (such as mastication).</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    TermClass="Popup">
+    <Terms>
+      <Term>natural fuel</Term>
+      <Term>natural fuels</Term>
+    </Terms>
+    <Definition
+      Link="">Natural fuels are fuels that result from natural processes.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    TermClass="Popup">
+    <Terms>
+      <Term>NTLL</Term>
+    </Terms>
+    <Definition
+      Link="">National Tree-List Layer</Definition>
+  </GlossaryEntry>
+</CatapultGlossary>

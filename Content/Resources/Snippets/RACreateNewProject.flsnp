@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="2066" MadCap:lastWidth="907" MadCap:fileTags="FileNeeds.04 Ready for review">
+    <head>
+    </head>
+    <body>
+        <p>To begin, you need to create a new project. You can find more information about creating projects in general in the topic, <MadCap:xref href="../../03-Concepts/ProjCreate.htm"><b>Creating a Project</b></MadCap:xref>.&#160;Here, we give information specific to this tutorial.</p>
+        <MadCap:snippetBlock src="CreateNewProject.flsnp" />
+        <p>
+            <img src="../Images/Tutorial_D_WCFL_2015/2_0_Tutorial_D_cap_2.png" class="screencap" title="New project information page" alt="The new project information page, where you enter identifying information on the project." style="width: 479px;height: 708px;" />
+        </p>
+        <ol start="3" class="ol_1">
+            <li>Choose <strong>Next</strong>. Your project is saved and you are taken to a page where you choose the type of run you want to create.<br /><br /><img src="../Images/Tutorial_D_WCFL_2015/2_0_Tutorial_D_cap_3.png" class="screencap" title="Accessing a project" alt="This image shows where the link is that you use to access a project" /></li>
+            <li>In this case, you are going to acquire LANDFIRE data for this project, so the next step is to navigate away from this page. You'll return to it later when you are ready to create a new run. For now, click on the project name in the upper left corner; this is a link to the <strong>Project Summary</strong> page.</li>
+        </ol>
+    </body>
+</html>

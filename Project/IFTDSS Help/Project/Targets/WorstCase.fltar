@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultTarget
+  Version="1"
+  Comment="New Target"
+  Type="PDF"
+  Destinations=""
+  GlossaryTermConversion="marked"
+  MasterToc="/Project/TOCs/Tutorial-Worst_Case-Print-TOC.fltoc"
+  MasterPageLayout="/Content/Resources/PageLayouts/PDF-Layout.flpgl"
+  MasterStylesheet="/Content/Resources/Stylesheets/IFTDSS_help.css"
+  ConditionTagExpression="include[Default.PrintOnly] exclude[Default.Internal or Default.LaterRelease or Default.Mobile or Default.Removed or Default.ScreenOnly] ">
+  <PrintedOutput
+    CollapseMargins="true" />
+  <Destinations> </Destinations>
+  <DocumentProperties
+    Title="IFTDSS Worst-Case Risk Assessment WOrkflow Tutorial"
+    Author="Erin Banwell" />
+  <PDF
+    ConvertBookmarks="true"
+    Tagged="true"
+    PageLayout="TwoPageLeft"
+    InitialMagnification="Fit"
+    TitleBar="DocumentTitle"
+    CollapsedBookmarks="true" />
+</CatapultTarget>

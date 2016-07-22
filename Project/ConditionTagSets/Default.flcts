@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultConditionTagSet>
+  <ConditionTag
+    Comment="This content is only for the online version of the help."
+    Name="ScreenOnly"
+    BackgroundColor="#00ced1" />
+  <ConditionTag
+    Comment="This content is only for the PDF version of the help."
+    Name="PrintOnly"
+    BackgroundColor="#ff8c00" />
+  <ConditionTag
+    BackgroundColor="#ff0066"
+    Name="LaterRelease"
+    Comment="This is for any content we've created that isn't going out in the current release." />
+  <ConditionTag
+    BackgroundColor="#228b22"
+    Name="Mobile"
+    Comment="This content is only for the mobile version of the help." />
+  <ConditionTag
+    BackgroundColor="#00008b"
+    Name="Removed"
+    Comment="This has been removed from the help but has content we may want to reuse" />
+  <ConditionTag
+    BackgroundColor="#1166a5"
+    Name="Internal"
+    Comment="This is not intended to be a part of the help." />
+</CatapultConditionTagSet>

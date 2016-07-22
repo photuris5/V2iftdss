@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="2" MadCap:lastHeight="704" MadCap:lastWidth="1084" MadCap:fileTags="FileNeeds.04 Ready for review">
+    <head>
+    </head>
+    <body>
+        <p>In this example, there is a polygon around the wildland-urban interface. We've assigned to this polygon the response function <strong>RF 4: Moderate benefit at low fire intensities to moderate loss at high fire intensities</strong>. As before, when you select a response function, IFTDSS automatically fills in the response function values. For a list of the response functions and their values, see the <MadCap:xref href="../../06-Risk-Assessment/STI_risk_pre2014/RiskAssessResponseFunctions.htm"><strong>Response Functions Table</strong></MadCap:xref>.</p>
+        <p>
+            <img src="../Images/RA-VAR-Tutorial/VAR-oak-woodland-RF.png" class="screencap" title="The Edit Feature panel" alt="The Edit Feature panel, where you assign a color and a response function to the polygon." />
+        </p>
+    </body>
+</html>

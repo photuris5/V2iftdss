@@ -1,0 +1,429 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="10" MadCap:lastHeight="4751" MadCap:lastWidth="890">
+    <head>
+        <link href="../Resources/TableStyles/AlternatingRows.css" rel="stylesheet" MadCap:stylesheetType="table" />
+    </head>
+    <body>
+        <h1>Risk Assessment Workflow</h1>
+        <p>Risk Assessment Workflow provides tools to assess the expected benefit or loss to specific resources based on expected fire behavior. IFTDSS provides two approaches for assessing fire hazard and risk across the landscape based on the methods described in RMRS-GTR-235, Wildfire Risk and Hazard: Procedures for the First&#160;Approximation (Calkin et al. 2010a).</p>
+        <p>Risk assessments can be made based either upon worst-case flame lengths, or by flame length probability. In either approach, the user creates polygons on the landscape to represent resources, or values at risk.</p>
+        <p><a href="risk_original/RiskAssessOverview.htm">Read an overview of risk assessment runs and when each type of run is most useful</a>.</p>
+        <p>
+            <img src="../Resources/Images/Concepts_2015/Workflows/Risk_Assessment_workflow.png" style="width: 613px;height: 209px;" />
+        </p>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Risk Assessment by Worst Case Flame Length</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <h2>Risk Assessment by Worst Case Flame Length</h2>
+                <p>In this approach, risk is defined as the expected net value change within an area (in this case, an area represented by a 30 x 30 meter pixel) calculated as the product of (1) the probability that the area represented by the pixel will burn given a random ignition within the project area, and (2) the resulting change in financial or ecological value (response function) if the area represented by the pixel burns with a specific flame length. </p>
+                <p>This approach is referred to as the “worst case” estimation of fire risk because it is based on a single IFT-FlamMap run, where the areas represented by every pixel are all always assumed to burn under the worst case (i.e., by a head fire).  However, for this approach, the IFT-FlamMap-RANDIG burn probability simulator provides information as to whether the area represented by a pixel will burn regardless of flame length; that is, the area represented by a pixel can be burned as a backing fire, flanking fire, or head fire in the IFT-FlamMap-RANDIG simulations. This approach may overestimate the degree of damage to the value at risk in an area represented by an individual pixel.</p>
+                <h3><a href="../10-Reference/RefRiskWorstIn.htm">Inputs</a>
+                </h3>
+                <table style="mc-table-style: url('../Resources/TableStyles/AlternatingRows.css');caption-side: top;" class="TableStyle-AlternatingRows" cellspacing="0">
+                    <col style="width: 380px;" class="Column-Column1" />
+                    <col style="width: 189px;" class="Column-Column1" />
+                    <thead>
+                        <tr class="Head-Header1">
+                            <th class="HeadE-Column1-Header1">Name</th>
+                            <th class="HeadD-Column1-Header1">Units</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="Body-Body1">
+                            <td class="BodyD-Column1-Body1" colspan="2">
+                                <p class="centeredUC">Fuel Moisture</p>
+                            </td>
+                        </tr>
+                        <tr class="Body-Body2">
+                            <td class="BodyE-Column1-Body2">
+                                <MadCap:keyword term="1-hr Fuel Moisture (parameter):burn probability from random ignition" />1-hr Fuel Moisture 
+					</td>
+                            <td class="BodyD-Column1-Body2">Percentage 
+					</td>
+                        </tr>
+                        <tr class="Body-Body1">
+                            <td class="BodyE-Column1-Body1">
+                                <MadCap:keyword term="10-hr Fuel Moisture (parameter):burn probability from random ignition" />10-hr Fuel Moisture 
+					</td>
+                            <td class="BodyD-Column1-Body1">Percentage
+					</td>
+                        </tr>
+                        <tr class="Body-Body2">
+                            <td class="BodyE-Column1-Body2">
+                                <MadCap:keyword term="100-hr Fuel Moisture (parameter):burn probability from random ignition" />100-hr Fuel Moisture</td>
+                            <td class="BodyD-Column1-Body2">Percentage</td>
+                        </tr>
+                        <tr class="Body-Body1">
+                            <td class="BodyE-Column1-Body1">
+                                <MadCap:keyword term="Live Herbaceous Fuel Moisture (parameter):burn probability from random ignition" />Live Herbaceous Fuel Moisture</td>
+                            <td class="BodyD-Column1-Body1">Percentage</td>
+                        </tr>
+                        <tr class="Body-Body2">
+                            <td class="BodyE-Column1-Body2">
+                                <MadCap:keyword term="Live Woody Fuel Moisture (parameter):burn probability from ignition" />Live Woody Fuel Moisture 
+					</td>
+                            <td class="BodyD-Column1-Body2">Percentage</td>
+                        </tr>
+                        <tr class="Body-Body1">
+                            <td class="BodyD-Column1-Body1" colspan="2">
+                                <p class="centeredUC">Weather</p>
+                            </td>
+                        </tr>
+                        <tr class="Body-Body2">
+                            <td class="BodyE-Column1-Body2">
+                                <MadCap:keyword term="20-ft Wind Speed (parameter)" />20-ft Wind Speed</td>
+                            <td class="BodyD-Column1-Body2">Miles per hour, kilometers per hour</td>
+                        </tr>
+                        <tr class="Body-Body1">
+                            <td class="BodyE-Column1-Body1">
+                                <MadCap:keyword term="Wind Direction (parameter):burn probability from random ignition" />Wind Direction
+					</td>
+                            <td class="BodyD-Column1-Body1">Degrees
+					</td>
+                        </tr>
+                        <tr class="Body-Body2">
+                            <td class="BodyD-Column1-Body2" colspan="2">
+                                <p class="centeredUC">Simulation Inputs</p>
+                            </td>
+                        </tr>
+                        <tr class="Body-Body1">
+                            <td class="BodyE-Column1-Body1">
+                                <MadCap:keyword term="Duration of Simulation (parameter)" />Duration of Simulation</td>
+                            <td class="BodyD-Column1-Body1">Minutes</td>
+                        </tr>
+                        <tr class="Body-Body2">
+                            <td class="BodyE-Column1-Body2">
+                                <MadCap:keyword term="Number of Fire Ignitions to Simulate (parameter)" />Number of Fire Ignitions to Simulate</td>
+                            <td class="BodyD-Column1-Body2">Number</td>
+                        </tr>
+                        <tr class="Body-Body1">
+                            <td class="BodyD-Column1-Body1" colspan="2">
+                                <p class="centeredUC">Flame Length Classes</p>
+                            </td>
+                        </tr>
+                        <tr class="Body-Body2">
+                            <td class="BodyE-Column1-Body2">
+                                <MadCap:keyword term="Low Flame Lengths (parameter)" />Low Flame Lengths</td>
+                            <td class="BodyD-Column1-Body2">Feet</td>
+                        </tr>
+                        <tr class="Body-Body1">
+                            <td class="BodyE-Column1-Body1">
+                                <MadCap:keyword term="Medium Flame Lengths (parameter)" />Medium Flame Lengths</td>
+                            <td class="BodyD-Column1-Body1">Feet</td>
+                        </tr>
+                        <tr class="Body-Body2">
+                            <td class="BodyE-Column1-Body2">
+                                <MadCap:keyword term="High Flame Lengths (parameter)" />High Flame Lengths</td>
+                            <td class="BodyD-Column1-Body2">Feet</td>
+                        </tr>
+                        <tr class="Body-Body1">
+                            <td class="BodyB-Column1-Body1">
+                                <MadCap:keyword term="Very High Flame Lengths (parameter)" />Very High Flame Lengths</td>
+                            <td class="BodyA-Column1-Body1">Feet</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <h3><a href="../10-Reference/RefRiskWorstOut.htm">Outputs</a>
+                </h3>
+                <table class="TableStyle-AlternatingRows" style="mc-table-style: url('../Resources/TableStyles/AlternatingRows.css');" cellspacing="0">
+                    <col style="width: 76pt;" class="Column-Column1" />
+                    <col style="width: 60pt;" class="Column-Column1" />
+                    <col style="width: 335pt;" class="Column-Column1" />
+                    <thead>
+                        <tr class="Head-Header1">
+                            <th class="HeadE-Column1-Header1">Name </th>
+                            <th class="HeadE-Column1-Header1">Units </th>
+                            <th class="HeadD-Column1-Header1">Brief Description</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="Body-Body1">
+                            <td class="BodyE-Column1-Body1">
+                                <MadCap:keyword term="Flame Length (parameter):risk assessment" />Flame Length 
+                </td>
+                            <td class="BodyE-Column1-Body1">
+                   Feet, meters 
+                </td>
+                            <td class="BodyD-Column1-Body1">
+                   The distance from the ground at the leading edge of the flame to the tip of the flame.
+                </td>
+                        </tr>
+                        <tr class="Body-Body2">
+                            <td class="BodyE-Column1-Body2">
+                                <MadCap:keyword term="Flame Length Class (parameter)" />Flame Length Class
+                </td>
+                            <td class="BodyE-Column1-Body2">
+                   NA
+                </td>
+                            <td class="BodyD-Column1-Body2">
+                  The flame lengths divided into low, medium, high, and very high user-defined classifications.
+                    
+                </td>
+                        </tr>
+                        <tr class="Body-Body1">
+                            <td class="BodyE-Column1-Body1">
+                                <MadCap:keyword term="NVC Multiplier (parameter)" />NVC Multiplier 
+                </td>
+                            <td class="BodyE-Column1-Body1">
+                   NA
+                </td>
+                            <td class="BodyD-Column1-Body1">
+                  Intermediate value used to calculate Net Value Change based on the response function. 
+                    
+                </td>
+                        </tr>
+                        <tr class="Body-Body2">
+                            <td class="BodyE-Column1-Body2">
+                                <MadCap:keyword term="Overall Burn Probability (parameter):worst-case flame lengths" />Overall Burn Probability
+                </td>
+                            <td class="BodyE-Column1-Body2">
+                   Percentage
+                </td>
+                            <td class="BodyD-Column1-Body2">The likelihood that the area represented by a pixel will burn given a random ignition across the area of interest (for a specific set of environmental conditions). Burn probability is not an estimate of the future likelihood of a wildfire and should not be confused with empirical wildfire occurrence probabilities.
+                </td>
+                        </tr>
+                        <tr class="Body-Body1">
+                            <td class="BodyE-Column1-Body1">
+                                <MadCap:keyword term="Relative Net Value Change (Default) (parameter)" />Relative Net Value Change (Default)
+                    
+                </td>
+                            <td class="BodyE-Column1-Body1">
+                   NA
+                </td>
+                            <td class="BodyD-Column1-Body1">
+                   Relative net change in land value due to fire is assumed to be a function of fire behavior, and includes both positive and negative effects of fire.<br /><br />Net Value Change (NVC) = Overall Burn Probability * NVC Multiplier
+                    <br /><br />By default, the NVC output value range is binned by 20% for each of five categories.<br /><br /><ul><li>Greatest Loss/Least Benefit</li><li>High Loss/Low Benefit</li><li>Average Loss/Benefit</li><li>Low Loss/High Benefit</li><li>Least Loss/Greatest Benefit</li></ul><br />For more information, see <a href="../06-Risk-Assessment/risk_original/RiskAssessNetValueChange.htm">Relative Net Value Change</a>.
+                    
+              </td>
+                        </tr>
+                        <tr class="Body-Body2">
+                            <td class="BodyB-Column1-Body2">
+                                <MadCap:keyword term="Relative Net Value Change (parameter)" />Relative Net Value Change
+                    
+                </td>
+                            <td class="BodyB-Column1-Body2">
+                   NA
+                </td>
+                            <td class="BodyA-Column1-Body2">
+                   Relative net change in land value due to fire is assumed to be a function of fire behavior, and includes both positive and negative effects of fire.<br /><br />                  Net Value Change (NVC) = Overall Burn Probablity * NVC Multiplier
+                    <br /><br />The NVC output value range is binned by user-defined percentages for each of five categories.
+<br /><ul><li>Greatest Loss/Least Benefit</li><li>High Loss/Low Benefit</li><li>Average Loss/Benefit</li><li>Low Loss/High Benefit</li><li>Least Loss/Greatest Benefit</li></ul>
+                   For more information, see <a href="../06-Risk-Assessment/risk_original/RiskAssessNetValueChange.htm">Relative Net Value Change</a>.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Risk Assessment by Flame Length Probability</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <h2>Risk Assessment by Flame Length Probabilities</h2>
+                <p>In this approach, risk is defined as the expected net value change within an area (in this case, an area represented by a 30 x 30 meter pixel) calculated as the product of (1) the probabilities that the area represented by the pixel will burn (using user-defined flame lengths and flame length classes—low, medium, high, and very high) given a random ignition within the project area, and (2) the resulting change in financial or ecological value (response function) if the area represented by the pixel burns for each user-defined flame length class.</p>
+                <p>This approach differs from the worst-case flame length approach in that it considers the likelihood of a fire burning as a backing fire, a flanking fire, or a head fire given a random ignition in the landscape when determining the potential losses or benefits for an area represented by a pixel burning.</p>
+                <h3><a href="../10-Reference/RefRiskFLIn.htm">Inputs</a>
+                </h3>
+                <table style="mc-table-style: url('../Resources/TableStyles/AlternatingRows.css');caption-side: top;" class="TableStyle-AlternatingRows" cellspacing="0">
+                    <col style="width: 380px;" class="Column-Column1" />
+                    <col style="width: 189px;" class="Column-Column1" />
+                    <thead>
+                        <tr class="Head-Header1">
+                            <th class="HeadE-Column1-Header1">Name</th>
+                            <th class="HeadD-Column1-Header1">Units</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="Body-Body1">
+                            <td class="BodyD-Column1-Body1" colspan="2">
+                                <p class="centeredUC">Fuel Moisture</p>
+                            </td>
+                        </tr>
+                        <tr class="Body-Body2">
+                            <td class="BodyE-Column1-Body2">
+                                <MadCap:keyword term="1-hr Fuel Moisture (parameter):burn probability from random ignition" />1-hr Fuel Moisture 
+					</td>
+                            <td class="BodyD-Column1-Body2">Percentage 
+					</td>
+                        </tr>
+                        <tr class="Body-Body1">
+                            <td class="BodyE-Column1-Body1">
+                                <MadCap:keyword term="10-hr Fuel Moisture (parameter):burn probability from random ignition" />10-hr Fuel Moisture 
+					</td>
+                            <td class="BodyD-Column1-Body1">Percentage
+					</td>
+                        </tr>
+                        <tr class="Body-Body2">
+                            <td class="BodyE-Column1-Body2">
+                                <MadCap:keyword term="100-hr Fuel Moisture (parameter):burn probability from random ignition" />100-hr Fuel Moisture</td>
+                            <td class="BodyD-Column1-Body2">Percentage</td>
+                        </tr>
+                        <tr class="Body-Body1">
+                            <td class="BodyE-Column1-Body1">
+                                <MadCap:keyword term="Live Herbaceous Fuel Moisture (parameter):burn probability from random ignition" />Live Herbaceous Fuel Moisture</td>
+                            <td class="BodyD-Column1-Body1">Percentage</td>
+                        </tr>
+                        <tr class="Body-Body2">
+                            <td class="BodyE-Column1-Body2">
+                                <MadCap:keyword term="Live Woody Fuel Moisture (parameter):burn probability from ignition" />Live Woody Fuel Moisture 
+					</td>
+                            <td class="BodyD-Column1-Body2">Percentage</td>
+                        </tr>
+                        <tr class="Body-Body1">
+                            <td class="BodyD-Column1-Body1" colspan="2">
+                                <p class="centeredUC">Weather</p>
+                            </td>
+                        </tr>
+                        <tr class="Body-Body2">
+                            <td class="BodyE-Column1-Body2">
+                                <MadCap:keyword term="20-ft Wind Speed (parameter)" />20-ft Wind Speed</td>
+                            <td class="BodyD-Column1-Body2">Miles per hour, kilometers per hour</td>
+                        </tr>
+                        <tr class="Body-Body1">
+                            <td class="BodyE-Column1-Body1">
+                                <MadCap:keyword term="Wind Direction (parameter):burn probability from random ignition" />Wind Direction
+					</td>
+                            <td class="BodyD-Column1-Body1">Degrees
+					</td>
+                        </tr>
+                        <tr class="Body-Body2">
+                            <td class="BodyD-Column1-Body2" colspan="2">
+                                <p class="centeredUC">Simulation Inputs</p>
+                            </td>
+                        </tr>
+                        <tr class="Body-Body1">
+                            <td class="BodyE-Column1-Body1">
+                                <MadCap:keyword term="Duration of Simulation (parameter)" />Duration of Simulation</td>
+                            <td class="BodyD-Column1-Body1">Minutes</td>
+                        </tr>
+                        <tr class="Body-Body2">
+                            <td class="BodyE-Column1-Body2">
+                                <MadCap:keyword term="Number of Fire Ignitions to Simulate (parameter)" />Number of Fire Ignitions to Simulate</td>
+                            <td class="BodyD-Column1-Body2">Number</td>
+                        </tr>
+                        <tr class="Body-Body1">
+                            <td class="BodyD-Column1-Body1" colspan="2">
+                                <p class="centeredUC">Flame Length Classes</p>
+                            </td>
+                        </tr>
+                        <tr class="Body-Body2">
+                            <td class="BodyE-Column1-Body2">
+                                <MadCap:keyword term="Low Flame Lengths (parameter)" />Low Flame Lengths</td>
+                            <td class="BodyD-Column1-Body2">Feet</td>
+                        </tr>
+                        <tr class="Body-Body1">
+                            <td class="BodyE-Column1-Body1">
+                                <MadCap:keyword term="Medium Flame Lengths (parameter)" />Medium Flame Lengths</td>
+                            <td class="BodyD-Column1-Body1">Feet</td>
+                        </tr>
+                        <tr class="Body-Body2">
+                            <td class="BodyE-Column1-Body2">
+                                <MadCap:keyword term="High Flame Lengths (parameter)" />High Flame Lengths</td>
+                            <td class="BodyD-Column1-Body2">Feet</td>
+                        </tr>
+                        <tr class="Body-Body1">
+                            <td class="BodyB-Column1-Body1">
+                                <MadCap:keyword term="Very High Flame Lengths (parameter)" />Very High Flame Lengths</td>
+                            <td class="BodyA-Column1-Body1">Feet</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <h3><a href="../10-Reference/RefRiskProbOut.htm">Outputs</a>
+                </h3>
+                <table class="TableStyle-AlternatingRows" style="mc-table-style: url('../Resources/TableStyles/AlternatingRows.css');" cellspacing="0">
+                    <col style="width: 20%;" class="Column-Column1" />
+                    <col style="width: 20%;" class="Column-Column1" />
+                    <col style="width: 60%;" class="Column-Column1" />
+                    <thead>
+                        <tr class="Head-Header1">
+                            <th class="HeadE-Column1-Header1">
+                       Name
+                    </th>
+                            <th class="HeadE-Column1-Header1">
+                       Units
+                    </th>
+                            <th class="HeadD-Column1-Header1">Brief Description</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="Body-Body1">
+                            <td class="BodyE-Column1-Body1">
+                                <MadCap:keyword term="Burn Probability at Low Flame Lengths (parameter)" />Burn Probability at Low Flame Lengths
+                    </td>
+                            <td class="BodyE-Column1-Body1">
+                        Percentage
+                    </td>
+                            <td class="BodyD-Column1-Body1">The likelihood that if the area represented by a pixel burns, it will burn within the user-defined low flame length class.</td>
+                        </tr>
+                        <tr class="Body-Body2">
+                            <td class="BodyE-Column1-Body2">
+                                <MadCap:keyword term="Burn Probability at Medium Flame Lengths (parameter)" />Burn Probability at Medium Flame Lengths
+                    </td>
+                            <td class="BodyE-Column1-Body2">
+                        Percentage
+                    </td>
+                            <td class="BodyD-Column1-Body2">
+                        The likelihood that if the area represented by a pixel burns, it will burn within the user-defined medium flame length class.
+                    </td>
+                        </tr>
+                        <tr class="Body-Body1">
+                            <td class="BodyE-Column1-Body1">
+                                <MadCap:keyword term="Burn Probability at High Flame Lengths (parameter)" />Burn Probability at High Flame Lengths
+                    </td>
+                            <td class="BodyE-Column1-Body1">
+                        Percentage
+                    </td>
+                            <td class="BodyD-Column1-Body1">
+                        The likelihood that if the area represented by a pixel burns, it will burn within the user-defined high flame length class.
+                    </td>
+                        </tr>
+                        <tr class="Body-Body2">
+                            <td class="BodyE-Column1-Body2">
+                                <MadCap:keyword term="Burn Probability at Very High Flame Lengths (parameter)" />Burn Probability at Very High Flame Lengths
+                    </td>
+                            <td class="BodyE-Column1-Body2">
+                        Percentage
+                    </td>
+                            <td class="BodyD-Column1-Body2">
+                        The likelihood that if the area represented by a pixel burns, it will burn within the user-defined very high flame length class.
+                    </td>
+                        </tr>
+                        <tr class="Body-Body1">
+                            <td class="BodyE-Column1-Body1">
+                                <MadCap:keyword term="Overall Burn Probability (parameter):flame-length probabilities" />Overall Burn Probability</td>
+                            <td class="BodyE-Column1-Body1">Percentage</td>
+                            <td class="BodyD-Column1-Body1">The likelihood that the area represented by a pixel will burn given a random ignition across the area of interest (for a specific set of environmental conditions). Burn probability is not an estimate of the future likelihood of a wildfire and should not be confused with empirical wildfire occurrence probabilities.</td>
+                        </tr>
+                        <tr class="Body-Body2">
+                            <td class="BodyE-Column1-Body2">
+                                <MadCap:keyword term="Relative Net Value Change (Default) (parameter)" />Relative Net Value Change (Default)
+                       
+                    </td>
+                            <td class="BodyE-Column1-Body2">
+                        NA
+                    </td>
+                            <td class="BodyD-Column1-Body2">
+                        The relative net change in land value due to fire is assumed to be a function of fire behavior, and includes both positive and negative effects of fire.<br /><br />Net Value Change (NVC) = ∑∑ (NVC multiplier at <i>x</i> flame length * burn probability at <i>x</i> flame length), where <i>x</i> is the user-defined flame length class.<br /><br />By default, the NVC output value range is binned by 20% for each of five categories.<br /><br /><ul><li>Greatest Loss/Least Benefit</li><li>High Loss/Low Benefit</li><li>Average Loss/Benefit</li><li>Low Loss/High Benefit</li><li>Least Loss/Greatest Benefit</li></ul><br />See <a href="../06-Risk-Assessment/risk_original/RiskAssessNetValueChange.htm">Relative Net Value Change</a> for more information.
+                    </td>
+                        </tr>
+                        <tr class="Body-Body1">
+                            <td class="BodyB-Column1-Body1">
+                                <MadCap:keyword term="Relative Net Value Change (parameter)" />Relative Net Value Change
+                    </td>
+                            <td class="BodyB-Column1-Body1">
+                        NA
+                    </td>
+                            <td class="BodyA-Column1-Body1">
+                        The relative net change in land value due to fire is assumed to be a function of fire behavior, and includes both positive and negative effects of fire.<br /><br />Net Value Change (NVC)&#160; = ∑∑ (NVC multiplier at <i>x</i> flame length * burn probability at <i>x</i> flame length), where <i>x</i> is the user-defined flame length class.
+<br /><br />The NVC output value range is binned by user-defined percentages for each of five categories.<br /><br /><ul><li>Greatest Loss/Least Benefit</li><li>High Loss/Low Benefit</li><li>Average Loss/Benefit</li><li>Low Loss/High Benefit</li><li>Least Loss/Greatest Benefit</li></ul><br />See <a href="../06-Risk-Assessment/risk_original/RiskAssessNetValueChange.htm">Relative Net Value Change</a> for more information.
+                    </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <p style="font-weight: bold;">For a full explanation of the Risk Assessment Workflow, visit the <a href="../10-Reference/RefRisk.htm">Risk Assessment Modules Reference Page</a>.</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+    </body>
+</html>

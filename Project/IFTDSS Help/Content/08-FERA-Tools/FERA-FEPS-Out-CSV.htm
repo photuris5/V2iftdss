@@ -1,0 +1,388 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="5" MadCap:lastHeight="2851" MadCap:lastWidth="789" MadCap:fileTags="FileStatusTags.05 Flare properties applied,FileStatusTags.03 Edited,FileStatusTags.06 Indexed,FileNeeds.04 Ready for review">
+    <head>
+        <link href="../Resources/TableStyles/AlternatingRows.css" rel="stylesheet" MadCap:stylesheetType="table" />
+    </head>
+    <body>
+        <h1>
+            <MadCap:keyword term="parameters:export file;FEPS (Fire Emission Production Simulator):exported parameters;CSV file for parameters;pollutants:exported parameters" />Exported Hourly Consumption and Emissions Parameters</h1>
+        <p>When you export the <a href="FERA-FEPS-Out-Consumption.htm">hourly consumption and emissions data</a>, they are saved in a file that uses the CSV format. The parameters in that file are described in the following table.</p>
+        <div>
+            <form>
+                <fieldset class="note">
+                    <legend>&#160;&#160;&#160;Note&#160;&#160;&#160;</legend>
+                    <p class="noteBody">The number of parameters listed in the CSV-formatted file will be much larger than shown in this table. Also, in this table, the word <i>Pollutant</i> represents specific pollutant names, such as CO or CH<sub>4</sub>. So, for example, you won't see "<i>Pollutant</i> - Flaming" in the output file, but you might see "CO - Flaming."</p>
+                </fieldset>
+            </form>
+        </div>
+        <table style="mc-table-style: url('../Resources/TableStyles/AlternatingRows.css');" class="TableStyle-AlternatingRows" cellspacing="0">
+            <col class="Column-Column1" style="width: 20%;" />
+            <col class="Column-Column1" style="width: 20%;" />
+            <col class="Column-Column1" style="width: 60%;" />
+            <thead>
+                <tr class="Head-Header1">
+                    <th class="HeadE-Column1-Header1">
+                        Name
+                    </th>
+                    <th class="HeadE-Column1-Header1">
+                        Units
+                    </th>
+                    <th class="HeadD-Column1-Header1">
+                        Brief Description
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="Body-Body1">
+                    <td class="BodyE-Column1-Body1">
+                        <MadCap:keyword term="Air Temperature (parameter):in exported file" />Air Temperature 
+                    </td>
+                    <td class="BodyE-Column1-Body1">
+                        Fahrenheit, Celsius
+                    </td>
+                    <td class="BodyD-Column1-Body1">
+                        The ambient air temperature.
+                    </td>
+                </tr>
+                <tr class="Body-Body2">
+                    <td class="BodyE-Column1-Body2">
+                        <MadCap:keyword term="Air Temperature - Maximum (parameter):in exported file" />Air Temperature - Maximum
+                    </td>
+                    <td class="BodyE-Column1-Body2">
+                        Fahrenheit, Celsius
+                    </td>
+                    <td class="BodyD-Column1-Body2">
+                        The maximum ambient air temperature during a burn date.
+                    </td>
+                </tr>
+                <tr class="Body-Body1">
+                    <td class="BodyE-Column1-Body1">
+                        <MadCap:keyword term="Air Temperature - Minimum (parameter):in exported file" />Air Temperature - Minimum
+                    </td>
+                    <td class="BodyE-Column1-Body1">
+                        Fahrenheit, Celsius
+                    </td>
+                    <td class="BodyD-Column1-Body1">
+                        The minimum ambient air temperature during a burn day. 
+                    </td>
+                </tr>
+                <tr class="Body-Body2">
+                    <td class="BodyE-Column1-Body2">
+                        <MadCap:keyword term="Briggs Buoyancy (parameter):in exported file" />Briggs Buoyancy 
+                    </td>
+                    <td class="BodyE-Column1-Body2">
+                        Feet<sup>4</sup> per second<sup>3</sup>, Meters<sup>4</sup> per second<sup>3</sup></td>
+                    <td class="BodyD-Column1-Body2">
+                        Same as buoyancy flux; relates to the buoyancy of the plume at the origin of the fire.
+                    </td>
+                </tr>
+                <tr class="Body-Body1">
+                    <td class="BodyE-Column1-Body1">
+                        <MadCap:keyword term="Briggs Maximum Heat Rise (parameter):in exported file" />Briggs Maximum Heat Rise
+                    </td>
+                    <td class="BodyE-Column1-Body1">
+                        Feet, Meters
+                    </td>
+                    <td class="BodyD-Column1-Body1">
+                        The final effective plume height above origin of the fire based on Briggs buoyancy; models plume rise based on a smokestack model.
+                    </td>
+                </tr>
+                <tr class="Body-Body2">
+                    <td class="BodyE-Column1-Body2">
+                        <MadCap:keyword term="Briggs Stability (parameter):in exported file" />Briggs Stability
+                    </td>
+                    <td class="BodyE-Column1-Body2">
+                        Feet/second, Meters/second
+                    </td>
+                    <td class="BodyD-Column1-Body2">
+                        Stability coefficient.&#160; Stability determines&#160; whether the buoyancy of a plume increases or decreases with plume rise.
+                    </td>
+                </tr>
+                <tr class="Body-Body1">
+                    <td class="BodyE-Column1-Body1">
+                        <MadCap:keyword term="Buoyancy Efficiency (parameter):in exported file" />Buoyancy Efficiency
+                    </td>
+                    <td class="BodyE-Column1-Body1">
+                        NA
+                    </td>
+                    <td class="BodyD-Column1-Body1">
+                        The portion of heat release from a fire that produces buoyancy, BE.
+                    </td>
+                </tr>
+                <tr class="Body-Body2">
+                    <td class="BodyE-Column1-Body2">
+                        <MadCap:keyword term="Combustion Efficiency (parameter):in exported file" />Combustion Efficiency
+                    </td>
+                    <td class="BodyE-Column1-Body2">
+                        NA
+                    </td>
+                    <td class="BodyD-Column1-Body2">
+                        An intermediate parameter used to calculate emission rates and heat release.
+                    </td>
+                </tr>
+                <tr class="Body-Body1">
+                    <td class="BodyE-Column1-Body1">
+                        <MadCap:keyword term="Drift PM2.5 (parameter):in exported file" />Drift PM2.5</td>
+                    <td class="BodyE-Column1-Body1">
+                        Tons, Megagrams 
+                    </td>
+                    <td class="BodyD-Column1-Body1">
+                        The PM<sub>2.5</sub> drift/smoke emissions at a given hour.
+                    </td>
+                </tr>
+                <tr class="Body-Body2">
+                    <td class="BodyE-Column1-Body2">
+                        <MadCap:keyword term="Entrainment  Efficiency (parameter):in exported file" />Entrainment&#160; Efficiency
+                    </td>
+                    <td class="BodyE-Column1-Body2">
+                        NA
+                    </td>
+                    <td class="BodyD-Column1-Body2">
+                        The portion of smoke production entrained in the convection column
+                    </td>
+                </tr>
+                <tr class="Body-Body1">
+                    <td class="BodyE-Column1-Body1">
+                        <MadCap:keyword term="Lofted PM2.5 (parameter):in exported file" />Lofted PM2.5</td>
+                    <td class="BodyE-Column1-Body1">
+                        Tons, Megagrams 
+                    </td>
+                    <td class="BodyD-Column1-Body1">
+                        The PM<sub>2.5</sub> lofted/smoke emissions at a given hour.
+                    </td>
+                </tr>
+                <tr class="Body-Body2">
+                    <td class="BodyE-Column1-Body2">
+                        <MadCap:keyword term="Maximum Plume Height (parameter):in exported file" />Maximum Plume Height
+                    </td>
+                    <td class="BodyE-Column1-Body2">
+                        Feet, Meters
+                    </td>
+                    <td class="BodyD-Column1-Body2">
+                        The hourly elevation at the top of the plume using empirical equations.
+                    </td>
+                </tr>
+                <tr class="Body-Body1">
+                    <td class="BodyE-Column1-Body1">
+                        <MadCap:keyword term="Minimum Plume Height (parameter):in exported file" />Minimum Plume Height
+                    </td>
+                    <td class="BodyE-Column1-Body1">
+                        Feet, Meters
+                    </td>
+                    <td class="BodyD-Column1-Body1">
+                        The hourly elevation at the bottom of the plume using empirical equations.
+                    </td>
+                </tr>
+                <tr class="Body-Body2">
+                    <td class="BodyE-Column1-Body2">
+                        <MadCap:keyword term="Pasquil Stability (parameter):in exported file" />Pasquil Stability
+                    </td>
+                    <td class="BodyE-Column1-Body2">
+                        NA
+                    </td>
+                    <td class="BodyD-Column1-Body2">
+                        The Pasquil stability class of the atmosphere, calculated based on midflame (surface) wind speed and solar radiation (for daytime), or surface wind speed and percent cloud cover (for nighttime). There are six Pasquil Stability categories: A through F.&#160;The Unstable classes (A, B, and C) occur during the daytime. The Stable classes (E and F) only occur at night. The Neutral class D can occur during the day or night.&#160; Class A is ‘Very Unstable’ and corresponds to hot, calm days, which leads to the greatest amount of dispersion. A plume of smoke is broken up and spread widely with ‘A’ Stability.&#160;Class D is ‘Neutral’.&#160; It corresponds to windy days or the transition times of dawn and dusk.&#160; This is the most frequently occurring stability class.&#160;Class F is ‘Very Stable’ and corresponds to nights with low winds.
+                    </td>
+                </tr>
+                <tr class="Body-Body1">
+                    <td class="BodyE-Column1-Body1">
+                        <MadCap:keyword term="Plume Heat Release (parameter):in exported file" />Plume Heat Release
+                    </td>
+                    <td class="BodyE-Column1-Body1">
+                        British thermal units, kilojoules
+                    </td>
+                    <td class="BodyD-Column1-Body1">
+                        Heat release of the plume at a given hour
+                    </td>
+                </tr>
+                <tr class="Body-Body2">
+                    <td class="BodyE-Column1-Body2"> <![CDATA[
+                        ]]><i>Pollutant</i> - Flaming 
+                    </td>
+                    <td class="BodyE-Column1-Body2">
+                        Tons 
+                    </td>
+                    <td class="BodyD-Column1-Body2">
+                        The mass of the pollutant released for each hour during the flaming combustion phase of the fire.
+                    </td>
+                </tr>
+                <tr class="Body-Body1">
+                    <td class="BodyE-Column1-Body1"> <![CDATA[
+                        ]]><i>Pollutant</i> - Residual
+                    </td>
+                    <td class="BodyE-Column1-Body1">
+                        Tons 
+                    </td>
+                    <td class="BodyD-Column1-Body1">
+                        The mass of the pollutant released for each hour during the residual combustion phase of the fire.
+                    </td>
+                </tr>
+                <tr class="Body-Body2">
+                    <td class="BodyE-Column1-Body2"> <![CDATA[
+                        ]]><i>Pollutant</i> - Smoldering 
+                    </td>
+                    <td class="BodyE-Column1-Body2">
+                        Tons 
+                    </td>
+                    <td class="BodyD-Column1-Body2">
+                        The mass of the pollutant released for each hour during the smoldering combustion phase of the fire.
+                    </td>
+                </tr>
+                <tr class="Body-Body1">
+                    <td class="BodyE-Column1-Body1"> <![CDATA[
+                        ]]><i>Pollutant</i> - Total 
+                    </td>
+                    <td class="BodyE-Column1-Body1">
+                        Tons 
+                    </td>
+                    <td class="BodyD-Column1-Body1">
+                        The total mass of the pollutant released for each hour of the fire.
+                    </td>
+                </tr>
+                <tr class="Body-Body2">
+                    <td class="BodyE-Column1-Body2">
+                        <MadCap:keyword term="Relative Humidity (parameter):in exported file" />Relative Humidity 
+                    </td>
+                    <td class="BodyE-Column1-Body2">
+                        Percent
+                    </td>
+                    <td class="BodyD-Column1-Body2">
+                        The relative humidity for each hour of the fire. 
+                    </td>
+                </tr>
+                <tr class="Body-Body1">
+                    <td class="BodyE-Column1-Body1">
+                        <MadCap:keyword term="Relative Humidity - Maximum (parameter):in exported file" />Relative Humidity - Maximum
+                    </td>
+                    <td class="BodyE-Column1-Body1">
+                        Percent
+                    </td>
+                    <td class="BodyD-Column1-Body1">
+                        The maximum relative humidity for a burn day.
+                    </td>
+                </tr>
+                <tr class="Body-Body2">
+                    <td class="BodyE-Column1-Body2">
+                        <MadCap:keyword term="Relative Humidity - Minimum (parameter):in exported file" />Relative Humidity - Minimum
+                    </td>
+                    <td class="BodyE-Column1-Body2">
+                        Percent
+                    </td>
+                    <td class="BodyD-Column1-Body2">
+                        The minimum relative humidity for a burn day.
+                    </td>
+                </tr>
+                <tr class="Body-Body1">
+                    <td class="BodyE-Column1-Body1"> <![CDATA[
+                        ]]><MadCap:keyword term="Residual Consumption (parameter):in exported file" />Residual Consumption 
+                    </td>
+                    <td class="BodyE-Column1-Body1">
+                        Tons 
+                    </td>
+                    <td class="BodyD-Column1-Body1">
+                        The cumulative amount of fuel consumed during the residual combustion phase of the fire. 
+                    </td>
+                </tr>
+                <tr class="Body-Body2">
+                    <td class="BodyE-Column1-Body2"> <![CDATA[
+                        ]]><MadCap:keyword term="Smoldering Consumption (parameter):in exported file" />Smoldering Consumption 
+                    </td>
+                    <td class="BodyE-Column1-Body2">
+                        Tons 
+                    </td>
+                    <td class="BodyD-Column1-Body2">
+                        The cumulative amount of fuel consumed during the smoldering combustion phase of the fire. 
+                    </td>
+                </tr>
+                <tr class="Body-Body1">
+                    <td class="BodyE-Column1-Body1">
+                        <MadCap:keyword term="Smoldering Fraction (parameter):in exported file" />                       Smoldering Fraction 
+                    </td>
+                    <td class="BodyE-Column1-Body1">
+                        Percent 
+                    </td>
+                    <td class="BodyD-Column1-Body1">
+                        The percentage of total fuel consumed during the smoldering combustion phase for each hour of the fire. 
+                    </td>
+                </tr>
+                <tr class="Body-Body2">
+                    <td class="BodyE-Column1-Body2"> <![CDATA[
+                        ]]><MadCap:keyword term="Sunrise Time (parameter):in exported file" />Sunrise Time
+                    </td>
+                    <td class="BodyE-Column1-Body2">
+                        NA
+                    </td>
+                    <td class="BodyD-Column1-Body2">
+                        Hour of sunrise for a given burn day
+                    </td>
+                </tr>
+                <tr class="Body-Body1">
+                    <td class="BodyE-Column1-Body1">
+                        <MadCap:keyword term="Sunset Time (parameter):in exported file" />Sunset Time
+                    </td>
+                    <td class="BodyE-Column1-Body1">
+                        NA
+                    </td>
+                    <td class="BodyD-Column1-Body1">
+                        Hour of sunset for a given day
+                    </td>
+                </tr>
+                <tr class="Body-Body2">
+                    <td class="BodyE-Column1-Body2"> <![CDATA[
+                        ]]><MadCap:keyword term="Total Consumption (parameter):in exported file" />Total Consumption 
+                    </td>
+                    <td class="BodyE-Column1-Body2">
+                        Tons 
+                    </td>
+                    <td class="BodyD-Column1-Body2">
+                        The cumulative amount of fuel consumed during the fire.
+                    </td>
+                </tr>
+                <tr class="Body-Body1">
+                    <td class="BodyE-Column1-Body1"> <![CDATA[
+                        ]]><MadCap:keyword term="Total Flaming (parameter):in exported file" />Total Flaming 
+                    </td>
+                    <td class="BodyE-Column1-Body1">
+                        Tons 
+                    </td>
+                    <td class="BodyD-Column1-Body1">
+                        The total mass of the pollutants consumed during the flaming combustion phase during each hour of the fire.
+                    </td>
+                </tr>
+                <tr class="Body-Body2">
+                    <td class="BodyE-Column1-Body2"> <![CDATA[
+                        ]]><MadCap:keyword term="Total Residual (parameter):in exported file" />Total Residual 
+                    </td>
+                    <td class="BodyE-Column1-Body2">
+                        Tons 
+                    </td>
+                    <td class="BodyD-Column1-Body2">
+                        The total mass of the pollutants consumed during the residual combustion phase during each hour of the fire.
+                    </td>
+                </tr>
+                <tr class="Body-Body1">
+                    <td class="BodyE-Column1-Body1"> <![CDATA[
+                        ]]><MadCap:keyword term="Total Smoldering (parameter):in exported file" />Total Smoldering 
+                    </td>
+                    <td class="BodyE-Column1-Body1">
+                        Tons 
+                    </td>
+                    <td class="BodyD-Column1-Body1">
+                        The total mass of the pollutants consumed during the smoldering combustion phase during each hour of the fire.
+                    </td>
+                </tr>
+                <tr class="Body-Body2">
+                    <td class="BodyB-Column1-Body2">
+                        <MadCap:keyword term="Transport Wind Speed (parameter):in exported file" />Transport Wind Speed
+                    </td>
+                    <td class="BodyB-Column1-Body2">
+                        Miles per hour, Kilometers per hour
+                    </td>
+                    <td class="BodyA-Column1-Body2">
+                        The wind speed within the mixing layer.&#160; Generally refers to the rate at which emissions will be transported from one area to another.&#160; Usually a wind under 8 mi/h (under 12.9 km/h) restricts an agency from burning.
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>

@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="2" MadCap:lastHeight="412" MadCap:lastWidth="1169" MadCap:fileTags="FileNeeds.04 Ready for review">
+    <head>
+    </head>
+    <body>
+        <p>Overall Burn Probability is an estimate (produced by <a href="../../10-Reference/RefRAN.htm">IFT-FlamMap-RANDIG</a>) for a given 30 x 30 m pixel of the likelihood that the area represented by a pixel will burn given a random ignition within the area of interest (for a specific set of environmental conditions). The formula is</p>
+        <p>
+            <img src="../Images/RA-WC-Tutorial/Burn-prob-equation.png" class="img_2" title="Burn probability equation: burn probability equals F (the number of times an area represented by a pixel burns) divided by n (number of simulated fires)" alt="Burn probability equation: burn probability equals F (the number of times an area represented by a pixel burns) divided by n (number of simulated fires)" />
+        </p>
+        <p>where:</p>
+        <p>BP = burn probability</p>
+        <p>F = number of times an area represented by a pixel burns</p>
+        <p><em>n</em> = number of simulated fires</p>
+        <p>Burn probability is <strong>not</strong> an estimate of the potential for wildfires to occur and should not be confused with empirical wildfire occurrence probabilities.</p>
+    </body>
+</html>

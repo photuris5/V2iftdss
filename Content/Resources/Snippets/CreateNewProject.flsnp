@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="4" MadCap:lastHeight="545" MadCap:lastWidth="791" MadCap:fileTags="FileNeeds.04 Ready for review">
+    <head>
+    </head>
+    <body>
+        <p><b style="font-style: italic;">To create a project,</b>
+        </p>
+        <ol start="1" class="ol_1">
+            <li>Choose <b>Create New Project</b>.</li>
+        </ol>
+        <p>
+            <img src="../Images/Concepts_2015/2_0_ProjCreate_cap_1.png" style="width: 378px; height: 327px;" class="img_2" alt="Option to create a new project." />
+        </p>
+        <ol start="2" class="ol_1">
+            <li>This opens the <strong>Create New Project</strong> page, where you enter the details for your project.  Enter a descriptive project name, which is required. Everything else is optional, though the more information you include now, the better.</li>
+        </ol>
+    </body>
+</html>

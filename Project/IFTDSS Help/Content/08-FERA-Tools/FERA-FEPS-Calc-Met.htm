@@ -1,0 +1,847 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="1346" MadCap:lastWidth="848" MadCap:fileTags="FileNeeds.02 In progress">
+    <head>
+        <link href="../Resources/TableStyles/AlternatingRows.css" rel="stylesheet" MadCap:stylesheetType="table" />
+    </head>
+    <body>
+        <h1>Meteorological Data</h1>
+        <p>To simplify the entry of hourly temperature and relative humidity, FEPS interpolates hourly values based on daily maximums and minimums. The interpolation is done using diurnal weather calculations equations developed by Beck and Trevitt (<a href="../10-Reference/Bibliography.htm#BeckandTrevitt1989">1989</a>).</p>
+        <h2>Temperature</h2>
+        <p>During the daily daytime heating period, temperature is calculated as</p>
+        <p>
+            <MadCap:equation xmlns:dsi="http://www.w3.org/1998/Math/MathML">
+                <math>
+                    <mrow>
+                        <msub>
+                            <mrow>
+                                <mi>T</mi>
+                            </mrow>
+                            <mrow>
+                                <mi>t</mi>
+                            </mrow>
+                        </msub>
+                        <mo>⁢</mo>
+                        <mtext> </mtext>
+                        <mo>=</mo>
+                        <mtext> </mtext>
+                        <msub>
+                            <mrow>
+                                <mi>T</mi>
+                            </mrow>
+                            <mrow>
+                                <mi>n</mi>
+                            </mrow>
+                        </msub>
+                        <mo>⁢</mo>
+                        <mtext> </mtext>
+                        <mo>+</mo>
+                        <mtext> </mtext>
+                        <mo>(</mo>
+                        <msub>
+                            <mrow>
+                                <mi>T</mi>
+                            </mrow>
+                            <mrow>
+                                <mi>x</mi>
+                            </mrow>
+                        </msub>
+                        <mo>⁢</mo>
+                        <mo>−</mo>
+                        <mtext> </mtext>
+                        <msub>
+                            <mrow>
+                                <mi>T</mi>
+                            </mrow>
+                            <mrow>
+                                <mi>n</mi>
+                            </mrow>
+                        </msub>
+                        <mo>)</mo>
+                        <mstyle mathvariant="italic">
+                            <mi>sin</mi>
+                        </mstyle>
+                        <mo>[</mo>
+                        <mo>(</mo>
+                        <mfrac>
+                            <mrow>
+                                <mi>π</mi>
+                            </mrow>
+                            <mrow>
+                                <mn>2</mn>
+                            </mrow>
+                        </mfrac>
+                        <mo>)</mo>
+                        <mo>(</mo>
+                        <mfrac>
+                            <mrow>
+                                <mi>t</mi>
+                                <mo>−</mo>
+                                <msub>
+                                    <mrow>
+                                        <mi>t</mi>
+                                    </mrow>
+                                    <mrow>
+                                        <mi>n</mi>
+                                    </mrow>
+                                </msub>
+                            </mrow>
+                            <mrow>
+                                <msub>
+                                    <mrow>
+                                        <mi>t</mi>
+                                    </mrow>
+                                    <mrow>
+                                        <mi>x</mi>
+                                    </mrow>
+                                </msub>
+                                <mo>⁢</mo>
+                                <mtext> </mtext>
+                                <mo>−</mo>
+                                <mtext> </mtext>
+                                <msub>
+                                    <mrow>
+                                        <mi>t</mi>
+                                    </mrow>
+                                    <mrow>
+                                        <mi>n</mi>
+                                    </mrow>
+                                </msub>
+                            </mrow>
+                        </mfrac>
+                        <mo>)</mo>
+                        <mo>]</mo>
+                        <mo>,</mo>
+                        <mi>w</mi>
+                        <mi>h</mi>
+                        <mi>e</mi>
+                        <mi>n</mi>
+                        <mo>⁢</mo>
+                        <mtext> </mtext>
+                        <mtext> </mtext>
+                        <mo>⁢</mo>
+                        <mtext> </mtext>
+                        <msub>
+                            <mrow>
+                                <mi>t</mi>
+                            </mrow>
+                            <mrow>
+                                <mi>n</mi>
+                            </mrow>
+                        </msub>
+                        <mo>⁢</mo>
+                        <mo>&lt;</mo>
+                        <mtext> </mtext>
+                        <mi>t</mi>
+                        <mo>⁢</mo>
+                        <mo>&lt;</mo>
+                        <mtext> </mtext>
+                        <msub>
+                            <mrow>
+                                <mi>t</mi>
+                            </mrow>
+                            <mrow>
+                                <mi>s</mi>
+                            </mrow>
+                        </msub>
+                        <mo>⁡</mo>
+                    </mrow>
+                </math>
+            </MadCap:equation>
+        </p>
+        <p>During the daily nighttime cooling period, temperature is calculated as</p>
+        <p>
+            <MadCap:equation xmlns:dsi="http://www.w3.org/1998/Math/MathML">
+                <math>
+                    <mrow>
+                        <msub>
+                            <mrow>
+                                <mi>T</mi>
+                            </mrow>
+                            <mrow>
+                                <mi>t</mi>
+                            </mrow>
+                        </msub>
+                        <mo>⁢</mo>
+                        <mtext> </mtext>
+                        <mo>=</mo>
+                        <mtext> </mtext>
+                        <msubsup>
+                            <mrow>
+                                <mi>T</mi>
+                            </mrow>
+                            <mrow>
+                                <mi>n</mi>
+                            </mrow>
+                            <mrow>
+                                <mo>′</mo>
+                            </mrow>
+                        </msubsup>
+                        <mo>⁢</mo>
+                        <mtext> </mtext>
+                        <mo>+</mo>
+                        <mtext> </mtext>
+                        <mo>(</mo>
+                        <msub>
+                            <mrow>
+                                <mi>T</mi>
+                            </mrow>
+                            <mrow>
+                                <mi>x</mi>
+                            </mrow>
+                        </msub>
+                        <mo>⁢</mo>
+                        <mtext> </mtext>
+                        <mo>−</mo>
+                        <mtext> </mtext>
+                        <msubsup>
+                            <mrow>
+                                <mi>T</mi>
+                            </mrow>
+                            <mrow>
+                                <mi>n</mi>
+                            </mrow>
+                            <mrow>
+                                <mo>′</mo>
+                            </mrow>
+                        </msubsup>
+                        <mo>)</mo>
+                        <msup>
+                            <mrow>
+                                <mi>e</mi>
+                            </mrow>
+                            <mrow>
+                                <mo>[</mo>
+                                <mi>y</mi>
+                                <mo>(</mo>
+                                <mfrac>
+                                    <mrow>
+                                        <mi>t</mi>
+                                        <mo>−</mo>
+                                        <msub>
+                                            <mrow>
+                                                <mi>t</mi>
+                                            </mrow>
+                                            <mrow>
+                                                <mi>s</mi>
+                                            </mrow>
+                                        </msub>
+                                    </mrow>
+                                    <mrow>
+                                        <mn>24</mn>
+                                        <mo>−</mo>
+                                        <msub>
+                                            <mrow>
+                                                <mi>t</mi>
+                                            </mrow>
+                                            <mrow>
+                                                <mi>s</mi>
+                                            </mrow>
+                                        </msub>
+                                        <mo>⁢</mo>
+                                        <mo>−</mo>
+                                        <mtext> </mtext>
+                                        <msubsup>
+                                            <mrow>
+                                                <mi>t</mi>
+                                            </mrow>
+                                            <mrow>
+                                                <mi>n</mi>
+                                            </mrow>
+                                            <mrow>
+                                                <mo>′</mo>
+                                            </mrow>
+                                        </msubsup>
+                                    </mrow>
+                                </mfrac>
+                                <mo>)</mo>
+                                <mo>]</mo>
+                            </mrow>
+                        </msup>
+                        <mo>,</mo>
+                        <mtext> </mtext>
+                        <mi>w</mi>
+                        <mi>h</mi>
+                        <mi>e</mi>
+                        <mi>n</mi>
+                        <mo>⁢</mo>
+                        <mtext> </mtext>
+                        <mtext> </mtext>
+                        <msub>
+                            <mrow>
+                                <mi>t</mi>
+                            </mrow>
+                            <mrow>
+                                <mi>s</mi>
+                            </mrow>
+                        </msub>
+                        <mo>⁢</mo>
+                        <mo>&lt;</mo>
+                        <mtext> </mtext>
+                        <mi>t</mi>
+                        <mo>⁢</mo>
+                        <mo>&lt;</mo>
+                        <mtext> </mtext>
+                        <mn>24</mn>
+                        <mo>⁢</mo>
+                        <mo>+</mo>
+                        <mtext> </mtext>
+                        <msubsup>
+                            <mrow>
+                                <mi>t</mi>
+                            </mrow>
+                            <mrow>
+                                <mi>s</mi>
+                            </mrow>
+                            <mrow>
+                                <mo>′</mo>
+                            </mrow>
+                        </msubsup>
+                    </mrow>
+                </math>
+            </MadCap:equation>
+        </p>
+        <p>The following table provides the definitions of these variables.</p>
+        <table style="mc-table-style: url('../Resources/TableStyles/AlternatingRows.css');" class="TableStyle-AlternatingRows" cellspacing="0">
+            <col style="width: 150px;" class="Column-Column1" />
+            <col style="width: 99px;" class="Column-Column1" />
+            <col style="width: 597px;" class="Column-Column1" />
+            <thead>
+                <tr class="Head-Header1">
+                    <th class="HeadE-Column1-Header1">
+                        <p>Variable</p>
+                    </th>
+                    <th class="HeadE-Column1-Header1">
+                        <p>Units</p>
+                    </th>
+                    <th class="HeadD-Column1-Header1">
+                        <p>Definition</p>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="Body-Body1">
+                    <td class="BodyE-Column1-Body1">
+                        <p>T<sub>t</sub></p>
+                    </td>
+                    <td class="BodyE-Column1-Body1">
+                        <p>°C</p>
+                    </td>
+                    <td class="BodyD-Column1-Body1">
+                        <p>Temperature at time t</p>
+                    </td>
+                </tr>
+                <tr class="Body-Body2">
+                    <td class="BodyE-Column1-Body2">
+                        <p>T<sub>x</sub></p>
+                    </td>
+                    <td class="BodyE-Column1-Body2">
+                        <p>°C</p>
+                    </td>
+                    <td class="BodyD-Column1-Body2">
+                        <p>Maximum temperature of 24-hr period</p>
+                    </td>
+                </tr>
+                <tr class="Body-Body1">
+                    <td class="BodyE-Column1-Body1">
+                        <p>T<sub>n</sub></p>
+                    </td>
+                    <td class="BodyE-Column1-Body1">
+                        <p>°C</p>
+                    </td>
+                    <td class="BodyD-Column1-Body1">
+                        <p>Minimum temperature of 24-hr period</p>
+                    </td>
+                </tr>
+                <tr class="Body-Body2">
+                    <td class="BodyE-Column1-Body2">
+                        <p>T’<sub>n</sub></p>
+                    </td>
+                    <td class="BodyE-Column1-Body2">
+                        <p>°C</p>
+                    </td>
+                    <td class="BodyD-Column1-Body2">
+                        <p>Minimum temperature of next day</p>
+                    </td>
+                </tr>
+                <tr class="Body-Body1">
+                    <td class="BodyE-Column1-Body1">
+                        <p>t<sub>n</sub></p>
+                    </td>
+                    <td class="BodyE-Column1-Body1">
+                        <p>24 hr</p>
+                    </td>
+                    <td class="BodyD-Column1-Body1">
+                        <p>Time of minimum temperature</p>
+                    </td>
+                </tr>
+                <tr class="Body-Body2">
+                    <td class="BodyE-Column1-Body2">
+                        <p>t<sub>x</sub></p>
+                    </td>
+                    <td class="BodyE-Column1-Body2">
+                        <p>24 hr</p>
+                    </td>
+                    <td class="BodyD-Column1-Body2">
+                        <p>Time of maximum temperature</p>
+                    </td>
+                </tr>
+                <tr class="Body-Body1">
+                    <td class="BodyE-Column1-Body1">
+                        <p>t<sub>s</sub></p>
+                    </td>
+                    <td class="BodyE-Column1-Body1">
+                        <p>24 hr</p>
+                    </td>
+                    <td class="BodyD-Column1-Body1">
+                        <p>Time of sunset (6pm default)</p>
+                    </td>
+                </tr>
+                <tr class="Body-Body2">
+                    <td class="BodyE-Column1-Body2">
+                        <p>t’<sub>n</sub></p>
+                    </td>
+                    <td class="BodyE-Column1-Body2">
+                        <p>24 hr</p>
+                    </td>
+                    <td class="BodyD-Column1-Body2">
+                        <p>Time of minimum temperature of next day</p>
+                    </td>
+                </tr>
+                <tr class="Body-Body1">
+                    <td class="BodyE-Column1-Body1">
+                        <p>t’<sub>s</sub></p>
+                    </td>
+                    <td class="BodyE-Column1-Body1">
+                        <p>24 hr</p>
+                    </td>
+                    <td class="BodyD-Column1-Body1">
+                        <p>Time of sunset (6pm default) of next day</p>
+                    </td>
+                </tr>
+                <tr class="Body-Body2">
+                    <td class="BodyB-Column1-Body2">
+                        <p>y</p>
+                    </td>
+                    <td class="BodyB-Column1-Body2">
+                        <p>—</p>
+                    </td>
+                    <td class="BodyA-Column1-Body2">
+                        <p>Delay constant, -3</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <h2>Relative humidity</h2>
+        <p>Daytime relative humidity is calculated as</p>
+        <p>
+            <MadCap:equation xmlns:dsi="http://www.w3.org/1998/Math/MathML">
+                <math>
+                    <mrow>
+                        <msub>
+                            <mrow>
+                                <mi>R</mi>
+                                <mi>H</mi>
+                            </mrow>
+                            <mrow>
+                                <mi>t</mi>
+                            </mrow>
+                        </msub>
+                        <mo>⁢</mo>
+                        <mtext> </mtext>
+                        <mo>=</mo>
+                        <mtext> </mtext>
+                        <msubsup>
+                            <mrow>
+                                <mi>R</mi>
+                                <mi>H</mi>
+                            </mrow>
+                            <mrow>
+                                <mi>n</mi>
+                            </mrow>
+                            <mrow>
+                                <mo>′</mo>
+                            </mrow>
+                        </msubsup>
+                        <mo>⁢</mo>
+                        <mtext> </mtext>
+                        <mo>+</mo>
+                        <mtext> </mtext>
+                        <mo>(</mo>
+                        <msub>
+                            <mrow>
+                                <mi>R</mi>
+                                <mi>H</mi>
+                            </mrow>
+                            <mrow>
+                                <mi>x</mi>
+                            </mrow>
+                        </msub>
+                        <mo>⁢</mo>
+                        <mtext> </mtext>
+                        <mo>−</mo>
+                        <mtext> </mtext>
+                        <msubsup>
+                            <mrow>
+                                <mi>R</mi>
+                                <mi>H</mi>
+                            </mrow>
+                            <mrow>
+                                <mi>n</mi>
+                            </mrow>
+                            <mrow>
+                                <mo>′</mo>
+                            </mrow>
+                        </msubsup>
+                        <mo>)</mo>
+                        <msup>
+                            <mrow>
+                                <mi>e</mi>
+                            </mrow>
+                            <mrow>
+                                <mo>[</mo>
+                                <mi>y</mi>
+                                <mo>(</mo>
+                                <mfrac>
+                                    <mrow>
+                                        <mi>t</mi>
+                                        <mo>−</mo>
+                                        <msub>
+                                            <mrow>
+                                                <mi>t</mi>
+                                            </mrow>
+                                            <mrow>
+                                                <mi>n</mi>
+                                            </mrow>
+                                        </msub>
+                                    </mrow>
+                                    <mrow>
+                                        <msub>
+                                            <mrow>
+                                                <mi>t</mi>
+                                            </mrow>
+                                            <mrow>
+                                                <mi>x</mi>
+                                            </mrow>
+                                        </msub>
+                                        <mo>⁢</mo>
+                                        <mo>−</mo>
+                                        <mtext> </mtext>
+                                        <msubsup>
+                                            <mrow>
+                                                <mi>t</mi>
+                                            </mrow>
+                                            <mrow>
+                                                <mi>n</mi>
+                                            </mrow>
+                                            <mrow>
+                                                <mo>′</mo>
+                                            </mrow>
+                                        </msubsup>
+                                    </mrow>
+                                </mfrac>
+                                <mo>)</mo>
+                                <mo>]</mo>
+                            </mrow>
+                        </msup>
+                        <mo>,</mo>
+                        <mtext> </mtext>
+                        <mi>w</mi>
+                        <mi>h</mi>
+                        <mi>e</mi>
+                        <mi>n</mi>
+                        <mo>⁢</mo>
+                        <mtext> </mtext>
+                        <mtext> </mtext>
+                        <msub>
+                            <mrow>
+                                <mi>t</mi>
+                            </mrow>
+                            <mrow>
+                                <mi>n</mi>
+                            </mrow>
+                        </msub>
+                        <mo>⁢</mo>
+                        <mo>&lt;</mo>
+                        <mtext> </mtext>
+                        <mi>t</mi>
+                        <mo>⁢</mo>
+                        <mo>&lt;</mo>
+                        <mtext> </mtext>
+                        <msub>
+                            <mrow>
+                                <mi>t</mi>
+                            </mrow>
+                            <mrow>
+                                <mi>s</mi>
+                            </mrow>
+                        </msub>
+                    </mrow>
+                </math>
+            </MadCap:equation>
+        </p>
+        <p>Nighttime relative humidity is calculated as:</p>
+        <p>
+            <MadCap:equation xmlns:dsi="http://www.w3.org/1998/Math/MathML">
+                <math>
+                    <mrow>
+                        <msub>
+                            <mrow>
+                                <mi>R</mi>
+                                <mi>H</mi>
+                            </mrow>
+                            <mrow>
+                                <mi>t</mi>
+                            </mrow>
+                        </msub>
+                        <mo>⁢</mo>
+                        <mtext> </mtext>
+                        <mo>=</mo>
+                        <msub>
+                            <mrow>
+                                <mi>R</mi>
+                                <mi>H</mi>
+                            </mrow>
+                            <mrow>
+                                <mi>n</mi>
+                            </mrow>
+                        </msub>
+                        <mo>⁢</mo>
+                        <mtext> </mtext>
+                        <mo>+</mo>
+                        <mtext> </mtext>
+                        <mo>(</mo>
+                        <msub>
+                            <mrow>
+                                <mi>R</mi>
+                                <mi>H</mi>
+                            </mrow>
+                            <mrow>
+                                <mi>x</mi>
+                            </mrow>
+                        </msub>
+                        <mo>⁢</mo>
+                        <mtext> </mtext>
+                        <mo>−</mo>
+                        <mtext> </mtext>
+                        <msub>
+                            <mrow>
+                                <mi>R</mi>
+                                <mi>N</mi>
+                            </mrow>
+                            <mrow>
+                                <mi>n</mi>
+                            </mrow>
+                        </msub>
+                        <mo>)</mo>
+                        <mstyle mathvariant="italic">
+                            <mi>sin</mi>
+                        </mstyle>
+                        <mo>[</mo>
+                        <mo>(</mo>
+                        <mfrac>
+                            <mrow>
+                                <mi>π</mi>
+                            </mrow>
+                            <mrow>
+                                <mn>2</mn>
+                            </mrow>
+                        </mfrac>
+                        <mo>)</mo>
+                        <mo>(</mo>
+                        <mfrac>
+                            <mrow>
+                                <mi>t</mi>
+                                <mo>−</mo>
+                                <msub>
+                                    <mrow>
+                                        <mi>t</mi>
+                                    </mrow>
+                                    <mrow>
+                                        <mi>s</mi>
+                                    </mrow>
+                                </msub>
+                            </mrow>
+                            <mrow>
+                                <mn>24</mn>
+                                <mo>−</mo>
+                                <msub>
+                                    <mrow>
+                                        <mi>t</mi>
+                                    </mrow>
+                                    <mrow>
+                                        <mi>s</mi>
+                                    </mrow>
+                                </msub>
+                                <mo>⁢</mo>
+                                <mo>−</mo>
+                                <mtext> </mtext>
+                                <msubsup>
+                                    <mrow>
+                                        <mi>t</mi>
+                                    </mrow>
+                                    <mrow>
+                                        <mi>n</mi>
+                                    </mrow>
+                                    <mrow>
+                                        <mo>′</mo>
+                                    </mrow>
+                                </msubsup>
+                            </mrow>
+                        </mfrac>
+                        <mo>)</mo>
+                        <mo>]</mo>
+                        <mo>,</mo>
+                        <mtext> </mtext>
+                        <mi>w</mi>
+                        <mi>h</mi>
+                        <mi>e</mi>
+                        <mi>n</mi>
+                        <mo>⁢</mo>
+                        <mtext> </mtext>
+                        <mtext> </mtext>
+                        <msub>
+                            <mrow>
+                                <mi>t</mi>
+                            </mrow>
+                            <mrow>
+                                <mi>s</mi>
+                            </mrow>
+                        </msub>
+                        <mo>⁢</mo>
+                        <mo>&lt;</mo>
+                        <mtext> </mtext>
+                        <mi>t</mi>
+                        <mo>⁢</mo>
+                        <mtext> </mtext>
+                        <mo>&lt;</mo>
+                        <mtext> </mtext>
+                        <mn>24</mn>
+                        <mo>⁢</mo>
+                        <mo>&lt;</mo>
+                        <mtext> </mtext>
+                        <msubsup>
+                            <mrow>
+                                <mi>t</mi>
+                            </mrow>
+                            <mrow>
+                                <mi>n</mi>
+                            </mrow>
+                            <mrow>
+                                <mo>′</mo>
+                            </mrow>
+                        </msubsup>
+                    </mrow>
+                </math>
+            </MadCap:equation>
+        </p>
+        <p>The following table provides the definitions of these variables.</p>
+        <table style="mc-table-style: url('../Resources/TableStyles/AlternatingRows.css');" class="TableStyle-AlternatingRows" cellspacing="0">
+            <col style="width: 117px;" class="Column-Column1" />
+            <col style="width: 104px;" class="Column-Column1" />
+            <col style="width: 623px;" class="Column-Column1" />
+            <thead>
+                <tr class="Head-Header1">
+                    <th class="HeadE-Column1-Header1">
+                        <p>Variable</p>
+                    </th>
+                    <th class="HeadE-Column1-Header1">
+                        <p>Units</p>
+                    </th>
+                    <th class="HeadD-Column1-Header1">
+                        <p>Definition</p>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="Body-Body1">
+                    <td class="BodyE-Column1-Body1">
+                        <p>RH<sub>t</sub></p>
+                    </td>
+                    <td class="BodyE-Column1-Body1">
+                        <p>%</p>
+                    </td>
+                    <td class="BodyD-Column1-Body1">
+                        <p>Relative humidity at time t</p>
+                    </td>
+                </tr>
+                <tr class="Body-Body2">
+                    <td class="BodyE-Column1-Body2">
+                        <p>RH<sub>x</sub></p>
+                    </td>
+                    <td class="BodyE-Column1-Body2">
+                        <p>%</p>
+                    </td>
+                    <td class="BodyD-Column1-Body2">
+                        <p>Maximum relative humidity of 24-hr period</p>
+                    </td>
+                </tr>
+                <tr class="Body-Body1">
+                    <td class="BodyE-Column1-Body1">
+                        <p>RH<sub>n</sub></p>
+                    </td>
+                    <td class="BodyE-Column1-Body1">
+                        <p>%</p>
+                    </td>
+                    <td class="BodyD-Column1-Body1">
+                        <p>Minimum relative humidity of 24-hr period</p>
+                    </td>
+                </tr>
+                <tr class="Body-Body2">
+                    <td class="BodyE-Column1-Body2">
+                        <p>RH’<sub>n</sub></p>
+                    </td>
+                    <td class="BodyE-Column1-Body2">
+                        <p>%</p>
+                    </td>
+                    <td class="BodyD-Column1-Body2">
+                        <p>Minimum relative humidity of next day</p>
+                    </td>
+                </tr>
+                <tr class="Body-Body1">
+                    <td class="BodyE-Column1-Body1">
+                        <p>t<sub>n</sub></p>
+                    </td>
+                    <td class="BodyE-Column1-Body1">
+                        <p>24 hr</p>
+                    </td>
+                    <td class="BodyD-Column1-Body1">
+                        <p>Time of minimum relative humidity</p>
+                    </td>
+                </tr>
+                <tr class="Body-Body2">
+                    <td class="BodyE-Column1-Body2">
+                        <p>t<sub>x</sub></p>
+                    </td>
+                    <td class="BodyE-Column1-Body2">
+                        <p>24 hr</p>
+                    </td>
+                    <td class="BodyD-Column1-Body2">
+                        <p>Time of maximum relative humidity</p>
+                    </td>
+                </tr>
+                <tr class="Body-Body1">
+                    <td class="BodyE-Column1-Body1">
+                        <p>t<sub>s</sub></p>
+                    </td>
+                    <td class="BodyE-Column1-Body1">
+                        <p>24 hr</p>
+                    </td>
+                    <td class="BodyD-Column1-Body1">
+                        <p>Time of sunset (6 p.m. default; i.e.,18)</p>
+                    </td>
+                </tr>
+                <tr class="Body-Body2">
+                    <td class="BodyB-Column1-Body2">
+                        <p>y</p>
+                    </td>
+                    <td class="BodyB-Column1-Body2">
+                        <p>—</p>
+                    </td>
+                    <td class="BodyA-Column1-Body2">
+                        <p>Delay constant, -3</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>

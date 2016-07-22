@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="7" MadCap:lastHeight="3133" MadCap:lastWidth="841">
+    <head>
+    </head>
+    <body>
+        <h2>Environmental and Fire Behavior Prescription (Element 7)</h2>
+        <p>Now that the information in your new runs is completed, click on your browser tab for Element 7 of the burn plan, which you left open when you created a new run. You may have to refresh the page. Once back on Element 7 of the burn plan, you may close the other tab in your browser.</p>
+        <p>
+            <img src="../../Resources/Images/Tutorial_C_PrescribedBurnPlan/Tutorial_c_switch_tabs.png" style="width: 560px;height: 109px;" />
+        </p>
+        <p>There are two methods to enter data into Element 7. This first is to manually copy and paste data from run summaries, or CSV files exported from runs. The second method, described below, is to import the data within IFTDSS. We will use the second method to import data from the runs we just completed.</p>
+        <p>Under the <b>Import Data</b> section, the pathways and runs that you tagged on the output steps will be visible in the drop downs. </p>
+        <p>
+            <img src="../../Resources/Images/Tutorial_C_PrescribedBurnPlan/tutorial_c_elem_7_import1.png" style="width: 435px;height: 221px;" />
+        </p>
+        <p>Check the <b>Import environmental conditions from this simulation</b> box and choose <b>Import Data</b>. Continue to select each fire behavior category (low, high, optimal, and maximum) and then click <b>Import Data</b> for each category.  </p>
+        <p>
+            <img src="../../Resources/Images/Tutorial_C_PrescribedBurnPlan/tutorial_c_elem_7_import_2.png" style="width: 719px;height: 347px;" />
+        </p>
+        <div>
+            <form>
+                <fieldset class="note">
+                    <legend>&#160;&#160;&#160;Note&#160;&#160;&#160;</legend>
+                    <p class="noteBody">for any IFT-Surface run, you can disregard the "Fire Type" drop down, because IFT-Surface calculates head, backing, and flanking fire outputs, and all three of these fire types will be imported into Element 7 regardless of the fire type selected in the drop down. </p>
+                </fieldset>
+            </form>
+        </div>
+        <p>After each data import, a green box will show you the parameters that were populated into Element 7.</p>
+        <p>
+            <img src="../../Resources/Images/Tutorial_C_PrescribedBurnPlan/tutorial_c_element_7_verifscreen.png" style="width: 523px;height: 381px;" />
+        </p>
+        <p>After you are done importing all of the data from your IFT-surface run, scroll down to review the populated environmental and fire behavior prescription.</p>
+        <p>
+            <img src="../../Resources/Images/Tutorial_C_PrescribedBurnPlan/tutorial_c_elem_7_import_3.png" style="width: 674px;height: 513px;" />
+        </p>
+        <p>Next, we will import data from the IFT-scorch run.</p>
+        <p>Select the pathway <b>Predict crown scorch height (IFT-Scorch)</b>. First, populate Prescription 1, low Fire behavior, Head. Click <b>Import</b>.</p>
+        <p>
+            <img src="../../Resources/Images/Tutorial_C_PrescribedBurnPlan/tutorial_c_elem_7_import_4.png" style="width: 712px;height: 345px;" />
+        </p>
+        <p>Repeat this process for Backing and Flanking Fire behavior, then change the Fire Behavior to high, and import the data for each Fire Type under that behavior (head, backing, and flanking). Do the same for optimal and maximum Fire Behaviors until all 12 combinations of Fire Behavior and Fire Type have been entered.</p>
+        <p>Next, import the data from IFT-ignite for low, high, optimum, and maximum fire behaviors.</p>
+        <p>When finished, click <b>Next</b> to save your imports and advance to the next burn plan element.</p>
+        <div>
+            <form>
+                <fieldset class="note">
+                    <legend>&#160;&#160;&#160;Note&#160;&#160;&#160;</legend>
+                    <p class="noteBody">For burn units dominated by more than one fuel model, create multiple runs with descriptive names.</p>
+                </fieldset>
+            </form>
+        </div>
+        <div>
+            <form>
+                <fieldset class="note">
+                    <legend>&#160;&#160;&#160;Note&#160;&#160;&#160;</legend>
+                    <p class="noteBody">There are multiple Fire Behavior Prescriptions in the burn plan for extra fuel models.</p>
+                </fieldset>
+            </form>
+        </div>
+        <p MadCap:conditions="Default.ScreenOnly"><a href="Tutorial_C_25_D_poi.htm">&lt;&lt; Back:&#160;Probability of Ignition Outputs</a> | <a href="Tutorial_C_27_modelConsider.htm">Next: Modeling Considerations &gt;&gt;</a></p>
+    </body>
+</html>

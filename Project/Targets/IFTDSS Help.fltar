@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultTarget
+  Version="2"
+  Comment=""
+  Type="WebHelp"
+  Destinations=""
+  GlossaryTermConversion="first"
+  DisableAutoSync="true"
+  MasterPage="/Content/Resources/MasterPages/Topic.flmsp"
+  OutputFile="IFTDSS_Help"
+  GetLatestBeforeCompile="false"
+  ConditionTagExpression="include[Default.ScreenOnly] exclude[Default.Internal or Default.LaterRelease or Default.PrintOnly or Default.Removed] "
+  ExcludeUnreferencedContent="true"
+  MasterStylesheet="/Content/Resources/Stylesheets/IFTDSS_help.css"
+  UseLocalBuildSettings="true"
+  IgnoredCompilerWarnings="20032,20033,20034,20035,20036,20037,20038,20039,20040,20041">
+  <Variables>
+    <Variable
+      Name="MyVariables/CompanyName">Sonoma Technology, Inc.</Variable>
+  </Variables>
+  <Glossaries>
+    <Glossary
+      Link="/Project/Glossaries/Glossary.flglo" />
+  </Glossaries>
+  <Destinations>
+    <Destination
+      Link="/Project/Destinations/IFTDSS-Doc-Folder.fldes" />
+  </Destinations>
+</CatapultTarget>

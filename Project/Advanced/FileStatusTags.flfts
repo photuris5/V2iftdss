@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultFileTagSet
+  Type="Status"
+  Comment="My set of status tags">
+  <FileTag
+    Name="07 Complete"
+    Comment="Edited, senior and master reviewed, formatted, hyperlinks created, indexed, conditions applied if needed" />
+  <FileTag
+    Name="06 Indexed"
+    Comment="Indexed; other work may still be needed" />
+  <FileTag
+    Name="02 HRH reviewed"
+    Comment="HRH has seen and approved" />
+  <FileTag
+    Name="04 Pubs master reviewed"
+    Comment="Pubs master review completed" />
+  <FileTag
+    Name="01 Draft"
+    Comment="Straight from author; no editing or review yet" />
+  <FileTag
+    Name="08 Flag"
+    Comment="Needs to be looked at again for some reason" />
+  <FileTag
+    Name="03 Edited"
+    Comment="By a Pubs editor" />
+  <FileTag
+    Name="05 Flare properties applied"
+    Comment="Formatted, hyperlinks created, conditions applied if needed" />
+  <FileTag
+    Name="09 Screenshots"
+    Comment="Has screenshots that may need updating" />
+  <FileTag
+    Name="00 Placeholder only"
+    Comment="No content yet" />
+  <FileTag
+    Name="10 Removed"
+    Comment="Topic has been removed from TOC but is still in help" />
+</CatapultFileTagSet>

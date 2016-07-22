@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc
+  Version="1">
+  <TocEntry
+    Title="New Book 1">
+    <TocEntry
+      Title="Using IFT-Consume for Landscape Smoke Management Planning"
+      Link="/Content/13-Effects_2015/Consume_smoke/IFT_consume_effects_0.htm" />
+    <TocEntry
+      Title="Setting up the project"
+      Link="/Content/13-Effects_2015/Consume_smoke/IFT_consume_effects_1.htm" />
+    <TocEntry
+      Title="Acquiring FCCS fuelbed data to run IFT-Consume"
+      Link="/Content/13-Effects_2015/Consume_smoke/IFT_consume_effects_2.htm" />
+    <TocEntry
+      Title="Selecting IFT-Consume from the IFTDSS workflows"
+      Link="/Content/13-Effects_2015/Consume_smoke/IFT_consume_effects_3.htm" />
+    <TocEntry
+      Title="Populating and running the IFT-Consume model"
+      Link="/Content/13-Effects_2015/Consume_smoke/IFT_consume_effects_4.htm" />
+    <TocEntry
+      Title="Viewing output data"
+      Link="/Content/13-Effects_2015/Consume_smoke/IFT_consume_effects_5.htm" />
+    <TocEntry
+      Title="Exporting data as raster layers to ArcMap for analysis"
+      Link="/Content/13-Effects_2015/Consume_smoke/IFT_consume_effects_6.htm" />
+    <TocEntry
+      Title="Evaluating results"
+      Link="/Content/13-Effects_2015/Consume_smoke/IFT_consume_effects_7.htm" />
+    <TocEntry
+      Title="Review"
+      Link="/Content/13-Effects_2015/Consume_smoke/IFT_consume_effects_8.htm" />
+  </TocEntry>
+</CatapultToc>

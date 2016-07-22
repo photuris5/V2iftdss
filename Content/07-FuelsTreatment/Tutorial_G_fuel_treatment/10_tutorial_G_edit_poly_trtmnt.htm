@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="7" MadCap:lastHeight="4308" MadCap:lastWidth="869">
+    <head>
+    </head>
+    <body>
+        <h1>Editing LANDFIRE&#160;Data to Create Fuels Treatments</h1>
+        <p>Once fuels treatment polygons are created, the next step is to manually edit the LANDFIRE&#160;data within these polygons to reflect fuels treatments. </p>
+        <p>
+            <img src="../../Resources/Images/Tutorial_G_2015/2_0_1_G_adv_edt_polygon_tool.png" alt="The Polygon Advanced Edit Tool in the mapping tool bar." class="img_2" style="width: 748px;height: 49px;" />
+        </p>
+        <p>The <b>Polygon Advanced Edit Tool</b> (indicated above in red) allows for specific changes to be made to the fuel attributes within any given polygon. In this example the polygon advanced edit tool will be used to represent:&#160;</p>
+        <ul>
+            <li>Thinning from below by changing the canopy base height to 12 feet for all pixels where the canopy base height is currently 10 feet or less</li>
+            <li>Mowing by changing the Fire behavior fuel models to 'Bare ground'</li>
+            <li>Post-presecribed fire vegetation by changing the Fire behavior fuel models to 'Bare ground'</li>
+        </ul>
+        <h2>Using the Advance Edit Tool to represent thinning from below</h2>
+        <p>To begin editing, click the <b>Polygon Advanced Edit Tool</b> and then select the polygon of interest by clicking on it. In this case we'll click on the Thin From Below polygon in the southwestern corner of the map.</p>
+        <p>
+            <img src="../../Resources/Images/Tutorial_G_2015/2_0_1_G_canopy_base_height_1.png" style="width: 489px; height: 366px;" alt="Map showing all of the treatment polygons, including the Thin from Below polygon." class="img_2" />
+        </p>
+        <p>Once the polygon has been selected, the <b>Polygon Edit</b> box will appear on the left side of the map. </p>
+        <p>
+            <img src="../../Resources/Images/Tutorial_G_2015/2_0_1_G_canopy_base_height_2.png" style="width: 419px; height: 429px;" alt="The polygon edit window as described in the text." class="img_2" />
+        </p>
+        <p>The first field in the <b>Polygon Edit</b> box is the <b>Edit Feature</b> field, which allows us to verify that we have indeed selected the Thin from below polygon. Now to set all pixels with a canopy base height of 10 feet or less to a canopy base height of 12 feet. Under the <b>At coordinates where:</b>&#160;field, select <b>canopy base height</b> from the list of data layers, select <b>is less than or equal to</b>, then enter <b>10</b> as the value to modify. In the <b>Modify Values</b> fields, set <b>Canopy Base Height</b> as the field to modify, select <b>setting to</b>, and enter <b>12</b> as the value to use. When this is complete and your box matched the one pictured above, click <b>submit</b> (circled in red)&#160;to make the changes. </p>
+        <div>
+            <form>
+                <fieldset class="note">
+                    <legend>&#160;&#160;&#160;Note&#160;&#160;&#160;</legend>
+                    <p class="noteBody">At the end of the Add Coordinates Where" fields there is an option to add more criteria and at the end of the "Modify Values" there is an option to modify more values. Clicking on these options will open more fields in which you may enter additional criteria and modifications to be made within your polygon. This enables very selective criteria and very specific modifications to be made, if needed.</p>
+                </fieldset>
+            </form>
+        </div>
+        <p>
+            <img src="../../Resources/Images/Tutorial_G_2015/2_0_1_G_canopy_base_height_3.png" alt="Notification confirming that pixels within the polygon have been changed." class="img_2" />
+        </p>
+        <p>Once the process has completed a green box will appear at the top of the <b>Polygon Edit</b> box listing the number of pixels changed. You may notice the box will remain open even after you have clicked submit. This is normal, and as long as you have clicked 'submit and this green confirmation box appears, your polygon changes have been incorporated into the run.</p>
+        <h2>Using the&#160;Advanced Edit Tool to represent Mowing &amp; Prescribed Fire</h2>
+        <p>Next we will modify the Mowing polygon. To begin editing, click the <b>Polygon Advanced Edit Tool</b> and then select the polygon of interest by clicking on it. </p>
+        <p>
+            <img src="../../Resources/Images/Tutorial_G_2015/2_0_1_G_mowing_1.png" style="width: 535px; height: 321px;" alt="Map showing all of the treatment polygons, including the Mowing polygon." class="img_2" />
+        </p>
+        <p>Once the polygon has been selected, the <b>Polygon Edit</b> box will appear on the left side of the map. </p>
+        <p>
+            <img src="../../Resources/Images/Tutorial_G_2015/2_0_1_G_mowing_2.png" style="width: 686px; height: 580px;" alt="The polygon edit window as described in the text." class="img_2" />
+        </p>
+        <p>First we will refer to the <b>Edit Features</b> field to ensure the Mowing polygon is the one we selected. For this example, we will change all the fire behavior fuel model types within the polygon to fuel model NB9, bare ground. To change all the pixels within a polygon, click on the minus sign (circled in red in part A of the above image) to the left of the <b>At coordinates where</b> box. Once this is done, those fields will disappear, as seen in part B of the image above. In the <b>Modify values</b> fields select <b>Fire Behavior Fuel Model</b> as the layer to modify, by <b>setting to</b>the fire behavior fuel model <b>NB9: Bare Ground</b>.</p>
+        <p>click <b>Submit</b> at&#160;the bottom left of the box to make the changes. </p>
+        <p>
+            <img src="../../Resources/Images/Tutorial_G_2015/2_0_1_G_mowing_3.png" alt="Notification confirming that pixels within the polygon have been changed." class="img_2" />
+        </p>
+        <p>Once the process has completed a green box will appear at the top of the <b>Polygon Edit</b> box listing the number of pixels changed. You may notice the box will remain open even after you have clicked submit. This is normal, and as long as you have clicked 'submit and this green confirmation box appears, your polygon changes have been incorporated into the run.</p>
+        <p>For this example, use the same procedure to change the Fire Behavior Fuel Models throughout the <b>Prescribed Fire Polygon</b> to <b>NB9 Bare Ground</b>.</p>
+        <div>
+            <form>
+                <fieldset class="note">
+                    <legend>&#160;&#160;&#160;Note&#160;&#160;&#160;</legend>
+                    <p class="noteBody">For this example we have made a very simple change to the pixels within the prescribed fire polygon. However, at the end of the Add Coordinates Where" fields there is an option to add more criteria and at the end of the "Modify Values" there is an option to modify more values. Clicking on these options will open more fields in which you may enter additional criteria and modifications to be made within your polygon. This enables very selective criteria and very specific modifications to be made across multiple fuel layers within the polygon.</p>
+                </fieldset>
+            </form>
+        </div>
+        <p>Once all the polygons have been changed, scroll to the bottom of the page, give this collection of polygons a name, and click <b>Next</b>. This will re-run IFT-FlamMap with the changes that you have just made.</p>
+        <p>
+            <img src="../../Resources/Images/Tutorial_G_2015/2_0_1_G_polygon_submit.png" style="width: 433px; height: 305px;" alt="A field at the bottom of the page to input the name of this set of polygons." class="img_2" />
+        </p>
+        <p MadCap:conditions="Default.ScreenOnly"><a href="9_tutorial_G_treatment_polygons.htm">&lt;&lt; Back:&#160;Treatment Polygons</a> |&#160;<a href="11_tutorial_G_eval_fuel_trtmnt_eff.htm">Next:&#160;Evaluating effectiveness &gt;&gt;</a></p>
+    </body>
+</html>

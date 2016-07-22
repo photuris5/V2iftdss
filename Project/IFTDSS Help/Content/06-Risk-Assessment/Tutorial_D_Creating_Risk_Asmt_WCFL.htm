@@ -1,0 +1,532 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us" MadCap:lastBlockDepth="8" MadCap:lastHeight="54367" MadCap:lastWidth="846.6667" MadCap:fileTags="MyAuthorFileTagSet.Josh Hyde,FileNeeds.04 Ready for review">
+    <head><title></title>
+        <link href="../Resources/Stylesheets/IFTDSS_help_5.css" rel="stylesheet" />
+    </head>
+    <body>
+        <h1 class="Title">Tutorial D - Creating a Risk Assessment Using the Worst-Case Flame Lengths Approach: Assessing Potential Risks Across a Landscape</h1>
+        <h1 class="Heading1">Overview </h1>
+        <p>Fire risk can be addressed in multiple ways.&#160; This tutorial uses one possible set of criteria for assessing fire risk across a landscape.&#160; In the process, this tutorial introduces some IFTDSS functionality. </p>
+        <p>In this risk assessment tutorial, you will:</p>
+        <ul>
+            <li><a href="#Introduction-and-background">Learn the background behind the two risk assessment approaches within IFTDSS</a>
+            </li>
+            <li><a href="#Setting-up-a-project">Set up a project in IFTDSS (step by step walkthrough)</a>
+            </li>
+            <li><a href="#Acquiring-LF-data">Acquire LANDFIRE data (step by step walkthrough)</a>
+            </li>
+            <li><a href="#WCFL-creating-a-new-run">Create a run focusing on risk assessment using the worst-case flame lengths approach (step by step walkthrough)</a>
+            </li>
+            <li><a href="#Analysis-considerations-things-to-know">Read a discussion of the risk assessment caveats specific to IFTDSS</a>
+            </li>
+        </ul>
+        <p>To create a risk assessment run using the worst-case flame lengths approach you will:</p>
+        <ul>
+            <li><a href="#Defining-values-at-risk">Develop a values-at-risk map</a>.<ul><li><a href="#Defining-values-at-risk">Define values at risk and assign response functions</a></li></ul></li>
+            <li><a href="#Inputting-Environmental-Simulation-Parameters">Establish environmental and simulation parameters.</a>
+                <ul>
+                    <li><a href="#Inputting-Environmental-Simulation-Parameters-IFTFLAMMAP">IFT-FlamMap inputs</a>
+                    </li>
+                    <li><a href="#Inputting-Environmental-Simulation-Parameters-IFTRANDIG">IFT-RANDIG inputs
+</a>
+                    </li>
+                </ul>
+            </li>
+            <li><a href="#Reviewing-Spatial-Landscape-Data">Review/edit spatial landscape input data. </a>
+            </li>
+            <li><a href="#Analyzing-Fire-Behavior-Data">Analyze potential fire behavior output data.</a>
+                <ul>
+                    <li><a href="#Exporting-Google-Earth">Export data to Google Earth</a>
+                    </li>
+                    <li><a href="#Exporting-Google-Earth"><![CDATA[
+]]></a><span style="color: #ff8c00;">Using relative net value change data</span>
+                    </li>
+                </ul>
+            </li>
+            <li><a href="#Identifying-risks">Identify potential fire risks across a landscape.</a>
+            </li>
+        </ul>
+        <p class="centeredmiddle"><b><a href="Tutorial_D_WCFL_6_25_15.pdf">To download a PDF version of this tutorial click here.</a></b>
+        </p>
+        <p>&#160;</p>
+        <p><b><img src="../Resources/Images/Concepts_2015/JH_Caution.jpg" style="width: 37px;height: 37px;" />Note:</b> All references cited in this tutorial are in the IFTDSS online help bibliography; access it by navigating to <strong class="Strong">Reference Material &gt; Bilbiography.</strong></p>
+        <h1 class="Heading1"><a name="Introduction-and-background"></a>Introduction &amp; Background</h1>
+        <p>IFTDSS provides two approaches for assessing fire hazard and risk across the landscape based on the methods described in RMRS-GTR-235 <span class="span_2">Wildfire Risk and Hazard: Procedures for the First Approximation</span> (Calkin et. al., 2010a):</p>
+        <p>1. Worst-Case Flame Lengths Approach</p>
+        <ul>
+            <li>This approach is useful when the user is interested in identifying high fire hazard situations during <strong class="Strong">wind-driven wildfires.</strong></li>
+            <li>In the future, this tool will be useful for assessing the effectiveness of a fuel treatment at reducing the hazard of a fire burning as a head fire.</li>
+        </ul>
+        <p>2. Flame Length Probabilities Approach (see <MadCap:xref href="Tutorial_E_Creating_Risk_Asmt_probability.htm"><b>Tutorial E</b></MadCap:xref>)</p>
+        <ul>
+            <li>This approach differs from the worst-case flame length approach in that it considers the likelihood of a fire burning as a backing fire, a flanking fire, or a head fire given a random ignition in the landscape when determining the potential losses or benefits for an area represented by a pixel burning.</li>
+            <li>This approach is useful when the user is interested in identifying the potential consequences of an area represented by a pixel burning <b>under variable fire conditions</b> and/or assessing the potential ecological benefits of using fire as a management tool.</li>
+        </ul>
+        <p>The processes employed in IFTDSS uses a quantitative risk framework to approximate the expected loss and/or potential ecological benefits to valued resources (values at risk) from wildfire. In the risk assessment, burn probabilities and fire behavior potentials are estimated using the fire simulation modules<MadCap:xref href="../10-Reference/RefFlamMap.htm"><b>(IFT-FlamMap)</b></MadCap:xref> and <MadCap:xref href="../10-Reference/RefRAN.htm"><b>(IFT-RANDIG)</b></MadCap:xref>. The modeled output is coupled with data on human and ecological values at risk using a set of fire-effects response functions, with the goal of estimating the expected loss or potential benefit resulting from fire.&#160; </p>
+        <p>In this tutorial, we focus on the <strong class="Strong">worst-case flame lengths approach.</strong> This approach is referred to as the “worst case” estimation of fire risk because the flame length simulation is based on a single IFT-FlamMap run, where each pixel within the run areas is assumed to burn under the worst case conditions (i.e., by a head fire with the highest potential flame lengths). We’ll spatially identify areas surrounding the Olompali State Historic Park (located near Novato, California) where fire is likely to occur, and view potential losses/benefits from a burn based on set environmental conditions. </p>
+        <ul>
+            <li>This type of risk assessment should be used as a first approximation of how fire likelihood and fire behavior potentials across landscapes influence fire hazard and risk to social, economic, and ecological values within an area of interest. </li>
+            <li>The results can provide information useful for evaluating and prioritizing where to place treatments to reduce fire hazard and risk to valued resources.</li>
+        </ul>
+        <h1 class="Heading1"><a name="Setting-up-a-project"></a>Setting up the project</h1>
+        <p>To begin, click <strong class="Strong">Create a New Project </strong>under the Home tab.</p>
+        <p>
+            <img src="../Resources/Images/Tutorial_D_WCFL_2015/2_0_Tutorial_D_cap_1.png" style="width: 359px; height: 303px;" class="screencap" />
+        </p>
+        <p class="p_2">Choose a descriptive project name.</p>
+        <p class="ListParagraph_1">If desired, fill in the optional information.</p>
+        <p class="p_2">Choose <strong class="Strong">Next</strong>.</p>
+        <p>
+            <img src="../Resources/Images/Tutorial_D_WCFL_2015/2_0_Tutorial_D_cap_2.png" style="width: 402px; height: 594px;" class="screencap" />
+        </p>
+        <p>After creating a new project, you will see the page for <strong class="Strong">creating a new run</strong>.&#160; </p>
+        <p>For the next steps, setting up an area of interest and acquiring LANDFIRE data, we are going to navigate to the project summary page by clicking on our project name (circled in red).</p>
+        <p>
+            <img src="../Resources/Images/Tutorial_D_WCFL_2015/2_0_Tutorial_D_cap_3.png" class="screencap" style="width: 632px;height: 342px;" />
+        </p>
+        <h1 class="Heading1"><a name="Acquiring-LF-data"></a>Acquiring LANDFIRE Data</h1>
+        <p>From the project summary page, click <strong class="Strong">Acquiring data from LANDFIRE</strong> in the area of interest box</p>
+        <p>
+            <img src="../Resources/Images/Tutorial_D_WCFL_2015/2_0_Tutorial_D_cap_4.png" class="screencap" style="width: 662px;height: 270px;" />
+        </p>
+        <p>Make sure the <strong class="Strong">Acquire data from LANDFIRE</strong> option is selected and click <strong class="Strong">Next</strong>.</p>
+        <p>
+            <img src="../Resources/Images/Tutorial_D_WCFL_2015/2_0_Tutorial_D_cap_5.png" class="screencap" style="width: 489px;height: 295px;" />
+        </p>
+        <p>Navigate to your desired location using one of these methods:</p>
+        <ul>
+            <li>Use the navigation tools located in the top left portion of the map.</li>
+            <li>Use the mouse.&#160; Click and drag to move; double-click to zoom in.</li>
+            <li><strong class="Strong">Enter coordinates</strong><span class="span_1">.</span>
+            </li>
+        </ul>
+        <p>For this example, you may enter the following coordinates:</p>
+        <ul>
+            <li><strong class="Strong">North:</strong> 38.164505878997</li>
+            <li><strong class="Strong">East:</strong> -122.54560796614</li>
+            <li><strong class="Strong">South:</strong> 38.111039352952</li>
+            <li><strong class="Strong">West:</strong> -122.62800542709</li>
+        </ul>
+        <p>Name the data set </p>
+        <p>Select a <a href="http://www.landfire.gov/refresh_overview.php"><span class="Hyperlink">LANDFIRE data layer</span></a>, in this example, we’ll choose LANDFIRE 2010 (V 1.20)</p>
+        <p>Select a fuel model type (<a href="http://www.landfire.gov/NationalProductDescriptions2.php"><span class="Hyperlink">Scott and </span></a><a href="http://www.landfire.gov/NationalProductDescriptions2.php"><span class="Hyperlink">Burgan </span></a><a href="http://www.landfire.gov/NationalProductDescriptions2.php"><span class="Hyperlink">40</span></a> or <a href="http://www.landfire.gov/NationalProductDescriptions1.php"><span class="Hyperlink">Anderson </span></a><a href="http://www.landfire.gov/NationalProductDescriptions1.php"><span class="Hyperlink">13</span></a>). In this example we use Anderson 13.</p>
+        <p>
+            <br />
+            <img src="../Resources/Images/Tutorial_D_WCFL_2015/2_0_Tutorial_D_cap_6.png" class="screencap" style="width: 609px;height: 528px;" />
+        </p>
+        <p><strong class="Strong"><img src="../Resources/Images/Concepts_2015/JH_Caution.jpg" style="width: 37px;height: 37px;" />Note:</strong> Once you select your dataset, the project area <strong class="Strong">cannot</strong> be changed. To change a project area, you must create a new project.</p>
+        <p><strong class="Strong"><img src="../Resources/Images/Concepts_2015/JH_Caution.jpg" style="width: 37px;height: 37px;" />Note:</strong> Currently, acquisition of LANDFIRE data is limited to 400,000 acres.</p>
+        <p>After acquiring the LANDFIRE data, you are returned to the <strong class="Strong">Project Summary</strong> page. Stay on this page for the next section.</p>
+        <p>For use in spatial modules, you now have </p>
+        <ul>
+            <li>a Project Area of Interest and</li>
+            <li>a Project Data Set.</li>
+        </ul>
+        <h1 class="Heading1"><a name="WCFL-creating-a-new-run"></a>Worst Case Flame Lengths Risk Assessment: Creating a New Run</h1>
+        <p>To create a new run from the Project Summary page select Create New Run.</p>
+        <p>
+            <img src="../Resources/Images/Tutorial_D_WCFL_2015/2_0_Tutorial_D_cap_7.png" class="screencap" style="width: 665px;height: 469px;" />
+        </p>
+        <p>Alternatively, you can navigate to your project from the <strong class="Strong">Projects</strong> tab along the top Navigation bar.</p>
+        <p>Select the <strong class="Strong">Risk Assessment</strong> workflow</p>
+        <p>
+            <img src="../Resources/Images/Tutorial_D_WCFL_2015/2_0_Tutorial_D_cap_8.png" class="screencap" style="width: 407px;height: 310px;" />
+        </p>
+        <p>Choose <strong class="Strong">Risk Assessment – Worst Case Flame Length</strong></p>
+        <p>
+            <img src="../Resources/Images/Tutorial_E_FL_prob_2015/2_0_Tutorial_E_cap_9.png" class="screencap" style="width: 420px;height: 189px;" />
+        </p>
+        <h1 class="Heading1">Worst Case Flame Lengths Risk Assessment: Define Area of Interest</h1>
+        <p>Name your run.&#160; </p>
+        <p><strong class="Strong"><img src="../Resources/Images/JH_Tip.jpg" style="width: 37px;height: 37px;" />Tip:</strong> For future reference, give your run a descriptive name.</p>
+        <p>In this step, select an area of interest within the project boundary.&#160; For this example, we selected a smaller area within the project boundary.</p>
+        <p><strong class="Strong"><img src="../Resources/Images/JH_Tip.jpg" style="width: 37px;height: 37px;" />Tip:</strong>&#160; For this example, <strong class="Strong">enter the following coordinates:</strong></p>
+        <ul>
+            <li><strong class="Strong">North:</strong> 38.155672364916</li>
+            <li><strong class="Strong">East:</strong> -122.5502871142</li>
+            <li><strong class="Strong">South:</strong> 38.120028050516</li>
+            <li><strong class="Strong">West:</strong> -122.5986956225</li>
+        </ul>
+        <p>After selecting an area of interest, choose <strong class="Strong">Next.</strong><![CDATA[  ]]></p>
+        <p>
+            <img src="../Resources/Images/Tutorial_D_WCFL_2015/2_0_Tutorial_D_cap_10.png" class="screencap" style="width: 628px;height: 525px;" />
+        </p>
+        <h1 class="Heading1">Worst Case Flame Lengths Risk Assessment: Selecting a Dataset</h1>
+        <p>You are now on the <strong class="Strong">Configure</strong> step.</p>
+        <p>Under <strong class="Strong">Select Landscape Data</strong>, select the “Olompali State Historic Park (100%)” data set and choose <strong class="Strong">Next</strong> to proceed to the <strong class="Strong">Define Values at Risk</strong> step.<img src="../Resources/Images/Tutorial_D_WCFL_2015/2_0_Tutorial_D_cap_11.png" style="width: 644px;height: 377px;" class="screencap" /></p>
+        <p><strong class="Strong"><img src="../Resources/Images/Concepts_2015/JH_Caution.jpg" style="width: 37px;height: 37px;" />Note:</strong> You will notice an option at the bottom of the <strong class="Strong">Configure</strong> page to <strong class="Strong">import values at risk</strong>. This option allows you to import an existing values at risk map, like the one we will be creating in the next section. For this example, we will leave this option blank.</p>
+        <h1 class="Heading1"><a name="Defining-values-at-risk"></a>Worst Case Flame Lengths Risk Assessment: Defining Values at Risk</h1>
+        <p>You are now at the <strong class="Strong">Define Values at Risk</strong> step.&#160; In this step, you will define your values at risk (using the <strong class="Strong">Draw Polygon</strong> tool) across your entire area of interest. In this step you will cover:</p>
+        <ul>
+            <li><a href="#Values-at-Risk">Values at Risk</a><![CDATA[  ]]></li>
+            <li><a href="#Response-functions_definitions_snippet">Response Functions (Definitions)</a>
+            </li>
+            <li><a href="#Introduction-to-the-map-toolbar-snippet">Introduction the Map Toolbar</a>
+            </li>
+            <li><a href="#Defining-Values-at-Risk-Methods">Defining Values at Risk: Methods</a>
+            </li>
+            <li><a href="#Defining-Values-at-Risk-Using-the-Freeform">Defining Values at Risk: Using the Free-form Drawing Method to create polygons</a>
+            </li>
+            <li><a href="#Defining-Values-at-Risk-Using-Edit-Feature-Panel">Defining Values at Risk: Using the Edit Feature Panel to Specify Values at Risk Response function</a>
+            </li>
+            <li><a href="#Defining-Values-at-Risk-Using-the-Point-and-Click">Defining Values at Risk: Using the Point and Click Method to create polygons</a>
+            </li>
+            <li><a href="#Defining-Larger-Values-at-Risk">Defining Larger Values at Risk</a>
+            </li>
+            <li><a href="#Defining-Smaller-Values-at-Risk">Defining Smaller Values at Risk</a>
+            </li>
+            <li><a href="#Editing-Values-at-Risk">Editing Values at Risk</a>
+            </li>
+            <li><a href="#Defining-Values-at-Risk-Assigning-Background">Defining Values at Risk: Assigning a Background</a>
+            </li>
+            <li><a href="#Reviewing-and-Saving-Your-VAR">Reviewing and Saving Your Values-at-Risk Map</a>
+            </li>
+        </ul>
+        <p>We will focus this values-at-risk tutorial on the area within the following coordinates:</p>
+        <ul class="ul_1">
+            <ul>
+                <li><b>North:</b> 38.155672364916</li>
+                <li><b>East:</b> -122.5502871142</li>
+                <li><b>South:</b> 38.120028050516</li>
+                <li><b>West:</b> -122.5986956225</li>
+            </ul>
+        </ul>
+        <p class="p_2"><b><img src="../Resources/Images/Concepts_2015/JH_Caution.jpg" style="width: 37px;height: 37px;" />Note:</b> All references cited in this tutorial are in the IFTDSS online help bibliography; access it by navigating to <strong class="Strong">Reference Material &gt; Bilbiography.<img src="../Resources/Images/Tutorial_D_WCFL_2015/2_0_Tutorial_D_cap_12.png" class="screencap" style="width: 587px;height: 783px;" /></strong></p>
+        <h1 class="Heading1"><a name="Values-at-Risk"></a>Values-at-risk</h1>
+        <p>Values at risk, also known as highly valued resources, (HVR) are features on the landscape that are influenced positively and/or negatively by fire. A value at risk can have ecological, economic, or social importance.</p>
+        <p>Some examples of values at risk include:</p>
+        <ul>
+            <li>Airports</li>
+            <li>Archeological sites</li>
+            <li>Conifer forests</li>
+            <li>Highway buffers</li>
+            <li>Historic buildings</li>
+            <li>Wildland-urban interface</li>
+        </ul>
+        <MadCap:snippetBlock src="../Resources/Snippets/Creating values at risk.flsnp" />
+        <h1 class="Heading1"><a name="Inputting-Environmental-Simulation-Parameters"></a>Inputting Environmental and Simulation Parameters</h1>
+        <p>Now that you have created a values-at-risk map, the next steps will involve inputting the environmental and simulation parameters needed to run the model.  </p>
+        <p>In the following steps we will cover:</p>
+        <ul>
+            <li>IFT-FlamMap Inputs: Crown Fire Calculation, Fuel Moisture, &amp; Weather)</li>
+            <li>IFT-RANDIG Inputs: Simulation Inputs</li>
+            <li>Setting Flame Length Classes</li>
+        </ul>
+        <p class="p_2">
+            <img src="../Resources/Images/Tutorial_D_WCFL_2015/2_0_Tutorial_D_cap_13.png" class="screencap" style="width: 611px;height: 919px;" />
+        </p>
+        <p><strong class="Strong"><img src="../Resources/Images/Concepts_2015/JH_Caution.jpg" style="width: 37px;height: 37px;" />NOTE:</strong> The input fields are pre-populated with default values. </p>
+        <p><strong class="Strong"><img src="../Resources/Images/Concepts_2015/JH_Caution.jpg" style="width: 37px;height: 37px;" />NOTE:</strong> You should perform multiple runs with each crown fire initiation method to determine which method works best for your local vegetation. The Scott-Reinhardt method will generally result in more crown fire being modeled across the landscape. </p>
+        <p><strong class="Strong"><img src="../Resources/Images/JH_Tip.jpg" MadCap:mediastyle="@media print { width: 37px;height: 37px; }" style="width: 37px;height: 37px;" />Tip:</strong>You can use the <strong class="Strong">Tab </strong>key on your keyboard to navigate to the next input field.</p>
+        <h2 class="Heading2"><a name="Inputting-Environmental-Simulation-Parameters-IFTFLAMMAP"></a>IFT-FlamMap Inputs: Crown Fire Calculation, Fuel Moisture, &amp; Weather</h2>
+        <p>There are two choices for the crown fire calculation method, Finney, and Scott and Reinhardt. We will select Finney for this example, you can read more about the differences between the two choices on the <MadCap:xref href="../10-Reference/RefFlamMapCrownFireCalc.htm" style="font-weight: bold;">Crown Fire Calculation Options</MadCap:xref> help page.</p>
+        <p>Fuel moisture and weather inputs should be based on dry, hot summer conditions that could potentially produce the worst-case flame length outcomes. </p>
+        <p><b><img src="../Resources/Images/JH_Tip.jpg" MadCap:mediastyle="@media print { width: 37px;height: 37px; }" style="width: 37px;height: 37px;" />Tip:</b> When assessing fire risk across large landscapes, especially in mountainous terrain, be aware that weather conditions can vary across diverse topographic settings. Create multiple runs to test different weather scenarios that can produce low, high, and extreme fire behaviors</p>
+        <p>For this example, we input “red-flag warning” weather conditions that occur in this region (see the inputs in the figure below). Red-flag warning conditions often include low fuel moisture and low relative humidity, high/erratic winds, andlightning activity.</p>
+        <p>
+            <img src="../Resources/Images/Tutorial_D_WCFL_2015/2_0_Tutorial_D_cap_14.png" class="screencap" style="width: 357px;height: 496px;" />
+        </p>
+        <p><b><img src="../Resources/Images/JH_Tip.jpg" MadCap:mediastyle="@media print { width: 37px;height: 37px; }" style="width: 37px;height: 37px;" />Tip:</b> Definitions and possible value ranges will display when a mouse cursor is hovered over the underlined parameters. </p>
+        <h2 class="Heading2"><a name="Inputting-Environmental-Simulation-Parameters-IFTRANDIG"></a>IFT-RANDIG Inputs: Simulation Inputs</h2>
+        <p>Next, define the IFT-RANDIG simulation inputs. </p>
+        <ul>
+            <li>Specify the <strong class="Strong">Number of fire ignitions to simulate</strong>.&#160; This value refers to the number of randomly located ignition points across your run area. </li>
+        </ul>
+        <p class="p_6">The literature states that every pixel should have a chance of igniting; therefore, the larger the run area, the more random ignitions you will want to simulate. Start with 500 ignitions in small areas and 1000 ignitions in larger areas, add ignitions until most of the area experiences at least one fire. </p>
+        <ul>
+            <li>Specify the <strong class="Strong">Duration of the simulation</strong> in minutes.&#160; This value refers to the duration of the fire growth calculations for the set of constant fuel moisture and weather conditions.</li>
+        </ul>
+        <p>In this example, we chose to run the simulation for 60 minutes, which is the estimated response time for fire resources to be on scene at the Olompali State Historic Park.</p>
+        <p>You can use shorter and longer duration times to answer a variety of questions.</p>
+        <p class="p_6">
+            <img src="../Resources/Images/Tutorial_D_WCFL_2015/2_0_Tutorial_D_cap_15.png" class="screencap" style="width: 414px;height: 163px;" />
+        </p>
+        <p>Using a large data set (approximately 250,000 acres), the run time for the IFT-RANDIG module is estimated to be one hour per 2,000 ignitions. This is just an estimate; the module could take longer to run based on user load.</p>
+        <p><b><img src="../Resources/Images/JH_Tip.jpg" MadCap:mediastyle="@media print { width: 37px;height: 37px; }" style="width: 37px;height: 37px;" />Tip:</b> Create multiple runs to model burn probability using low, medium, and high numbers of fire ignitions, and short and long durations. </p>
+        <p>The results will help you understand how these inputs are affecting your specific area of interest.</p>
+        <h2 class="Heading2">Setting Flame Length Classes</h2>
+        <p>Now <strong class="Strong">enter flame lengths for your flame length classes, or accept the default values</strong>.&#160; The default flame length classes are categorized by fire suppression limitations based on flame length (see table below). </p>
+        <p>The low flame lengths parameter is not directly editable.&#160; The minimum flame length for the low flame length class will always be zero.&#160; The upper limit for low flame lengths is determined by the value you enter for medium flame lengths. </p>
+        <p>For example, if you enter 4 for medium flame lengths, the range for low flame lengths becomes 0 to 4 feet.<img src="../Resources/Images/Tutorial_D_WCFL_2015/2_0_Tutorial_D_cap_16.png" class="screencap" style="width: 390px;height: 319px;" /></p>
+        <table style="width: 100%;">
+            <col />
+            <col />
+            <col />
+            <tbody>
+                <tr>
+                    <td class="centeredUC">Flame Length Class</td>
+                    <td class="centeredUC">Flame Length</td>
+                    <td class="centeredUC">Fire Suppression Interpretations</td>
+                </tr>
+                <tr>
+                    <td>Low</td>
+                    <td>&lt;4</td>
+                    <td>Fires can generally be attacked at the head or flanks by persons using hand tools. Handline should hold fire.</td>
+                </tr>
+                <tr>
+                    <td class="coloredbackground" style="text-align: left;">Medium</td>
+                    <td class="coloredbackground" style="text-align: left;">4 to 8 feet</td>
+                    <td class="coloredbackground" style="text-align: left;">Fires are too intense for direct attack on the head by persons using hand tools. Handline cannot be relied on to hold the fire. Bulldozers, engines, and retardant drops can be effective.</td>
+                </tr>
+                <tr>
+                    <td>High</td>
+                    <td>8 to 11 feet</td>
+                    <td>Fires may present serious control problems: torching, crowning, and spotting. Control efforts at the head will probably be ineffective.</td>
+                </tr>
+                <tr>
+                    <td class="coloredbackground" style="text-align: left;">Very High</td>
+                    <td class="coloredbackground" style="text-align: left;">&gt; 11 feet</td>
+                    <td class="coloredbackground" style="text-align: left;">Crowning, spotting, and major fire runs are probable. Control efforts at the head of the fire are ineffective.</td>
+                </tr>
+            </tbody>
+        </table>
+        <p>(Table modified from the National Wildfire Coordinating Group, 2004)</p>
+        <p>Choose <strong class="Strong">Next</strong> to submit the inputs.&#160; You are taken to the <strong class="Strong">Review Landscape Data</strong> step.</p>
+        <h1 class="Heading1"><a name="Reviewing-Spatial-Landscape-Data"></a>Reviewing Spatial Landscape Data</h1>
+        <p>Now you can review your spatial landscape data using the map.</p>
+        <p>You can view the project area using imagery, topography, or street maps within IFTDSS. Toggle between these layers under the Base Layer section on the Layers tab. </p>
+        <p>You can also choose to display one or more overlays provide visual representations of different types of data.</p>
+        <p>In this example, you can see the area of interest with data from the <strong class="Strong">Fire Behavior Fuel Model</strong>.<img src="../Resources/Images/Tutorial_D_WCFL_2015/2_0_Tutorial_D_cap_17.png" class="screencap" style="width: 546px;height: 599px;" /></p>
+        <p>You can view the area of interest by the following LANDFIRE data layers:</p>
+        <ul>
+            <li>Fuel Model</li>
+            <li>Elevation</li>
+            <li>Slope</li>
+            <li>Aspect</li>
+            <li>Canopy Coverage</li>
+            <li>Canopy Height</li>
+            <li>Canopy Base Height</li>
+            <li>Canopy Bulk Density</li>
+        </ul>
+        <p>You can also view the project area using imagery, topography, or street maps within IFTDSS. Toggle between these layers under the Base Layer section on the Layers tab. </p>
+        <p>
+            <img src="../Resources/Images/Tutorial_D_WCFL_2015/2_0_Tutorial_D_cap_18.png" style="height: 182px;width: 273px;" class="img_3" />
+            <img src="../Resources/Images/Tutorial_D_WCFL_2015/2_0_Tutorial_D_cap_19.png" style="height: 182px;width: 265px;padding-left: 3px;" class="img_3" />
+        </p>
+        <h1 class="Heading1">Editing Spatial Landscape Data (One Grid Cell at a Time)</h1>
+        <p>If there are land use changes or if fires have occurred since the data layer was developed, you may need to edit the spatial landscape data, select the <strong class="Strong">Point Edit</strong> tool.&#160; Using this tool, you can edit one grid cell at a time.&#160; (Or, you can edit multiple grid cells at a time using the <strong class="Strong">Advanced Edit</strong> tool, as shown on the next page.) </p>
+        <p>Click on the grid cell you would like to edit, and the <strong class="Strong">Point Edit</strong> panel appears.</p>
+        <p>Edit the grid cell data and choose <strong class="Strong">Save</strong>.</p>
+        <p>The next page shows how to edit the spatial landscape data using the <strong class="Strong">Advanced Edit</strong> tool.</p>
+        <p>
+            <img src="../Resources/Images/Tutorial_D_WCFL_2015/2_0_Tutorial_D_cap_20.png" class="screencap" style="width: 517px;height: 311px;" />
+        </p>
+        <h1 class="Heading1">Editing Spatial Landscape Data (Multiple Grid Cells at a Time)</h1>
+        <p>In the previous example, we showed how to edit grid cells one at a time.&#160; You can also use the <strong class="Strong">Advanced Edit</strong> tool to edit multiple cells at once.</p>
+        <p><strong class="Strong">To get started, select the Advanced Edit tool</strong>.&#160; The <strong class="Strong">Advanced Edit </strong>panel appears.</p>
+        <p>In this panel, you can modify any of the spatial data in query format so that multiple cells can be changed at once. </p>
+        <p>After you are done reviewing and editing your spatial data, choose <strong class="Strong">Next </strong>to run the IFT-FlamMap and IFT-RANDIG modules. </p>
+        <p>
+            <img src="../Resources/Images/Tutorial_D_WCFL_2015/2_0_Tutorial_D_cap_21.png" class="screencap" style="width: 559px;height: 335px;" />
+        </p>
+        <p>Both the IFT-FlamMap and IFT-RANDIG modules are now running.&#160; The more random ignitions you place across a landscape, the longer this step takes to complete.</p>
+        <p><strong class="Strong"><img src="../Resources/Images/Concepts_2015/JH_Caution.jpg" style="width: 37px;height: 37px;" />Note:</strong><span class="span_1">&#160; </span>For the example data used in this tutorial, the IFT-RANDIG module takes approximately 30 minutes to run.</p>
+        <h1 class="Heading1"><a name="Analyzing-Fire-Behavior-Data"></a>Analyzing Fire Behavior Output Data</h1>
+        <p>After the IFT-FlamMap and IFT-RANDIG modules finish running, you can review your fire behavior output variables using the map.</p>
+        <p>The fire behavior output variables include:</p>
+        <p class="ListParagraph_1"><strong class="Strong">Overall Burn Probability</strong><strong class="Strong">: </strong> An estimate (produced by IFT-RANDIG) for a given 30 x 30 m pixel of the likelihood that the area represented by a pixel will burn given a random ignition within the area of interest (for a specific set of environmental conditions).&#160;&#160; The formula is:</p>
+        <ul class="ul_1">
+            <p class="ListParagraph_1">
+                <MadCap:equation xmlns:dsi="http://www.w3.org/1998/Math/MathML">
+                    <math>
+                        <mrow>
+                            <mi>B</mi>
+                            <mi>P</mi>
+                            <mo>⁢</mo>
+                            <mo>=</mo>
+                            <mtext><![CDATA[ ]]></mtext>
+                            <mfrac>
+                                <mrow>
+                                    <mi>F</mi>
+                                </mrow>
+                                <mrow>
+                                    <mi>n</mi>
+                                </mrow>
+                            </mfrac>
+                        </mrow>
+                    </math>
+                </MadCap:equation>
+            </p>
+        </ul>
+        <p style="font-style: italic;">where</p>
+        <p style="text-indent: 0.5in;">BP = burn probability</p>
+        <p style="text-indent: 0.5in;">F = number of times a pixel burns</p>
+        <p style="text-indent: 0.5in;"><i>n</i> = number of simulated fires</p>
+        <p class="p_7">Burn probability is <strong class="Strong">not</strong> an estimate of the potential for wildfires to occur and should not be confused with empirical wildfire occurrence probabilities.</p>
+        <p class="ListParagraph_1"><strong class="Strong">Flame Length</strong><strong class="Strong">:</strong> A pixel-by-pixel estimate of flame lengths (produced by IFT-FlamMap) under head fire conditions based on the input fuel moisture and weather conditions.</p>
+        <p>You can also review the values at risk, response function, and fire behavior fuel model layers.</p>
+        <p><strong class="Strong"><img src="../Resources/Images/Concepts_2015/JH_Caution.jpg" style="width: 37px;height: 37px;" />Note: Due to random ignitions, your burn probability output will look different than this example’s output.</strong>
+        </p>
+        <p class="p_4">
+            <img src="../Resources/Images/Tutorial_D_WCFL_2015/2_0_Tutorial_D_cap_22.png" class="screencap" style="width: 607px;height: 659px;" />
+        </p>
+        <p>You can review the fire behavior data at a specific grid cell by selecting the <strong class="Strong">Point Info</strong> tool.</p>
+        <p>Click on the grid cell you would like to review, and the <strong class="Strong">Point Info</strong> panel appears.</p>
+        <p class="p_4">
+            <img src="../Resources/Images/Tutorial_D_WCFL_2015/2_0_Tutorial_D_cap_23.png" class="screencap" style="width: 518px;height: 336px;" />
+        </p>
+        <p>Taking a simple first look at the <strong class="Strong">Overall Burn Probability</strong> output, it is clear that the westerly wind (blowing from the west to the east) is pushing the fire to the east (indicated by the red arrow).&#160; Highway 101 (outlined in red) would potentially stop a majority of the fire spread. </p>
+        <p>
+            <img src="../Resources/Images/Tutorial_D_WCFL_2015/2_0_Tutorial_D_cap_24.png" class="screencap" style="width: 566px;height: 348px;" />
+        </p>
+        <p><b><img src="../Resources/Images/Concepts_2015/JH_Caution.jpg" style="width: 37px;height: 37px;" />Note:</b> In a risk assessment, you will need to perform a more detailed interpretation of the fire behavior results.</p>
+        <p>Next, we will review the flame length output </p>
+        <p>Taking a simple first look at the flame length output, it is clear that the red flag warning environmental conditions predicted high flame lengths for a majority of the area of interest.</p>
+        <p>Use the <strong class="Strong">Values at Risk</strong> overlay and the <strong class="Strong">Point Info</strong> tool to determine potential flame length variability across the landscape.</p>
+        <ul>
+            <li>In this example, the lowest predicted flame lengths are located in a portion of private land (oak woodlands) and the north end of the Burdell Open Space Preserve (outlined in blue).</li>
+            <li>Flame lengths for the surrounding areas are predicted to be &gt;9 ft.<img src="../Resources/Images/Tutorial_D_WCFL_2015/2_0_Tutorial_D_cap_25.png" class="screencap" style="width: 490px;height: 307px;" /></li>
+        </ul>
+        <p>Click Next at the bottom of the page to run the model</p>
+        <p>In the next sections we’ll use a real example to show how net value change is calculated. We will:</p>
+        <ul>
+            <li><a href="#Relative-Net-Change">Examine Relative Net Value Change</a>
+            </li>
+            <li><a href="#Classifying-RNVC">Classify Relative Net Value Change Data</a>
+            </li>
+            <li><a href="#Exporting-Google-Earth">Export Map Summary Data</a>
+            </li>
+            <li><a href="#Evaluating-details-google-earth">Evaluate Results in Google Earth</a>
+            </li>
+            <li><a href="#Adding-details-google-earth">Add Map Details in Google Earth</a>
+            </li>
+            <li><a href="#Identifying-risks">Identify Potential Fire Hazards and Risk</a>
+            </li>
+            <li><a href="#Assessing-further-needs">Assess further needs</a>
+            </li>
+            <li><a href="#Analysis-considerations-things-to-know">Review some helpful analysis considerations
+</a>
+            </li>
+        </ul>
+        <h2 class="Heading2"><a name="Relative-Net-Change"></a>About Relative Net Value Change</h2>
+        <p>Risk is defined as the expected net value change per pixel calculated as the product of:</p>
+        <ul>
+            <li>The probability that the area represented by the pixel burns given a random ignition within the project area, and </li>
+            <li>The resulting change in financial or ecological value (response function) if the area represented by the pixel burns with a specific flame length for a single static IFT-FlamMap run. </li>
+        </ul>
+        <p>After the risk model runs, you can view the <strong class="Strong">Relative Net Value Change</strong>.</p>
+        <p><strong class="Strong"><img src="../Resources/Images/Concepts_2015/JH_Caution.jpg" style="width: 37px;height: 37px;" />Note: </strong>Your output will look different than this example’s output due to differences in values at risk, as well as random ignitions across the landscape.</p>
+        <p>
+            <img src="../Resources/Images/Tutorial_D_WCFL_2015/2_0_Tutorial_D_cap_26.png" class="screencap" style="width: 477px;height: 544px;" />
+        </p>
+        <p>Select a pixel using the Point Info tool.<img src="../Resources/Images/Tutorial_D_WCFL_2015/2_0_Tutorial_D_cap_27.png" class="screencap" style="width: 618px;height: 347px;" /></p>
+        <p>
+            <img src="../Resources/Images/Tutorial_D_WCFL_2015/2_0_Tutorial_D_cap_28.png" class="screencap" style="width: 676px;height: 385px;" />
+        </p>
+        <p>In this example, the pixel selected was assigned a Response Function 4, and the pixel was predicted to have burned with a “High” flame length (8 to 11 ft); therefore the pixel is assigned a Net Value Change (NVC) multiplier of -10, based on the table.</p>
+        <p>The overall burn probability for the grid cell is 0.2250, so the burn probability of 0.2250 is multiplied by the NVC multiplier of -10 to obtain a net value change value of -2.25.</p>
+        <p> <MadCap:equation xmlns:dsi="http://www.w3.org/1998/Math/MathML"><math><mrow><mi>N</mi><mi>e</mi><mi>t</mi><mo>⁢</mo><mtext><![CDATA[ ]]></mtext><mi>v</mi><mi>a</mi><mi>l</mi><mi>u</mi><mi>e</mi><mo>⁢</mo><mi>c</mi><mi>h</mi><mi>a</mi><mi>n</mi><mi>g</mi><mi>e</mi><mo>⁢</mo><mo>=</mo><mtext><![CDATA[ ]]></mtext><mi>B</mi><mi>P</mi><mo>⁢</mo><mo>*</mo><mtext><![CDATA[ ]]></mtext><mi>N</mi><mi>V</mi><mi>C</mi><mo>⁢</mo><mi>M</mi><mi>u</mi><mi>l</mi><mi>t</mi><mi>i</mi><mi>p</mi><mi>l</mi><mi>i</mi><mi>e</mi><mi>r</mi></mrow></math></MadCap:equation></p>
+        <p> <MadCap:equation xmlns:dsi="http://www.w3.org/1998/Math/MathML"><math><mrow><mi>N</mi><mi>e</mi><mi>t</mi><mo>⁢</mo><mi>V</mi><mi>a</mi><mi>l</mi><mi>u</mi><mi>e</mi><mo>⁢</mo><mi>C</mi><mi>h</mi><mi>a</mi><mi>n</mi><mi>g</mi><mi>e</mi><mo>⁢</mo><mo>=</mo><mtext><![CDATA[ ]]></mtext><mn>0.2250</mn><mo>⁢</mo><mo>*</mo><mtext><![CDATA[ ]]></mtext><mo>−</mo><mn>10</mn><mo>⁢</mo><mo>=</mo><mtext><![CDATA[ ]]></mtext><mo>−</mo><mn>2.25</mn></mrow></math></MadCap:equation></p>
+        <p>Next, we discuss how the default relative net value change is binned into the five data subsets (listed in the Relative Net Value Change legend).</p>
+        <h2 class="Heading2"><a name="Classifying-RNVC"></a>Classifying Relative Net Value Change Data</h2>
+        <p>The relative net value change parameter is classified into five data subsets. </p>
+        <ul>
+            <li>Greatest Loss/Least Benefit</li>
+            <li>High Loss/Low Benefit</li>
+            <li>Average Loss/Benefit</li>
+            <li>Low Loss/High Benefit</li>
+            <li>Least Loss/Greatest Benefit</li>
+        </ul>
+        <p>For the default relative net value change parameter, <strong class="Strong">the output value range is binned by 20%</strong> for all of the categories.</p>
+        <p>For example, if your data ranges from a numerical value of -20 to +40, the data subsets will be binned into the following data ranges:&#160; -20 to -8, -8 to 4, 4 to 16, 16 to 28, and 28 to 40.</p>
+        <p>Using the example grid cell from the previous step, the relative net value change number (-2.25) for that specific grid cell was binned into the High Loss/Low Benefit category.</p>
+        <p>
+            <img src="../Resources/Images/Tutorial_D_WCFL_2015/2_0_Tutorial_D_cap_27.png" class="screencap" style="width: 626px;height: 352px;" />
+        </p>
+        <p>On the Relative Net Value Change step, you can view your area of interest by flame length class (binned by the flame length classes you defined earlier).</p>
+        <p>In this example, very high flame lengths (&gt;11 ft) are predicted for the northwest area (including the Burdell Open Space Preserve, Pierre Joske Grove, and private oak woodlands), and a large central area just west of Highway 101, both outlined in blue.<img src="../Resources/Images/Tutorial_D_WCFL_2015/2_0_Tutorial_D_cap_29.png" class="screencap" style="width: 668px;height: 291px;" /></p>
+        <p>Taking a first look at the default relative net value change parameter, we can see that there are many pixels classified in the “Greatest Loss/Least Benefit” category (pixels representing areas at the highest risk of loss based on the avalues at risk and the overall burn probability).<img src="../Resources/Images/Tutorial_D_WCFL_2015/2_0_Tutorial_D_cap_30.png" class="screencap" style="width: 564px;height: 351px;" /></p>
+        <p>In this example, we cannot apply fuel treatments to all of the areas represented by the “Greatest Loss/Least Benefit” pixels, so we would like to refine the area of interest to find the areas that have the greatest potential loss.</p>
+        <p>To classify these categories into different data ranges, choose <strong class="Strong">Next.</strong><![CDATA[  ]]></p>
+        <p>In classifying relative net value change, you can adjust the weights of the five data subsets. Using this functionality, you can narrow your search of high fire hazard and risk areas to areas with the greatest potential loss.</p>
+        <p>In this example, we will reduce the output range for the Greatest Loss/Least Benefit category from 20% to 10%. We will change the remaining output ranges as shown.</p>
+        <p>
+            <img src="../Resources/Images/Tutorial_D_WCFL_2015/2_0_Tutorial_D_cap_31.png" class="screencap" style="width: 548px;height: 415px;" />
+        </p>
+        <p><strong class="Strong"><img src="../Resources/Images/Concepts_2015/JH_Caution.jpg" style="width: 37px;height: 37px;" />Note:</strong>&#160; The sum of all five weights <span class="span_2">must</span> be 100%.</p>
+        <p>To view the user-binned relative net value change in the map summary, choose <strong class="Strong">Next</strong></p>
+        <p>Note on the map summary page, your custom relative net value change distribution is the active layer. You can compare this custom relative net value change distribution layer to the default relative net value change distribution layer. In this example, you can see that the custom relative net value change reduced the amount of pixels in the Greatest Loss/Least Benefits category. </p>
+        <p>Now we can focus our attention on the highest risk areas across our area of interest (outlined in blue).</p>
+        <p><b>Find areas across your landscape that are predicted to have the greatest loss/least benefit due to fire.</b>
+        </p>
+        <p>
+            <img src="../Resources/Images/Tutorial_D_WCFL_2015/2_0_Tutorial_D_cap_32.png" class="screencap" style="width: 599px;height: 378px;" />
+        </p>
+        <p>You can export IFTDSS inputs and outputs to Google Earth to further analyze potential fire hazard and risk.</p>
+        <p>In the next steps, we will export our map summary data and review this data using Google Earth.&#160; </p>
+        <h2 class="Heading2"><a name="Exporting-Google-Earth"></a>Exporting Map Summary Data</h2>
+        <p>IFTDSS can save your map image, or export the map summary and input data as a KML file, which can be opened and viewed in Google Earth. To export the map summary and input data as KML files:</p>
+        <p>Access the <strong class="Strong">Exports</strong> tab (located in the upper left panel).</p>
+        <p>Select <strong class="Strong">Download Map Summary Data (KML).<img src="../Resources/Images/Tutorial_D_WCFL_2015/2_0_Tutorial_D_cap_33.png" class="screencap" style="width: 690px;height: 152px;" /></strong></p>
+        <p>Select <strong class="Strong">Open with Google Earth</strong> in the pop-up window. </p>
+        <p>
+            <img src="../Resources/Images/Tutorial_D_WCFL_2015/2_0_Tutorial_D_cap_34.png" class="screencap" style="width: 639px;height: 176px;" />
+        </p>
+        <p>Repeat these steps to <strong class="Strong">Download Input Data (KML).</strong></p>
+        <p>For the next several steps, we will evaluate the output data in Google Earth. Minimize your IFTDSS workspace, we will return to it to wrap-up the tutorial in a few steps.</p>
+        <p><strong class="Strong"><img src="../Resources/Images/Concepts_2015/JH_Caution.jpg" style="width: 37px;height: 37px;" />Note:</strong> Depending on your browser setting you may be prompted to ‘Confirm Navigation’, or choose a location to save to. Follow the prompts in your specific browser. Your data will automatically be displayed in Google Earth</p>
+        <p> <strong class="Strong"><img src="../Resources/Images/Concepts_2015/JH_Caution.jpg" style="width: 37px;height: 37px;" />Note:</strong> If you do not currently have Google Earth on your computer, it may be downloaded here: <a href="https://www.google.com/earth/">https://www.google.com/earth/</a></p>
+        <h2 class="Heading2"><a name="Evaluating-details-google-earth"></a>Evaluating Results in Google Earth</h2>
+        <p>The map summary parameters are now stored as layers in the Temporary Places folder within Google Earth.&#160; Unselect the Fire Behavior Fuel Model layer.&#160; The default relative net value change parameter is the active layer. </p>
+        <p>
+            <img src="../Resources/Images/Tutorial_D_WCFL_2015/2_0_Tutorial_D_cap_35.png" class="screencap" style="width: 699px;height: 422px;" />
+        </p>
+        <h2 class="Heading2"><a name="Adding-details-google-earth"></a>Adding Map Details in Google Earth</h2>
+        <p>Using the <strong class="Strong">Layers</strong> tab in Google Earth, you can add such things as park and recreation areas, water body outlines, schools, airports, and roads to your map(s).</p>
+        <p>
+            <img src="../Resources/Images/Tutorial_D_WCFL_2015/2_0_Tutorial_D_cap_36.png" class="screencap" style="width: 664px;height: 400px;" />
+        </p>
+        <p><strong class="Strong"><img src="../Resources/Images/JH_Tip.jpg" MadCap:mediastyle="@media print { width: 37px;height: 37px; }" style="width: 37px;height: 37px;" />Tip:</strong> In Google Earth, click on the triangle icon to the left of each layer to expand more detailed sub-layers.</p>
+        <h2 class="Heading2"><a name="Identifying-risks"></a>Identifying Potential Fire Hazards and Risk</h2>
+        <p>While still in Google Earth, using information derived from the modeled fire behavior, as well as the spatial landscape data, you can identify potential fire hazard and risk areas surrounding the Olompali State Historic Park (see outlined areas).</p>
+        <p>In this example, we selected the custom relative net value change distribution to view highest risk areas across our area of interest (outlined in blue).</p>
+        <p>Next, we’ll take a more in-depth look at the wildland-urban interface (identified by bullseye)</p>
+        <p class="p_4">
+            <img src="../Resources/Images/Tutorial_D_WCFL_2015/2_0_Tutorial_D_cap_37.png" class="screencap" style="width: 515px;height: 429px;" />
+        </p>
+        <p>View the <b>Values at Risk</b> layer to see what valuable resources are of most concern across your area of interest.</p>
+        <p>In this example (still in Google Earth), we focus in on one of our highest risk areas, the wildland-urban interface.&#160; It is important to review a number of different fire behavior descriptor variables, such as flame length class and overall burn probability.</p>
+        <p>Here, we can see an area of relatively high loss (right), next to an areas of lesser loss (left).</p>
+        <p>
+            <img src="../Resources/Images/Tutorial_D_WCFL_2015/2_0_Tutorial_D_cap_38.png" class="screencap" style="width: 635px;height: 442px;" />
+        </p>
+        <p>By evaluating the predicted flame lengths, we can see that much of the area is predicted to experience high (8 to 11 ft) to very high (&gt;11 ft) flame lengths under the set environmental conditions.<img src="../Resources/Images/Tutorial_D_WCFL_2015/2_0_Tutorial_D_cap_39.png" class="screencap" style="width: 616px;height: 429px;" /></p>
+        <p>Looking at the probability layer, we can see the likelihood of burning in the high loss wildland urban interface approximately falls in the 20-50% range.<img src="../Resources/Images/Tutorial_D_WCFL_2015/2_0_Tutorial_D_cap_40.png" class="screencap" style="width: 594px;height: 414px;" /></p>
+        <p>This example uses the risk assessment output layers.</p>
+        <p>This area is at risk for high potential loss from fire.&#160; Under the red flag warning conditions, which predicted high to very high flame lengths, the likelihood this area will ignite is moderate.&#160; </p>
+        <p>It is also important to <strong class="Strong">review the landscape data in your area of interest.</strong><span class="span_1">&#160; </span>This location is dominated by flashy fuels:&#160; Fuel Model 4: chaparral (indicated in brown) and Fuel Model 1 and 2: grass models (indicated in yellow and blue). The wildland-urban interface has moderate, south- to southwest-facing slopes.&#160; </p>
+        <p>After reviewing the modeled fire behavior, fire risk, and spatial landscape data, you may warrant further analyses and may require site visits and/or fuels treatments. <img src="../Resources/Images/Tutorial_D_WCFL_2015/2_0_Tutorial_D_cap_41.png" class="screencap" style="width: 637px;height: 351px;" /></p>
+        <h2 class="Heading2"><a name="Assessing-further-needs"></a>Next Steps:&#160; Assessing Further Needs</h2>
+        <p>The information from this risk assessment can be used with other ecological and natural resource planning information to rapidly assess areas within the landscape that may warrant fuels treatment.<img src="../Resources/Images/Tutorial_D_WCFL_2015/2_0_Tutorial_D_cap_48.png" class="screencap" style="width: 588px;height: 517px;" /></p>
+        <p>After reviewing the aerial photography and the fire behavior fuel model layer, it is clear that the LANDFIRE data needs to be edited; return to the editing spatial landscape data step to edit your fuel models.&#160; Then rerun the module to see differences in the fire behavior and risk outputs.</p>
+        <p>Navigate back to your risk assessment run in IFTDSS. </p>
+        <h2 class="Heading2"><a name="Analysis-considerations-things-to-know"></a>Analysis Considerations: Things You Need to Know</h2>
+        <p>As we conclude the analysis and data review portions of the tutorial, consider the following points when analyzing data for your own areas of interest in the future:</p>
+        <ul>
+            <li>Fire behavior values are calculated pixel-by-pixel and are <strong class="Strong">simulated independently</strong> with respect to the surrounding pixels in the landscape input file.</li>
+            <li>For the IFT-FlamMap output, fire behavior in adjacent locations, roads, or hazardous fuel types in proximity to the area under assessment <strong class="Strong">does not</strong> affect the fire behavior potential of the pixel (or point location) being assessed.</li>
+            <li>The LANDFIRE data resolution is 30 x 30 m spatial resolution, which affects data interpretation.</li>
+            <li>The worst-case flame lengths approach assumes random ignitions across the area of interest; however, some areas have higher ignition potentials than others.&#160; This approach does not yet take this into account. For example, human-caused ignitions often occur close to roads and natural ignitions caused by lightning occur at elevated areas.&#160; </li>
+            <li>The worst-case flame lengths risk assessment approach may overestimate the degree of damage to the value at risk in an area represented by an individual pixel.</li>
+        </ul>
+        <p>For the next two sections on saving and coping datasets, go to the bottom of the Map Summary page, choose <strong class="Strong">Finish</strong>. This takes you to the Run Summary page.</p>
+        <MadCap:snippetBlock src="../Resources/Snippets/Save and Copy Datasets.flsnp" />
+        <h1 class="Heading1">Review</h1>
+        <p>Using the risk assessment workflow in IFTDSS, we were able to</p>
+        <ul>
+            <li>Acquire LANDFIRE data and set up a project in IFTDSS.<ul><li>Create a run focused on fire risk across a landscape (using IFT-FlamMap and IFT-RANDIG).</li><li>Develop a values-at-risk map.</li><li>Establish environmental parameters.</li><li>Review/edit spatial landscape input data.</li><li>Analyze potential fire behavior output data.</li><li>Identify potential fire hazards and risks across <br />a landscape.</li><li>Examine data relative to points of interest and other geographic features using Google Earth.</li></ul></li>
+            <li>Copy a run for use with different inputs.</li>
+        </ul>
+        <p>This concludes the tutorial on creating a risk assessment using the worst-case flame lengths approach.</p>
+        <h1 class="Heading1">Additional Help</h1>
+        <p>To navigate to additional tutorials in the IFTDSS online help content,</p>
+        <ul>
+            <li>Click the <strong class="Strong">Help</strong> button.</li>
+            <li>Then select <strong class="Strong">Getting Started (Tutorials and Videos) </strong>from the side menu.</li>
+        </ul>
+        <p>On that page, you’ll find links to tutorials and videos on such topics as hazard analysis, prescribed burn planning, fuels treatment, spatial analysis across a landscape, and many more.</p>
+        <p>
+            <img src="../Resources/Images/Tutorial_D_WCFL_2015/2_0_Tutorial_D_cap_47.png" class="screencap" style="width: 658px;height: 186px;" />
+        </p>
+    </body>
+</html>

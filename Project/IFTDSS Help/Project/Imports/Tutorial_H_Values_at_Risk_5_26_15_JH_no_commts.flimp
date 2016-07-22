@@ -1,0 +1,178 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MsWordImport
+  PreserveSourceStyles="true"
+  KeepSourceLinks="true"
+  ConvertInlineFormatting="true"
+  AddContinuedLinks="true"
+  AddContinuedFromLinks="true"
+  ContinuedLinkFormat="(continued in {title})"
+  ContinuedFromLinkFormat="(continued from {title})"
+  UseMaxCharLimit="false"
+  UseMinCharLimit="true"
+  MaxCharLimit="10000"
+  MinCharLimit="50"
+  FilenameLength="24"
+  GeneratePageLayouts="false"
+  UseFirstHeadingAsTopicTitle="true"
+  LastCollectTime="2015-06-17T13:51:36.6965843-07:00"
+  ProjectName="IFTDSS Help"
+  ProjectFolder="C:\Users\NIFTT\Documents\My Projects\REALPROJECT\IFTDSS Help\"
+  AutoSync="false"
+  AutoFitTables="false"
+  UseHeaderRows="false"
+  Stylesheet="../../Content/Resources/Stylesheets/IFTDSS_help.css"
+  LastImport="2015-06-17T14:00:04.3066179-07:00">
+  <Files>
+    <Url
+      Source="file:///E:/IFTDSS/CONTENT/IFTDSS_TUTORIALS/H_Values_at_Risk/Tutorial_H_Values_at_Risk_5_26_15_JH_no_commts.docx"
+      AbsoluteSource="file:///E:/IFTDSS/CONTENT/IFTDSS_TUTORIALS/H_Values_at_Risk/Tutorial_H_Values_at_Risk_5_26_15_JH_no_commts.docx" />
+  </Files>
+  <ExcludedFiles />
+  <CollectedSourceFiles />
+  <SkippedSourceFiles />
+  <GeneratedFiles>
+    <Url
+      Source="../../Content/Tutorial_H_Values_at_Risk_5_26_15_JH_no_commts/Tutorial H Creating a Values.htm"
+      TimeStamp="6/17/2015 1:59:29 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Tutorial_H_Values_at_Risk_5_26_15_JH_no_commts/Introduction.jpg"
+      TimeStamp="6/17/2015 1:59:28 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Tutorial_H_Values_at_Risk_5_26_15_JH_no_commts/Introduction.png"
+      TimeStamp="6/17/2015 1:59:28 PM" />
+    <Url
+      Source="../../Content/Tutorial_H_Values_at_Risk_5_26_15_JH_no_commts/Introduction.htm"
+      TimeStamp="6/17/2015 1:59:29 PM" />
+    <Url
+      Source="../../Content/Tutorial_H_Values_at_Risk_5_26_15_JH_no_commts/Background Values at risk.htm"
+      TimeStamp="6/17/2015 1:59:29 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Tutorial_H_Values_at_Risk_5_26_15_JH_no_commts/Response Functions Definitions.png"
+      TimeStamp="6/17/2015 1:59:28 PM" />
+    <Url
+      Source="../../Content/Tutorial_H_Values_at_Risk_5_26_15_JH_no_commts/Response Functions Definitions.htm"
+      TimeStamp="6/17/2015 1:59:29 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Tutorial_H_Values_at_Risk_5_26_15_JH_no_commts/Introduction to the Map Toolbar.png"
+      TimeStamp="6/17/2015 1:59:28 PM" />
+    <Url
+      Source="../../Content/Tutorial_H_Values_at_Risk_5_26_15_JH_no_commts/Introduction to the Map Toolbar.htm"
+      TimeStamp="6/17/2015 1:59:29 PM" />
+    <Url
+      Source="../../Content/Tutorial_H_Values_at_Risk_5_26_15_JH_no_commts/Defining Values at Risk Methods.htm"
+      TimeStamp="6/17/2015 1:59:29 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Tutorial_H_Values_at_Risk_5_26_15_JH_no_commts/Defining Values at Risk Using.png"
+      TimeStamp="6/17/2015 1:59:28 PM" />
+    <Url
+      Source="../../Content/Tutorial_H_Values_at_Risk_5_26_15_JH_no_commts/Defining Values at Risk Using.htm"
+      TimeStamp="6/17/2015 1:59:29 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Tutorial_H_Values_at_Risk_5_26_15_JH_no_commts/Defining Values at Risk Using_1.png"
+      TimeStamp="6/17/2015 1:59:28 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Tutorial_H_Values_at_Risk_5_26_15_JH_no_commts/Defining Values at Risk Using_1_1.png"
+      TimeStamp="6/17/2015 1:59:28 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Tutorial_H_Values_at_Risk_5_26_15_JH_no_commts/Defining Values at Risk Using_1.jpg"
+      TimeStamp="6/17/2015 1:59:28 PM" />
+    <Url
+      Source="../../Content/Tutorial_H_Values_at_Risk_5_26_15_JH_no_commts/Defining Values at Risk Using_1.htm"
+      TimeStamp="6/17/2015 1:59:29 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Tutorial_H_Values_at_Risk_5_26_15_JH_no_commts/Defining Values at Risk Using_2.png"
+      TimeStamp="6/17/2015 1:59:28 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Tutorial_H_Values_at_Risk_5_26_15_JH_no_commts/Defining Values at Risk Using_2_1.png"
+      TimeStamp="6/17/2015 1:59:28 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Tutorial_H_Values_at_Risk_5_26_15_JH_no_commts/Defining Values at Risk Using_2_2.png"
+      TimeStamp="6/17/2015 1:59:28 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Tutorial_H_Values_at_Risk_5_26_15_JH_no_commts/Defining Values at Risk Using_2_3.png"
+      TimeStamp="6/17/2015 1:59:28 PM" />
+    <Url
+      Source="../../Content/Tutorial_H_Values_at_Risk_5_26_15_JH_no_commts/Defining Values at Risk Using_2.htm"
+      TimeStamp="6/17/2015 1:59:29 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Tutorial_H_Values_at_Risk_5_26_15_JH_no_commts/Defining Larger Values at.png"
+      TimeStamp="6/17/2015 1:59:29 PM" />
+    <Url
+      Source="../../Content/Tutorial_H_Values_at_Risk_5_26_15_JH_no_commts/Defining Larger Values at.htm"
+      TimeStamp="6/17/2015 1:59:29 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Tutorial_H_Values_at_Risk_5_26_15_JH_no_commts/Defining Smaller Values at.png"
+      TimeStamp="6/17/2015 1:59:29 PM" />
+    <Url
+      Source="../../Content/Tutorial_H_Values_at_Risk_5_26_15_JH_no_commts/Defining Smaller Values at.htm"
+      TimeStamp="6/17/2015 1:59:29 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Tutorial_H_Values_at_Risk_5_26_15_JH_no_commts/Editing Values at Risk.png"
+      TimeStamp="6/17/2015 1:59:29 PM" />
+    <Url
+      Source="../../Content/Tutorial_H_Values_at_Risk_5_26_15_JH_no_commts/Editing Values at Risk.htm"
+      TimeStamp="6/17/2015 1:59:29 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Tutorial_H_Values_at_Risk_5_26_15_JH_no_commts/Defining Values at Risk Assigning.png"
+      TimeStamp="6/17/2015 1:59:29 PM" />
+    <Url
+      Source="../../Content/Tutorial_H_Values_at_Risk_5_26_15_JH_no_commts/Defining Values at Risk Assigning.htm"
+      TimeStamp="6/17/2015 1:59:30 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Tutorial_H_Values_at_Risk_5_26_15_JH_no_commts/Reviewing and Saving Your.png"
+      TimeStamp="6/17/2015 1:59:29 PM" />
+    <Url
+      Source="../../Content/Tutorial_H_Values_at_Risk_5_26_15_JH_no_commts/Reviewing and Saving Your.htm"
+      TimeStamp="6/17/2015 1:59:30 PM" />
+    <Url
+      Source="../../Content/Tutorial_H_Values_at_Risk_5_26_15_JH_no_commts/Review.htm"
+      TimeStamp="6/17/2015 1:59:30 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Tutorial_H_Values_at_Risk_5_26_15_JH_no_commts/Additional Help.png"
+      TimeStamp="6/17/2015 1:59:29 PM" />
+    <Url
+      Source="../../Content/Tutorial_H_Values_at_Risk_5_26_15_JH_no_commts/Additional Help.htm"
+      TimeStamp="6/17/2015 1:59:30 PM" />
+    <Url
+      Source="../TOCs/Tutorial_H_Values_at_Risk_5_26_15_JH_no_commts.fltoc"
+      TimeStamp="6/17/2015 1:59:29 PM" />
+    <Url
+      Source="../../Content/Resources/Stylesheets/IFTDSS_help_1.css"
+      TimeStamp="6/17/2015 1:59:29 PM" />
+  </GeneratedFiles>
+  <ParagraphStyles>
+    <Map
+      From="Heading 1"
+      To="h1.(MS Word Style)" />
+    <Map
+      From="Heading 2"
+      To="h2.Heading 2" />
+    <Map
+      From="List Paragraph"
+      To="p.(MS Word Style)" />
+    <Map
+      From="Title"
+      To="h1.(MS Word Style)" />
+  </ParagraphStyles>
+  <CharacterStyles>
+    <Map
+      From="Hyperlink"
+      To="a.(MS Word Style)" />
+  </CharacterStyles>
+  <NewTopicStyles>
+    <StyleName
+      Name="Heading 1" />
+  </NewTopicStyles>
+  <UsedParagraphStyles>
+    <StyleName
+      Name="Heading 1" />
+    <StyleName
+      Name="List Paragraph" />
+    <StyleName
+      Name="Title" />
+  </UsedParagraphStyles>
+  <UsedCharacterStyles>
+    <StyleName
+      Name="Strong" />
+  </UsedCharacterStyles>
+</MsWordImport>

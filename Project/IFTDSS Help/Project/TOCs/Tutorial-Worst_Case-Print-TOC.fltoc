@@ -1,0 +1,208 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc
+  Version="1">
+  <TocEntry
+    Title="Interagency Fuels Treatment Decision Support System"
+    Link="/Content/01-Front-Matter/TitlePage.htm"
+    BreakType="chapter"
+    PageLayout="/Content/Resources/PageLayouts/PDF-FrontMatter.flpgl"
+    PageType="title"
+    StartSection="false"
+    PageNumberReset="continue">
+    <TocEntry
+      Title="Contents"
+      Link="/Content/PDF_Output/PDF-TOC.htm"
+      BreakType="pageLayout"
+      PageLayout="/Content/Resources/PageLayouts/PDF-FrontMatter.flpgl"
+      PageType="first"
+      StartSection="false" />
+  </TocEntry>
+  <TocEntry
+    Title="Worst-Case Flame Length"
+    Link="/Content/06-Risk-Assessment/RiskAssessWorstCaseTutorial.htm"
+    BreakType="pageLayout"
+    StartSection="false">
+    <TocEntry
+      Title="Introduction"
+      Link="/Content/06-Risk-Assessment/RiskAssessWC-1-intro.htm" />
+    <TocEntry
+      Title="Overview"
+      Link="/Content/06-Risk-Assessment/RiskAssessWC-2-overview.htm" />
+    <TocEntry
+      Title="Objectives"
+      Link="/Content/06-Risk-Assessment/RiskAssessWC-3-objectives.htm" />
+    <TocEntry
+      Title="Step 1: Create a New Project"
+      Link="/Content/06-Risk-Assessment/RiskAssessWC-4a-create-project-overview.htm">
+      <TocEntry
+        Title="Create a New Project"
+        Link="/Content/06-Risk-Assessment/RiskAssessWC-4-createproj.htm" />
+      <TocEntry
+        Title="Acquire LANDFIRE Data "
+        Link="/Content/06-Risk-Assessment/RiskAssessWC-5-acquire-data.htm" />
+      <TocEntry
+        Title="Specify a Project Area of Interest"
+        Link="/Content/06-Risk-Assessment/RiskAssessWC-6-ProjAOI-1.htm" />
+    </TocEntry>
+    <TocEntry
+      Title="Step 2: Create a New Run"
+      Link="/Content/06-Risk-Assessment/RiskAssessWC-7a-Create-Run-overview.htm">
+      <TocEntry
+        Title="Create a New Run"
+        Link="/Content/06-Risk-Assessment/RiskAssessWC-7-Create-Run.htm" />
+      <TocEntry
+        Title="Select an Area of Interest for Your Run"
+        Link="/Content/06-Risk-Assessment/RiskAssessWC-8-ProjAOI-2.htm" />
+      <TocEntry
+        Title="Select a Data Set for Your Run"
+        Link="/Content/06-Risk-Assessment/RiskAssessWC-9-DataSet.htm" />
+    </TocEntry>
+    <TocEntry
+      Title="Step 3: Define Values at Risk"
+      Link="/Content/06-Risk-Assessment/RiskAssessWC-10-VAR-1.htm">
+      <TocEntry
+        Title="Values at Risk"
+        Link="/Content/06-Risk-Assessment/RiskAssessValuesatRisk.htm"
+        StartSection="false" />
+      <TocEntry
+        Title="Response Functions Table"
+        Link="/Content/06-Risk-Assessment/RiskAssessResponseFunctions.htm"
+        BreakType="pageLayout"
+        PageLayout="/Content/Resources/PageLayouts/PDF-Layout.flpgl"
+        StartSection="false" />
+      <TocEntry
+        Title="Response Functions and Values at Risk"
+        Link="/Content/06-Risk-Assessment/RiskAssessResponseFunctionsDefinition.htm" />
+      <TocEntry
+        Title="About the Map Toolbar"
+        Link="/Content/06-Risk-Assessment/RiskAssessWC-11-VAR-2.htm" />
+      <TocEntry
+        Title="About the Polygon Drawing Methods"
+        Link="/Content/06-Risk-Assessment/RiskAssessWC-12-VAR-3.htm" />
+      <TocEntry
+        Title="Define Values at Risk--Freeform Drawing Method"
+        Link="/Content/06-Risk-Assessment/RiskAssessWC-13-VAR-4.htm" />
+      <TocEntry
+        Title="Use the Edit Feature Panel"
+        Link="/Content/06-Risk-Assessment/RiskAssessWC-14-VAR-5.htm" />
+      <TocEntry
+        Title="Define Values at Risk--Point-and-Click Method"
+        Link="/Content/06-Risk-Assessment/RiskAssessWC-15-VAR-6.htm" />
+      <TocEntry
+        Title="Use the Edit Feature Panel Again"
+        Link="/Content/06-Risk-Assessment/RiskAssessWC-16-VAR-7.htm" />
+      <TocEntry
+        Title="Define Additional Large Values at Risk"
+        Link="/Content/06-Risk-Assessment/RiskAssessWC-17-VAR-8.htm" />
+      <TocEntry
+        Title="Define Smaller Values at Risk"
+        Link="/Content/06-Risk-Assessment/RiskAssessWC-18-VAR-9.htm" />
+      <TocEntry
+        Title="Set a Background Response Function"
+        Link="/Content/06-Risk-Assessment/RiskAssessWC-19-VAR-10.htm" />
+      <TocEntry
+        Title="Edit Your Values at Risk"
+        Link="/Content/06-Risk-Assessment/RiskAssessWC-20-VAR-11.htm" />
+      <TocEntry
+        Title="Review Your Values-at-Risk Map"
+        Link="/Content/06-Risk-Assessment/RiskAssessWC-21-VAR-12.htm" />
+    </TocEntry>
+    <TocEntry
+      Title="Step 4: Input Environmental and Simulation Parameters"
+      Link="/Content/06-Risk-Assessment/RiskAssessWC-22-input-params.htm">
+      <TocEntry
+        Title="IFT-FlamMap Inputs"
+        Link="/Content/06-Risk-Assessment/RiskAssessWC-23-IFT-FlamMap.htm" />
+      <TocEntry
+        Title="IFT-RANDIG Inputs"
+        Link="/Content/06-Risk-Assessment/RiskAssessWC-24-IFT-RANDIG.htm" />
+      <TocEntry
+        Title="Set Flame Length Classes"
+        Link="/Content/06-Risk-Assessment/RiskAssessWC-25-FLclasses.htm" />
+    </TocEntry>
+    <TocEntry
+      Title="Flame Length Interpretations Table"
+      Link="/Content/10-Reference/RefRiskWorstCaseFLInterp.htm"
+      BreakType="pageLayout"
+      PageLayout="/Content/Resources/PageLayouts/PDF-Layout.flpgl"
+      StartSection="false" />
+    <TocEntry
+      Title="Step 5: Review and Edit Spatial Landscape Data"
+      Link="/Content/06-Risk-Assessment/RiskAssessWC-26-Review-Spatial-Data.htm">
+      <TocEntry
+        Title="Edit Spatial Landscape Data"
+        Link="/Content/06-Risk-Assessment/RiskAssessWC-27-Spatial-Data-Edit1.htm" />
+    </TocEntry>
+    <TocEntry
+      Title="Step 6: Analyze Fire Behavior Output Data"
+      Link="/Content/06-Risk-Assessment/RiskAssessWC-28-AnalyzeFire-Behavior-1.htm">
+      <TocEntry
+        Title="Use the Point Info Tool"
+        Link="/Content/06-Risk-Assessment/RiskAssessWC-29-AnalyzeFire-Behavior-2.htm" />
+      <TocEntry
+        Title="Overall Burn Probability Output"
+        Link="/Content/06-Risk-Assessment/RiskAssessWC-30-AnalyzeFire-Behavior-3-ren.htm" />
+      <TocEntry
+        Title="Analyze Flame Length Data"
+        Link="/Content/06-Risk-Assessment/RiskAssessWC-31-AnalyzeFire-Behavior-4.htm" />
+    </TocEntry>
+    <TocEntry
+      Title="Step 7: Classify and Review Net Value Change"
+      Link="/Content/06-Risk-Assessment/RiskAssessWC-32-About-RNVC.htm">
+      <TocEntry
+        Title="Understand Net Value Change"
+        Link="/Content/06-Risk-Assessment/RiskAssessWC-33-DefineRNVC.htm" />
+      <TocEntry
+        Title="Understand Net Value Change Classifications"
+        Link="/Content/06-Risk-Assessment/RiskAssessWC-34-RNVC-Subsets.htm" />
+      <TocEntry
+        Title="Review Net Value Change Data"
+        Link="/Content/06-Risk-Assessment/RiskAssessWC-35-RNVC-Review.htm" />
+      <TocEntry
+        Title="Classify Net Value Change Data"
+        Link="/Content/06-Risk-Assessment/RiskAssessWC-36-RNVC-classify.htm" />
+    </TocEntry>
+    <TocEntry
+      Title="Step 8: Review Map Summary Data"
+      Link="/Content/06-Risk-Assessment/RiskAssessWC-37-Map-Summary.htm" />
+    <TocEntry
+      Title="Step 9: Export Data for Evaluation in Google Earth"
+      Link="/Content/06-Risk-Assessment/RiskAssessWC-38-GoogleEarth-1.htm">
+      <TocEntry
+        Title="Evaluate Results and Add Map Details"
+        Link="/Content/06-Risk-Assessment/RiskAssessWC-39-GoogleEarth-2.htm" />
+      <TocEntry
+        Title="Identify Potential Fire Hazards and Risk"
+        Link="/Content/06-Risk-Assessment/RiskAssessWC-41-GoogleEarth-Hazards.htm" />
+      <TocEntry
+        Title="Focus on Highest Risk Areas"
+        Link="/Content/06-Risk-Assessment/RiskAssessWC-42-GoogleEarth-Hazards2.htm" />
+      <TocEntry
+        Title="Review Landscape Data"
+        Link="/Content/06-Risk-Assessment/RiskAssessWC-43-GoogleEarth-Hazards4.htm" />
+    </TocEntry>
+    <TocEntry
+      Title="Step 10: Save Your Data Set"
+      Link="/Content/06-Risk-Assessment/RiskAssessWC-44-Data-Sets-Save-1.htm" />
+    <TocEntry
+      Title="Step 11: Copy Runs for Future Use"
+      Link="/Content/06-Risk-Assessment/RiskAssessWC-45-Copy-Runs.htm" />
+    <TocEntry
+      Title="Step 12: Assess Further Needs"
+      Link="/Content/06-Risk-Assessment/RiskAssessWC-46-Assess-Further.htm" />
+    <TocEntry
+      Title="Things You Need to Know"
+      Link="/Content/06-Risk-Assessment/RiskAssessWC-46-Need-to-Knows.htm" />
+    <TocEntry
+      Title="Review"
+      Link="/Content/06-Risk-Assessment/RiskAssessWC-47-Tut-review.htm" />
+  </TocEntry>
+  <TocEntry
+    Title="Index"
+    Link="/Content/PDF_Output/PDF-Index.htm"
+    BreakType="chapter"
+    PageLayout="/Content/Resources/PageLayouts/PDF-Index.flpgl"
+    PageType="first"
+    StartSection="false"
+    PageNumberReset="continue" />
+</CatapultToc>

@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="7" MadCap:lastHeight="893" MadCap:lastWidth="1018" MadCap:fileTags="FileNeeds.04 Ready for review">
+    <head>
+    </head>
+    <body>
+        <p>Next, define the <a href="../../10-Reference/RefRAN.htm">IFT-FlamMap-RANDIG</a> simulation inputs. </p>
+        <ol>
+            <li>Specify the <strong>number of fire ignitions to simulate</strong>.  With this value, you are specifying the number of randomly located ignition points across your run area. The literature states that the areas represented by every pixel should all have a chance of igniting; therefore, the larger the run area, the more random ignitions you will want to simulate.</li>
+            <li>Specify the <strong>duration of the simulation</strong> (in minutes).  With this value, you are specifying the duration of the fire growth calculations for the set of constant fuel moisture and weather conditions. In this example, we have chosen to run the simulation for 60 minutes, which is the estimated response time for fire resources to be on scene at the Olompali State Historic Park. You can use shorter and longer duration times to answer a variety of questions.</li>
+        </ol>
+        <p>
+            <img src="../Images/RA-WC-Tutorial/WC-IFT-RANDIG-sim-inputs.png" class="screencap" title="Simulation inputs for IFT-RANDIG" alt="IFT-RANDIG has two simulation inputs to enter." />
+        </p>
+        <p>Using a large data set (approximately 250,000 acres), the run time for the IFT-FlamMap-RANDIG module is estimated to be an hour per 2,000 ignitions. This is just an estimate; the module could take longer to run based on user load.</p>
+        <div>
+            <form>
+                <fieldset class="note">
+                    <legend>&#160;&#160;&#160;Tip       <![CDATA[  ]]></legend>
+                    <p>Create multiple runs to model burn probability using</p>
+                    <ul style="list-style-type: square;">
+                        <li>Low, medium, and high numbers of fire ignitions</li>
+                        <li>Short and long simulation durations</li>
+                    </ul>
+                    <p>The results will help you understand how these inputs are affecting your specific area of interest.</p>
+                </fieldset>
+            </form>
+        </div>
+        <p>&#160;</p>
+    </body>
+</html>

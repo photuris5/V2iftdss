@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="5" MadCap:lastHeight="2339" MadCap:lastWidth="619" MadCap:fileTags="FileNeeds.03 Indexing">
+    <head>
+        <link href="../Resources/TableStyles/AlternatingRows.css" rel="stylesheet" MadCap:stylesheetType="table" />
+    </head>
+    <body>
+        <h1>
+            <MadCap:keyword term="risk assessments:glossary of terms;glossary:risk assessment" />Risk Assessment Glossary</h1>
+        <p>This glossary defines terms specific to <a href="RiskAssessIntro.htm">risk assessment</a>.</p>
+        <table class="TableStyle-AlternatingRows" style="mc-table-style: url('../Resources/TableStyles/AlternatingRows.css');" cellspacing="0">
+            <col style="width: 35%;" class="Column-Column1" />
+            <col style="width: 65%;" class="Column-Column1" />
+            <thead>
+                <tr class="Head-Header1">
+                    <th class="HeadE-Column1-Header1">Term</th>
+                    <th class="HeadD-Column1-Header1">Definition</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="Body-Body1">
+                    <td class="BodyE-Column1-Body1">
+                        <MadCap:keyword term="burn probability:definitions" />burn probability at high flame lengths</td>
+                    <td class="BodyD-Column1-Body1">The likelihood that if the area represented by a pixel burns, it will burn within the <a href="#user-def">user-defined high flame length class</a>.</td>
+                </tr>
+                <tr class="Body-Body2">
+                    <td class="BodyE-Column1-Body2">burn probability at low flame lengths</td>
+                    <td class="BodyD-Column1-Body2">The likelihood that if the area represented by a pixel burns, it will burn within the <a href="#user-def">user-defined low flame length class</a>.</td>
+                </tr>
+                <tr class="Body-Body1">
+                    <td class="BodyE-Column1-Body1">burn probability at medium flame lengths</td>
+                    <td class="BodyD-Column1-Body1">The likelihood that if the area represented by a pixel burns, it will burn within the <a href="#user-def">user-defined medium flame length class</a>.</td>
+                </tr>
+                <tr class="Body-Body2">
+                    <td class="BodyE-Column1-Body2">burn probability at very high flame lengths</td>
+                    <td class="BodyD-Column1-Body2">The likelihood that if the area represented by a pixel burns, it will burn within the <a href="#user-def">user-defined very high flame length class</a>.</td>
+                </tr>
+                <tr class="Body-Body1">
+                    <td class="BodyE-Column1-Body1">
+                        <MadCap:keyword term="flame lengths:definition of term" />flame length</td>
+                    <td class="BodyD-Column1-Body1">The distance from the ground at the leading edge of the flame to the tip of the flame.</td>
+                </tr>
+                <tr class="Body-Body2">
+                    <td class="BodyE-Column1-Body2">
+                        <MadCap:keyword term="flame lengths:classes:definition" />flame length class</td>
+                    <td class="BodyD-Column1-Body2">Flame lengths are divided into low, medium, high, and very high lengths. These divisions are the flame length classes.</td>
+                </tr>
+                <tr class="Body-Body1">
+                    <td class="BodyE-Column1-Body1"><a name="flame"></a>
+                        <MadCap:keyword term="flame length probabilities:approaches" />flame length probabilities approach</td>
+                    <td class="BodyD-Column1-Body1">One of the two risk assessment approaches in IFTDSS.  (The other is the <a href="#worst-ca">worst-case flame lengths approach</a>.) This method uses the <a href="#response">response functions</a> developed by Calkin et. al. (<a href="../10-Reference/Bibliography.htm#Calkinetal2010a">2010a</a>) and modeled flame length burn probabilities from the RANDIG burn probability simulator to estimate the likelihood of the area represented by the pixel burning, and the potential consequences if the area represented by the pixel is burned by a backing fire, a flanking fire, or a head fire.</td>
+                </tr>
+                <tr class="Body-Body2">
+                    <td class="BodyE-Column1-Body2">
+                        <MadCap:keyword term="burn probability from random ignition (IFT-FlamMap-RANDIG):definition" /><a href="../10-Reference/RefRAN.htm">IFT-FlamMap-RANDIG</a>
+                    </td>
+                    <td class="BodyD-Column1-Body2">In IFTDSS, the burn probability module (IFT-FlamMap-RANDIG) is used to simulate burn probability across an entire landscape.  The burn probability module creates raster maps of composite burn probabilities (burn probabilities for all flame lengths) and raster maps of burn probabilities for a set of <a href="#user-def">user-defined flame length classes</a>.  The module can be used for <a href="../05-Hazard-Analysis/HazAnIntro.htm">hazard analysis</a> and is an essential component of the <a href="RiskAssessIntro.htm">risk assessment workflow</a>.</td>
+                </tr>
+                <tr class="Body-Body1">
+                    <td class="BodyE-Column1-Body1">
+                        <MadCap:keyword term="net value change:multiplier" />net value change (NVC) multiplier</td>
+                    <td class="BodyD-Column1-Body1">An intermediate value used to calculate the net value change based on the <a href="#response">response function</a>.</td>
+                </tr>
+                <tr class="Body-Body2">
+                    <td class="BodyE-Column1-Body2">
+                        <MadCap:keyword term="burn probability:overall:definition" />overall burn probability</td>
+                    <td class="BodyD-Column1-Body2">The likelihood that the area represented by a pixel will burn given a random ignition across the area of interest (for a specific set of environmental conditions). Burn probability is not an estimate of the future likelihood of a wildfire and should not be confused with empirical wildfire occurrence probabilities.</td>
+                </tr>
+                <tr class="Body-Body1">
+                    <td class="BodyE-Column1-Body1">
+                        <MadCap:keyword term="net value change:relative:definition" />relative net value change</td>
+                    <td class="BodyD-Column1-Body1">The relative net change in land value due to fire is assumed to be a function of fire behavior, and includes both positive and negative effects of fire.</td>
+                </tr>
+                <tr class="Body-Body2">
+                    <td class="BodyE-Column1-Body2"><a name="response"></a>
+                        <MadCap:keyword term="response functions:definition" />response function</td>
+                    <td class="BodyD-Column1-Body2">The mathematical relationship between fire characteristic and fire outcome. The <a href="RiskAssessResponseFunctions.htm">response functions table</a> describes the effect of the fire on the values at risk.</td>
+                </tr>
+                <tr class="Body-Body1">
+                    <td class="BodyE-Column1-Body1"><a name="user-def"></a>
+                        <MadCap:keyword term="user-defined flame lengths;flame lengths:classes:user-defined" />user-defined flame length</td>
+                    <td class="BodyD-Column1-Body1">IFTDSS, you can define the lengths for each flame length class, or you can use a default set of lengths. When you define the lengths, those are called user-defined flame lengths. The names of the classes always remain the same; it is just the lengths assigned to each class that can change.</td>
+                </tr>
+                <tr class="Body-Body2">
+                    <td class="BodyE-Column1-Body2">
+                        <MadCap:keyword term="values at risk:definition" />values at risk</td>
+                    <td class="BodyD-Column1-Body2">The features on the landscape that are influenced positively and/or negatively by fire. Also known as highly valued resources (HVR). Examples include archaeological sites, historic buildings, wildland urban interface, airports, highway  buffers, and conifer forests.</td>
+                </tr>
+                <tr class="Body-Body1">
+                    <td class="BodyB-Column1-Body1"><a name="worst-ca"></a>
+                        <MadCap:keyword term="worst-case flame length risk assessments:definition" />worst-case flame lengths approach</td>
+                    <td class="BodyA-Column1-Body1">One of the two risk assessment approaches in IFTDSS.  (The other is the <a href="#flame">flame length probabilities approach</a>.) This approach is referred to as the “worst case” estimation of fire risk because it is based on a single FlamMap run, where the areas represented by every pixel are all always assumed to burn under the worst-case (i.e., by a head fire) conditions.</td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>

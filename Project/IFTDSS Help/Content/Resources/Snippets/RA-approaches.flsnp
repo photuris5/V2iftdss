@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="2" MadCap:lastHeight="538" MadCap:lastWidth="776" MadCap:fileTags="FileNeeds.04 Ready for review">
+    <head>
+    </head>
+    <body>
+        <h1>Differences Between Risk Assessment Approaches</h1>
+        <p>The two risk assessment approaches, worst-case flame lengths and flame length probabilities, each have useful applications.</p>
+        <p>The <strong>worst-case flame lengths approach</strong> is useful when the user is interested in identifying high fire hazard situations during wind-driven wildfires. In the future, this tool will be useful for assessing the effectiveness of a fuel treatment at reducing the hazard of a fire burning as a head fire.</p>
+        <p>The <strong>flame length probabilities approach</strong> differs from the worst-case flame length approach in that it considers the likelihood of a fire burning as a backing fire, a flanking fire, or a head fire given a random ignition in the landscape when determining the potential losses or benefits for an area represented by a pixel burning.</p>
+        <p>This approach is useful when the user is interested in identifying the potential consequences of an area represented by a pixel burning under variable fire conditions and/or assessing the potential ecological benefits of using fire as a management tool.</p>
+    </body>
+</html>

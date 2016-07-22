@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="7" MadCap:lastHeight="2438" MadCap:lastWidth="869">
+    <head>
+    </head>
+    <body>
+        <h1>Inputs:&#160;Properties, Fuel Moisture, and Weather</h1>
+        <p>The Inputs step is where all the information about fuel properties, fuel moisture, and weather needed to run IFT-FlamMap are input. The input fields are pre-populated with default values.</p>
+        <p>Inputs include:</p>
+        <ul>
+            <li>Crown fire calculation method</li>
+            <li>Generate gridded winds (yes/no)</li>
+            <li>1-hr Fuel Moisture</li>
+            <li>10-hr Fuel Moisture</li>
+            <li>100-hr Fuel Moisture</li>
+            <li>Live Herbaceous Fuel Moisture</li>
+            <li>Live Woody Fuel Moisture</li>
+            <li>Wind Direction</li>
+            <li>20-ft Wind Speed</li>
+        </ul>
+        <div>
+            <form>
+                <p>
+                    <img src="../../Resources/Images/Tutorial_G_2015/2_0_1_G_inputs.png" style="width: 673px; height: 552px;" alt="Data inputs page, as described in the text, needed to run IFT-FlamMap." class="img_2" />
+                </p>
+                <fieldset class="note">
+                    <legend>&#160;&#160;&#160;Note&#160;&#160;&#160;</legend>
+                    <p class="noteBody">When you hover your mouse cursor over the underlined parameters next to each field, definitions and possible value ranges are displayed.</p>
+                </fieldset>
+            </form>
+        </div>
+        <p>In the next step, we will populate these fields with custom data. </p>
+        <p><b>Crown Fire Calculation Method</b> can either be set to the <b>Finney Method</b> or the <b>Scott-Reinhardt Method</b>. A detailed discussion of crown fire methods is <a href="../../10-Reference/RefRanCrownFireCalc.htm">discussed in depth elsewhere in this Help application</a>. Essentially, differences in the way these methods are calculated can lead to the modeling of more or less crown fire occurring on your landscape based upon your inputs. You should test each method to determine which works best for your local vegetation. The Scott-Reinhardt method will generally result in more crown fire being modeled across that landscape. </p>
+        <p>For this example we will use the <b>Finney Method</b>, and when prompted to <b>generate gridded winds</b> we will specify <b>No</b>.</p>
+        <div>
+            <form>
+                <fieldset class="note">
+                    <legend>&#160;&#160;&#160;Tip&#160;&#160;&#160;</legend>
+                    <p class="noteBody">When assessing fire hazard and fuels treatment placement across large landscapes, especially in mountainous terrain, weather conditions can vary across diverse topographic settings. Create multiple runs to test different weather scenarios that can produce low, high, and extreme fire behavior.</p>
+                </fieldset>
+            </form>
+        </div>
+        <p>For this example we will environmental parameters that would generate high fire behavior: <b>1</b>,<b>10</b>, and <b>100 hour</b> fuel moistures will be set to <b>4</b>,<b>6</b>, and <b>8</b> respectively, <b>herbaceous fuel moisture</b> will be set t <b>55</b>, and <b>live woody fuel moisture</b> will be set to <b>80</b>%. We will set <b>wind direction</b> to <b>270 degrees</b> at a <b>20-ft windspeed</b> of <b>40 mph</b>. Check your inputs be ensure they match the image below, and then click <b>Next</b>.</p>
+        <p>at the end of this process, your inputs should match the figure below:</p>
+        <p>
+            <img src="../../Resources/Images/Tutorial_G_2015/2_0_1_G_input_values.png" alt="Data inputs page, as described in the text, with inputs entered." class="img_2" />
+        </p>
+        <p MadCap:conditions="Default.ScreenOnly"><a href="5_tutorial_G_review_lndscp_data.htm">&lt;&lt; Back:&#160;Review landscape data</a> |&#160;<a href="7_tutorial_G_data_review.htm">Next:&#160;data review &gt;&gt;</a></p>
+    </body>
+</html>

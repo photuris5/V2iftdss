@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc
+  Version="1">
+  <TocEntry
+    Title="New Book 1">
+    <TocEntry
+      Title="How to Use IFTDSS to Spatially Evaluate Fuel Treatment Effectiveness"
+      Link="/Content/07-FuelsTreatment/Tutorial_G_fuel_treatment/0_tutorial_G_introduction.htm" />
+    <TocEntry
+      Title="Key Information and Caveats"
+      Link="/Content/07-FuelsTreatment/Tutorial_G_fuel_treatment/1_tutorial_G_Key_information.htm" />
+    <TocEntry
+      Title="Creating a Project"
+      Link="/Content/07-FuelsTreatment/Tutorial_G_fuel_treatment/2_tutorial_G_Creating_project.htm" />
+    <TocEntry
+      Title="Acquiring LANDFIRE Data"
+      Link="/Content/07-FuelsTreatment/Tutorial_G_fuel_treatment/3_tutorial_G_Acquire_Landfire_data.htm" />
+    <TocEntry
+      Title="Creating the Run"
+      Link="/Content/07-FuelsTreatment/Tutorial_G_fuel_treatment/4_tutorial_G_Create_Run.htm" />
+    <TocEntry
+      Title="Review Landscape Data"
+      Link="/Content/07-FuelsTreatment/Tutorial_G_fuel_treatment/5_tutorial_G_review_lndscp_data.htm" />
+    <TocEntry
+      Title="Inputs: Properties, Fuel Moisture, and Weather"
+      Link="/Content/07-FuelsTreatment/Tutorial_G_fuel_treatment/6_tutorial_G_inputs.htm" />
+    <TocEntry
+      Title="Reviewing Pre-Treatment Outputs"
+      Link="/Content/07-FuelsTreatment/Tutorial_G_fuel_treatment/7_tutorial_G_data_review.htm" />
+    <TocEntry
+      Title="Identifying Fuels Treatment Locations"
+      Link="/Content/07-FuelsTreatment/Tutorial_G_fuel_treatment/8_tutorial_G_Id_fuels_trtmnt_loc.htm" />
+    <TocEntry
+      Title="Creating Fuels Treatment Polygons"
+      Link="/Content/07-FuelsTreatment/Tutorial_G_fuel_treatment/9_tutorial_G_treatment_polygons.htm" />
+    <TocEntry
+      Title="Editing LANDFIRE Data to Create Fuels Treatments"
+      Link="/Content/07-FuelsTreatment/Tutorial_G_fuel_treatment/10_tutorial_G_edit_poly_trtmnt.htm" />
+    <TocEntry
+      Title="Evaluating Fuel Treatment Effectiveness"
+      Link="/Content/07-FuelsTreatment/Tutorial_G_fuel_treatment/11_tutorial_G_eval_fuel_trtmnt_eff.htm" />
+    <TocEntry
+      Title="Next Steps"
+      Link="/Content/07-FuelsTreatment/Tutorial_G_fuel_treatment/12_tutorial_G_next_steps.htm" />
+    <TocEntry
+      Title="Review &amp; Wrap-up"
+      Link="/Content/07-FuelsTreatment/Tutorial_G_fuel_treatment/13_tutorial_G_wrapup_review.htm" />
+  </TocEntry>
+</CatapultToc>

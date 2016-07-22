@@ -1,0 +1,2039 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc
+  Version="1"
+  conditions="">
+  <TocEntry
+    Title="Interagency Fuels Treatment Decision Support System"
+    Link="/Content/01-Front-Matter/TitlePage.htm">
+    <TocEntry
+      Title="About IFTDSS"
+      Link="/Content/01-Front-Matter/About.htm"></TocEntry>
+    <TocEntry
+      Title="What's New"
+      Link="/Content/01-Front-Matter/WhatsNew.htm" />
+    <TocEntry
+      Title="Known Issues"
+      Link="/Content/01-Front-Matter/KnownIssues.htm" />
+    <TocEntry
+      Title="Disclaimer"
+      Link="/Content/01-Front-Matter/Disclaimer.htm" />
+  </TocEntry>
+  <TocEntry
+    Title="Getting Started"
+    ReplaceMergeNode="false"
+    StartSection="false"
+    StartChapter="false"
+    VolumeNumberReset="same"
+    SectionNumberReset="continue"
+    ChapterNumberReset="continue"
+    ComputeToc="false"
+    Link="/Content/02-Getting-Started/GettingStarted.htm">
+    <TocEntry
+      Title="What can IFTDSS do for you?"
+      Link="/Content/02-Getting-Started/Whatcaniftdssdoforyou.htm" />
+    <TocEntry
+      Title="Setting Up Your Account"
+      Link="/Content/02-Getting-Started/AccountSetup.htm" />
+    <TocEntry
+      Title="System Overview"
+      Link="/Content/02-Getting-Started/SystemOverview.htm" />
+    <TocEntry
+      Title="Getting Help"
+      Link="/Content/02-Getting-Started/GettingHelp.htm"></TocEntry>
+    <TocEntry
+      Title="Finding Other Users"
+      Link="/Content/02-Getting-Started/FindingUsers.htm" />
+    <TocEntry
+      Title="Resetting your Password"
+      Link="/Content/02-Getting-Started/PasswordReset.htm" />
+  </TocEntry>
+  <TocEntry
+    Title="Concepts"
+    Link="/Content/03-Concepts/Concepts.htm">
+    <TocEntry
+      Title="Workflows"
+      Link="/Content/03-Concepts/WorkFlows.htm">
+      <TocEntry
+        Title="Hazard Workflow"
+        Link="/Content/05-Hazard-Analysis/HazardWorkflow.htm" />
+      <TocEntry
+        Title="Risk Assessment Workflow"
+        Link="/Content/06-Risk-Assessment/RiskAssessWorkflow.htm" />
+      <TocEntry
+        Title="RxBurn Planning Workflow"
+        Link="/Content/05-Hazard-Analysis/RxBurnWorkflow.htm" />
+      <TocEntry
+        Title="Fuels Treatment Workflow"
+        Link="/Content/07-FuelsTreatment/FuelsTreatWorkflow.htm" />
+      <TocEntry
+        Title="Fire Effects Workflow"
+        Link="/Content/13-Effects_2015/FireEffectsWorkflow.htm" />
+    </TocEntry>
+    <TocEntry
+      Title="Projects and Runs"
+      Link="/Content/03-Concepts/Projects.htm">
+      <TocEntry
+        Title="Creating a Project"
+        Link="/Content/03-Concepts/ProjCreate.htm"
+        ComputeToc="false" />
+      <TocEntry
+        Title="Creating a Run"
+        Link="/Content/03-Concepts/ProjRun.htm" />
+      <TocEntry
+        Title="Viewing a Project Summary"
+        Link="/Content/03-Concepts/ProjSummary.htm" />
+      <TocEntry
+        Title="Viewing and Managing Your Projects"
+        Link="/Content/03-Concepts/ProjViewList.htm" />
+      <TocEntry
+        Title="Editing a Project"
+        Link="/Content/03-Concepts/ProjEdit.htm" />
+      <TocEntry
+        Title="Archiving a Project"
+        Link="/Content/03-Concepts/ProjArchive.htm"></TocEntry>
+      <TocEntry
+        Title="Deleting a Project"
+        Link="/Content/03-Concepts/ProjDelete.htm" />
+    </TocEntry>
+    <TocEntry
+      Title="Data Management"
+      Link="/Content/03-Concepts/DataSets.htm">
+      <TocEntry
+        Title="Uploading a Data Set to IFTDSS"
+        Link="/Content/03-Concepts/DataSetsUploading.htm" />
+      <TocEntry
+        Title="LANDFIRE 2010"
+        Link="/Content/03-Concepts/LANDFIRE2010.htm"
+        ComputeToc="false"
+        ReplaceMergeNode="false" />
+      <TocEntry
+        Title="Downloading LANDFIRE Data to IFTDSS"
+        Link="/Content/03-Concepts/DataSetsLANDFIRE.htm" />
+      <TocEntry
+        Title="Uploading a Shapefile to IFTDSS"
+        Link="/Content/03-Concepts/Uploading Shapefiles.htm" />
+    </TocEntry>
+    <TocEntry
+      Title="Map Functions"
+      Link="/Content/03-Concepts/MapFunctions.htm">
+      <TocEntry
+        Title="Map Annotation"
+        Link="/Content/03-Concepts/MapAnnotation.htm" />
+      <TocEntry
+        Title="EditMapLegends"
+        Link="/Content/03-Concepts/EditMapLegends.htm" />
+      <TocEntry
+        Title="Editing Landscape Data"
+        Link="/Content/03-Concepts/Editing_Landscape_Data.htm" />
+      <TocEntry
+        Title="Loading Rasters into ArcMap"
+        Link="/Content/03-Concepts/LoadRasterArcMap.htm" />
+      <TocEntry
+        Title="Landscape Statistics"
+        Link="/Content/03-Concepts/Landscape_statistics.htm" />
+    </TocEntry>
+    <TocEntry
+      Title="Overview of the Modules in IFTDSS"
+      Link="/Content/03-Concepts/Models.htm">
+      <TocEntry
+        Title="Modules for Hazard Analysis"
+        Link="/Content/03-Concepts/ModelsHazard.htm" />
+      <TocEntry
+        Title="Modules for Prescribed Burn Planning"
+        Link="/Content/03-Concepts/ModelsRx.htm" />
+      <TocEntry
+        Title="Modules for Risk Assessment"
+        Link="/Content/03-Concepts/ModelsRisk.htm" />
+      <TocEntry
+        Title="FFA Models and Modules"
+        Link="/Content/03-Concepts/ModelsTypes.htm" />
+    </TocEntry>
+  </TocEntry>
+  <TocEntry
+    Title="Tutorials"
+    Link="/Content/03-Concepts/TutorialOverview.htm">
+    <TocEntry
+      Title="Hazard Analysis"
+      Link="/Content/05-Hazard-Analysis/sti_hazard_pre2014/HazAnIntro.htm">
+      <TocEntry
+        Title="Overview and Objectives"
+        Link="/Content/05-Hazard-Analysis/sti_hazard_pre2014/HazAnObj.htm" />
+      <TocEntry
+        Title="Tutorials"
+        Link="/Content/05-Hazard-Analysis/sti_hazard_pre2014/HazAnCaseIntro.htm">
+        <TocEntry
+          Title="Minimum Travel Time Tutorial"
+          ReplaceMergeNode="false"
+          Link="/Content/05-Hazard-Analysis/Minimum_Travel_Time/MinimumTravelTime_Tutorial.htm">
+          <TocEntry
+            Title="Getting Started"
+            Link="/Content/05-Hazard-Analysis/Minimum_Travel_Time/MMT_Step1.htm" />
+          <TocEntry
+            Title="Creating a New Run"
+            Link="/Content/05-Hazard-Analysis/Minimum_Travel_Time/MMT_Step2.htm" />
+          <TocEntry
+            Title="Choose the Type of Run"
+            Link="/Content/05-Hazard-Analysis/Minimum_Travel_Time/MMT_Step3.htm" />
+          <TocEntry
+            Title="Select Dataset"
+            Link="/Content/05-Hazard-Analysis/Minimum_Travel_Time/MMT_Step4.htm" />
+          <TocEntry
+            Title="Set Up Project Area of Interest"
+            Link="/Content/05-Hazard-Analysis/Minimum_Travel_Time/MMT_Step5.htm" />
+          <TocEntry
+            Title="Configure"
+            Link="/Content/05-Hazard-Analysis/Minimum_Travel_Time/MMT_Step6.htm" />
+          <TocEntry
+            Title="Review Landscape Data"
+            Link="/Content/05-Hazard-Analysis/Minimum_Travel_Time/MMT_Step7.htm" />
+          <TocEntry
+            Title="Inputs"
+            Link="/Content/05-Hazard-Analysis/Minimum_Travel_Time/MMT_Step8.htm" />
+          <TocEntry
+            Title="Ignitions"
+            Link="/Content/05-Hazard-Analysis/Minimum_Travel_Time/MMT_Step9.htm" />
+          <TocEntry
+            Title="Barrier"
+            Link="/Content/05-Hazard-Analysis/Minimum_Travel_Time/MMT_Step10.htm" />
+          <TocEntry
+            Title="Outputs"
+            Link="/Content/05-Hazard-Analysis/Minimum_Travel_Time/MMT_Step11.htm" />
+          <TocEntry
+            Title="Editing the Landscape"
+            Link="/Content/05-Hazard-Analysis/Minimum_Travel_Time/MMT_Step12.htm" />
+          <TocEntry
+            Title="Post Treatment Outputs"
+            Link="/Content/05-Hazard-Analysis/Minimum_Travel_Time/MMT_Step13.htm" />
+          <TocEntry
+            Title="Run Summary"
+            Link="/Content/05-Hazard-Analysis/Minimum_Travel_Time/MMT_Step14.htm" />
+        </TocEntry>
+        <TocEntry
+          Title="Tutorial A: Creating a Landscape Hazard Analysis"
+          Link="/Content/05-Hazard-Analysis/Landscape_Hazard_Analysis/Tutorial_A_0_HazardAnalysisLandscape.htm">
+          <TocEntry
+            Title="Introduction"
+            Link="/Content/05-Hazard-Analysis/Landscape_Hazard_Analysis/Tutorial_A_1_Intro.htm" />
+          <TocEntry
+            Title="Objectives"
+            Link="/Content/05-Hazard-Analysis/Landscape_Hazard_Analysis/Tutorial_A_2_Obj.htm" />
+          <TocEntry
+            Title="Getting Started"
+            Link="/Content/05-Hazard-Analysis/Landscape_Hazard_Analysis/Tutorial_A_3_GetStart.htm" />
+          <TocEntry
+            Title="Selecting a Project Area of Interest"
+            Link="/Content/05-Hazard-Analysis/Landscape_Hazard_Analysis/Tutorial_A_4_Proj.htm" />
+          <TocEntry
+            Title="Creating a Run"
+            Link="/Content/05-Hazard-Analysis/Landscape_Hazard_Analysis/Tutorial_A_5_NewRun.htm" />
+          <TocEntry
+            Title="Selecting an Area of Interest"
+            Link="/Content/05-Hazard-Analysis/Landscape_Hazard_Analysis/Tutorial_A_6_AreaofInterest.htm" />
+          <TocEntry
+            Title="Selecting a Dataset"
+            Link="/Content/05-Hazard-Analysis/Landscape_Hazard_Analysis/Tutorial_A_7_SelectDataset.htm" />
+          <TocEntry
+            Title="Inputting Environmental Parameters"
+            Link="/Content/05-Hazard-Analysis/Landscape_Hazard_Analysis/Tutorial_A_8_Input.htm" />
+          <TocEntry
+            Title="Introducing the MapToolbar"
+            Link="/Content/05-Hazard-Analysis/Landscape_Hazard_Analysis/Tutorial_A_9_MapToolbar.htm" />
+          <TocEntry
+            Title="Landscape Data"
+            Link="/Content/05-Hazard-Analysis/Landscape_Hazard_Analysis/Tutorial_A_10_LandscapeData.htm" />
+          <TocEntry
+            Title="Editing Landscape Data"
+            Link="/Content/05-Hazard-Analysis/Landscape_Hazard_Analysis/Tutorial_A_11_EditLandscape.htm" />
+          <TocEntry
+            Title="Reviewing Spatial Landscape Data"
+            Link="/Content/05-Hazard-Analysis/Landscape_Hazard_Analysis/Tutorial_A_12_ReviewingOutput.htm" />
+          <TocEntry
+            Title="Classifying Outputs"
+            Link="/Content/05-Hazard-Analysis/Landscape_Hazard_Analysis/Tutorial_A_13_Classify.htm" />
+          <TocEntry
+            Title="Reviewing Classified Fire Output Data"
+            Link="/Content/05-Hazard-Analysis/Landscape_Hazard_Analysis/Tutorial_A_14_ReviewClass.htm" />
+          <TocEntry
+            Title="Exporting to Google Earth"
+            Link="/Content/05-Hazard-Analysis/Landscape_Hazard_Analysis/Tutorial_A_15_ExportGoogleEarth.htm" />
+          <TocEntry
+            Title="Evaluating Results in Google Earth"
+            Link="/Content/05-Hazard-Analysis/Landscape_Hazard_Analysis/Tutorial_A_16_EvalResultsGE.htm" />
+          <TocEntry
+            Title="Adding Map Details in GOogle Earth"
+            Link="/Content/05-Hazard-Analysis/Landscape_Hazard_Analysis/Tutorial_A_17_AddMapDetailsGE.htm" />
+          <TocEntry
+            Title="Identifying Potential Fire Hazards"
+            Link="/Content/05-Hazard-Analysis/Landscape_Hazard_Analysis/Tutorial_A_18_idPotFireHaz.htm" />
+          <TocEntry
+            Title="Next Steps - Assessing Further Needs"
+            Link="/Content/05-Hazard-Analysis/Landscape_Hazard_Analysis/Tutorial_A_19_nextSteps.htm" />
+          <TocEntry
+            Title="Things You Need to Know"
+            Link="/Content/05-Hazard-Analysis/Landscape_Hazard_Analysis/Tutorial_A_20_thingsKnow.htm" />
+          <TocEntry
+            Title="Review"
+            Link="/Content/05-Hazard-Analysis/Landscape_Hazard_Analysis/Tutorial_A_21_review.htm" />
+          <TocEntry
+            Title="Additional Help"
+            Link="/Content/05-Hazard-Analysis/Landscape_Hazard_Analysis/Tutorial_A_22_addHelp.htm" />
+        </TocEntry>
+        <TocEntry
+          Title="Tutorial B: How to Use Hazard Analysis Tools for Prescribed Burn Planning"
+          Link="/Content/05-Hazard-Analysis/RxBurn_Hazard_Analysis/Tutorial_B_0_HazardAnalysisRxBurn.htm">
+          <TocEntry
+            Title="Introduction"
+            Link="/Content/05-Hazard-Analysis/RxBurn_Hazard_Analysis/Tutorial_B_1_Intro.htm" />
+          <TocEntry
+            Title="Objectives"
+            Link="/Content/05-Hazard-Analysis/RxBurn_Hazard_Analysis/Tutorial_B_2_Obj.htm" />
+          <TocEntry
+            Title="Getting Started"
+            Link="/Content/05-Hazard-Analysis/RxBurn_Hazard_Analysis/Tutorial_B_3_GetStart.htm" />
+          <TocEntry
+            Title="Selecting a Project Area of Interest"
+            Link="/Content/05-Hazard-Analysis/RxBurn_Hazard_Analysis/Tutorial_B_4_Proj.htm" />
+          <TocEntry
+            Title="Creating a New Run"
+            Link="/Content/05-Hazard-Analysis/RxBurn_Hazard_Analysis/Tutorial_B_5_NewRun.htm" />
+          <TocEntry
+            Title="Selecting an Area of Interest"
+            Link="/Content/05-Hazard-Analysis/RxBurn_Hazard_Analysis/Tutorial_B_6_AreaofInterest.htm" />
+          <TocEntry
+            Title="Selecting a Dataset"
+            Link="/Content/05-Hazard-Analysis/RxBurn_Hazard_Analysis/Tutorial_B_7_SelectDataset.htm" />
+          <TocEntry
+            Title="Inputting Environmental Parameters"
+            Link="/Content/05-Hazard-Analysis/RxBurn_Hazard_Analysis/Tutorial_B_8_Input.htm" />
+          <TocEntry
+            Title="Introducing the MapToolbar"
+            Link="/Content/05-Hazard-Analysis/RxBurn_Hazard_Analysis/Tutorial_B_9_MapToolbar.htm" />
+          <TocEntry
+            Title="Reviewing Spatial Landscape Data"
+            Link="/Content/05-Hazard-Analysis/RxBurn_Hazard_Analysis/Tutorial_B_10_LandscapeData.htm" />
+          <TocEntry
+            Title="Editing Spatial Landscape Data"
+            Link="/Content/05-Hazard-Analysis/RxBurn_Hazard_Analysis/Tutorial_B_11_EditLandscape.htm" />
+          <TocEntry
+            Title="Reviewing Fire Behavior Output Data"
+            Link="/Content/05-Hazard-Analysis/RxBurn_Hazard_Analysis/Tutorial_B_12_ReviewingOutput.htm" />
+          <TocEntry
+            Title="Classifying Outputs"
+            Link="/Content/05-Hazard-Analysis/RxBurn_Hazard_Analysis/Tutorial_B_13_Classify.htm" />
+          <TocEntry
+            Title="Reviewing Classified Fire Output Data"
+            Link="/Content/05-Hazard-Analysis/RxBurn_Hazard_Analysis/Tutorial_B_14_ReviewClass.htm" />
+          <TocEntry
+            Title="Exporting to Google Earth"
+            Link="/Content/05-Hazard-Analysis/RxBurn_Hazard_Analysis/Tutorial_B_15_ExportGE.htm" />
+          <TocEntry
+            Title="Evaluating Results in Google Earth"
+            Link="/Content/05-Hazard-Analysis/RxBurn_Hazard_Analysis/Tutorial_B_16_EvalResultsGE.htm" />
+          <TocEntry
+            Title="Adding Map Details in Google Earth"
+            Link="/Content/05-Hazard-Analysis/RxBurn_Hazard_Analysis/Tutorial_B_17_AddMapDetailsGE.htm" />
+          <TocEntry
+            Title="Reviewing Results in Google Earth"
+            Link="/Content/05-Hazard-Analysis/RxBurn_Hazard_Analysis/Tutorial_B_18_reviewGE.htm" />
+          <TocEntry
+            Title="Review"
+            Link="/Content/05-Hazard-Analysis/RxBurn_Hazard_Analysis/Tutorial_B_19_review.htm" />
+          <TocEntry
+            Title="Additional Help"
+            Link="/Content/05-Hazard-Analysis/RxBurn_Hazard_Analysis/Tutorial_B_20_addHelp.htm" />
+        </TocEntry>
+        <TocEntry
+          Title="Performing a Landscape-Level Hazard Analysis"
+          Link="/Content/05-Hazard-Analysis/sti_hazard_pre2014/HazAnCase2.htm"
+          ReplaceMergeNode="false" />
+        <TocEntry
+          Title="Assessing Fire Hazard for Prescribed Burn Planning"
+          Link="/Content/04-Prescribed-Burns/RxBurnsCase1.htm" />
+      </TocEntry>
+    </TocEntry>
+    <TocEntry
+      Title="Prescribed Burn Planning"
+      Link="/Content/04-Prescribed-Burns/RxBurnsIntro.htm">
+      <TocEntry
+        Title="Overview and Objectives"
+        Link="/Content/04-Prescribed-Burns/RxBurnsObj.htm"></TocEntry>
+      <TocEntry
+        Title="Tutorials"
+        Link="/Content/04-Prescribed-Burns/RxBurnsCaseStudiesOverview.htm">
+        <TocEntry
+          Title="Tutorial C: Prescribed Burn Planning"
+          Link="/Content/04-Prescribed-Burns/Tutorial_C_PrescribedBurnPlan/Tutorial_C_0_PrescribedBurnPlanningPrep.htm">
+          <TocEntry
+            Title="Introduction"
+            Link="/Content/04-Prescribed-Burns/Tutorial_C_PrescribedBurnPlan/Tutorial_C_1_Intro.htm" />
+          <TocEntry
+            Title="Objectives"
+            Link="/Content/04-Prescribed-Burns/Tutorial_C_PrescribedBurnPlan/Tutorial_C_2_Object.htm" />
+          <TocEntry
+            Title="Getting Started"
+            Link="/Content/04-Prescribed-Burns/Tutorial_C_PrescribedBurnPlan/Tutorial_C_3_GetStart.htm" />
+          <TocEntry
+            Title="Selecting a Project Area of Interest"
+            Link="/Content/04-Prescribed-Burns/Tutorial_C_PrescribedBurnPlan/Tutorial_C_4_Proj.htm" />
+          <TocEntry
+            Title="Editing Landscape Data (Part 1)"
+            Link="/Content/04-Prescribed-Burns/Tutorial_C_PrescribedBurnPlan/Tutorial_C_5_editLandscape1.htm" />
+          <TocEntry
+            Title="Editing Landscape Data (part 2)"
+            Link="/Content/04-Prescribed-Burns/Tutorial_C_PrescribedBurnPlan/Tutorial_C_6_editLandscape2.htm" />
+          <TocEntry
+            Title="Editing Landscape Data (part 3)"
+            Link="/Content/04-Prescribed-Burns/Tutorial_C_PrescribedBurnPlan/Tutorial_C_7_editLandscape3.htm" />
+          <TocEntry
+            Title="Creating a New Run"
+            Link="/Content/04-Prescribed-Burns/Tutorial_C_PrescribedBurnPlan/Tutorial_C_8_CreateRun.htm" />
+          <TocEntry
+            Title="Creating a Burn Plan"
+            Link="/Content/04-Prescribed-Burns/Tutorial_C_PrescribedBurnPlan/Tutorial_C_9_CreateBurnPlan.htm" />
+          <TocEntry
+            Title="Table of Contents and Navigation"
+            Link="/Content/04-Prescribed-Burns/Tutorial_C_PrescribedBurnPlan/Tutorial_C_10_TOCNav.htm" />
+          <TocEntry
+            Title="Elements Overview"
+            Link="/Content/04-Prescribed-Burns/Tutorial_C_PrescribedBurnPlan/Tutorial_C_11_Elements.htm" />
+          <TocEntry
+            Title="Modules and Burn Plan Elements"
+            Link="/Content/04-Prescribed-Burns/Tutorial_C_PrescribedBurnPlan/Tutorial_C_12_modulesBurnPlan.htm" />
+          <TocEntry
+            Title="Signature Page (Element 1)"
+            Link="/Content/04-Prescribed-Burns/Tutorial_C_PrescribedBurnPlan/Tutorial_C_13_sigpage.htm" />
+          <TocEntry
+            Title="Go/No-Go Checklists (Element 2, Part 1 and Part 2)"
+            Link="/Content/04-Prescribed-Burns/Tutorial_C_PrescribedBurnPlan/Tutorial_C_14_gonogo.htm" />
+          <TocEntry
+            Title="Complexity Analysis Summary (Element 3 and Appendix C)"
+            Link="/Content/04-Prescribed-Burns/Tutorial_C_PrescribedBurnPlan/Tutorial_C_15_complex.htm" />
+          <TocEntry
+            Title="Description of the Prescribed Fire Area (Element 4)"
+            Link="/Content/04-Prescribed-Burns/Tutorial_C_PrescribedBurnPlan/Tutorial_C_16_prescribeArea.htm" />
+          <TocEntry
+            Title="Resource and Prescribed Fire Objectives (Element 5)"
+            Link="/Content/04-Prescribed-Burns/Tutorial_C_PrescribedBurnPlan/Tutorial_C_17_resPrescFireObj.htm" />
+          <TocEntry
+            Title="Funding (Element 6)"
+            Link="/Content/04-Prescribed-Burns/Tutorial_C_PrescribedBurnPlan/Tutorial_C_18_funding.htm" />
+          <TocEntry
+            Title="Environmental and Fire Behavior Prescription (Element 7)"
+            Link="/Content/04-Prescribed-Burns/Tutorial_C_PrescribedBurnPlan/Tutorial_C_19_envPrescipt.htm" />
+          <TocEntry
+            Title="Modeling Potential Fire Behavior and Effects"
+            Link="/Content/04-Prescribed-Burns/Tutorial_C_PrescribedBurnPlan/Tutorial_C_20_modPotFire.htm" />
+          <TocEntry
+            Title="Prescribed Burn Planning Workflow - Surface Fire Behavior"
+            Link="/Content/04-Prescribed-Burns/Tutorial_C_PrescribedBurnPlan/Tutorial_C_21_RxBurnWorkflow.htm" />
+          <TocEntry
+            Title="Modeling Surface Fire Behavior (Element 7)"
+            Link="/Content/04-Prescribed-Burns/Tutorial_C_PrescribedBurnPlan/Tutorial_C_22_modSurfaceFire.htm" />
+          <TocEntry
+            Title="Creating a New Run to Predict Scorch Height"
+            Link="/Content/04-Prescribed-Burns/Tutorial_C_PrescribedBurnPlan/Tutorial_C_23_newRunScorch.htm" />
+          <TocEntry
+            Title="Prescribed Burn Planning Workflow - Predict Crown Scorch Height"
+            Link="/Content/04-Prescribed-Burns/Tutorial_C_PrescribedBurnPlan/Tutorial_C_24_RxBurnWorkflowScorch.htm" />
+          <TocEntry
+            Title="Modeling Crown Scorch Height"
+            Link="/Content/04-Prescribed-Burns/Tutorial_C_PrescribedBurnPlan/Tutorial_C_25_A_crownScorch.htm" />
+          <TocEntry
+            Title="Creating a New Run to Determine Probability of Ignition"
+            Link="/Content/04-Prescribed-Burns/Tutorial_C_PrescribedBurnPlan/Tutorial_C_25_B_poi.htm" />
+          <TocEntry
+            Title="Prescribed Burn Planning Workflow - Probability of Ignition"
+            Link="/Content/04-Prescribed-Burns/Tutorial_C_PrescribedBurnPlan/Tutorial_C_25_C_poi.htm" />
+          <TocEntry
+            Title="Running the Probability of Ignition Module"
+            Link="/Content/04-Prescribed-Burns/Tutorial_C_PrescribedBurnPlan/Tutorial_C_25_D_poi.htm" />
+          <TocEntry
+            Title="Environmental and Fire Behavior Prescription (Element 7)"
+            Link="/Content/04-Prescribed-Burns/Tutorial_C_PrescribedBurnPlan/Tutorial_C_26_envPrescipt2.htm" />
+          <TocEntry
+            Title="Modeling Considerations"
+            Link="/Content/04-Prescribed-Burns/Tutorial_C_PrescribedBurnPlan/Tutorial_C_27_modelConsider.htm" />
+          <TocEntry
+            Title="Scheduling; Pre-burn Considerations and Weather; Briefing (Elements 8, 9, and 10)"
+            Link="/Content/04-Prescribed-Burns/Tutorial_C_PrescribedBurnPlan/Tutorial_C_28_scheduling.htm" />
+          <TocEntry
+            Title="Organization and Equipment; Communication; Safety and Medical (Elements 11, 12 and 13)"
+            Link="/Content/04-Prescribed-Burns/Tutorial_C_PrescribedBurnPlan/Tutorial_C_29_orgEquip.htm" />
+          <TocEntry
+            Title="Test Fire and Ignition Plan (Elements 14 and 15)"
+            Link="/Content/04-Prescribed-Burns/Tutorial_C_PrescribedBurnPlan/Tutorial_C_30_testFire.htm" />
+          <TocEntry
+            Title="Holding and Contingency Plans (Elements 16 and 17)"
+            Link="/Content/04-Prescribed-Burns/Tutorial_C_PrescribedBurnPlan/Tutorial_C_31_holdContingency.htm" />
+          <TocEntry
+            Title="Wildfire Conversion, Smoke Management and Air Quality (Elements 18 and 19)"
+            Link="/Content/04-Prescribed-Burns/Tutorial_C_PrescribedBurnPlan/Tutorial_C_32_wildfireConvSmoke.htm" />
+          <TocEntry
+            Title="Monitoring and Post-burn Activity (Elements 20 and 21)"
+            Link="/Content/04-Prescribed-Burns/Tutorial_C_PrescribedBurnPlan/Tutorial_C_33_monitorPostBurn.htm" />
+          <TocEntry
+            Title="Appendices"
+            Link="/Content/04-Prescribed-Burns/Tutorial_C_PrescribedBurnPlan/Tutorial_C_34_appendices.htm" />
+          <TocEntry
+            Title="Generating the Burn Plan"
+            Link="/Content/04-Prescribed-Burns/Tutorial_C_PrescribedBurnPlan/Tutorial_C_35_genBurnPlan.htm" />
+          <TocEntry
+            Title="Customizing the Burn Plan"
+            Link="/Content/04-Prescribed-Burns/Tutorial_C_PrescribedBurnPlan/Tutorial_C_36_customBurnPlan.htm" />
+          <TocEntry
+            Title="Appendix A: Maps"
+            Link="/Content/04-Prescribed-Burns/Tutorial_C_PrescribedBurnPlan/Tutorial_C_37_appendAMaps.htm" />
+          <TocEntry
+            Title="Appendix A: Maps con't"
+            Link="/Content/04-Prescribed-Burns/Tutorial_C_PrescribedBurnPlan/Tutorial_C_38_appendAMaps1.htm" />
+          <TocEntry
+            Title="Appendix A: Maps (2)"
+            Link="/Content/04-Prescribed-Burns/Tutorial_C_PrescribedBurnPlan/Tutorial_C_39_appendAMaps2.htm" />
+          <TocEntry
+            Title="Appendix A: Maps (3)"
+            Link="/Content/04-Prescribed-Burns/Tutorial_C_PrescribedBurnPlan/Tutorial_C_40_appendAMaps4.htm" />
+          <TocEntry
+            Title="Appendix A: Maps (Save a Map Image)"
+            Link="/Content/04-Prescribed-Burns/Tutorial_C_PrescribedBurnPlan/Tutorial_C_41_appendAMaps5.htm" />
+          <TocEntry
+            Title="Appendix A: Maps (Inserting a Saved Map Image into Word)"
+            Link="/Content/04-Prescribed-Burns/Tutorial_C_PrescribedBurnPlan/Tutorial_C_42_appendAMaps6.htm" />
+          <TocEntry
+            Title="Appendix B: Technical Reviewer Checklist"
+            Link="/Content/04-Prescribed-Burns/Tutorial_C_PrescribedBurnPlan/Tutorial_C_45_appendB.htm" />
+          <TocEntry
+            Title="Appendix C: Complexity Analysis"
+            Link="/Content/04-Prescribed-Burns/Tutorial_C_PrescribedBurnPlan/Tutorial_C_46_appendC.htm" />
+          <TocEntry
+            Title="Appendix D: Agency-Specific Job Hazard Analysis"
+            Link="/Content/04-Prescribed-Burns/Tutorial_C_PrescribedBurnPlan/Tutorial_C_47_appendD.htm" />
+          <TocEntry
+            Title="Appendix E: Documentation"
+            Link="/Content/04-Prescribed-Burns/Tutorial_C_PrescribedBurnPlan/Tutorial_C_48_appendE.htm" />
+          <TocEntry
+            Title="Additional Help"
+            Link="/Content/04-Prescribed-Burns/Tutorial_C_PrescribedBurnPlan/Tutorial_C_50_addHelp.htm" />
+        </TocEntry>
+        <TocEntry
+          Title="Assessing Fire Hazard for Prescribed Burn Planning"
+          Link="/Content/04-Prescribed-Burns/RxBurnsCase1.htm" />
+        <TocEntry
+          Title="Preparing a Prescribed Burn Plan"
+          Link="/Content/04-Prescribed-Burns/RxBurnsCase2.htm" />
+        <TocEntry
+          Title="Red Bull RX-341 Burn Plan"
+          Link="/Content/04-Prescribed-Burns/RxBurnsExample1.htm"
+          conditions="Default.ScreenOnly" />
+        <TocEntry
+          Title="Tecuya - A Hypothetical Burn Plan Example"
+          Link="/Content/04-Prescribed-Burns/RxBurnsExample2.htm"
+          conditions="Default.ScreenOnly" />
+        <TocEntry
+          Title="Burn Plan Element 11: An Organization Chart"
+          Link="/Content/04-Prescribed-Burns/RxBurnsOrgChart.htm" />
+      </TocEntry>
+      <TocEntry
+        Title="IFT-Consume for emissions"
+        Link="/Content/13-Effects_2015/Consume_smoke/IFT_consume_effects_0.htm" />
+      <TocEntry
+        Title="IFT-Fofem for emissions"
+        Link="/Content/13-Effects_2015/FOFEM_smoke/Tutorial_fofem_0_intro.htm" />
+    </TocEntry>
+    <TocEntry
+      Title="Risk Assessment"
+      Link="/Content/06-Risk-Assessment/risk_original/RiskAssessIntro.htm">
+      <TocEntry
+        Title="Overview and Objectives"
+        Link="/Content/06-Risk-Assessment/risk_original/RiskAssessOverview.htm" />
+      <TocEntry
+        Title="Risk Assessment Concepts"
+        Link="/Content/06-Risk-Assessment/risk_original/RiskAssessConcepts.htm">
+        <TocEntry
+          Title="Values at Risk"
+          Link="/Content/06-Risk-Assessment/risk_original/RiskAssessValuesatRisk.htm" />
+        <TocEntry
+          Title="Response Functions and Values at Risk"
+          Link="/Content/06-Risk-Assessment/risk_original/RiskAssessResponseFunctionsDefinition.htm" />
+        <TocEntry
+          Title="Relative Net Value Change"
+          Link="/Content/06-Risk-Assessment/risk_original/RiskAssessNetValueChange.htm">
+          <TocEntry
+            Title="Example Using the Worst-Case Flame Length Approach"
+            Link="/Content/06-Risk-Assessment/risk_original/RiskAssessNetValueChange2.htm" />
+          <TocEntry
+            Title="Example Using the Flame Length Probabilities Approach"
+            Link="/Content/06-Risk-Assessment/risk_original/RiskAssessNetValueChange3.htm" />
+          <TocEntry
+            Title="Understanding the Net Value Change Parameter"
+            Link="/Content/06-Risk-Assessment/risk_original/RiskAssessNetValueChange4.htm" />
+        </TocEntry>
+        <TocEntry
+          Title="Response Functions Table"
+          Link="/Content/06-Risk-Assessment/risk_original/RiskAssessResponseFunctions.htm" />
+        <TocEntry
+          Title="Risk Assessment Glossary"
+          Link="/Content/06-Risk-Assessment/risk_original/RiskAssessGlossary.htm" />
+      </TocEntry>
+      <TocEntry
+        Title="Tutorials"
+        Link="/Content/06-Risk-Assessment/risk_original/RiskAssessTutorialIntro.htm">
+        <TocEntry
+          Title="Creating Values at Risk for Risk Assessment"
+          Link="/Content/06-Risk-Assessment/Vals_at_risk/Tutorial_H_0_Creating_VAR_Intro.htm">
+          <TocEntry
+            Title="Background: Values-at-Risk"
+            Link="/Content/06-Risk-Assessment/Vals_at_risk/Tutorial_H_1_Background.htm" />
+          <TocEntry
+            Title="Response Functions (Definitions)"
+            Link="/Content/06-Risk-Assessment/Vals_at_risk/Tutorial_H_2_response_functions.htm" />
+          <TocEntry
+            Title="Defining Values-at-Risk: Methods"
+            Link="/Content/06-Risk-Assessment/Vals_at_risk/Tutorial_H_3_VAR_methods.htm" />
+          <TocEntry
+            Title="Defining values-at-Risk: Using the free-form drawing method to create polygons"
+            Link="/Content/06-Risk-Assessment/Vals_at_risk/Tutorial_H_4_VAR_freeformpoly.htm" />
+          <TocEntry
+            Title="Defining values-at-Risk: using the point and click method To create values-at-Risk polygons"
+            Link="/Content/06-Risk-Assessment/Vals_at_risk/Tutorial_H_5_VAR_point_click.htm" />
+          <TocEntry
+            Title="Defining larger values-at-Risk"
+            Link="/Content/06-Risk-Assessment/Vals_at_risk/Tutorial_H_6_VAR_larger.htm" />
+          <TocEntry
+            Title="Creating smaller values-at-Risk"
+            Link="/Content/06-Risk-Assessment/Vals_at_risk/Tutorial_H_7_VAR_smaller.htm" />
+          <TocEntry
+            Title="Editing values-at-Risk"
+            Link="/Content/06-Risk-Assessment/Vals_at_risk/Tutorial_H_8_VAR_editing.htm"></TocEntry>
+          <TocEntry
+            Title="Defining values-at-Risk: Assigning a background"
+            Link="/Content/06-Risk-Assessment/Vals_at_risk/Tutorial_H_9_VAR_background.htm" />
+          <TocEntry
+            Title="Reviewing and saving your values-at-Risk map"
+            Link="/Content/06-Risk-Assessment/Vals_at_risk/Tutorial_H_10_VAR_reviewandsave.htm" />
+          <TocEntry
+            Title="Review and wrap-Up"
+            Link="/Content/06-Risk-Assessment/Vals_at_risk/Tutorial_H_11_VAR_wrapup.htm" />
+        </TocEntry>
+        <TocEntry
+          Title="Flame Length probabilities"
+          Link="/Content/06-Risk-Assessment/Risk_by_Probabilities/Tutorial_E_1_Risk_Asmt_probability.htm">
+          <TocEntry
+            Title="Introduction &amp; Background"
+            Link="/Content/06-Risk-Assessment/Risk_by_Probabilities/Tutorial_E_2_Intro_Background.htm" />
+          <TocEntry
+            Title="Setting up the project"
+            Link="/Content/06-Risk-Assessment/Risk_by_Probabilities/Tutorial_E_3_setup_project.htm" />
+          <TocEntry
+            Title="Acquiring LANDFIRE Data"
+            Link="/Content/06-Risk-Assessment/Risk_by_Probabilities/Tutorial_E_4_aquire_landfire_data.htm" />
+          <TocEntry
+            Title="Creating a New Run"
+            Link="/Content/06-Risk-Assessment/Risk_by_Probabilities/Tutorial_E_5_create_run.htm" />
+          <TocEntry
+            Title="Analysis Considerations: Things You Need to Know"
+            Link="/Content/06-Risk-Assessment/Risk_by_Probabilities/Tutorial_E_6_caveats.htm" />
+          <TocEntry
+            Title="Definging Values at Risk"
+            Link="/Content/06-Risk-Assessment/Risk_by_Probabilities/Tutorial_E_7_defining_vals_at_risk.htm" />
+          <TocEntry
+            Title="Inputting Environmental and Simulation Parameters"
+            Link="/Content/06-Risk-Assessment/Risk_by_Probabilities/Tutorial_E_8_entring_model_paras.htm" />
+          <TocEntry
+            Title="Reviewing Spatial Landscape Data"
+            Link="/Content/06-Risk-Assessment/Risk_by_Probabilities/Tutorial_E_9_Review_edit_data.htm" />
+          <TocEntry
+            Title="Analyzing Burn Probability Output Data"
+            Link="/Content/06-Risk-Assessment/Risk_by_Probabilities/Tutorial_E_10_Analyze_burn_prob.htm" />
+          <TocEntry
+            Title="Exporting Map Summary Data"
+            Link="/Content/06-Risk-Assessment/Risk_by_Probabilities/Tutorial_E_11_exporting_google_earth.htm" />
+          <TocEntry
+            Title="Evaluating Results in Google Earth"
+            Link="/Content/06-Risk-Assessment/Risk_by_Probabilities/Tutorial_E_12_Evaluating_results_google_earth.htm" />
+          <TocEntry
+            Title="Saving and Copying Data"
+            Link="/Content/06-Risk-Assessment/Risk_by_Probabilities/Tutorial_E_13_save_and_copy_data.htm" />
+          <TocEntry
+            Title="Next Steps:  Assessing Further Needs"
+            Link="/Content/06-Risk-Assessment/Risk_by_Probabilities/Tutorial_E_14_wrap_up.htm" />
+        </TocEntry>
+        <TocEntry
+          Title="Worst-Case Flame Length"
+          Link="/Content/06-Risk-Assessment/Risk_by_FlameLength/Tutorial_D_1_Creating_Risk_Asmt_WCFL.htm">
+          <TocEntry
+            Title="Introduction and Background"
+            Link="/Content/06-Risk-Assessment/Risk_by_FlameLength/Tutorial_D_2_Intro_background.htm" />
+          <TocEntry
+            Title="Setting up the Project"
+            Link="/Content/06-Risk-Assessment/Risk_by_FlameLength/Tutorial_D_3_Setup_a_project.htm" />
+          <TocEntry
+            Title="Acquiring LANDFIRE Data"
+            Link="/Content/06-Risk-Assessment/Risk_by_FlameLength/Tutorial_D_4_Acquire_Landfire_data.htm" />
+          <TocEntry
+            Title="Worst Case Flame Lengths Risk Assessment: Creating a New Run"
+            Link="/Content/06-Risk-Assessment/Risk_by_FlameLength/Tutorial_D_5_create_run.htm" />
+          <TocEntry
+            Title="Analysis Considerations: Things You Need to Know"
+            Link="/Content/06-Risk-Assessment/Risk_by_FlameLength/Tutorial_D_6_caveats.htm" />
+          <TocEntry
+            Title="Defining Values at Risk"
+            Link="/Content/06-Risk-Assessment/Risk_by_FlameLength/Tutorial_D_7_defining_vals_at_risk.htm" />
+          <TocEntry
+            Title="Inputting Environmental and Simulation Parameters"
+            Link="/Content/06-Risk-Assessment/Risk_by_FlameLength/Tutorial_D_8_input_parameters.htm" />
+          <TocEntry
+            Title="Analyzing Fire Behavior Output Data"
+            Link="/Content/06-Risk-Assessment/Risk_by_FlameLength/Tutorial_D_9_analyze_output_data.htm" />
+          <TocEntry
+            Title="Reviewing Spatial Landscape Data"
+            Link="/Content/06-Risk-Assessment/Risk_by_FlameLength/Tutorial_D_10_review_and_edit_lndscp_data.htm" />
+          <TocEntry
+            Title="Exporting Map Summary Data"
+            Link="/Content/06-Risk-Assessment/Risk_by_FlameLength/Tutorial_D_11_exporting_google_earth.htm" />
+          <TocEntry
+            Title="Add and Evaluate Results in Google Earth"
+            Link="/Content/06-Risk-Assessment/Risk_by_FlameLength/Tutorial_D_12_add_examine_in_g_earth.htm" />
+          <TocEntry
+            Title="Next Steps:  Assessing Further Needs"
+            Link="/Content/06-Risk-Assessment/Risk_by_FlameLength/Tutorial_D_13_next_steps_frthrneeds.htm" />
+          <TocEntry
+            Title="Copying Runs for Future Use"
+            Link="/Content/06-Risk-Assessment/Risk_by_FlameLength/Tutorial_D_14_copy_runs.htm" />
+          <TocEntry
+            Title="Saving Data Sets for Future Use"
+            Link="/Content/06-Risk-Assessment/Risk_by_FlameLength/Tutorial_D_15_saving_data.htm" />
+          <TocEntry
+            Title="Review"
+            Link="/Content/06-Risk-Assessment/Risk_by_FlameLength/Tutorial_D_16_review_wrapup.htm" />
+        </TocEntry>
+      </TocEntry>
+    </TocEntry>
+    <TocEntry
+      Title="Fuels Treatment"
+      Link="/Content/07-FuelsTreatment/FuelsTreatment.htm"
+      StartSection="false"
+      SectionNumberReset="continue"
+      VolumeNumberReset="same"
+      ChapterNumberReset="continue">
+      <TocEntry
+        Title="Evaluate Fuels Treatment Effectiveness by Fire Behavior"
+        StartSection="false"
+        SectionNumberReset="continue"
+        VolumeNumberReset="same"
+        ChapterNumberReset="continue"
+        Link="/Content/07-FuelsTreatment/Tutorial_G_fuel_treatment/0_tutorial_G_introduction.htm">
+        <TocEntry
+          Title="Key Information and Caveats"
+          Link="/Content/07-FuelsTreatment/Tutorial_G_fuel_treatment/1_tutorial_G_Key_information.htm" />
+        <TocEntry
+          Title="Creating a Project"
+          Link="/Content/07-FuelsTreatment/Tutorial_G_fuel_treatment/2_tutorial_G_Creating_project.htm" />
+        <TocEntry
+          Title="Acquiring LANDFIRE Data"
+          Link="/Content/07-FuelsTreatment/Tutorial_G_fuel_treatment/3_tutorial_G_Acquire_Landfire_data.htm" />
+        <TocEntry
+          Title="Creating the Run"
+          Link="/Content/07-FuelsTreatment/Tutorial_G_fuel_treatment/4_tutorial_G_Create_Run.htm" />
+        <TocEntry
+          Title="Review Landscape Data"
+          Link="/Content/07-FuelsTreatment/Tutorial_G_fuel_treatment/5_tutorial_G_review_lndscp_data.htm" />
+        <TocEntry
+          Title="Inputs: Properties, Fuel Moisture, and Weather"
+          Link="/Content/07-FuelsTreatment/Tutorial_G_fuel_treatment/6_tutorial_G_inputs.htm" />
+        <TocEntry
+          Title="Reviewing Pre-Treatment Outputs"
+          Link="/Content/07-FuelsTreatment/Tutorial_G_fuel_treatment/7_tutorial_G_data_review.htm" />
+        <TocEntry
+          Title="Identifying Fuels Treatment Locations"
+          Link="/Content/07-FuelsTreatment/Tutorial_G_fuel_treatment/8_tutorial_G_Id_fuels_trtmnt_loc.htm" />
+        <TocEntry
+          Title="Creating Fuels Treatment Polygons"
+          Link="/Content/07-FuelsTreatment/Tutorial_G_fuel_treatment/9_tutorial_G_treatment_polygons.htm" />
+        <TocEntry
+          Title="Editing LANDFIRE Data to Create Fuels Treatments"
+          Link="/Content/07-FuelsTreatment/Tutorial_G_fuel_treatment/10_tutorial_G_edit_poly_trtmnt.htm" />
+        <TocEntry
+          Title="Evaluating Fuel Treatment Effectiveness"
+          Link="/Content/07-FuelsTreatment/Tutorial_G_fuel_treatment/11_tutorial_G_eval_fuel_trtmnt_eff.htm" />
+        <TocEntry
+          Title="Next Steps"
+          Link="/Content/07-FuelsTreatment/Tutorial_G_fuel_treatment/12_tutorial_G_next_steps.htm" />
+        <TocEntry
+          Title="Review &amp; Wrap-up"
+          Link="/Content/07-FuelsTreatment/Tutorial_G_fuel_treatment/13_tutorial_G_wrapup_review.htm" />
+      </TocEntry>
+      <TocEntry
+        Title="Acquiring and Editing LANDFIRE Data"
+        Link="/Content/07-FuelsTreatment/Landfire_data/Tutorial_F_0_landfire_data_mgt.htm">
+        <TocEntry
+          Title="Uploading an LCP File"
+          Link="/Content/07-FuelsTreatment/Landfire_data/Tutorial_F_1_uploading_lcp_file.htm" />
+        <TocEntry
+          Title="Acquiring Landscape Data from LANDFIRE Within IFTDSS"
+          Link="/Content/07-FuelsTreatment/Landfire_data/Tutorial_F_2_Acquire_lcp_from_iftdss.htm" />
+        <TocEntry
+          Title="Editing Data Using Data Studio"
+          Link="/Content/07-FuelsTreatment/Landfire_data/Tutorial_F_3_Editing_data_w_data_studio.htm" />
+        <TocEntry
+          Title="Point Editing"
+          Link="/Content/07-FuelsTreatment/Landfire_data/Tutorial_F_4_point_edit.htm"></TocEntry>
+        <TocEntry
+          Title="Advanced Editing: Edit Pixels Across the Entire Run Area"
+          Link="/Content/07-FuelsTreatment/Landfire_data/Tutorial_F_5_advanced_edit.htm" />
+        <TocEntry
+          Title="Polygon Advanced Edit: edit pixels within a user-drawn polygon"
+          Link="/Content/07-FuelsTreatment/Landfire_data/Tutorial_F_6_advanced_edit_polygons.htm" />
+        <TocEntry
+          Title="Review and wrap-up"
+          Link="/Content/07-FuelsTreatment/Landfire_data/Tutorial_F_7_review_wrapup.htm" />
+      </TocEntry>
+      <TocEntry
+        Title="Acquiring and Editing LANDFIRE Data"
+        Link="/Content/07-FuelsTreatment/FuelsTreatmentLANDFIRE_data.htm"
+        StartSection="false"
+        conditions="Default.Removed" />
+      <TocEntry
+        Title="Evaluating Fuels Treatment Effectiveness"
+        Link="/Content/07-FuelsTreatment/Tutorial_G_fuel_treatment/0_tutorial_G_introduction.htm"
+        conditions="Default.Removed" />
+    </TocEntry>
+    <TocEntry
+      Title="Fire Effects"
+      Link="/Content/13-Effects_2015/FireEffects.htm">
+      <TocEntry
+        Title="Using IFT-FOFEM for Smoke Management Planning"
+        Link="/Content/13-Effects_2015/FOFEM_smoke/Tutorial_fofem_0_intro.htm">
+        <TocEntry
+          Title="Setting up the project"
+          Link="/Content/13-Effects_2015/FOFEM_smoke/Tutorial_fofem_1_project.htm" />
+        <TocEntry
+          Title="Selecting and Configuring IFT-FOFEM from the IFTDSS workflows"
+          Link="/Content/13-Effects_2015/FOFEM_smoke/Tutorial_fofem_2_configuring.htm" />
+        <TocEntry
+          Title="Acquiring data to run IFT-FOFEM"
+          Link="/Content/13-Effects_2015/FOFEM_smoke/Tutorial_fofem_3_Acquiredata.htm" />
+        <TocEntry
+          Title="Populating and running IFT-FOFEM"
+          Link="/Content/13-Effects_2015/FOFEM_smoke/Tutorial_fofem_4_runfofem.htm" />
+        <TocEntry
+          Title="Viewing output and summary data"
+          Link="/Content/13-Effects_2015/FOFEM_smoke/Tutorial_fofem_5_outputs.htm" />
+        <TocEntry
+          Title="Comparing Runs"
+          Link="/Content/13-Effects_2015/FOFEM_smoke/Tutorial_fofem_6_runs_data.htm" />
+        <TocEntry
+          Title="Review"
+          Link="/Content/13-Effects_2015/FOFEM_smoke/Tutorial_fofem_7_review_wrapup.htm" />
+      </TocEntry>
+      <TocEntry
+        Title="Using IFT-Consume for Landscape Smoke Management Planning"
+        Link="/Content/13-Effects_2015/Consume_smoke/IFT_consume_effects_0.htm">
+        <TocEntry
+          Title="Setting up the project"
+          Link="/Content/13-Effects_2015/Consume_smoke/IFT_consume_effects_1.htm" />
+        <TocEntry
+          Title="Acquiring FCCS fuelbed data to run IFT-Consume"
+          Link="/Content/13-Effects_2015/Consume_smoke/IFT_consume_effects_2.htm" />
+        <TocEntry
+          Title="Selecting IFT-Consume from the IFTDSS workflows"
+          Link="/Content/13-Effects_2015/Consume_smoke/IFT_consume_effects_3.htm" />
+        <TocEntry
+          Title="Populating and running the IFT-Consume model"
+          Link="/Content/13-Effects_2015/Consume_smoke/IFT_consume_effects_4.htm" />
+        <TocEntry
+          Title="Viewing output data"
+          Link="/Content/13-Effects_2015/Consume_smoke/IFT_consume_effects_5.htm" />
+        <TocEntry
+          Title="Exporting data as raster layers to ArcMap for analysis"
+          Link="/Content/13-Effects_2015/Consume_smoke/IFT_consume_effects_6.htm" />
+        <TocEntry
+          Title="Evaluating results"
+          Link="/Content/13-Effects_2015/Consume_smoke/IFT_consume_effects_7.htm" />
+        <TocEntry
+          Title="Review"
+          Link="/Content/13-Effects_2015/Consume_smoke/IFT_consume_effects_8.htm" />
+      </TocEntry>
+    </TocEntry>
+  </TocEntry>
+  <TocEntry
+    Title="Fire and Fuels Application (FFA) Tools"
+    Link="/Content/08-FERA-Tools/FERAOver.htm">
+    <TocEntry
+      Title="Consume"
+      Link="/Content/08-FERA-Tools/FERA-Consume.htm">
+      <TocEntry
+        Title="Activity Fuels"
+        Link="/Content/08-FERA-Tools/FERA-Consume-Activity.htm"
+        ReplaceMergeNode="false">
+        <TocEntry
+          Title="Input Parameters">
+          <TocEntry
+            Title="Fuel Consumption"
+            Link="/Content/08-FERA-Tools/FERA-Consume-ActivityFuelsFuelConsumptionIn.htm" />
+          <TocEntry
+            Title="Heat Release"
+            Link="/Content/08-FERA-Tools/FERA-Consume-ActivityFuelsHeatReleaseIn.htm" />
+          <TocEntry
+            Title="Pollutant Emissions"
+            Link="/Content/08-FERA-Tools/FERA-Consume-ActivityFuelsPollutantsIn.htm" />
+          <TocEntry
+            Title="Total Fuel Consumption, Emissions, and Heat Release"
+            Link="/Content/08-FERA-Tools/FERA-Consume-ActivityFuelsAllIn.htm" />
+        </TocEntry>
+        <TocEntry
+          Title="Output Parameters">
+          <TocEntry
+            Title="Fuel Consumption"
+            Link="/Content/08-FERA-Tools/FERA-Consume-ActivityFuelsFuelConsumptionOut.htm" />
+          <TocEntry
+            Title="Heat Release"
+            Link="/Content/08-FERA-Tools/FERA-Consume-ActivityFuelsHeatReleaseOut.htm" />
+          <TocEntry
+            Title="Pollutant Emissions"
+            Link="/Content/08-FERA-Tools/FERA-Consume-ActivityFuelsPollutantsOut.htm" />
+          <TocEntry
+            Title="Total Fuel Consumption, Emissions, and Heat Release"
+            Link="/Content/08-FERA-Tools/FERA-Consume-ActivityFuelsAllOut.htm" />
+        </TocEntry>
+        <TocEntry
+          Title="Supporting Information">
+          <TocEntry
+            Title="Uncured 1,000-Hour Woody Fuels"
+            Link="/Content/08-FERA-Tools/FERA-Consume-Activity-Uncured-Woody.htm" />
+          <TocEntry
+            Title="Activity Fuel Consumption Equations"
+            Link="/Content/08-FERA-Tools/FERA-Consume-ActivityEquations.htm" />
+        </TocEntry>
+      </TocEntry>
+      <TocEntry
+        Title="Natural Fuels"
+        Link="/Content/08-FERA-Tools/FERA-Consume-NaturalFuelsIntro.htm">
+        <TocEntry
+          Title="Input Parameters">
+          <TocEntry
+            Title="Fuel Consumption"
+            Link="/Content/08-FERA-Tools/FERA-Consume-NaturalFuelsFuelConsumptionIn.htm" />
+          <TocEntry
+            Title="Heat Release"
+            Link="/Content/08-FERA-Tools/FERA-Consume-NaturalFuelsHeatReleaseIn.htm" />
+          <TocEntry
+            Title="Pollutant Emissions"
+            Link="/Content/08-FERA-Tools/FERA-Consume-NaturalFuelsPollutantsIn.htm" />
+          <TocEntry
+            Title="Total Fuel Consumption, Emissions, and Heat Release"
+            Link="/Content/08-FERA-Tools/FERA-Consume-NaturalFuelsAllIn.htm" />
+        </TocEntry>
+        <TocEntry
+          Title="Output Parameters">
+          <TocEntry
+            Title="Fuel Consumption"
+            Link="/Content/08-FERA-Tools/FERA-Consume-NaturalFuelsFuelConsumptionOut.htm" />
+          <TocEntry
+            Title="Heat Release"
+            Link="/Content/08-FERA-Tools/FERA-Consume-NaturalFuelsHeatReleaseOut.htm" />
+          <TocEntry
+            Title="Pollutant Emissions"
+            Link="/Content/08-FERA-Tools/FERA-Consume-NaturalFuelsPollutantsOut.htm" />
+          <TocEntry
+            Title="Total Fuel Consumption, Emissions, and Heat Release"
+            Link="/Content/08-FERA-Tools/FERA-Consume-NaturalFuelsAllOut.htm" />
+        </TocEntry>
+        <TocEntry
+          Title="Supporting Information"
+          Link="/Content/08-FERA-Tools/FERA-Consume-NaturalEquationsOverview.htm">
+          <TocEntry
+            Title="Equations Used for Natural Fuel Consumption"
+            Link="/Content/08-FERA-Tools/FERA-Consume-NaturalEquations.htm"></TocEntry>
+          <TocEntry
+            Title="Natural Fuel Consumption/Ecoregion Crosswalk"
+            Link="/Content/08-FERA-Tools/FERA-Consume-NaturalEquationsCrosswalk.htm" />
+          <TocEntry
+            Title="Boreal Fuel Consumption"
+            Link="/Content/08-FERA-Tools/FERA-Consume-BorealConsumption.htm" />
+          <TocEntry
+            Title="Southern Pine Consumption"
+            Link="/Content/08-FERA-Tools/FERA-Consume-SouthernPine.htm">
+            <TocEntry
+              Title="Southern Fuel Consumption Equations"
+              Link="/Content/08-FERA-Tools/FERA-Consume-SouthernFuelEquations.htm" />
+          </TocEntry>
+          <TocEntry
+            Title="Western Fuel Consumption"
+            Link="/Content/08-FERA-Tools/FERA-Consume-Western-Overview.htm">
+            <TocEntry
+              Title="Ponderosa Pine Study"
+              Link="/Content/08-FERA-Tools/FERA-Consume-Natural-PonderosaPineStudy.htm" />
+            <TocEntry
+              Title="Western Fuel Consumption Equations"
+              Link="/Content/08-FERA-Tools/FERA-Consume-WesternFuelEquations.htm" />
+            <TocEntry
+              Title="Prescribed Burn Units in the Ponderosa Pine Study"
+              Link="/Content/08-FERA-Tools/FERA-Consume-Natural-PonderosaPine.htm" />
+          </TocEntry>
+        </TocEntry>
+      </TocEntry>
+      <TocEntry
+        Title="Emission Factors Information and Tables">
+        <TocEntry
+          Title="SAF Forest Cover Types (PDF)"
+          conditions="Default.ScreenOnly"
+          Link="/Content/ExternalResources/SAF-forest-cover-types.pdf" />
+        <TocEntry
+          Title="Cover Type/Emission Factors Crosswalk"
+          Link="/Content/08-FERA-Tools/FERA-Consume-Activity-Cover-Type.htm" />
+        <TocEntry
+          Title="Emission Factors by Emission Factor Groups"
+          Link="/Content/08-FERA-Tools/FERA-Consume-EmissionFactorsbyGroup.htm" />
+        <TocEntry
+          Title="Emission Factor Groups by Cover Type"
+          Link="/Content/08-FERA-Tools/FERA-Consume-EmissionFactors.htm" />
+        <TocEntry
+          Title="Pollutant Emissions"
+          Link="/Content/08-FERA-Tools/FERA-Consume-PollutantEmissions.htm" />
+      </TocEntry>
+    </TocEntry>
+    <TocEntry
+      Title="FCCS"
+      Link="/Content/08-FERA-Tools/FERA-FCCS.htm">
+      <TocEntry
+        Title="Assumptions and Limitations"
+        Link="/Content/08-FERA-Tools/FERA-FCCS-Assumptions.htm">
+        <TocEntry
+          Title="Comparison of Rothermel and FCCS Assumptions"
+          Link="/Content/08-FERA-Tools/FERA-FCCS-AssumptionsTable.htm" />
+      </TocEntry>
+      <TocEntry
+        Title="Fuelbeds"
+        Link="/Content/08-FERA-Tools/FERA-Fuelbed-Intro.htm">
+        <TocEntry
+          Title="Fuelbed Overview"
+          Link="/Content/08-FERA-Tools/FERA-Fuelbed-Development.htm" />
+        <TocEntry
+          Title="Fuelbed Strata and Categories"
+          Link="/Content/08-FERA-Tools/FERA-Fuelbed-Strata.htm" />
+        <TocEntry
+          Title="Using the Fuelbed Selector"
+          Link="/Content/08-FERA-Tools/FERA-Fuelbed-Selector.htm">
+          <TocEntry
+            Title="Change Agents"
+            Link="/Content/08-FERA-Tools/FERA-FCCS-ChangeAgentsTable.htm" />
+          <TocEntry
+            Title="Cover Types"
+            Link="/Content/08-FERA-Tools/FERA-Fuelbed-Cover.htm" />
+          <TocEntry
+            Title="Ecoregions"
+            Link="/Content/08-FERA-Tools/FERA-Fuelbed-Eco.htm" />
+          <TocEntry
+            Title="Structural Classes"
+            Link="/Content/08-FERA-Tools/FERA-Fuelbed-Struct.htm" />
+          <TocEntry
+            Title="Vegetation Forms"
+            Link="/Content/08-FERA-Tools/FERA-Fuelbed-Veg.htm" />
+        </TocEntry>
+        <TocEntry
+          Title="Using the Fuelbed Editor"
+          Link="/Content/08-FERA-Tools/FERA-Fuelbed-Editor.htm" />
+      </TocEntry>
+      <TocEntry
+        Title="FCCS Potentials"
+        Link="/Content/08-FERA-Tools/FERA-FCCS-FP-Intro.htm">
+        <TocEntry
+          Title="All Fire and Fuel Potentials"
+          Link="/Content/08-FERA-Tools/FERA-FCCS-FP-All.htm" />
+        <TocEntry
+          Title="Available Fuel Potentials"
+          Link="/Content/08-FERA-Tools/FERA-FCCS-FP-AvailableFuelPot.htm" />
+        <TocEntry
+          Title="Crown Fire Potentials"
+          Link="/Content/08-FERA-Tools/FERA-FCCS-FP-CrownFirePot.htm" />
+        <TocEntry
+          Title="Important Input Variables: Crown Fire Potential"
+          Link="/Content/08-FERA-Tools/FERA-FCCS-FP-CrownFirePotImpInput.htm" />
+        <TocEntry
+          Title="Surface Fire Behavior Potentials"
+          Link="/Content/08-FERA-Tools/FERA-FCCS-FP-SurfaceFirePotential.htm" />
+      </TocEntry>
+      <TocEntry
+        Title="Fuel Characteristics"
+        Link="/Content/08-FERA-Tools/FERA-FCCS-FC-Intro.htm">
+        <TocEntry
+          Title="All Fuels"
+          Link="/Content/08-FERA-Tools/FERA-FCCS-FC-AllFuelChar.htm" />
+        <TocEntry
+          Title="Fuel Loading"
+          Link="/Content/08-FERA-Tools/FERA-FCCS-FC-FuelLoading.htm" />
+        <TocEntry
+          Title="Total Carbon"
+          Link="/Content/08-FERA-Tools/FERA-FCCS-FC-TotalCarbon.htm" />
+      </TocEntry>
+      <TocEntry
+        Title="Surface Fire Behavior"
+        Link="/Content/08-FERA-Tools/FERA-FCCS-SFB-Intro.htm">
+        <TocEntry
+          Title="More About This Module (PDF)"
+          Link="/Content/ExternalResources/FCCS.pdf"
+          conditions="Default.ScreenOnly" />
+        <TocEntry
+          Title="Important Input Variables: Surface Fire Behavior"
+          Link="/Content/08-FERA-Tools/FERA-FCCS-SFB-InputVariables.htm" />
+        <TocEntry
+          Title="Inputs"
+          Link="/Content/08-FERA-Tools/FERA-FCCS-SFB-SurfaceFireBehaviorInput.htm" />
+        <TocEntry
+          Title="Outputs"
+          Link="/Content/08-FERA-Tools/FERA-FCCS-SFB-SurfaceFireBehaviorOutput.htm" />
+      </TocEntry>
+    </TocEntry>
+    <TocEntry
+      Title="FEPS"
+      Link="/Content/08-FERA-Tools/FERA-FEPS.htm">
+      <TocEntry
+        Title="More About This Module (PDF)"
+        Link="/Content/ExternalResources/FEPS.pdf"
+        conditions="Default.ScreenOnly" />
+      <TocEntry
+        Title="Fire Information"
+        Link="/Content/08-FERA-Tools/FERA-FEPS-Fire.htm" />
+      <TocEntry
+        Title="Input Parameters"
+        Link="/Content/08-FERA-Tools/FERA-FEPSIn.htm">
+        <TocEntry
+          Title="Consumption and Emissions Data"
+          Link="/Content/08-FERA-Tools/FERA-FEPS-In-Consumption.htm" />
+        <TocEntry
+          Title="Environmental"
+          Link="/Content/08-FERA-Tools/FERA-FEPS-In-Environment.htm" />
+      </TocEntry>
+      <TocEntry
+        Title="Intermediate Parameters"
+        Link="/Content/08-FERA-Tools/FERA-FEPS-Intermediate.htm" />
+      <TocEntry
+        Title="Output Parameters"
+        Link="/Content/08-FERA-Tools/FERA-FEPSOut.htm">
+        <TocEntry
+          Title="Consumption and Emissions Data"
+          Link="/Content/08-FERA-Tools/FERA-FEPS-Out-Consumption.htm" />
+        <TocEntry
+          Title="Exported Output Parameters"
+          Link="/Content/08-FERA-Tools/FERA-FEPS-Out-CSV.htm" />
+      </TocEntry>
+      <TocEntry
+        Title="Calculations">
+        <TocEntry
+          Title="Area Consumption Rate"
+          Link="/Content/08-FERA-Tools/FERA-FEPS-Calc-AreaConsump.htm" />
+        <TocEntry
+          Title="Fire Size"
+          Link="/Content/08-FERA-Tools/FERA-FEPS-Calc-FireSize.htm" />
+        <TocEntry
+          Title="Heat Release"
+          Link="/Content/08-FERA-Tools/FERA-FEPS-Calc-HeatRelease.htm" />
+        <TocEntry
+          Title="Heat Rise"
+          Link="/Content/08-FERA-Tools/FERA-FEPS-Calc-HeatRise.htm" />
+        <TocEntry
+          Title="Hourly Consumption Rates"
+          Link="/Content/08-FERA-Tools/FERA-FEPS-Calc-HourlyConsump.htm" />
+        <TocEntry
+          Title="Lofted and Drift PM2.5 Emissions"
+          Link="/Content/08-FERA-Tools/FERA-FEPS-Calc-LoftedPM25.htm" />
+        <TocEntry
+          Title="Meteorological Data"
+          Link="/Content/08-FERA-Tools/FERA-FEPS-Calc-Met.htm" />
+        <TocEntry
+          Title="Pollutant Emission Rates"
+          Link="/Content/08-FERA-Tools/FERA-FEPS-Calc-PollutantEmissions.htm" />
+      </TocEntry>
+    </TocEntry>
+    <TocEntry
+      Title="Digital Photo Series"
+      Link="/Content/08-FERA-Tools/FERA-DPS.htm" />
+  </TocEntry>
+  <TocEntry
+    Title="IFTDSS Compared with Other Systems"
+    Link="/Content/11-Comparing-IFTDSS/IFTCompare.htm">
+    <TocEntry
+      Title="BehavePlus Functionality Available in IFTDSS"
+      Link="/Content/11-Comparing-IFTDSS/IFTCompare-BehavePlus.htm">
+      <TocEntry
+        Title="BehavePlus CONTAIN and IFTDSS"
+        Link="/Content/11-Comparing-IFTDSS/IFTCompareBehavePlusCONTAIN.htm" />
+      <TocEntry
+        Title="BehavePlus CROWN and IFTDSS"
+        Link="/Content/11-Comparing-IFTDSS/IFTCompareBehavePlusCROWN.htm" />
+      <TocEntry
+        Title="BehavePlus IGNITE and IFTDSS"
+        Link="/Content/11-Comparing-IFTDSS/IFTCompareBehavePlusIGNITE.htm" />
+      <TocEntry
+        Title="BehavePlus MORTALITY and IFTDSS"
+        Link="/Content/11-Comparing-IFTDSS/IFTCompareBehavePlusMORTALITY.htm" />
+      <TocEntry
+        Title="BehavePlus SAFETY and IFTDSS"
+        Link="/Content/11-Comparing-IFTDSS/IFTCompareBehavePlusSAFETY.htm" />
+      <TocEntry
+        Title="BehavePlus SCORCH and IFTDSS"
+        Link="/Content/11-Comparing-IFTDSS/IFTCompareBehavePlusSCORCH.htm" />
+      <TocEntry
+        Title="BehavePlus SIZE and IFTDSS"
+        Link="/Content/11-Comparing-IFTDSS/IFTCompareBehavePlusSIZE.htm" />
+      <TocEntry
+        Title="BehavePlus SPOT and IFTDSS"
+        Link="/Content/11-Comparing-IFTDSS/IFTCompareBehavePlusSPOT.htm" />
+      <TocEntry
+        Title="BehavePlus SURFACE and IFTDSS"
+        Link="/Content/11-Comparing-IFTDSS/IFTCompareBehavePlusSURFACE.htm" />
+      <TocEntry
+        Title="BehavePlus Tools and IFTDSS"
+        Link="/Content/11-Comparing-IFTDSS/IFTCompareBehavePlusTools.htm" />
+      <TocEntry
+        Title="Other Functionality of BehavePlus"
+        Link="/Content/11-Comparing-IFTDSS/IFTCompareBehavePlusOther.htm" />
+    </TocEntry>
+    <TocEntry
+      Title="Numerical Comparison of Surface Fire Behavior Models"
+      Link="/Content/11-Comparing-IFTDSS/IFTCompareNumerical.htm">
+      <TocEntry
+        Title="Surface Fire Behavior on Flat Terrain"
+        Link="/Content/11-Comparing-IFTDSS/IFTCompareApp1.htm" />
+      <TocEntry
+        Title="Surface Fire Behavior on a Slope"
+        Link="/Content/11-Comparing-IFTDSS/IFTCompareApp2.htm" />
+    </TocEntry>
+    <TocEntry
+      Title="Module Test Cases"
+      Link="/Content/10-Reference/RefModelTests.htm"
+      conditions="Default.ScreenOnly">
+      <TocEntry
+        Title="BehavePlus"
+        conditions="Default.ScreenOnly">
+        <TocEntry
+          Title="Contain Test Report (PDF)"
+          Link="/Content/ExternalResources/Contain_Pathway_Test.pdf"
+          conditions="Default.ScreenOnly" />
+        <TocEntry
+          Title="Contain Test Case (PDF)"
+          Link="/Content/ExternalResources/Contain_test_case.pdf"
+          conditions="Default.ScreenOnly" />
+        <TocEntry
+          Title="Crown Test Report (PDF)"
+          Link="/Content/ExternalResources/Crown_Pathway_Test.pdf"
+          conditions="Default.ScreenOnly"></TocEntry>
+        <TocEntry
+          Title="Crown Test Case (PDF)"
+          Link="/Content/ExternalResources/Crown_test_case.pdf"
+          conditions="Default.ScreenOnly" />
+        <TocEntry
+          Title="Ignite Test Report (PDF)"
+          Link="/Content/ExternalResources/Ignite_Pathway_Test.pdf"
+          conditions="Default.ScreenOnly" />
+        <TocEntry
+          Title="Ignite Test Case (PDF)"
+          Link="/Content/ExternalResources/Ignite_test_case.pdf"
+          conditions="Default.ScreenOnly" />
+        <TocEntry
+          Title="Safety Test Report (PDF)"
+          Link="/Content/ExternalResources/Safety_Pathway_Test.pdf"
+          conditions="Default.ScreenOnly" />
+        <TocEntry
+          Title="Safety Test Case (PDF)"
+          Link="/Content/ExternalResources/Safety_test_case.pdf"
+          conditions="Default.ScreenOnly" />
+        <TocEntry
+          Title="Scorch Test Report (PDF)"
+          Link="/Content/ExternalResources/Scorch_Pathway_Test.pdf"
+          conditions="Default.ScreenOnly" />
+        <TocEntry
+          Title="Scorch Test Case (PDF)"
+          Link="/Content/ExternalResources/Scorch_test_case.pdf"
+          conditions="Default.ScreenOnly" />
+        <TocEntry
+          Title="Size Test Report (PDF)"
+          Link="/Content/ExternalResources/Size_Pathway_Test.pdf"
+          conditions="Default.ScreenOnly" />
+        <TocEntry
+          Title="Size Test Case (PDF)"
+          Link="/Content/ExternalResources/Size_test_case.pdf"
+          conditions="Default.ScreenOnly" />
+        <TocEntry
+          Title="Spot Test Report (PDF)"
+          Link="/Content/ExternalResources/Spot_Pathway_Test.pdf"
+          conditions="Default.ScreenOnly" />
+        <TocEntry
+          Title="Spot Test Case (PDF)"
+          Link="/Content/ExternalResources/Spot_test_case.pdf"
+          conditions="Default.ScreenOnly" />
+        <TocEntry
+          Title="Surface Test Report (PDF)"
+          Link="/Content/ExternalResources/Surface_Pathway_Test.pdf"
+          conditions="Default.ScreenOnly" />
+        <TocEntry
+          Title="Surface Test Case (PDF)"
+          Link="/Content/ExternalResources/Surface_test_case.pdf"
+          conditions="Default.ScreenOnly" />
+      </TocEntry>
+      <TocEntry
+        Title="FlamMap"
+        conditions="Default.ScreenOnly">
+        <TocEntry
+          Title="FlamMap Test Report (PDF)"
+          Link="/Content/ExternalResources/FlamMap_Pathway_Test.pdf"
+          conditions="Default.ScreenOnly" />
+        <TocEntry
+          Title="FlamMap Test Case (PDF)"
+          Link="/Content/ExternalResources/FlamMap_test_case.pdf"
+          conditions="Default.ScreenOnly" />
+      </TocEntry>
+      <TocEntry
+        Title="FOFEM"
+        conditions="Default.ScreenOnly">
+        <TocEntry
+          Title="FOFEM Test Report (PDF)"
+          Link="/Content/ExternalResources/FOFEM_Pathway_Test.pdf"
+          conditions="Default.ScreenOnly" />
+        <TocEntry
+          Title="FOFEM Test Case (PDF)"
+          Link="/Content/ExternalResources/FOFEM_test_case.pdf"
+          conditions="Default.ScreenOnly" />
+      </TocEntry>
+    </TocEntry>
+  </TocEntry>
+  <TocEntry
+    Title="Reference Material"
+    Link="/Content/10-Reference/RefIntro.htm">
+    <TocEntry
+      Title="Bibliography"
+      Link="/Content/10-Reference/Bibliography.htm"></TocEntry>
+    <TocEntry
+      Title="Units of Measure"
+      Link="/Content/10-Reference/Universal.htm" />
+    <TocEntry
+      Title="Fire Behavior Fuel Models"
+      Link="/Content/10-Reference/RefFuelModelsOverview.htm">
+      <TocEntry
+        Title="Fire Behavior Fuel Models and their Environments"
+        Link="/Content/10-Reference/RefFuelModels.htm" />
+      <TocEntry
+        Title="Moisture Inputs"
+        Link="/Content/10-Reference/RefFuelModelsMoisture.htm" />
+      <TocEntry
+        Title="Heat Values"
+        Link="/Content/10-Reference/RefFuelModelsHeat.htm" />
+      <TocEntry
+        Title="Estimating Live Fuel Moisture"
+        Link="/Content/10-Reference/RefFuelModelsMoistureandCuring.htm" />
+    </TocEntry>
+    <TocEntry
+      Title="Fire Modules"
+      Link="/Content/10-Reference/RefModelsIntro.htm"
+      conditions="Default.LaterRelease">
+      <TocEntry
+        Title="FARSITE"
+        Link="/Content/10-Reference/RefFARSITE.htm"
+        conditions="Default.LaterRelease">
+        <TocEntry
+          Title="Input Parameters"
+          Link="/Content/10-Reference/RefFARIn.htm"
+          conditions="Default.LaterRelease" />
+        <TocEntry
+          Title="Output Parameters"
+          Link="/Content/10-Reference/RefFAROut.htm"
+          conditions="Default.LaterRelease" />
+      </TocEntry>
+      <TocEntry
+        Title="FFE-FVS"
+        Link="/Content/10-Reference/RefFFE.htm"
+        conditions="Default.LaterRelease">
+        <TocEntry
+          Title="Input Parameters"
+          Link="/Content/10-Reference/RefFFEiN.htm"
+          conditions="Default.LaterRelease" />
+        <TocEntry
+          Title="Output Parameters"
+          Link="/Content/10-Reference/RefFFEOut.htm"
+          conditions="Default.LaterRelease" />
+      </TocEntry>
+      <TocEntry
+        Title="FireFam+"
+        Link="/Content/10-Reference/RefFireFam.htm"
+        conditions="Default.LaterRelease">
+        <TocEntry
+          Title="Input Parameters"
+          Link="/Content/10-Reference/RefFireFamIn.htm"
+          conditions="Default.LaterRelease" />
+        <TocEntry
+          Title="Output Parameters"
+          Link="/Content/10-Reference/RefFireFamOut.htm"
+          conditions="Default.LaterRelease" />
+      </TocEntry>
+      <TocEntry
+        Title="OptFuels"
+        Link="/Content/10-Reference/RefOpt.htm"
+        conditions="Default.LaterRelease">
+        <TocEntry
+          Title="Input Parameters"
+          Link="/Content/10-Reference/RefOptIn.htm"
+          conditions="Default.LaterRelease" />
+        <TocEntry
+          Title="Output Parameters"
+          Link="/Content/10-Reference/RefOptOut.htm"
+          conditions="Default.LaterRelease" />
+      </TocEntry>
+      <TocEntry
+        Title="TOM"
+        Link="/Content/10-Reference/RefTOM.htm"
+        conditions="Default.LaterRelease">
+        <TocEntry
+          Title="Input Parameters"
+          Link="/Content/10-Reference/RefTOMIn.htm"
+          conditions="Default.LaterRelease" />
+        <TocEntry
+          Title="Output Parameters"
+          Link="/Content/10-Reference/RefTOMOut.htm"
+          conditions="Default.LaterRelease" />
+      </TocEntry>
+      <TocEntry
+        Title="Vsmoke"
+        Link="/Content/10-Reference/RefVsmoke.htm"
+        conditions="Default.LaterRelease">
+        <TocEntry
+          Title="Input Parameters"
+          Link="/Content/10-Reference/RefVsmokeIn.htm"
+          conditions="Default.LaterRelease" />
+        <TocEntry
+          Title="Output Parameters"
+          Link="/Content/10-Reference/RefVsmokeOut.htm"
+          conditions="Default.LaterRelease"></TocEntry>
+      </TocEntry>
+      <TocEntry
+        Title="WindNinja"
+        Link="/Content/10-Reference/RefWindNinja.htm"
+        conditions="Default.LaterRelease">
+        <TocEntry
+          Title="Input Parameters"
+          Link="/Content/10-Reference/RefWindNinjaIn.htm"
+          conditions="Default.LaterRelease" />
+        <TocEntry
+          Title="Output Parameters"
+          Link="/Content/10-Reference/RefWindNinjaOut.htm"
+          conditions="Default.LaterRelease" />
+      </TocEntry>
+    </TocEntry>
+    <TocEntry
+      Title="Fire Behavior Modules"
+      Link="/Content/10-Reference/RefFireBehavior.htm">
+      <TocEntry
+        Title="Burn Probability from Random Ignition (IFT-FlamMap-RANDIG)"
+        Link="/Content/10-Reference/RefRAN.htm">
+        <TocEntry
+          Title="More About This Module (PDF)"
+          Link="/Content/ExternalResources/IFT-RANDIG.pdf"
+          conditions="Default.ScreenOnly" />
+        <TocEntry
+          Title="Input Parameters"
+          Link="/Content/10-Reference/RefRANIn.htm" />
+        <TocEntry
+          Title="Crown Fire Calculation Options"
+          Link="/Content/10-Reference/RefRanCrownFireCalc.htm" />
+        <TocEntry
+          Title="Flame Length Interpretations Table"
+          Link="/Content/10-Reference/RefRanFLInterp.htm" />
+        <TocEntry
+          Title="Landscape Data Parameters"
+          Link="/Content/10-Reference/RefRANLandscape.htm" />
+        <TocEntry
+          Title="Output Parameters"
+          Link="/Content/10-Reference/RefRANOut.htm" />
+      </TocEntry>
+      <TocEntry
+        Title="Crown Fire Behavior (IFT-crown)"
+        Link="/Content/10-Reference/RefCROWN.htm">
+        <TocEntry
+          Title="More About This Module (PDF)"
+          Link="/Content/ExternalResources/IFT-crown.pdf"
+          conditions="Default.ScreenOnly" />
+        <TocEntry
+          Title="Input Options"
+          Link="/Content/10-Reference/RefCROWNInputOptions.htm" />
+        <TocEntry
+          Title="Input Parameters"
+          Link="/Content/10-Reference/RefCROWNIn.htm" />
+        <TocEntry
+          Title="Output Parameters - Intensity"
+          Link="/Content/10-Reference/RefCROWNOut-Intensity.htm" />
+        <TocEntry
+          Title="Output Parameters - Spread"
+          Link="/Content/10-Reference/RefCROWNOut-Spread.htm" />
+      </TocEntry>
+      <TocEntry
+        Title="Fire Behavior (IFT-FlamMap)"
+        Link="/Content/10-Reference/RefFlamMap.htm">
+        <TocEntry
+          Title="More About this Module (PDF)"
+          Link="/Content/ExternalResources/IFT-FlamMap.pdf"
+          conditions="Default.ScreenOnly" />
+        <TocEntry
+          Title="Fire Behavior Analysis"
+          Link="/Content/10-Reference/RefFlamMapFireBehavior.htm" />
+        <TocEntry
+          Title="Input Parameters"
+          Link="/Content/10-Reference/RefFlamMapIn.htm">
+          <TocEntry
+            Title="Crown Fire Calculation Options"
+            Link="/Content/10-Reference/RefFlamMapCrownFireCalc.htm" />
+        </TocEntry>
+        <TocEntry
+          Title="Landscape Data Parameters"
+          Link="/Content/10-Reference/RefFlamMapLandscape.htm" />
+        <TocEntry
+          Title="Output Parameters"
+          Link="/Content/10-Reference/RefFlamMapOut.htm" />
+      </TocEntry>
+      <TocEntry
+        Title="Minimum Travel Time (IFT-MTT)"
+        Link="/Content/10-Reference/RefFlam-MTT-Intro.htm">
+        <TocEntry
+          Title="More About This Module (PDF)"
+          conditions="Default.ScreenOnly"
+          Link="/Content/ExternalResources/IFT-FlamMap-MTT.pdf" />
+        <TocEntry
+          Title="Input Parameters"
+          Link="/Content/10-Reference/RefFlam-MTT-In.htm" />
+        <TocEntry
+          Title="Intermediate Parameters"
+          Link="/Content/10-Reference/RefFlam-MTT-Intermediate.htm" />
+        <TocEntry
+          Title="Output Parameters"
+          Link="/Content/10-Reference/RefFlam-MTT-Out.htm" />
+      </TocEntry>
+      <TocEntry
+        Title="Surface Fire Behavior (FCCS)"
+        Link="/Content/10-Reference/RefFCCS.htm"
+        conditions="Default.LaterRelease">
+        <TocEntry
+          Title="More About This Module (PDF)"
+          Link="/Content/ExternalResources/FCCS.pdf"
+          conditions="Default.ScreenOnly,Default.LaterRelease" />
+        <TocEntry
+          Title="Input Parameters"
+          conditions="Default.LaterRelease">
+          <TocEntry
+            Title="Canopy Ladder Fuels"
+            Link="/Content/10-Reference/RefFCCSIn-CanLad.htm"
+            conditions="Default.LaterRelease" />
+          <TocEntry
+            Title="Canopy Snags"
+            Link="/Content/10-Reference/RefFCCSIn-CanSnags.htm"
+            conditions="Default.LaterRelease" />
+          <TocEntry
+            Title="Canopy Trees"
+            Link="/Content/10-Reference/RefFCCSIn-CanTrees.htm"
+            conditions="Default.LaterRelease" />
+          <TocEntry
+            Title="Customize Fuelbeds"
+            Link="/Content/10-Reference/RefFCCSInCustFuelbeds.htm"
+            conditions="Default.LaterRelease" />
+          <TocEntry
+            Title="Environmental Variables: Custom Fuel Moisture Scenarios"
+            Link="/Content/10-Reference/RefFCCSInEnvCustFuel.htm"
+            conditions="Default.LaterRelease" />
+          <TocEntry
+            Title="Environmental Variables: Photos"
+            Link="/Content/10-Reference/RefFCCSInEnvPhotos.htm"
+            conditions="Default.LaterRelease" />
+          <TocEntry
+            Title="Environmental Variables: Standard Fuel Moisture Scenarios"
+            Link="/Content/10-Reference/RefFCCSInEnvStandFuels.htm"
+            conditions="Default.LaterRelease" />
+          <TocEntry
+            Title="Environmental Variables: Wind Slope"
+            Link="/Content/10-Reference/RefFCCSInEnvWind-Slope.htm"
+            conditions="Default.LaterRelease" />
+          <TocEntry
+            Title="Ground Fuels: Basal Accumulations"
+            Link="/Content/10-Reference/RefFCCSInGrdFuelsBasal.htm"
+            conditions="Default.LaterRelease" />
+          <TocEntry
+            Title="Ground Fuels: Duff"
+            Link="/Content/10-Reference/RefFCCSInGrdFuelsDuff.htm"
+            conditions="Default.LaterRelease" />
+          <TocEntry
+            Title="Ground Fuels: Squirrel Midden"
+            Link="/Content/10-Reference/RefFCCSInGrdFuelsSquirrel.htm"
+            conditions="Default.LaterRelease" />
+          <TocEntry
+            Title="Litter, Lichen, and Moss"
+            Link="/Content/10-Reference/RefFCCSInLitterLichen.htm"
+            conditions="Default.LaterRelease" />
+          <TocEntry
+            Title="Nonwoody Fuels"
+            Link="/Content/10-Reference/RefFCCSInNonwoody.htm"
+            conditions="Default.LaterRelease" />
+          <TocEntry
+            Title="Shrubs"
+            Link="/Content/10-Reference/RefFCCSInShrub.htm"
+            conditions="Default.LaterRelease" />
+          <TocEntry
+            Title="Woody Fuels: All Downed and Dead Woody"
+            Link="/Content/10-Reference/RefFCCSInWoodyAll.htm"
+            conditions="Default.LaterRelease" />
+          <TocEntry
+            Title="Woody Fuels: Rotten Wood"
+            Link="/Content/10-Reference/RefFCCSInWoodyRot.htm"
+            conditions="Default.LaterRelease" />
+          <TocEntry
+            Title="Woody Fuels: Sound Wood"
+            Link="/Content/10-Reference/RefFCCSInWoodySound.htm"
+            conditions="Default.LaterRelease" />
+          <TocEntry
+            Title="Woody Fuels: Stumps"
+            Link="/Content/10-Reference/RefFCCSInWoodyStump.htm"
+            conditions="Default.LaterRelease" />
+          <TocEntry
+            Title="Woody Fuels: Woody Fuel Accumulation"
+            Link="/Content/10-Reference/RefFCCSInWoodyWoody.htm"
+            conditions="Default.LaterRelease" />
+        </TocEntry>
+        <TocEntry
+          Title="Output Parameters"
+          conditions="Default.LaterRelease">
+          <TocEntry
+            Title="Carbon"
+            Link="/Content/10-Reference/RefFCCSOutCarbon.htm"
+            conditions="Default.LaterRelease" />
+          <TocEntry
+            Title="General"
+            Link="/Content/10-Reference/RefFCCSOutGeneral.htm"
+            conditions="Default.LaterRelease" />
+          <TocEntry
+            Title="Potentials Report, Fire Potential Ratings 0–9"
+            Link="/Content/10-Reference/RefFCCSOutPotRpt.htm"
+            conditions="Default.LaterRelease" />
+          <TocEntry
+            Title="Strata and Categories"
+            Link="/Content/10-Reference/RefFCCSOutStrataCat.htm"
+            conditions="Default.LaterRelease" />
+          <TocEntry
+            Title="Surface Fire Behavior Report"
+            Link="/Content/10-Reference/RefFCCSOutSurfFire.htm"
+            conditions="Default.LaterRelease" />
+        </TocEntry>
+      </TocEntry>
+      <TocEntry
+        Title="Surface Fire Behavior (IFT-surface)"
+        Link="/Content/10-Reference/RefSURF.htm">
+        <TocEntry
+          Title="More About This Module (PDF)"
+          Link="/Content/ExternalResources/IFT-surface.pdf"
+          conditions="Default.ScreenOnly" />
+        <TocEntry
+          Title="Input Options and Parameters"
+          Link="/Content/10-Reference/RefSurfBehaveInIntro.htm">
+          <TocEntry
+            Title="Directions"
+            Link="/Content/10-Reference/RefSURFInOptDirections.htm" />
+          <TocEntry
+            Title="Fuel"
+            Link="/Content/10-Reference/RefSURFInOptFuel.htm" />
+          <TocEntry
+            Title="Moisture"
+            Link="/Content/10-Reference/RefSURFInOptMoisture.htm" />
+          <TocEntry
+            Title="Slope"
+            Link="/Content/10-Reference/RefSURFInOptSlope.htm" />
+          <TocEntry
+            Title="Wind Speed"
+            Link="/Content/10-Reference/RefSURFInOptWind.htm" />
+        </TocEntry>
+        <TocEntry
+          Title="Output Parameters"
+          Link="/Content/10-Reference/RefSurfBehaveOutIntro.htm">
+          <TocEntry
+            Title="Basics"
+            Link="/Content/10-Reference/RefSURFOutBasic.htm" />
+          <TocEntry
+            Title="Fire"
+            Link="/Content/10-Reference/RefSURFOutFire.htm" />
+          <TocEntry
+            Title="Fuel"
+            Link="/Content/10-Reference/RefSURFOutFuel.htm"
+            conditions="Default.LaterRelease" />
+          <TocEntry
+            Title="Intermediate Outputs"
+            Link="/Content/10-Reference/RefSURFOutIntermediate.htm" />
+          <TocEntry
+            Title="Palmetto-Gallberry"
+            Link="/Content/10-Reference/RefSURFOutPalmettoGallberry.htm"
+            conditions="Default.LaterRelease" />
+          <TocEntry
+            Title="Slope"
+            Link="/Content/10-Reference/RefSURFOutSlope.htm"
+            conditions="Default.LaterRelease" />
+          <TocEntry
+            Title="Wind"
+            Link="/Content/10-Reference/RefSURFOutWind.htm"
+            conditions="Default.LaterRelease" />
+          <TocEntry
+            Title="Western Aspen"
+            Link="/Content/10-Reference/RefSURFOutAspen.htm"
+            conditions="Default.LaterRelease" />
+        </TocEntry>
+      </TocEntry>
+      <TocEntry
+        Title="Surface Fire Behavior, Size, and Spread Distance"
+        Link="/Content/10-Reference/RefSurfSize.htm">
+        <TocEntry
+          Title="Input Parameters"
+          Link="/Content/10-Reference/RefSurfSizeInIntro.htm" />
+        <TocEntry
+          Title="Output Parameters"
+          Link="/Content/10-Reference/RefSurfSizeOutIntro.htm" />
+      </TocEntry>
+    </TocEntry>
+    <TocEntry
+      Title="Fire Containment Modules"
+      Link="/Content/10-Reference/RefFireContainment.htm">
+      <TocEntry
+        Title="Containment Resources (IFT-contain)"
+        Link="/Content/10-Reference/RefCONTAIN.htm">
+        <TocEntry
+          Title="More About This Module (PDF)"
+          Link="/Content/ExternalResources/IFT-contain.pdf"
+          conditions="Default.ScreenOnly" />
+        <TocEntry
+          Title="Input Parameters"
+          Link="/Content/10-Reference/RefCONTAINIn.htm">
+          <TocEntry
+            Title="Sustained Line Production Rates"
+            Link="/Content/10-Reference/RefCONTAINProdRates1.htm" />
+          <TocEntry
+            Title="Line Production Rates - Hand Crews"
+            Link="/Content/10-Reference/RefCONTAINProdRates2.htm" />
+          <TocEntry
+            Title="Line Production Rates - Engine Crews"
+            Link="/Content/10-Reference/RefCONTAINProdRates3.htm" />
+          <TocEntry
+            Title="Fireline Explosives Crews Production Rates"
+            Link="/Content/10-Reference/RefCONTAINProdRates4.htm" />
+          <TocEntry
+            Title="Bulldozer Fireline Construction Rates"
+            Link="/Content/10-Reference/RefCONTAINProdRates5.htm" />
+          <TocEntry
+            Title="Tractor-Plow Fireline Production Rates"
+            Link="/Content/10-Reference/RefCONTAINProdRates6.htm" />
+        </TocEntry>
+        <TocEntry
+          Title="Output Parameters"
+          Link="/Content/10-Reference/RefCONTAINOut.htm" />
+      </TocEntry>
+      <TocEntry
+        Title="Safety Zone Size (IFT-safety)"
+        Link="/Content/10-Reference/RefSAFETY.htm">
+        <TocEntry
+          Title="More About This Module (PDF)"
+          Link="/Content/ExternalResources/IFT-safety.pdf"
+          conditions="Default.ScreenOnly" />
+        <TocEntry
+          Title="Input Parameters"
+          Link="/Content/10-Reference/RefSAFETYIn.htm" />
+        <TocEntry
+          Title="Output Parameters"
+          Link="/Content/10-Reference/RefSAFETYOut.htm" />
+      </TocEntry>
+      <TocEntry
+        Title="Spotting Distance (IFT-spot)"
+        Link="/Content/10-Reference/RefSPOT.htm">
+        <TocEntry
+          Title="More About These Models (PDF)"
+          Link="/Content/ExternalResources/IFT-spot.pdf"
+          conditions="Default.ScreenOnly" />
+        <TocEntry
+          Title="Input Parameters"
+          Link="/Content/10-Reference/RefSPOTInIntro.htm">
+          <TocEntry
+            Title="Burning Piles"
+            Link="/Content/10-Reference/RefSPOTBurningPileIn.htm" />
+          <TocEntry
+            Title="Torching Trees"
+            Link="/Content/10-Reference/RefSPOTTorchingTreesIn.htm"></TocEntry>
+          <TocEntry
+            Title="Wind-Driven Surface Fires"
+            Link="/Content/10-Reference/RefSPOTWindDrivenIn.htm" />
+        </TocEntry>
+        <TocEntry
+          Title="Output Parameters"
+          Link="/Content/10-Reference/RefSPOTOutIntro.htm">
+          <TocEntry
+            Title="Burning Piles"
+            Link="/Content/10-Reference/RefSPOTBurningPileOut.htm" />
+          <TocEntry
+            Title="Torching Trees"
+            Link="/Content/10-Reference/RefSPOTTorchingTreesOut.htm" />
+          <TocEntry
+            Title="Wind-Driven Surface Fires"
+            Link="/Content/10-Reference/RefSPOTWindDrivenOut.htm" />
+        </TocEntry>
+      </TocEntry>
+      <TocEntry
+        Title="Surface Fire Size and Spread Distance (IFT-size)"
+        Link="/Content/10-Reference/RefSIZE.htm">
+        <TocEntry
+          Title="More About This Module (PDF)"
+          Link="/Content/ExternalResources/IFT-size.pdf"
+          conditions="Default.ScreenOnly" />
+        <TocEntry
+          Title="Input Parameters"
+          Link="/Content/10-Reference/RefSIZEIn.htm" />
+        <TocEntry
+          Title="Output Parameters"
+          Link="/Content/10-Reference/RefSIZEOut.htm" />
+      </TocEntry>
+      <TocEntry
+        Title="Surface Fire Behavior, Size, and Spread Distance"
+        Link="/Content/10-Reference/RefSurfSize.htm">
+        <TocEntry
+          Title="Input Parameters"
+          Link="/Content/10-Reference/RefSurfSizeInIntro.htm" />
+        <TocEntry
+          Title="Output Parameters"
+          Link="/Content/10-Reference/RefSurfSizeOutIntro.htm" />
+      </TocEntry>
+    </TocEntry>
+    <TocEntry
+      Title="Fire Effects Modules"
+      Link="/Content/10-Reference/RefFireEffects.htm">
+      <TocEntry
+        Title="Consumption, Emissions, and Heat Release (Consume)"
+        Link="/Content/10-Reference/RefCONSUME.htm">
+        <TocEntry
+          Title="More About This Module (PDF)"
+          Link="/Content/ExternalResources/Consume.pdf"
+          conditions="Default.ScreenOnly" />
+        <TocEntry
+          Title="Input Parameters"
+          Link="/Content/10-Reference/RefConIn.htm" />
+        <TocEntry
+          Title="Output Parameters"
+          Link="/Content/10-Reference/RefConOut.htm" />
+      </TocEntry>
+      <TocEntry
+        Title="Consumption, Emissions, and Tree Mortality (IFT-FOFEM)"
+        Link="/Content/10-Reference/RefFOFEM.htm">
+        <TocEntry
+          Title="More About This Module (PDF)"
+          Link="/Content/ExternalResources/IFT-FOFEM.pdf"
+          conditions="Default.ScreenOnly" />
+        <TocEntry
+          Title="Consumption and Emissions Input Parameters"
+          Link="/Content/10-Reference/RefFofIn.htm" />
+        <TocEntry
+          Title="Consumption and Emissions Output Parameters"
+          Link="/Content/10-Reference/RefFofOut.htm" />
+        <TocEntry
+          Title="Tree Mortality Input Parameters"
+          Link="/Content/10-Reference/RefFOFTreeIn.htm" />
+        <TocEntry
+          Title="Tree Mortality Output Parameters"
+          Link="/Content/10-Reference/RefFOFTreeOut.htm" />
+      </TocEntry>
+      <TocEntry
+        Title="Crown Scorch Height (IFT-scorch)"
+        Link="/Content/10-Reference/RefSCORCH.htm">
+        <TocEntry
+          Title="More About This Model (PDF)"
+          Link="/Content/ExternalResources/IFT-scorch.pdf"
+          conditions="Default.ScreenOnly" />
+        <TocEntry
+          Title="Input Options"
+          Link="/Content/10-Reference/RefSCORCHInOptions.htm" />
+        <TocEntry
+          Title="Input Parameters"
+          Link="/Content/10-Reference/RefSCORCHIn.htm" />
+        <TocEntry
+          Title="Output Parameters"
+          Link="/Content/10-Reference/RefSCORCHOut.htm" />
+      </TocEntry>
+    </TocEntry>
+    <TocEntry
+      Title="Fuels Treatments">
+      <TocEntry
+        Title="More about the IFT-FVS Module (PDF)"
+        Link="/Content/ExternalResources/IFT-FVS.pdf"
+        conditions="Default.ScreenOnly" />
+      <TocEntry
+        Title="Mastication (IFT-FVS)">
+        <TocEntry
+          Title="Input Parameters"
+          Link="/Content/10-Reference/RefFVS-MasticationIn.htm" />
+        <TocEntry
+          Title="Output Parameters"
+          Link="/Content/10-Reference/RefFVS-MasticationOut.htm" />
+      </TocEntry>
+      <TocEntry
+        Title="No Treatment (IFT-FVS)">
+        <TocEntry
+          Title="Output Parameters"
+          Link="/Content/10-Reference/RefFVS-NoTreatOut.htm" />
+      </TocEntry>
+      <TocEntry
+        Title="Pile Burn Surface Fuel (IFT-FVS)">
+        <TocEntry
+          Title="Input Parameters"
+          Link="/Content/10-Reference/RefFVS-PileBurnSurfaceIn.htm" />
+        <TocEntry
+          Title="Output Parameters"
+          Link="/Content/10-Reference/RefFVS-PileBurnSurfaceOut.htm" />
+      </TocEntry>
+      <TocEntry
+        Title="Prescribed Burn (IFT-FVS)">
+        <TocEntry
+          Title="Input Parameters"
+          Link="/Content/10-Reference/RefFVS-PrescribedBurnIn.htm" />
+        <TocEntry
+          Title="Output Parameters"
+          Link="/Content/10-Reference/RefFVS-PrescribedBurnOut.htm" />
+      </TocEntry>
+      <TocEntry
+        Title="Thin From Below (IFT-FVS)">
+        <TocEntry
+          Title="Input Parameters"
+          Link="/Content/10-Reference/RefFVS-ThinFromBelowIn1.htm" />
+        <TocEntry
+          Title="Output Parameters"
+          Link="/Content/10-Reference/RefFVS-ThinFromBelowOut.htm" />
+      </TocEntry>
+      <TocEntry
+        Title="Thin a Species Across a DBH Range (IFT-FVS)">
+        <TocEntry
+          Title="Input Parameters"
+          Link="/Content/10-Reference/RefFVS-ThinAcrossIn.htm" />
+        <TocEntry
+          Title="Output Parameters"
+          Link="/Content/10-Reference/RefFVS-ThinAcrossOut.htm" />
+      </TocEntry>
+      <TocEntry
+        Title="Thin With Fuel Piled and Burned (IFT-FVS)">
+        <TocEntry
+          Title="Input Parameters"
+          Link="/Content/10-Reference/RefFVS-ThinWithFuelPiledIn.htm" />
+        <TocEntry
+          Title="Output Parameters"
+          Link="/Content/10-Reference/RefFVS-ThinWithFuelPiledOut.htm" />
+      </TocEntry>
+    </TocEntry>
+    <TocEntry
+      Title="Probability of Ignition Models"
+      Link="/Content/10-Reference/RefIGNITE.htm">
+      <TocEntry
+        Title="More About These Models (PDF)"
+        Link="/Content/ExternalResources/IFT-ignite.pdf"
+        conditions="Default.ScreenOnly" />
+      <TocEntry
+        Title="Input Parameters – Firebrand"
+        Link="/Content/10-Reference/RefIGNITEInFirebrand.htm" />
+      <TocEntry
+        Title="Input Parameters – Lightning"
+        Link="/Content/10-Reference/RefIGNITEInLightning.htm" />
+      <TocEntry
+        Title="Output Parameters"
+        Link="/Content/10-Reference/RefIGNITEOut.htm" />
+    </TocEntry>
+    <TocEntry
+      Title="Risk Assessment Modules"
+      Link="/Content/10-Reference/RefRisk.htm">
+      <TocEntry
+        Title="Worst-Case Flame Lengths Approach"
+        Link="/Content/10-Reference/RefRiskWorst.htm">
+        <TocEntry
+          Title="Values at Risk Parameters"
+          Link="/Content/10-Reference/RefRiskValuesatRisk.htm" />
+        <TocEntry
+          Title="Input Parameters"
+          Link="/Content/10-Reference/RefRiskWorstIn.htm"
+          StartSection="false">
+          <TocEntry
+            Title="Crown Fire Calculation Options"
+            Link="/Content/10-Reference/RefRiskCrownFireCalc.htm" />
+          <TocEntry
+            Title="Flame Length Interpretations Table"
+            Link="/Content/10-Reference/RefRiskWorstCaseFLInterp.htm" />
+        </TocEntry>
+        <TocEntry
+          Title="Landscape Data Parameters"
+          Link="/Content/10-Reference/RefRiskWorstCaseLandscape.htm" />
+        <TocEntry
+          Title="Output Parameters"
+          Link="/Content/10-Reference/RefRiskWorstOut.htm" />
+      </TocEntry>
+      <TocEntry
+        Title="Flame Length Probabilities Approach"
+        Link="/Content/10-Reference/RefRiskProb.htm">
+        <TocEntry
+          Title="Values at Risk Parameters"
+          Link="/Content/10-Reference/RefRiskFL-VAR.htm" />
+        <TocEntry
+          Title="Input Parameters"
+          Link="/Content/10-Reference/RefRiskFLIn.htm">
+          <TocEntry
+            Title="Crown Fire Calculation Options"
+            Link="/Content/10-Reference/RefRiskFLCrownFireCalc.htm" />
+          <TocEntry
+            Title="Flame Length Classes and Interpretations Table"
+            Link="/Content/06-Risk-Assessment/risk_original/RiskAssessFlameLengthInterp.htm" />
+        </TocEntry>
+        <TocEntry
+          Title="Landscape Data Parameters"
+          Link="/Content/10-Reference/RefRiskFL-Landscape.htm" />
+        <TocEntry
+          Title="Output Parameters"
+          Link="/Content/10-Reference/RefRiskProbOut.htm" />
+      </TocEntry>
+    </TocEntry>
+    <TocEntry
+      Title="Vegetation Data"
+      Link="/Content/10-Reference/RefDataIntro.htm">
+      <TocEntry
+        Title="FCCS Fuelbeds"
+        Link="/Content/10-Reference/RefFCCSData.htm"></TocEntry>
+      <TocEntry
+        Title="FSVeg Treelist"
+        Link="/Content/10-Reference/RefFSVeg.htm"
+        conditions="Default.LaterRelease" />
+      <TocEntry
+        Title="LANDFIRE"
+        Link="/Content/10-Reference/RefLANDFIRE.htm">
+        <TocEntry
+          Title="Input Parameters"
+          Link="/Content/10-Reference/RefLandIn.htm"
+          conditions="Default.LaterRelease" />
+      </TocEntry>
+      <TocEntry
+        Title="NTLL LANDFIRE"
+        Link="/Content/10-Reference/RefNTLL.htm"
+        conditions="Default.LaterRelease">
+        <TocEntry
+          Title="Input Parameters"
+          Link="/Content/10-Reference/RefNTLLiN.htm"
+          conditions="Default.LaterRelease" />
+        <TocEntry
+          Title="Output Parameters"
+          Link="/Content/10-Reference/RefNTLLOut.htm"
+          conditions="Default.LaterRelease" />
+      </TocEntry>
+    </TocEntry>
+    <TocEntry
+      Title="Other Tools"
+      Link="/Content/10-Reference/RefToolsIntro.htm">
+      <TocEntry
+        Title="Additional DPS"
+        Link="/Content/10-Reference/RefAddDPS.htm"
+        conditions="Default.LaterRelease" />
+      <TocEntry
+        Title="SVS"
+        Link="/Content/10-Reference/RefSVS.htm"
+        conditions="Default.LaterRelease" />
+      <TocEntry
+        Title="Unit  Converter"
+        Link="/Content/10-Reference/RefOtherUnitCalc.htm" />
+    </TocEntry>
+  </TocEntry>
+</CatapultToc>

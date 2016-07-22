@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="5" MadCap:lastHeight="347" MadCap:lastWidth="1040" MadCap:fileTags="FileNeeds.04 Ready for review">
+    <head>
+        <link href="../TableStyles/AlternatingRows.css" rel="stylesheet" MadCap:stylesheetType="table" />
+    </head>
+    <body>
+        <p>For more information on this risk assessment step, refer to <a href="../../06-Risk-Assessment/RiskAssessValuesatRisk.htm">Values at Risk</a> and <a href="../../06-Risk-Assessment/RiskAssessResponseFunctionsDefinition.htm">Response Functions</a>.</p>
+        <table class="TableStyle-AlternatingRows" style="mc-table-style: url('../TableStyles/AlternatingRows.css');" cellspacing="0">
+            <col style="width: 65pt;" class="Column-Column1" />
+            <col style="width: 46pt;" class="Column-Column1" />
+            <col style="width: 361pt;" class="Column-Column1" />
+            <thead>
+                <tr class="Head-Header1">
+                    <th class="HeadE-Column1-Header1">
+                       Name
+                    </th>
+                    <th class="HeadE-Column1-Header1">
+                        Units
+                    </th>
+                    <th class="HeadD-Column1-Header1">Brief Description</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="Body-Body1">
+                    <td class="BodyE-Column1-Body1">
+                        <MadCap:keyword term="Response Function (parameter)" />Response Function 
+                    </td>
+                    <td class="BodyE-Column1-Body1">
+                       NA
+                    </td>
+                    <td class="BodyD-Column1-Body1">
+                       The mathematical relationship between fire characteristic and fire outcome. The response functions table describes the effect of the fire on the values at risk.
+                        
+                    </td>
+                </tr>
+                <tr class="Body-Body2">
+                    <td class="BodyB-Column1-Body2">
+                        <MadCap:keyword term="Values at Risk (parameter)" />Values at Risk 
+                    </td>
+                    <td class="BodyB-Column1-Body2">
+                       NA
+                    </td>
+                    <td class="BodyA-Column1-Body2">
+                       The features on the landscape that are influenced positively and/or negatively by fire.&#160; Also known as highly valued resources (HVR). Examples include: archeological sites, historic buildings, wildland urban interface, airports, highway&#160; buffers, conifer forests, etc.
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>

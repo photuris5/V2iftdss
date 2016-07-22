@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="8" MadCap:lastHeight="2464" MadCap:lastWidth="942">
+    <head>
+        <link href="../../Resources/TableStyles/AlternatingRows.css" rel="stylesheet" MadCap:stylesheetType="table" />
+    </head>
+    <body>
+        <h1 class="Heading1">Populating and running the IFT-Consume model</h1>
+        <p>The parameters needed to run the IFT-Consume model for landscapes are listed in the table below:&#160;</p>
+        <table style="caption-side: top;mc-table-style: url('../../Resources/TableStyles/AlternatingRows.css');" class="TableStyle-AlternatingRows" cellspacing="0">
+            <col style="width: 15%;" class="Column-Column1" />
+            <col style="width: 20%;" class="Column-Column1" />
+            <col style="width: 65%;" class="Column-Column1" />
+            <thead>
+                <tr class="Head-Header1">
+                    <th class="HeadE-Column1-Header1">Name
+				</th>
+                    <th class="HeadE-Column1-Header1">Units
+				</th>
+                    <th class="HeadD-Column1-Header1">Brief Description
+				</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="Body-Body1">
+                    <td class="BodyE-Column1-Body1">
+                        <MadCap:keyword term="Duff Moisture (parameter):Consume" />Duff Moisture 
+				</td>
+                    <td class="BodyE-Column1-Body1">Percentage
+				</td>
+                    <td class="BodyD-Column1-Body1">The moisture content of duff, expressed as a percentage of oven dry weight.
+				</td>
+                </tr>
+                <tr class="Body-Body2">
+                    <td class="BodyE-Column1-Body2">
+                        <MadCap:keyword term="Eco Region (parameter)" />Eco Region 
+				</td>
+                    <td class="BodyE-Column1-Body2">(A choice)
+				</td>
+                    <td class="BodyD-Column1-Body2">
+                        <MadCap:keyword term="ecoregions:list of" />Fuelbeds are organized geographically into <MadCap:keyword term="Bailey’s ecoregions" />Bailey’s ecoregion divisions, which are<br /><ul><li>Hot Continental</li><li>Marine</li><li>Mediterranean</li><li>Prairie</li><li>Rainforest</li><li>Savanna</li><li>Subarctic</li><li>Subtropical</li><li>Temperate Desert</li><li>Temperate Steppe</li><li>Tropical/Subtropical Desert</li><li>Tropical/Subtropical Steppe Desert</li><li>Tundra</li><li>Warm Continental</li></ul></td>
+                </tr>
+                <tr class="Body-Body1">
+                    <td class="BodyE-Column1-Body1">
+                        <MadCap:keyword term="Moisture of 1000-hr Fuels (parameter)" />Moisture of 1000-hr Fuels 
+				</td>
+                    <td class="BodyE-Column1-Body1">Percentage
+				</td>
+                    <td class="BodyD-Column1-Body1">The moisture content of sound, woody material 3 to 9 inches in diameter.&#160;Moisture content can be directly measured or estimated using the ADJ-Th or NFDRS-Th fuel moisture models.
+				</td>
+                </tr>
+                <tr class="Body-Body2">
+                    <td class="BodyE-Column1-Body2">
+                        <MadCap:keyword term="Percent Canopy Loading Consumed (parameter);Percent Canopy Loading Consumed (parameter):default values" />Percent Canopy Loading Consumed 
+				</td>
+                    <td class="BodyE-Column1-Body2">Percentage
+				</td>
+                    <td class="BodyD-Column1-Body2">Percentage of canopy loading consumed by the fire.<br /><br />If you do not know the value and choose not to enter this variable, Consume uses the following defaults:<br /><br />Prescribed burn = 0%<br />Wildland fire use = 40%<br />Wildfire = 60%.
+				</td>
+                </tr>
+                <tr class="Body-Body1">
+                    <td class="BodyB-Column1-Body1">
+                        <MadCap:keyword term="Percent Shrub Blackened (parameter)" />Percent Shrub Blackened 
+				</td>
+                    <td class="BodyB-Column1-Body1">Percentage
+				</td>
+                    <td class="BodyA-Column1-Body1">Percent of the shrub stratum that is blackened by the burn.&#160;This value is input (as a percentage) to the algorithm for calculating shrub consumption.
+				</td>
+                </tr>
+            </tbody>
+        </table>
+        <div>
+            <p>For this tutorial, we will use the inputs displayed below. We'll select dry conditions, including a <b>1000-hr woody fuel moisture</b> of <b>16</b>, and a <b>Duff fuel moisture</b> of <b>5</b>. We'll assume a scenario in which <b>50%</b> of the canopy is consumed, and <b>90%</b> of shrubs are blackened. For the <b>consumption equation</b> options (Boreal, Southern, or Western) we will choose <b>Western</b>, as it best represents the area of the burn. We will leave the <b>Emission Factor Group</b> set to its default setting.</p>
+            <form>
+                <fieldset class="note">
+                    <legend>&#160;&#160;&#160;Note&#160;&#160;&#160;</legend>
+                    <p class="noteBody">There are several Emission Factor Groups available. For more information on the Emission Factor groups, visit the <MadCap:xref href="../../08-FERA-Tools/FERA-Consume-EmissionFactors.htm"><b>Emission Factor Groups by Cover Type</b></MadCap:xref> and the<MadCap:xref href="../../08-FERA-Tools/FERA-Consume-EmissionFactors.htm" style="text-decoration: none;"> </MadCap:xref><![CDATA[  ]]><MadCap:xref href="../../08-FERA-Tools/FERA-Consume-EmissionFactorsbyGroup.htm"><b>Emission Factors by Emission Factor Groups</b></MadCap:xref>pages. </p>
+                </fieldset>
+            </form>
+        </div>
+        <p>
+            <img src="../../Resources/Images/tutorial_IFT_Consume/2_0_Tutorial_consume_cap_10.png" class="img_2" style="width: 659px;height: 482px;" alt="The 'inputs' page where fuel characteristics are entered and consumption equation options are selected.">
+            </img>
+        </p>
+        <p>Once these inputs are done, click <strong class="Strong">Next</strong></p>
+        <p>Before the Consume model runs you will have a chance to review the fuel bed (FB) data</p>
+        <p>
+            <img src="../../Resources/Images/tutorial_IFT_Consume/2_0_Tutorial_consume_cap_11.png" class="img_2" style="width: 658px;height: 366px;" alt="Fuel beds displayed across the map area.">
+            </img>
+        </p>
+        <p>On this page you may use the data as is, or <a href="../../03-Concepts/Mapping_toolbar.htm">make edits to it using the mapping toolbar</a>. In this example we will leave the data as-is, scroll to the bottom of the page, and click <b>next</b>.</p>
+        <p>
+            <img src="../../Resources/Images/Concepts_2015/JH_Caution.jpg" style="width: 39px;height: 39px;" />If you choose to edit the data within the map interface during a run, the changes will take effect during the run. However, the original data file will remain unchanged. To make permanent changes to a dataset, use the <a href="../../07-FuelsTreatment/Landfire_data/Tutorial_F_3_Editing_data_w_data_studio.htm"><b>Data Studio</b> feature under the <b>Data</b> tab of IFTDSS.</a></p>
+        <div>
+            <form>
+                <fieldset class="note">
+                    <legend>&#160;&#160;&#160;Note&#160;&#160;&#160;</legend>
+                    <p class="noteBody">Visit the <MadCap:xref href="../../08-FERA-Tools/FERA-Fuelbed-Development.htm"><b>FCCS Fuelbed Overview</b></MadCap:xref>&#160;Page if you would like further information on fuelbeds.</p>
+                </fieldset>
+            </form>
+        </div>
+        <p MadCap:conditions="Default.ScreenOnly"><a href="IFT_consume_effects_3.htm">&lt;&lt;&#160;Back:&#160;Selecting IFT-Consume from workflows</a> | <a href="IFT_consume_effects_5.htm">Next: Viewing output data &gt;&gt;</a></p>
+    </body>
+</html>

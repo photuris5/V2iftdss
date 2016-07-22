@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:madcap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="7" MadCap:lastHeight="1575" MadCap:lastWidth="635" MadCap:fileTags="FileStatusTags.07 Complete,FileNeeds.04 Ready for review" MadCap:conditions="Default.LaterRelease">
+    <head>
+        <link href="../Resources/TableStyles/AlternatingRows.css" rel="stylesheet" MadCap:stylesheetType="table" /><title>Surface Fire Spread and Intensity Outputs – Wind</title>
+    </head>
+    <body>
+        <h1>
+            <MadCap:keyword term="surface fire behavior (IFT-surface):wind;wind and wind speeds:surface fires and;surface fires:wind, slope, and spread direction;wind and wind speeds:crowns and;crowns and crown fires:wind and wind speeds and" />Surface Fire Behavior Outputs – Wind</h1>
+        <p>You can select one or more of these options.</p>
+        <table style="caption-side: top;mc-table-style: url('../Resources/TableStyles/AlternatingRows.css');" class="TableStyle-AlternatingRows" cellspacing="0">
+            <col style="width: 15%;" class="Column-Column1" />
+            <col style="width: 20%;" class="Column-Column1" />
+            <col style="width: 65%;" class="Column-Column1" />
+            <thead>
+                <tr class="Head-Header1">
+                    <th class="HeadE-Column1-Header1">Name
+                </th>
+                    <th class="HeadE-Column1-Header1">Units
+                </th>
+                    <th class="HeadD-Column1-Header1">Brief Description
+                </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="Body-Body1">
+                    <td class="BodyE-Column1-Body1">
+                        <MadCap:keyword term="Crown fill portion (option)" />Crown fill portion
+                </td>
+                    <td class="BodyE-Column1-Body1">Percentage
+                </td>
+                    <td class="BodyD-Column1-Body1">An intermediate value in calculating the WAF. Crown fill portion
+is calculated from canopy cover, canopy height, and crown ratio. If crown fill portion is less than 5%, the calculation for unsheltered WAF is used; otherwise, the calculation is for sheltered WAF. If WAF is a model input, the value for crown fill portion is not meaningful and is set to zero.
+                    
+                </td>
+                </tr>
+                <tr class="Body-Body2">
+                    <td class="BodyE-Column1-Body2">
+                        <MadCap:keyword term="Crown ratio (option)" />Crown ratio
+                </td>
+                    <td class="BodyE-Column1-Body2">A ratio</td>
+                    <td class="BodyD-Column1-Body2">The proportion of the total vertical tree height that is occupied by the vertical length of the tree crown. Crown ratio and canopy height are used to find canopy base height, which is used in the IFT-surfacemodule to calculate WAF.                     
+                </td>
+                </tr>
+                <tr class="Body-Body1">
+                    <td class="BodyE-Column1-Body1">
+                        <MadCap:keyword term="Effective wind speed limit (option)" />Effective wind speed limit
+                </td>
+                    <td class="BodyE-Column1-Body1">Miles per hour,
+                    
+                    kilometers per hour
+                </td>
+                    <td class="BodyD-Column1-Body1">A function of reaction intensity. 
+                    
+                </td>
+                </tr>
+                <tr class="Body-Body2">
+                    <td class="BodyE-Column1-Body2">
+                        <MadCap:keyword term="Effective wind speed (option)" />Effective wind speed
+                </td>
+                    <td class="BodyE-Column1-Body2">Miles per hour,                    
+                    kilometers per hour
+                </td>
+                    <td class="BodyD-Column1-Body2">The combined effect of midflame wind speed and slope steepness in the direction of maximum spread (head fire). This effective wind speed is used to determine the shape (length-to-width ratio) of a point source fire. Calculation of effective wind speed is based on the wind and slope factors that are part of Rothermel's fire spread model (<a href="Bibliography.htm#Rothermel1972">1972</a>).
+                    
+                </td>
+                </tr>
+                <tr class="Body-Body1">
+                    <td class="BodyE-Column1-Body1">
+                        <MadCap:keyword term="Maximum effective wind exceeded (option)" />Maximum effective wind exceeded
+                </td>
+                    <td class="BodyE-Column1-Body1">Yes or No
+                </td>
+                    <td class="BodyD-Column1-Body1">Indicates whether the effective wind speed limit, as calculated in the surface fire spread model, has been exceeded. You have the option of imposing the maximum reliable effective wind speed. If <i>Yes</i>, the maximum reliable effective wind speed from Rothermel (1972) is used in the calculations. If <i>No</i>, the input values are used. (Albini, <a href="Bibliography.htm#Albini1976b">1976b</a>)                     
+                </td>
+                </tr>
+                <tr class="Body-Body2">
+                    <td class="BodyE-Column1-Body2">
+                        <MadCap:keyword term="Midflame wind speed (option);fuelbeds:wind speed and;wind and wind speeds:fuelbeds and" />Midflame wind speed
+                    
+                </td>
+                    <td class="BodyE-Column1-Body2">Miles per hour,
+                    
+                    kilometers per hour
+                </td>
+                    <td class="BodyD-Column1-Body2">The wind speed that exists at midflame height above the fuelbed and affects surface fire spread. Midflame wind is often called eye-level wind.
+                    
+                </td>
+                </tr>
+                <tr class="Body-Body1">
+                    <td class="BodyE-Column1-Body1">
+                        <MadCap:keyword term="Wind adjustment factor calculation (option)" />Wind adjustment factor calculation
+                </td>
+                    <td class="BodyE-Column1-Body1">
+                    </td>
+                    <td class="BodyD-Column1-Body1">Indicates the method of calculating WAF. If the crown fill portion is less than 5%, the unsheltered model is used; otherwise, the sheltered model is used. If WAF is a model input rather than a calculated value, the variable is not meaningful and is set to <i>Input</i>.
+                    
+                </td>
+                </tr>
+                <tr class="Body-Body2">
+                    <td class="BodyB-Column1-Body2">
+                        <MadCap:keyword term="Wind adjustment factor (option)" />Wind adjustment factor
+                </td>
+                    <td class="BodyB-Column1-Body2">A value between 0 and 1
+                </td>
+                    <td class="BodyA-Column1-Body2">A value between 0 and 1 used to adjust the wind speed at 20-ft above the vegetation to midflame wind speed. Midflame wind speed = 20-ft wind speed x WAF. (Albini and Baughman, <a href="Bibliography.htm#AlbiniandBaughman1979">1979</a>; Baughman and Albini, <a href="Bibliography.htm#BaughmanandAlbini1980">1980</a>; Rothermel, <a href="Bibliography.htm#Rothermel1983">1983</a>)                    
+                </td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>

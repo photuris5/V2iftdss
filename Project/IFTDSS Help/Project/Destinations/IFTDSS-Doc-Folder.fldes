@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultDestination
+  Version="1"
+  Comment="Online help destination"
+  Host=""
+  User="MyAccountId"
+  Password=""
+  Directory="J:\913060 BLM IFTDSS O&amp;M Hosting FY14\IFTDSS_Documentation\LatestHelp"
+  Port=""
+  ViewUrl=""
+  Type="file"></CatapultDestination>

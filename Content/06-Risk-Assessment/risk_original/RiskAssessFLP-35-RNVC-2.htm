@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="2" MadCap:lastHeight="1461" MadCap:lastWidth="1072" MadCap:fileTags="FileNeeds.04 Ready for review" MadCap:conditions="Default.LaterRelease">
+    <head>
+    </head>
+    <body>
+        <h1>Step 7a: Understand How Relative Net Value Change is Defined</h1>
+        <p>For this tutorial, we are going to select a pixel using the <strong>Point Edit</strong> tool.</p>
+        <p>
+            <img src="../../Resources/Images/RA-FLP-Tutorial/FLP-define-RNVC-2.png" class="screencap" title="Burn probabilities for the selected pixel" alt="Image shows the Point Info tab with information on burn probabilities for the selected pixel for each of the defined flame lengths" />
+        </p>
+        <p>The pixel shown in the illustration here has been assigned response function 3. Burn probabilities at low, medium, high, and very high flame lengths have been calculated for each grid cell; sometimes that probability will be zero (as shown here for burn probability at very high flame lengths).</p>
+        <p>The net value change multiplier for each flame length class is multiplied by the burn probability for each flame length class, and these values are summed to calculate the relative net value change (see the following table, the topics <MadCap:xref href="RiskAssessValuesatRisk.htm"><b>Values at Risk</b></MadCap:xref> and <MadCap:xref href="RiskAssessResponseFunctionsDefinition.htm"><b>Response Functions and Values at Risk</b></MadCap:xref>, and the <MadCap:xref href="RiskAssessResponseFunctions.htm"><strong>Response Functions Table</strong></MadCap:xref>).</p>
+        <p style="font-style: italic;">Net Value Change = ∑[(Burn Probability at x flame length class) x (NVC Multiplier at x flame length class)]</p>
+        <p>where <i>x</i> is the user-defined flame length class.</p>
+        <p style="font-style: italic;">Net Value Change = 0.24 + 1.6 + (-1.92) + 0</p>
+        <p style="font-style: italic;">Net Value Change = -0.08</p>
+        <p>
+            <img src="../../Resources/Images/RA-FLP-Tutorial/FLP-define-RNVC-3-table.png" class="screencap" title="The net value change table" alt="The net value change table" />
+        </p>
+        <p>Next, we discuss how the default relative net value change is binned into the five data subsets (listed in the Relative Net Value Change legend in the illustration at the top of this page).</p>
+    </body>
+</html>

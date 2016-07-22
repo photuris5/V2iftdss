@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultFileTagSet
+  Type="Author"
+  Comment="My set of author tags">
+  <FileTag
+    Name="Marina Michaels"
+    Comment="" />
+  <FileTag
+    Name="Hilary Hafner"
+    Comment="" />
+  <FileTag
+    Name="Stacy Drury"
+    Comment="" />
+  <FileTag
+    Name="Gina Wilson"
+    Comment=""
+    OriginalName="Gina Wilson" />
+  <FileTag
+    Name="Josh Hyde"
+    Comment=""
+    OriginalName="Josh Hyde" />
+  <FileTag
+    Name="Sam Amato"
+    Comment="" />
+  <FileTag
+    Name="Dan Mindar"
+    Comment="" />
+</CatapultFileTagSet>

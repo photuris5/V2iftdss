@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc
+  Version="1">
+  <TocEntry
+    Title="New Book 1">
+    <TocEntry
+      Title="Using IFT-FOFEM: An example of comparing emissions"
+      Link="/Content/13-Effects_2015/FOFEM_smoke/Tutorial_fofem_0_intro.htm" />
+    <TocEntry
+      Title="Setting up the project"
+      Link="/Content/13-Effects_2015/FOFEM_smoke/Tutorial_fofem_1_project.htm" />
+    <TocEntry
+      Title="Selecting and Configuring IFT-FOFEM from the IFTDSS workflows"
+      Link="/Content/13-Effects_2015/FOFEM_smoke/Tutorial_fofem_2_configuring.htm" />
+    <TocEntry
+      Title="Acquiring data to run IFT-FOFEM"
+      Link="/Content/13-Effects_2015/FOFEM_smoke/Tutorial_fofem_3_Acquiredata.htm" />
+    <TocEntry
+      Title="Populating and running IFT-FOFEM"
+      Link="/Content/13-Effects_2015/FOFEM_smoke/Tutorial_fofem_4_runfofem.htm" />
+    <TocEntry
+      Title="Viewing output and summary data"
+      Link="/Content/13-Effects_2015/FOFEM_smoke/Tutorial_fofem_5_outputs.htm" />
+    <TocEntry
+      Title="Re-running and comparing runs"
+      Link="/Content/13-Effects_2015/FOFEM_smoke/Tutorial_fofem_6_runs_data.htm" />
+    <TocEntry
+      Title="Review"
+      Link="/Content/13-Effects_2015/FOFEM_smoke/Tutorial_fofem_7_review_wrapup.htm" />
+  </TocEntry>
+</CatapultToc>

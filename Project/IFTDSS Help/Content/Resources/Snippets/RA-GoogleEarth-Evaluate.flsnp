@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="4" MadCap:lastHeight="238" MadCap:lastWidth="1046" MadCap:fileTags="FileNeeds.04 Ready for review">
+    <head>
+    </head>
+    <body>
+        <p>The map summary and input parameters are now stored as layers in the <strong>Temporary Places</strong> folder within Google Earth. </p>
+        <p><strong><em>To add map details,</em></strong>
+        </p>
+        <ol>
+            <li>Unselect the <strong>Fire Behavior Fuel Model</strong> layer.  The default relative net value change parameter is the active layer.</li>
+            <li>Use the <strong>Layers</strong> tab to add such things as park and recreation areas, schools, airports, and roads.</li>
+        </ol>
+    </body>
+</html>

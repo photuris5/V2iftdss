@@ -1,0 +1,177 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="7" MadCap:lastHeight="4014" MadCap:lastWidth="900">
+    <head>
+        <link href="../../Resources/TableStyles/AlternatingRows.css" rel="stylesheet" MadCap:stylesheetType="table" />
+    </head>
+    <body>
+        <h1 class="Heading1">Populating and running IFT-FOFEM</h1>
+        <p>For each scenario, environmental conditions, moisture, and fuel loading inputs are needed to run IFT-FOFEM. In the example below we will begin with the default fuel data acquired previously for simulation one, and reduce the fuel loadings in scenario two as per our post-prescribed fire loadings <a href="Tutorial_fofem_2_configuring.htm">outlined earlier</a>. Inputs needed to run FOFEM for emissions are summarized in the table below. </p>
+        <div>
+            <form>
+                <table style="mc-table-style: url('../../Resources/TableStyles/AlternatingRows.css');width: 831px;" class="TableStyle-AlternatingRows" cellspacing="0">
+                    <col class="Column-Column1" style="width: 370px;" />
+                    <col class="Column-Column1" style="width: 459px;" />
+                    <thead>
+                        <tr class="Head-Header1">
+                            <th class="HeadE-Column1-Header1">Input</th>
+                            <th class="HeadD-Column1-Header1">Purpose</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="Body-Body1">
+                            <td class="BodyD-Column1-Body1" colspan="2" style="text-align: center;"><b>Environmental Inputs</b>
+                    &#160;
+                </td>
+                        </tr>
+                        <tr class="Body-Body2">
+                            <td class="BodyE-Column1-Body2">Region </td>
+                            <td class="BodyD-Column1-Body2">Algorithm selection for shrub and duff consumption</td>
+                        </tr>
+                        <tr class="Body-Body1">
+                            <td class="BodyE-Column1-Body1">Season</td>
+                            <td class="BodyD-Column1-Body1">Predictive variable for herb and shrub consumption</td>
+                        </tr>
+                        <tr class="Body-Body2">
+                            <td class="BodyE-Column1-Body2">Fuel category</td>
+                            <td class="BodyD-Column1-Body2">Algorithm selection for duff calculation</td>
+                        </tr>
+                        <tr class="Body-Body1">
+                            <td class="BodyE-Column1-Body1">Cover group</td>
+                            <td class="BodyD-Column1-Body1">Algorithm selection for herb, shrub, and duff consumption</td>
+                        </tr>
+                        <tr class="Body-Body2">
+                            <td class="BodyE-Column1-Body2">Percent of crown burn</td>
+                            <td class="BodyD-Column1-Body2">Determines quantity of foliage consumed</td>
+                        </tr>
+                        <tr class="Body-Body1">
+                            <td class="BodyD-Column1-Body1" colspan="2" style="text-align: center;"><b>Fuel Moisture</b>
+                            </td>
+                        </tr>
+                        <tr class="Body-Body2">
+                            <td class="BodyE-Column1-Body2">Duff moisture method</td>
+                            <td class="BodyD-Column1-Body2" rowspan="4">Input to specify the degree of consumption</td>
+                        </tr>
+                        <tr class="Body-Body1">
+                            <td class="BodyE-Column1-Body1">10 hr woody fuel moisture</td>
+                        </tr>
+                        <tr class="Body-Body2">
+                            <td class="BodyE-Column1-Body2">1000 hr woody fuel moisture</td>
+                        </tr>
+                        <tr class="Body-Body1">
+                            <td class="BodyE-Column1-Body1">Duff moisture</td>
+                        </tr>
+                        <tr class="Body-Body2">
+                            <td class="BodyD-Column1-Body2" colspan="2" style="text-align: center;"><b>Above Ground Fuels</b>
+                            </td>
+                        </tr>
+                        <tr class="Body-Body1">
+                            <td class="BodyE-Column1-Body1">Crown foliage fuel loading</td>
+                            <td class="BodyD-Column1-Body1" style="text-align: left;" rowspan="4">Input for calculating above ground fuel consumption </td>
+                        </tr>
+                        <tr class="Body-Body2">
+                            <td class="BodyE-Column1-Body2">Crown branch fuel loading</td>
+                        </tr>
+                        <tr class="Body-Body1">
+                            <td class="BodyE-Column1-Body1">Shrub fuel loading</td>
+                        </tr>
+                        <tr class="Body-Body2">
+                            <td class="BodyE-Column1-Body2">Herbaceous fuel loading</td>
+                        </tr>
+                        <tr class="Body-Body1">
+                            <td class="BodyD-Column1-Body1" colspan="2" style="text-align: center;font-weight: bold;">Woody Fuel Loading</td>
+                        </tr>
+                        <tr class="Body-Body2">
+                            <td class="BodyE-Column1-Body2">1 hr woody fuel loading</td>
+                            <td class="BodyD-Column1-Body2" style="text-align: left;" rowspan="11">Input for calculating woody fuel consumption </td>
+                        </tr>
+                        <tr class="Body-Body1">
+                            <td class="BodyE-Column1-Body1">10 hr woody fuel loading</td>
+                        </tr>
+                        <tr class="Body-Body2">
+                            <td class="BodyE-Column1-Body2">100 hr woody fuel loading</td>
+                        </tr>
+                        <tr class="Body-Body1">
+                            <td class="BodyE-Column1-Body1">1000 hr sound woody fuel loading 3-6 in.</td>
+                        </tr>
+                        <tr class="Body-Body2">
+                            <td class="BodyE-Column1-Body2">1000 hr sound woody fuel loading 6-9 in.</td>
+                        </tr>
+                        <tr class="Body-Body1">
+                            <td class="BodyE-Column1-Body1">1000 hr sound woody fuel loading 9-20 in.</td>
+                        </tr>
+                        <tr class="Body-Body2">
+                            <td class="BodyE-Column1-Body2">1000 hr sound woody fuel loading 20+ in. </td>
+                        </tr>
+                        <tr class="Body-Body1">
+                            <td class="BodyE-Column1-Body1">1000 hr rotten woody fuel loading 3-6 in. </td>
+                        </tr>
+                        <tr class="Body-Body2">
+                            <td class="BodyE-Column1-Body2">1000 hr rotten woody fuel loading 6-9 in.</td>
+                        </tr>
+                        <tr class="Body-Body1">
+                            <td class="BodyE-Column1-Body1">1000 hr rotten woody fuel loading 9-20 in.</td>
+                        </tr>
+                        <tr class="Body-Body2">
+                            <td class="BodyE-Column1-Body2">1000 hr rotten woody fuel loading 20+ in.</td>
+                        </tr>
+                        <tr class="Body-Body1">
+                            <td class="BodyD-Column1-Body1" colspan="2" style="text-align: center;"><b>Ground Fuels</b>
+                            </td>
+                        </tr>
+                        <tr class="Body-Body2">
+                            <td class="BodyE-Column1-Body2">Litter fuel loading</td>
+                            <td class="BodyD-Column1-Body2" style="text-align: left;" rowspan="3">Input for calculating ground fuel consumption </td>
+                        </tr>
+                        <tr class="Body-Body1">
+                            <td class="BodyE-Column1-Body1">Duff fuel loading</td>
+                        </tr>
+                        <tr class="Body-Body2">
+                            <td class="BodyB-Column1-Body2">Duff depth</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <h2>Environmental inputs</h2>
+            </form>
+        </div>
+        <p>To ensure the correct consumption equations are used, information on environmental inputs must be provided. For both simulations in this example, set the <b>region</b> to <b>Pacific West</b> and the <b>Season</b> to <b>summer</b>, to evaluate the results of a fire ignited over the summer. Because the area in question is natural, rather than activity fuels, set the <b>Fuel category</b> to <b>Natural</b>. </p>
+        <p>The <MadCap:popup><MadCap:popupHead>Cover Group</MadCap:popupHead><MadCap:popupBody>When you select a cover group in the consumption and emissions module (IFT-FOFEM), that determines the equations the module uses to calculate fire effects. These equations are based on cover types; for example, Pocosin (PC) or Ponderosa (PN). IFTDSS uses FOFEM desktop's batch mode functionality; IFTDSS does not have the direct links to the SAF/SFM, NVCS, or FCC cover classifications that are present in FOFEM desktop. In IFTDSS, you select a cover group directly based on the broad general cover groups. In FOFEM desktop, you select a SAF/SFM, NVCS, or FCC cover type, which is then mapped to a cover group. If your desired cover type does not fit into one of the cover groups provided, select “none” to use the general consumption algorithms.</MadCap:popupBody></MadCap:popup> determines the equations used by the run to calculate fire effects. ‘<strong class="Strong">None</strong>’ was chosen for this example as none of the choices adequately described the example area.</p>
+        <p>The percent of crown burn expected from a fire will likely need to come from experience, or local expertise. For this hypothetical example, we will assume a fire burning through the untreated simulation will result in <b>50% crown burn</b>, while the percent crown burn resulting from the post-treatment simulation 2 is set to <b>1%</b>. </p>
+        <div>
+            <form>
+                <fieldset class="note">
+                    <legend>&#160;&#160;&#160;Note&#160;&#160;&#160;</legend>
+                    <p class="noteBody">The value for Percent of Crown Burn must be between 1 and 100</p>
+                </fieldset>
+            </form>
+        </div>
+        <p>
+            <img src="../../Resources/Images/Tutorial_FOFEM_cons_2015/2_0_Tutorial_fofem_cap_13.png" class="img_2" style="width: 654px;height: 471px;" alt="Environmental input fields as described in the text." />
+        </p>
+        <h2>Fuel moisture inputs</h2>
+        <p>For this example we will set the moisture parameters equal for both simulations, since we are primarily concerned with the emission differences resulting from the fuels. Duff moisture method, in part, determines the  equations used by FOFEM. Choices for duff moisture methods include <b>Entire</b>, <b>Lower</b>, <b>NFDR</b>, <b>Adj_NFDR</b>. For this example we'll assume duff moisture was calculated using the National Fire Danger Rating method, so we will select <b>NFDR</b> for  <b>Duff Moisture Method</b>.</p>
+        <p>To represent extremely dry conditions we will set the <b>10-hr Woody Fuel Moisture</b> to <b>3%</b> and the <b>1000-hr Woody Fuel Moisture</b> and <b>Duff Fuel Moisture</b> to <b>11%</b>, for both simulations.</p>
+        <p>
+            <img src="../../Resources/Images/Tutorial_FOFEM_cons_2015/2_0_Tutorial_fofem_cap_14.png" class="img_2" style="width: 586px; height: 251px;" alt="Fuel moisturel input fields as described in the text." />
+        </p>
+        <fieldset class="note">
+            <legend>&#160;&#160;&#160;Note&#160;&#160;&#160;</legend>
+            <p class="noteBody">Duff moisture method, in part, determines the  equations used by FOFEM. For more information on duff moisture methods and FOFEM consult <a href="../../10-Reference/Bibliography.htm">Reinhardt et al. 1997</a>.</p>
+        </fieldset>
+        <h2>Above Ground Inputs</h2>
+        <p>For above ground fuel loading, simulation 1 has been automatically filled by IFTDSS based upon the selection of Digital Photo Series Site <b>SONH 6</b>. We will assume the same crown foliage, branch, and herbaceous loading for both simulations, and half the shrub loading on the post-treatment simulation 2.</p>
+        <p>
+            <img src="../../Resources/Images/Tutorial_FOFEM_cons_2015/2_0_Tutorial_fofem_cap_15.png" class="img_2" style="width: 583px; height: 250px;" alt="Above ground fuel  input fields as described in the text." />
+        </p>
+        <h2>Woody Fuel Inputs</h2>
+        <p>Woody fuel loadings for simulation 1 have been automatically filled by IFTDSS based upon the selection of Digital Photo Series Site <b>SONH 6</b>. For simulation 2, we’ll assume 75% reduction of simulation 1 loading for 1 and 10-hr fuels, and 50% reduction for all other fuels loadings; this will represent post prescribed burn conditions in Simulation 2.</p>
+        <p>
+            <img src="../../Resources/Images/Tutorial_FOFEM_cons_2015/2_0_Tutorial_fofem_cap_16.png" class="img_2" style="width: 559px; height: 531px;" alt="Woody fuel input fields as described in the text." />
+        </p>
+        <h2>Ground Fuel Inputs</h2>
+        <p>Ground fuel loadings for simulation 1 have been automatically filled by IFTDSS based upon the selection of Digital Photo Series Site  SONH 6. For simulation 2, we'll assume 75% reduction of litter loadings and a 50% reduction of duff loading and depth to represent post prescribed burn conditions. When these selections are made, click <strong class="Strong">Next</strong>.</p>
+        <p>
+            <img src="../../Resources/Images/Tutorial_FOFEM_cons_2015/2_0_Tutorial_fofem_cap_17.png" class="img_2" style="width: 429px; height: 251px;" alt="Ground fuel input fields as described in the text." />
+        </p>
+        <p MadCap:conditions="Default.ScreenOnly"><a href="Tutorial_fofem_3_Acquiredata.htm">&lt;&lt;&#160;Back:&#160;Acquiring data</a> | <a href="Tutorial_fofem_5_outputs.htm">Next:&#160;Evaluating outputs &gt;&gt;</a></p>
+    </body>
+</html>
